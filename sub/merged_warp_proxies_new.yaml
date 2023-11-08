@@ -25,14 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 油管-绵阿羊
-  type: trojan
-  server: a
-  port: 1
-  password: 72ac875a-f5b9-461e-a7a4-942b468b0d83
-  udp: true
-  sni: gw.alicdn.com
-  skip-cert-verify: true
 - name: WARP
   type: wireguard
   server: engage.cloudflareclient.com
@@ -120,8 +112,8 @@ proxies:
   alpn:
   - h3
   protocol: udp
-  up: 50 Mbps
-  down: 100 Mbps
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
 - name: meta_tuic_51
   server: 108.181.22.205
@@ -277,7 +269,6 @@ proxy-groups:
 - name: 节点选择
   type: select
   proxies:
-  - 油管-绵阿羊
   - WARP
   - 自动选择
   - 负载均衡
@@ -295,7 +286,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 油管-绵阿羊
   - meta_tuic_01
   - meta_hysteria2_02
   - meta_tuic_11
@@ -318,7 +308,6 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - 油管-绵阿羊
   - meta_tuic_01
   - meta_hysteria2_02
   - meta_tuic_11
@@ -341,7 +330,6 @@ proxy-groups:
 - name: 负载均衡
   type: load-balance
   proxies:
-  - 油管-绵阿羊
   - meta_tuic_01
   - meta_hysteria2_02
   - meta_tuic_11

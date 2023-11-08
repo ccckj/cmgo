@@ -231,12 +231,18 @@ def process_xray(data, index):
 def update_proxy_groups(config_data, merged_proxies):
     for group in config_data['proxy-groups']:
         if group['name'] in ['自动选择', '节点选择']:
-            group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
+            if 'proxies' not in group or not group['proxies']:
+                group['proxies'] = [proxy['name'] for proxy in merged_proxies]
+            else:
+                group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
 
 def update_warp_proxy_groups(config_warp_data, merged_proxies):
     for group in config_warp_data['proxy-groups']:
         if group['name'] in ['自动选择', '手动选择', '负载均衡']:
-            group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
+            if 'proxies' not in group or not group['proxies']:
+                group['proxies'] = [proxy['name'] for proxy in merged_proxies]
+            else:
+                group['proxies'].extend(proxy['name'] for proxy in merged_proxies)
 
 # 包含hysteria2
 merged_proxies = []
@@ -265,8 +271,16 @@ with open('./templates/clash_warp_template.yaml', 'r', encoding='utf-8') as file
     config_warp_data = yaml.safe_load(file)
 
 # 添加合并后的代理到proxies部分
-config_data['proxies'].extend(merged_proxies)
-config_warp_data['proxies'].extend(merged_proxies)
+if 'proxies' not in config_data or not config_data['proxies']:
+    config_data['proxies'] = merged_proxies
+else:
+    config_data['proxies'].extend(merged_proxies)
+
+if 'proxies' not in config_warp_data or not config_warp_data['proxies']:
+    config_warp_data['proxies'] = merged_proxies
+else:
+    config_warp_data['proxies'].extend(merged_proxies)
+
 
 # 更新自动选择和节点选择的proxies的name部分
 update_proxy_groups(config_data, merged_proxies)
@@ -311,8 +325,16 @@ with open('./templates/clash_warp_template.yaml', 'r', encoding='utf-8') as file
     config_warp_data = yaml.safe_load(file)
 
 # 添加合并后的代理到proxies部分
-config_data['proxies'].extend(merged_proxies)
-config_warp_data['proxies'].extend(merged_proxies)
+# 添加合并后的代理到proxies部分
+if 'proxies' not in config_data or not config_data['proxies']:
+    config_data['proxies'] = merged_proxies
+else:
+    config_data['proxies'].extend(merged_proxies)
+
+if 'proxies' not in config_warp_data or not config_warp_data['proxies']:
+    config_warp_data['proxies'] = merged_proxies
+else:
+    config_warp_data['proxies'].extend(merged_proxies)
 
 # 更新自动选择和节点选择的proxies的name部分
 update_proxy_groups(config_data, merged_proxies)
