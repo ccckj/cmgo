@@ -59,14 +59,14 @@ https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merge
 ### android
 - [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
 - [clashmeta for android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/Prerelease-alpha) 预发行版
+
 ### ios
 - shadowrocket
 
 ### macos
 - [clashx.meta](https://github.com/MetaCubeX/ClashX.Meta/releases)
+- [clash verge](https://github.com/zzzgydi/clash-verge/releases) 
 - shadowrocket
-- clash verge
-
 
 ## 致谢
 [Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
