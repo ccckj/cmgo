@@ -58,7 +58,7 @@ https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merge
 - [nekoray](https://github.com/MatsuriDayo/nekoray)
 ### android
 - [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
-- [clashmeta for android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/tag/Prerelease-alpha) 预发行版
+- [clashmeta for android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
 
 ### ios
 - shadowrocket
