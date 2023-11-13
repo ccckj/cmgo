@@ -69,8 +69,8 @@ https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merge
 - shadowrocket
 
 ## 致谢
-[Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
-
+- [Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
+- [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe)
 ## TODO
 - 部分代码逻辑不够优雅
 - sing-box节点的处理
