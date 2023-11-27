@@ -38,10 +38,6 @@ proxies:
   - 0
   - 0
   - 0
-  remote-dns-resolve: true
-  dns:
-  - 1.1.1.1
-  - 8.8.8.8
   dialer-proxy: WARP前置节点
 - name: meta_hysteria_01
   type: hysteria
