@@ -1,13 +1,10 @@
 ## 简介
 
-**注意：clash内核无法使用这些节点，你要用clashmeta**
-
-开启浏览器自带doh以及客户端tun模式也可绕过封锁，参考：https://blog.mareep.net/posts/9993/
-
-
 ## 注意事项
 
-套上warp可绕过chromego封锁的网站
+套上warp可绕过chromego封锁的网站（P，X）
+
+开启浏览器自带doh以及客户端tun模式也可绕过封锁，参考：[开启chrome自带doh](https://blog.mareep.net/posts/9993/)
 
 ## 如何修改为自己的warp节点
 
@@ -26,29 +23,22 @@
 
 ## 订阅链接分享
 ### 不套warp版本（clashmeta）
-**不含hysteria2节点**
-```
-https://mareep.netlify.app/sub/merged_proxies.yaml
-```
-**含hysteria2节点(节点最全）**
+
 ```
 https://mareep.netlify.app/sub/merged_proxies_new.yaml
 ```
-### 套warp版本（clashmeta)
-**不含hysteria2节点**
-```
-https://mareep.netlify.app/sub/merged_warp_proxies.yaml
-```
-**含hysteria2节点(节点最全）**
+### 套warp版本（clashmeta）
+
 ```
 https://mareep.netlify.app/sub/merged_warp_proxies_new.yaml
 ```
-### 通用链接 （shadowrocket和nekoray）
+
+### 通用base64链接 （shadowrocket和nekoray系列）
 ```
 https://mareep.netlify.app/sub/shadowrocket_base64.txt
 ```
 
-### sing-box订阅链接
+### sing-box订阅链接（1.8.0以上）
 
 ```
 https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merged_proxies_new.yaml
@@ -73,10 +63,7 @@ https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merge
 ## 致谢
 - [Alvin9999](https://github.com/Alvin9999/pac2/tree/master)
 - [sing-box-subscribe](https://github.com/Toperlock/sing-box-subscribe)
-## TODO
-- 部分代码逻辑不够优雅
-- sing-box节点的处理
-- xray部分节点的处理
-- 融合ss和ssr
+
+
 
 
