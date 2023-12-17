@@ -151,7 +151,7 @@ proxies:
 - name: meta_hysteria_81
   type: hysteria
   server: 62.204.54.81
-  port: 42691
+  port: 46333
   sni: bing.com
   skip-cert-verify: true
   alpn:
