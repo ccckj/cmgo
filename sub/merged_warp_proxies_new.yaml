@@ -136,10 +136,10 @@ proxies:
   down: 55 Mbps
   skip-cert-verify: true
 - name: meta_tuic_71
-  server: 104.234.70.41
-  port: 11223
+  server: 64.110.25.10
+  port: 11227
   type: tuic
-  uuid: c573056f-e44b-4244-8142-136753c3debe
+  uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
   password: dongtaiwang.com
   sni: bing.com
   alpn:
@@ -149,10 +149,10 @@ proxies:
   skip-cert-verify: true
   congestion-controller: bbr
 - name: meta_tuic_72
-  server: 64.110.25.10
-  port: 11227
+  server: 104.234.70.41
+  port: 11223
   type: tuic
-  uuid: 764b539f-2d3c-4772-9731-5ebf6984af98
+  uuid: c573056f-e44b-4244-8142-136753c3debe
   password: dongtaiwang.com
   sni: bing.com
   alpn:
