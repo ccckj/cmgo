@@ -44,6 +44,12 @@ https://mareep.netlify.app/sub/shadowrocket_base64.txt
 https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merged_proxies_new.yaml
 ```
 
+### singbox1.8.0以下
+```
+https://sing-box-subscribe.vercel.app/config/https:/mareep.netlify.app/sub/merged_proxies_new.yaml
+/&file=https://github.com/Toperlock/sing-box-subscribe/raw/main/config_template/config_template_groups_tun.json
+```
+
 ## 客户端推荐
 ### Windows
 - [clash verge](https://github.com/zzzgydi/clash-verge/releases) 
