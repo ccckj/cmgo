@@ -1,10 +1,17 @@
 import base64
 import json
 import urllib.request
+import requests
+import certifi
 import yaml
 import codecs
 import logging
+import pdb
+import socket
+from utils import test_latency, get_ip_location, resolve_ip, is_valid_ip
 
+need_encode = False
+ip_set = set()
 # 提取节点
 def process_urls(url_file, processor):
     try:
@@ -13,8 +20,10 @@ def process_urls(url_file, processor):
 
         for index, url in enumerate(urls):
             try:
-                response = urllib.request.urlopen(url)
-                data = response.read().decode('utf-8')
+                # response = urllib.request.urlopen(url)
+                response = requests.get(url, verify=certifi.where())
+                # pdb.set_trace()
+                data = response.content.decode('utf-8')
                 processor(data, index)
             except Exception as e:
                 logging.error(f"Error processing URL {url}: {e}")
@@ -29,8 +38,10 @@ def process_clash(data, index):
             proxies = content.get('proxies', [])
             
             for proxy in proxies:
+                print(f"index:{index}, proxy type:{proxy['type']}")
                 # 如果类型是vless
                 if proxy['type'] == 'vless' :
+                    continue
                     server = proxy.get("server", "")
                     port = int(proxy.get("port", 443))
                     udp = proxy.get("udp", "")
@@ -54,11 +65,25 @@ def process_clash(data, index):
                         security = 'reality'
                     else:
                         security = 'tls'
-                    vless_meta =  f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#vless_meta_{index}"
+                    country = get_ip_location(server)
+                    vless_meta =  f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#{country}_{server}:{port}"
 
                     merged_proxies.append(vless_meta)
 
-                if proxy['type'] == 'vmess' :
+                if proxy['type'] == 'vmess' :   
+                    vmess_dict ={
+                        "v": "2",
+                        "ps": "vmess节点示例",
+                        "add": "46.29.166.237",
+                        "port": "47555",
+                        "id": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
+                        "aid": "0",
+                        "net": "none",
+                        "type": "none",
+                        "host": "",
+                        "path": "",
+                        "tls": "none"
+                    }
                     server = proxy.get("server", "")
                     port = int(proxy.get("port", 443))
                     uuid = proxy.get("uuid", "")
@@ -73,11 +98,23 @@ def process_clash(data, index):
                     sni = proxy.get("servername", "")
                     ws_path = proxy.get('ws-opts', {}).get('path', '')
                     ws_headers_host = proxy.get('ws-opts', {}).get('headers', {}).get('Host', '')
-
-                    vmess_meta =  f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&type={network}&fp={fp}&sni={sni}&path={ws_path}&host={ws_headers_host}#vmess_meta_{index}"
-
-                    merged_proxies.append(vmess_meta)
-
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
+                    country = get_ip_location(server)
+                    # vmess_meta =  f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&type={network}&fp={fp}&sni={sni}&path={ws_path}&host={ws_headers_host}#{country}_{server}:{port}"
+                    vmess_dict['ps'] = f'{country}_{server}'
+                    vmess_dict['add'] = server
+                    vmess_dict['port'] = port 
+                    vmess_dict['id'] = uuid
+                    vmess_dict['net'] = network
+                    vmess_dict['tls'] = 'tls' if security == 'tls' else 'none'
+                    vmess_dict['host'] = ws_headers_host
+                    vmess_dict['path'] = ws_path
+                    vmess_encode = f"vmess://{base64.b64encode(json.dumps(vmess_dict).encode()).decode()}"
+                    
+                    merged_proxies.append(vmess_encode)
                 elif proxy['type'] == 'tuic':
                     server = proxy.get("server", "")
                     port = int(proxy.get("port", 443))
@@ -90,10 +127,14 @@ def process_clash(data, index):
                     alpn = proxy.get("alpn", [])[0] if proxy.get("alpn") and len(proxy["alpn"]) > 0 else None
                     #tuic_meta_neko = f"tuic://{server}:{port}?uuid={uuid}&version=5&password={password}&insecure={insecure}&alpn={alpn}&mode={udp_relay_mode}"
                     tuic_meta = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&congestion_control={congestion}&udp_relay_mode={udp_relay_mode}&alpn={alpn}&allow_insecure={insecure}"
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
                     merged_proxies.append(tuic_meta)
-
                 elif proxy['type'] == "hysteria2":
                     server = proxy.get("server", "")
+                    pdb.set_trace()
                     port = int(proxy.get("port", 443))
                     auth = proxy.get("password", "")
                     obfs = proxy.get("obfs", "")
@@ -101,9 +142,13 @@ def process_clash(data, index):
                     sni = proxy.get("sni", "")
                     insecure = int(proxy.get("skip-cert-verify", 0))
                     hy2_meta = f"hysteria2://{auth}@{server}:{port}?insecure={insecure}&sni={sni}&obfs={obfs}&obfs-password={obfs_password}#hysteria2_meta_{index}"
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
                     merged_proxies.append(hy2_meta)
-
                 elif proxy['type'] == 'hysteria':
+                    continue
                     server = proxy.get("server", "")
                     port = int(proxy.get("port", 443))
                     ports = proxy.get("port", "")
@@ -118,9 +163,14 @@ def process_clash(data, index):
                     auth = proxy.get("auth-str", "")
                     # 生成URL
                     hysteria_meta = f"hysteria://{server}:{port}?peer={sni}&auth={auth}&insecure={insecure}&upmbps={up_mbps}&downmbps={down_mbps}&alpn={alpn}&mport={ports}&obfs={obfs}&protocol={protocol}&fastopen={fast_open}#hysteria_meta_{index}"
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
                     merged_proxies.append(hysteria_meta)
 
                 elif proxy['type'] == 'ssr':
+                    continue
                     server = proxy.get("server", "")
                     port = int(proxy.get("port", 443))
                     password = proxy.get("password", "")
@@ -137,6 +187,10 @@ def process_clash(data, index):
                     
                     ssr_source=base64.b64encode(ssr_source.encode()).decode()
                     ssr_meta = f"ssr://{ssr_source}"
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
                     merged_proxies.append(ssr_meta)
                 #目前仅支持最原始版本ss，无插件支持
                 elif proxy['type'] == 'ss':
@@ -149,6 +203,10 @@ def process_clash(data, index):
                     
                     ss_source=base64.b64encode(ss_source.encode()).decode()
                     ss_meta = f"ss://{ss_source}"
+                    if server in ip_set:
+                        continue 
+                    else:
+                        ip_set.add(server)
                     merged_proxies.append(ss_meta)
 def process_naive(data, index):
     try:
@@ -178,7 +236,10 @@ def process_sb(data, index):
         ss = f"{method}:{password}@{server}:{server_port}"
         shadowtls = f'{{"version": "{version}", "host": "{host}","password":{shadowtls_password}}}'
         shadowtls_proxy = "ss://"+base64.b64encode(ss.encode()).decode()+"?shadow-tls="+base64.b64encode(shadowtls.encode()).decode()+f"#shadowtls{index}"
-        
+        if server in ip_set:
+            return 
+        else:
+            ip_set.add(server)
         merged_proxies.append(shadowtls_proxy)
 
     except Exception as e:
@@ -201,6 +262,10 @@ def process_hysteria(data, index):
         auth = json_data.get("auth_str", "")
         # 生成URL
         hysteria = f"hysteria://{server}?peer={server_name}&auth={auth}&insecure={insecure}&upmbps={up_mbps}&downmbps={down_mbps}&alpn={alpn}&obfs={obfs}&protocol={protocol}&fastopen={fast_open}#hysteria_{index}"
+        if server in ip_set:
+            return 
+        else:
+            ip_set.add(server)
         merged_proxies.append(hysteria)
 
 
@@ -213,77 +278,161 @@ def process_hysteria2(data, index):
         # 处理 hysteria2 数据
         # 提取字段值
         server = json_data["server"]
+        domain, port = server.split(':')
+        if not is_valid_ip(domain):
+            domain = resolve_ip(domain)
+        country = get_ip_location(domain)
+        print(f"resolve {domain} is {country}")
         insecure = int(json_data["tls"]["insecure"])
         sni = json_data["tls"]["sni"]
         auth = json_data["auth"]
         # 生成URL
-        hysteria2 = f"hysteria2://{auth}@{server}?insecure={insecure}&sni={sni}#hysteria2_{index}"
-
+        hysteria2 = f"hysteria2://{auth}@{server}?insecure={insecure}&sni={sni}#{country}_{domain}:{port}"
+        # if server in ip_set:
+        #     return 
+        # else:
+        #     ip_set.add(server)
+        ip_set.add(server)
         merged_proxies.append(hysteria2)
     except Exception as e:
         logging.error(f"Error processing hysteria2 data for index {index}: {e}")
 
+
 #处理xray
 def process_xray(data, index):
     try:
+        print(f" xray process index:{index}")
         json_data = json.loads(data)
-        # 处理 xray 数据
-        protocol = json_data["outbounds"][0].get("protocol")
+        for ii, outbound in enumerate(json_data["outbounds"]):
+            # 处理 xray 数据
+            protocol = outbound.get("protocol","")
+            settings = outbound.get("settings",None)
+            if settings is None:
+                continue
+            if protocol == "vless":
+                vnext = settings["vnext"]
 
-        if protocol == "vless":
-            vnext = json_data["outbounds"][0]["settings"]["vnext"]
+                if vnext:
+                    server = vnext[0].get("address", "")
+                    port = vnext[0].get("port", "")
+                    users = vnext[0]["users"]
 
-            if vnext:
-                server = vnext[0].get("address", "")
-                port = vnext[0].get("port", "")
-                users = vnext[0]["users"]
+                    if users:
+                        user = users[0]
+                        uuid = user.get("id", "")
+                        flow = user.get("flow", "")
 
-                if users:
-                    user = users[0]
-                    uuid = user.get("id", "")
-                    flow = user.get("flow", "")
+                stream_settings = outbound.get("streamSettings", {})
+                network = stream_settings.get("network", "")
+                security = stream_settings.get("security", "")
+                reality_settings = stream_settings.get("realitySettings", {})
 
-            stream_settings = json_data["outbounds"][0].get("streamSettings", {})
-            network = stream_settings.get("network", "")
-            security = stream_settings.get("security", "")
-            reality_settings = stream_settings.get("realitySettings", {})
+                publicKey = reality_settings.get("publicKey", "")
+                short_id = reality_settings.get("shortId", "")
+                sni = reality_settings.get("serverName", "")
+                #tls
+                tls_settings = stream_settings.get("tlsSettings", {})
+                sni = tls_settings.get("serverName", sni)
+                insecure = int(tls_settings.get("allowInsecure", 0))
 
-            publicKey = reality_settings.get("publicKey", "")
-            short_id = reality_settings.get("shortId", "")
-            sni = reality_settings.get("serverName", "")
-            #tls
-            tls_settings = stream_settings.get("tlsSettings", {})
-            sni = tls_settings.get("serverName", sni)
-            insecure = int(tls_settings.get("allowInsecure", 0))
+                fp = reality_settings.get("fingerprint", "")
+                fp = tls_settings.get("fingerprint", fp)
+                spx = reality_settings.get("spiderX", "")
 
-            fp = reality_settings.get("fingerprint", "")
-            fp = tls_settings.get("fingerprint", fp)
-            spx = reality_settings.get("spiderX", "")
+                grpc_settings = stream_settings.get("grpcSettings", {})
+                grpc_serviceName = grpc_settings.get("serviceName", "")
 
-            grpc_settings = stream_settings.get("grpcSettings", {})
-            grpc_serviceName = grpc_settings.get("serviceName", "")
+                ws_settings = stream_settings.get("wsSettings", {})
+                ws_path = ws_settings.get("path", "")
+                ws_headers_host = ws_settings.get("headers", {}).get("Host", "")
+                country = get_ip_location(server)
+                xray_proxy = f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#{country}_{server}:{port}"
+                # print(xray_proxy)
+                # 将当前proxy字典添加到所有proxies列表中
+                if server in ip_set:
+                    continue 
+                else:
+                    ip_set.add(server)
+                merged_proxies.append(xray_proxy)
+            if protocol == "vmess":
+                vmess_dict ={
+                    "v": "2",
+                    "ps": "vmess节点示例",
+                    "add": "46.29.166.237",
+                    "port": "47555",
+                    "id": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
+                    "aid": "0",
+                    "net": "none",
+                    "type": "none",
+                    "host": "",
+                    "path": "",
+                    "tls": "none"
+                    }
+                vnext = settings["vnext"]
 
-            ws_settings = stream_settings.get("wsSettings", {})
-            ws_path = ws_settings.get("path", "")
-            ws_headers_host = ws_settings.get("headers", {}).get("Host", "")
+                if vnext:
+                    server = vnext[0].get("address", "")
+                    port = vnext[0].get("port", "")
+                    users = vnext[0]["users"]
 
-            xray_proxy = f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}#vless_{index}"
+                    if users:
+                        user = users[0]
+                        uuid = user.get("id", "")
+                        flow = user.get("flow", "")
+                        encryption = user.get("encryption", "none")
 
-            # 将当前proxy字典添加到所有proxies列表中
-            merged_proxies.append(xray_proxy)
-        # 不支持插件
-        if protocol == "shadowsocks":
-            server = json_data["outbounds"][0]["settings"]["servers"]["address"]
-            method = json_data["outbounds"][0]["settings"]["servers"]["method"]
-            password = json_data["outbounds"][0]["settings"]["servers"]["password"]
-            port = json_data["outbounds"][0]["settings"]["servers"]["port"]
-            # 生成URL
-            ss_source=f"{method}:{password}@{server}:{port}"
-            ss_source=base64.b64encode(ss_source.encode()).decode()
-            xray_proxy = f"ss://{ss_source}"
+                stream_settings = outbound.get("streamSettings", {})
+                network = stream_settings.get("network", "")
+                security = stream_settings.get("security", "")
+                reality_settings = stream_settings.get("realitySettings", {})
 
-            # 将当前proxy字典添加到所有proxies列表中
-            merged_proxies.append(xray_proxy)
+                publicKey = reality_settings.get("publicKey", "")
+                short_id = reality_settings.get("shortId", "")
+                sni = reality_settings.get("serverName", "")
+                #tls
+                tls_settings = stream_settings.get("tlsSettings", {})
+                sni = tls_settings.get("serverName", sni)
+                insecure = int(tls_settings.get("allowInsecure", 0))
+
+                fp = reality_settings.get("fingerprint", "")
+                fp = tls_settings.get("fingerprint", fp)
+                spx = reality_settings.get("spiderX", "")
+
+                grpc_settings = stream_settings.get("grpcSettings", {})
+                grpc_serviceName = grpc_settings.get("serviceName", "")
+
+                ws_settings = stream_settings.get("wsSettings", {})
+                ws_path = ws_settings.get("path", "")
+                ws_headers_host = ws_settings.get("headers", {}).get("Host", "")
+                if server in ip_set:
+                    continue 
+                else:
+                    ip_set.add(server)
+                country = get_ip_location(server)
+                vmess_dict['ps'] = f'{country}_{server}'
+                vmess_dict['add'] = server
+                vmess_dict['port'] = port 
+                vmess_dict['id'] = uuid
+                vmess_dict['net'] = network
+                vmess_dict['tls'] = 'tls' if security == 'tls' else 'none'
+                vmess_dict['host'] = ws_headers_host
+                vmess_dict['path'] = ws_path
+                vmess_encode = f"vmess://{base64.b64encode(json.dumps(vmess_dict).encode()).decode()}"
+                merged_proxies.append(vmess_encode)
+            # 不支持插件
+            if protocol == "shadowsocks":
+                
+                server = settings["servers"]["address"]
+                method = settings["servers"]["method"]
+                password = settings["servers"]["password"]
+                port = settings["servers"]["port"]
+                # 生成URL
+                ss_source=f"{method}:{password}@{server}:{port}"
+                ss_source=base64.b64encode(ss_source.encode()).decode()
+                xray_proxy = f"ss://{ss_source}"
+
+                # 将当前proxy字典添加到所有proxies列表中
+                merged_proxies.append(xray_proxy)
     except Exception as e:
         logging.error(f"Error processing xray data for index {index}: {e}")
 
@@ -291,31 +440,36 @@ def process_xray(data, index):
 merged_proxies = []
 
 # 处理 clash URLs
-process_urls('./urls/clash_urls.txt', process_clash)
+# print(f"start process clash")
+# process_urls('./urls/clash_urls.txt', process_clash)
 
 # 处理 shadowtls URLs
-process_urls('./urls/sb_urls.txt', process_sb)
+# print(f"start process sb")
+# process_urls('./urls/sb_urls.txt', process_sb)
 
 # 处理 naive URLs
-process_urls('./urls/naiverproxy_urls.txt', process_naive)
+# print(f"start process naive")
+# process_urls('./urls/naiverproxy_urls.txt', process_naive)
 
-# 处理 hysteria URLs
-process_urls('./urls/hysteria_urls.txt', process_hysteria)
+# # 处理 hysteria URLs
+# process_urls('./urls/hysteria_urls.txt', process_hysteria)
 
-# 处理 hysteria2 URLs
+# # 处理 hysteria2 URLs
+print(f"start process hysteria2")
 process_urls('./urls/hysteria2_urls.txt', process_hysteria2)
 
 # 处理 xray URLs
-process_urls('./urls/xray_urls.txt', process_xray)
+# print(f"start process xray")
+# process_urls('./urls/xray_urls.txt', process_xray)
 
 # 将结果写入文件
 merged_content = "\n".join(merged_proxies)
-
 try:
-    encoded_content = base64.b64encode(merged_content.encode("utf-8")).decode("utf-8")
+    if need_encode:
+        merged_content = base64.b64encode(merged_content.encode("utf-8")).decode("utf-8")
     
     with open("./sub/shadowrocket_base64.txt", "w") as encoded_file:
-        encoded_file.write(encoded_content)
+        encoded_file.write(merged_content)
         
     print("Content successfully encoded and written to shadowrocket_base64.txt.")
 except Exception as e:

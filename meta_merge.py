@@ -2,6 +2,16 @@ import yaml
 import json
 import urllib.request
 import logging
+import base64
+import json
+import urllib.request
+import requests
+import certifi
+import codecs
+import logging
+import pdb
+import socket
+from utils import test_latency, get_ip_location, resolve_ip, is_valid_ip
 
 # 提取节点
 def process_urls(url_file, processor):
@@ -11,8 +21,10 @@ def process_urls(url_file, processor):
 
         for index, url in enumerate(urls):
             try:
-                response = urllib.request.urlopen(url)
-                data = response.read().decode('utf-8')
+                # response = urllib.request.urlopen(url)
+                response = requests.get(url, verify=certifi.where())
+                # pdb.set_trace()
+                data = response.content.decode('utf-8')
                 processor(data, index)
             except Exception as e:
                 logging.error(f"Error processing URL {url}: {e}")
@@ -23,6 +35,8 @@ def process_clash(data, index):
     content = yaml.safe_load(data)
     proxies = content.get('proxies', [])
     for i, proxy in enumerate(proxies):
+        if proxy['type'] == "hysteria2":
+            print(proxy)
         proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
     merged_proxies.extend(proxies)
 
@@ -135,7 +149,11 @@ def process_hysteria2(data, index):
         fast_open = json_data["fastOpen"]
         insecure = json_data["tls"]["insecure"]
         sni = json_data["tls"]["sni"]
-        name = f"hysteria2_{index}"
+        if not is_valid_ip(server):
+            server = resolve_ip(server)
+        country = get_ip_location(server)
+        print(f"resolve {server} is {country}")
+        name = f"hy2_{country}_{server}:{server_port}"
 
         # 创建当前网址的proxy字典
         proxy = {
