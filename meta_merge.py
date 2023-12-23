@@ -1,10 +1,8 @@
 import yaml
 import json
-import urllib.request
 import logging
 import base64
 import json
-import urllib.request
 import requests
 import certifi
 import codecs
@@ -137,12 +135,14 @@ def process_hysteria2(data, index):
         ports = server_ports_slt[1]
         ports_slt = ports.split(",")
         server_port = int(ports_slt[0])
-        fast_open = json_data["fastOpen"]
-        insecure = json_data["tls"]["insecure"]
-        sni = json_data["tls"]["sni"]
+        fast_open = json_data.get("fastOpen",False)
+        insecure = json_data["tls"].get("insecure",False)
+        sni = json_data["tls"].get("insecure","")
         if not is_valid_ip(server):
             server = resolve_ip(server)
         country = get_ip_location(server)
+        if country == "":
+            country = "US"
         print(f"resolve {server} is {country}")
         name = f"hy2_{country}_{server}:{server_port}"
 
