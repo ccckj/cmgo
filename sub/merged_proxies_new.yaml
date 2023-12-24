@@ -348,96 +348,86 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__singapore.com_80
+- name: vmess__mffdallroad.996699.top_80
   type: vmess
-  server: singapore.com
+  server: mffdallroad.996699.top
   port: 80
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  uuid: 7d9f824b-b171-444b-82fa-622b1efa5f92
   network: ws
   tls: none
   flow: ''
-  host: ssrsub.v03.ssrsub.com
-  path: /api/v3/download.getFile
-- name: vmess__monocerotis.weltknoten.xyz_30022
+  host: mfuk1cf1.mfcmi.top
+  path: /mfuk1cf1
+- name: vmess__120.233.43.37_52629
   type: vmess
-  server: monocerotis.weltknoten.xyz
-  port: 30022
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
+  server: 120.233.43.37
+  port: 52629
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: tcp
-  tls: tls
+  tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__cm1.awslcn.info_25258
+- name: vmess__v33.emovpn.xyz_443
   type: vmess
-  server: cm1.awslcn.info
-  port: 25258
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: cm1.awslcn.info
-  path: /
-- name: vmess__us1.awslcn.info_25256
-  type: vmess
-  server: us1.awslcn.info
-  port: 25256
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: us1.awslcn.info
-  path: /
-- name: vmess__us-new01.gujuji.top_8080
-  type: vmess
-  server: us-new01.gujuji.top
-  port: 8080
-  uuid: 2e35dd25-3607-4784-8665-f2eb9087ff10
-  network: ws
-  tls: none
-  flow: ''
-  host: us-new01.gujuji.top
-  path: /
-- name: vmess__scorpii.weltknoten.xyz_30020
-  type: vmess
-  server: scorpii.weltknoten.xyz
-  port: 30020
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
+  server: v33.emovpn.xyz
   port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: 07f137c7-ca40-424f-b3a8-ab2d7c588228
   network: ws
   tls: tls
   flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__ophiuchi.verdens.xyz_25013
+  host: v33.emovpn.xyz
+  path: /
+- name: vmess__aquaril.verdens.xyz_25021
   type: vmess
-  server: ophiuchi.verdens.xyz
-  port: 25013
+  server: aquaril.verdens.xyz
+  port: 25021
   uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
   network: tcp
   tls: tls
   flow: ''
   host: ''
   path: ''
-- name: vmess__mehdi35.forwardv2raytelegramchannel.fun_2095
+- name: vmess__193.238.153.14_8443
   type: vmess
-  server: mehdi35.forwardv2raytelegramchannel.fun
-  port: 2095
-  uuid: 12741de7-7601-4985-980e-67a80f20e1c2
+  server: 193.238.153.14
+  port: 8443
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__us2.awslcn.info_25257
+  type: vmess
+  server: us2.awslcn.info
+  port: 25257
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   network: ws
   tls: none
   flow: ''
+  host: us2.awslcn.info
+  path: /
+- name: vmess__104.21.69.44_2087
+  type: vmess
+  server: 104.21.69.44
+  port: 2087
+  uuid: 8fada9c0-c348-4465-aade-ff0311454178
+  network: ws
+  tls: tls
+  flow: ''
+  host: pAnel159.moOkomeILz.homes
+  path: /@FreeVPNHomes@FreeVPNHomes
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
   host: ''
-  path: /@FORWARDV2RAY
+  path: linkvws
 proxy-groups:
 - name: 节点选择
   type: select
@@ -474,15 +464,14 @@ proxy-groups:
   - vmess__fra.yj2022.gq_8880
   - vmess__hk1.awslcn.info_25242
   - vmess__hytron.io_8080
-  - vmess__singapore.com_80
-  - vmess__monocerotis.weltknoten.xyz_30022
-  - vmess__cm1.awslcn.info_25258
-  - vmess__us1.awslcn.info_25256
-  - vmess__us-new01.gujuji.top_8080
-  - vmess__scorpii.weltknoten.xyz_30020
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__ophiuchi.verdens.xyz_25013
-  - vmess__mehdi35.forwardv2raytelegramchannel.fun_2095
+  - vmess__mffdallroad.996699.top_80
+  - vmess__120.233.43.37_52629
+  - vmess__v33.emovpn.xyz_443
+  - vmess__aquaril.verdens.xyz_25021
+  - vmess__193.238.153.14_8443
+  - vmess__us2.awslcn.info_25257
+  - vmess__104.21.69.44_2087
+  - vmess__172.99.190.109_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -519,15 +508,14 @@ proxy-groups:
   - vmess__fra.yj2022.gq_8880
   - vmess__hk1.awslcn.info_25242
   - vmess__hytron.io_8080
-  - vmess__singapore.com_80
-  - vmess__monocerotis.weltknoten.xyz_30022
-  - vmess__cm1.awslcn.info_25258
-  - vmess__us1.awslcn.info_25256
-  - vmess__us-new01.gujuji.top_8080
-  - vmess__scorpii.weltknoten.xyz_30020
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__ophiuchi.verdens.xyz_25013
-  - vmess__mehdi35.forwardv2raytelegramchannel.fun_2095
+  - vmess__mffdallroad.996699.top_80
+  - vmess__120.233.43.37_52629
+  - vmess__v33.emovpn.xyz_443
+  - vmess__aquaril.verdens.xyz_25021
+  - vmess__193.238.153.14_8443
+  - vmess__us2.awslcn.info_25257
+  - vmess__104.21.69.44_2087
+  - vmess__172.99.190.109_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
