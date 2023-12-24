@@ -34,7 +34,7 @@ def get_ip_location(ip):
         country = data["country_code"]
         return country
     except:
-        return ""
+        return "US"
 
 # ip = "64.176.58.15"  
 # country = get_ip_location(ip)

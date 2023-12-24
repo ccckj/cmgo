@@ -11,6 +11,7 @@ import pdb
 import socket
 from utils import test_latency, get_ip_location, resolve_ip, is_valid_ip
 
+ip_set =set()
 # 提取节点
 def process_urls(url_file, processor):
     try:
@@ -33,9 +34,17 @@ def process_clash(data, index):
     content = yaml.safe_load(data)
     proxies = content.get('proxies', [])
     for i, proxy in enumerate(proxies):
-        if proxy['type'] == "hysteria2":
-            print(proxy)
-        proxy['name'] = f"meta_{proxy['type']}_{index}{i+1}"
+        if proxy['type'] == "tuic":
+            server = proxy['server']
+            if not is_valid_ip(server):
+                server = resolve_ip(server)
+            country = get_ip_location(server)
+            if country == "":
+                country = "JP"
+            print(f"resolve {server} is {country}")
+            proxy['name'] = f"{proxy['type']}_{country}_{proxy['name']}"
+        else:
+            proxy['name'] = f"{proxy['type']}_{proxy['server']}:{proxy.get('port',0)}"
     merged_proxies.extend(proxies)
 
 
@@ -142,7 +151,7 @@ def process_hysteria2(data, index):
             server = resolve_ip(server)
         country = get_ip_location(server)
         if country == "":
-            country = "US"
+            country = "JP"
         print(f"resolve {server} is {country}")
         name = f"hy2_{country}_{server}:{server_port}"
 
@@ -169,71 +178,142 @@ def process_xray(data, index):
     try:
         json_data = json.loads(data)
         # 处理 xray 数据
-        protocol = json_data["outbounds"][0]["protocol"]
-        #vless操作
-        if protocol == "vless":
-        # 提取所需字段
-            server = json_data["outbounds"][0]["settings"]["vnext"][0]["address"]
-            port = json_data["outbounds"][0]["settings"]["vnext"][0]["port"]
-            uuid = json_data["outbounds"][0]["settings"]["vnext"][0]["users"][0]["id"]
-            istls = True
-            flow = json_data["outbounds"][0]["settings"]["vnext"][0]["users"][0]["flow"]
-            # 传输方式
-            network = json_data["outbounds"][0]["streamSettings"]["network"]
-            publicKey = json_data["outbounds"][0]["streamSettings"]["realitySettings"]["publicKey"]
-            shortId = json_data["outbounds"][0]["streamSettings"]["realitySettings"]["shortId"]
-            serverName = json_data["outbounds"][0]["streamSettings"]["realitySettings"]["serverName"]
-            fingerprint = json_data["outbounds"][0]["streamSettings"]["realitySettings"]["fingerprint"]
-            # udp转发
-            isudp = True
-            name = f"reality_{index}"
-            
-            # 根据network判断tcp
-            if network == "tcp":
-                proxy = {
-                    "name": name,
-                    "type": protocol,
-                    "server": server,
-                    "port": port,
-                    "uuid": uuid,
-                    "network": network,
-                    "tls": istls,
-                    "udp": isudp,
-                    "flow": flow,
-                    "client-fingerprint": fingerprint,
-                    "servername": serverName,                
-                    "reality-opts":{
-                        "public-key": publicKey,
-                        "short-id": shortId}
-                }
-                
-            # 根据network判断grpc
-            elif network == "grpc":
-                serviceName = json_data["outbounds"][0]["streamSettings"]["grpcSettings"]["serviceName"]
-                
-                # 创建当前网址的proxy字典
-                proxy = {
-                    "name": name,
-                    "type": protocol,
-                    "server": server,
-                    "port": port,
-                    "uuid": uuid,
-                    "network": network,
-                    "tls": istls,
-                    "udp": isudp,
-                    "flow": flow,
-                    "client-fingerprint": fingerprint,
-                    "servername": serverName,
-                    "grpc-opts":{
-                        "grpc-service-name": serviceName
-                    },
-                    "reality-opts":{
-                        "public-key": publicKey,
-                        "short-id": shortId}
-                }
+        for ii, outbound in enumerate(json_data["outbounds"]):
+            protocol = outbound.get("protocol","")
+            settings = outbound.get("settings",None)
+            if settings is None:
+                continue
+            proxy = {}
+            #vless操作
+            if protocol == "vless":
+                continue
+            # 提取所需字段
+                server = settings["vnext"][0]["address"]
+                port = settings["vnext"][0]["port"]
+                uuid = settings["vnext"][0]["users"][0]["id"]
+                istls = True
+                flow = settings["vnext"][0]["users"][0]["flow"]
+                # 传输方式
+                network = outbound["streamSettings"]["network"]
+                stream_settings = outbound.get("streamSettings", {})
+                reality_settings = stream_settings.get("realitySettings", {})
 
-        # 将当前proxy字典添加到所有proxies列表中
-        merged_proxies.append(proxy)
+                publicKey = reality_settings.get("publicKey", "")
+                shortId = reality_settings.get("shortId", "")
+                serverName = reality_settings.get("serverName", "")
+
+                fingerprint = reality_settings.get("fingerprint","")
+                # udp转发
+                isudp = True
+                country = get_ip_location(server)
+                if country == "":
+                    country ="US"
+                name = f"reality_{country}_{server}_{port}"
+                
+                # 根据network判断tcp
+                if network == "tcp":
+                    proxy = {
+                        "name": name,
+                        "type": protocol,
+                        "server": server,
+                        "port": port,
+                        "uuid": uuid,
+                        "network": network,
+                        "tls": istls,
+                        "udp": isudp,
+                        "flow": flow,
+                        "client-fingerprint": fingerprint,
+                        "servername": serverName,                
+                        "reality-opts":{
+                            "public-key": publicKey,
+                            "short-id": shortId}
+                    }
+                    
+                # 根据network判断grpc
+                elif network == "grpc":
+                    serviceName = outbound["streamSettings"]["grpcSettings"]["serviceName"]
+                    
+                    # 创建当前网址的proxy字典
+                    proxy = {
+                        "name": name,
+                        "type": protocol,
+                        "server": server,
+                        "port": port,
+                        "uuid": uuid,
+                        "network": network,
+                        "tls": istls,
+                        "udp": isudp,
+                        "flow": flow,
+                        "client-fingerprint": fingerprint,
+                        "servername": serverName,
+                        "grpc-opts":{
+                            "grpc-service-name": serviceName
+                        },
+                        "reality-opts":{
+                            "public-key": publicKey,
+                            "short-id": shortId}
+                    }
+            elif protocol == "vmess":
+                if ii >20:
+                    continue
+                vnext = settings.get("vnext",None) 
+                if vnext is None:
+                    continue
+                server = vnext[0].get("address", "")
+                port = vnext[0].get("port", "")
+                users = vnext[0].get("users",None)
+                if users is None:
+                    continue
+                user = users[0]
+                uuid = user.get("id", "")
+                flow = user.get("flow", "")
+                encryption = user.get("encryption", "none")
+
+                stream_settings = outbound.get("streamSettings", {})
+                network = stream_settings.get("network", "")
+                security = stream_settings.get("security", "")
+                reality_settings = stream_settings.get("realitySettings", {})
+
+                publicKey = reality_settings.get("publicKey", "")
+                short_id = reality_settings.get("shortId", "")
+                sni = reality_settings.get("serverName", "")
+                #tls
+                tls_settings = stream_settings.get("tlsSettings", {})
+                sni = tls_settings.get("serverName", sni)
+                insecure = int(tls_settings.get("allowInsecure", 0))
+
+                fp = reality_settings.get("fingerprint", "")
+                fp = tls_settings.get("fingerprint", fp)
+                spx = reality_settings.get("spiderX", "")
+
+                grpc_settings = stream_settings.get("grpcSettings", {})
+                grpc_serviceName = grpc_settings.get("serviceName", "")
+
+                ws_settings = stream_settings.get("wsSettings", {})
+                ws_path = ws_settings.get("path", "")
+                ws_headers_host = ws_settings.get("headers", {}).get("Host", "")
+                if server in ip_set:
+                    continue 
+                else:
+                    ip_set.add(server)
+                country = get_ip_location(server)
+                name = f"vmess_{country}_{server}_{port}"
+                proxy = {
+                        "name": name,
+                        "type": protocol,
+                        "server": server,
+                        "port": port,
+                        "uuid": uuid,
+                        "network": network,
+                        "tls": 'tls' if security == 'tls' else 'none',
+                        "flow": flow,
+                        "host": ws_headers_host,
+                        "path": ws_path     
+                }
+            else:
+                continue
+            # 将当前proxy字典添加到所有proxies列表中
+            merged_proxies.append(proxy)
     except Exception as e:
         logging.error(f"Error processing xray data for index {index}: {e}")
 
