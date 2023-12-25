@@ -238,77 +238,27 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: vmess__cm.awslcn.info_25233
+- name: vmess__yes.cnmjcn.net_16626
   type: vmess
-  server: cm.awslcn.info
-  port: 25233
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: yes.cnmjcn.net
+  port: 16626
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   network: ws
   tls: none
   flow: ''
-  host: cm.awslcn.info
+  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
   path: /
-- name: vmess__cu.awslcn.info_25228
+- name: vmess__t.cnmjcn.cyou_16648
   type: vmess
-  server: cu.awslcn.info
-  port: 25228
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: t.cnmjcn.cyou
+  port: 16648
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   network: ws
   tls: none
   flow: ''
-  host: cu.awslcn.info
+  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
   path: /
-- name: vmess__sg1.awslcn.info_25283
-  type: vmess
-  server: sg1.awslcn.info
-  port: 25283
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: sg1.awslcn.info
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__free.domain.photos_80
-  type: vmess
-  server: free.domain.photos
-  port: 80
-  uuid: 44ed6043-a70e-44ce-c1f9-649f69efce7c
-  network: ws
-  tls: none
-  flow: ''
-  host: free.domain.photos
-  path: /free
-- name: vmess__hk2.awslcn.info_25242
-  type: vmess
-  server: hk2.awslcn.info
-  port: 25242
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: hk2.awslcn.info
-  path: /
-- name: vmess__us-02.jikuai.xyz_2082
-  type: vmess
-  server: us-02.jikuai.xyz
-  port: 2082
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  network: ws
-  tls: none
-  flow: ''
-  host: us-02.jikuai.xyz
-  path: /
-- name: vmess__45.58.153.25_30000
+- name: vmess_NL_45.58.153.25_30000
   type: vmess
   server: 45.58.153.25
   port: 30000
@@ -318,25 +268,15 @@ proxies:
   flow: ''
   host: ''
   path: /path/1702961716738
-- name: vmess__fra.yj2022.gq_8880
+- name: vmess_US_104.17.193.145_8080
   type: vmess
-  server: fra.yj2022.gq
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  server: 104.17.193.145
+  port: 8080
+  uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc
   network: ws
   tls: none
   flow: ''
-  host: fra.yj2022.gq
-  path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- name: vmess__hk1.awslcn.info_25242
-  type: vmess
-  server: hk1.awslcn.info
-  port: 25242
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: hk1.awslcn.info
+  host: eu5.openxai.link
   path: /
 - name: vmess__hytron.io_8080
   type: vmess
@@ -348,6 +288,16 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
 - name: vmess__mffdallroad.996699.top_80
   type: vmess
   server: mffdallroad.996699.top
@@ -358,6 +308,16 @@ proxies:
   flow: ''
   host: mfuk1cf1.mfcmi.top
   path: /mfuk1cf1
+- name: vmess__cm.awslcn.info_25228
+  type: vmess
+  server: cm.awslcn.info
+  port: 25228
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  network: ws
+  tls: none
+  flow: ''
+  host: cm.awslcn.info
+  path: /
 - name: vmess__120.233.43.37_52629
   type: vmess
   server: 120.233.43.37
@@ -398,36 +358,106 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__us2.awslcn.info_25257
+- name: vmess__de-new01.gujuji.top_8080
   type: vmess
-  server: us2.awslcn.info
-  port: 25257
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: de-new01.gujuji.top
+  port: 8080
+  uuid: 6d123814-11b0-4c6a-ad71-4e9e0a1d58bf
   network: ws
   tls: none
   flow: ''
-  host: us2.awslcn.info
+  host: de-new01.gujuji.top
   path: /
-- name: vmess__104.21.69.44_2087
+- name: vmess__3d1c4a04.mcfront.xyz_31701
   type: vmess
-  server: 104.21.69.44
-  port: 2087
-  uuid: 8fada9c0-c348-4465-aade-ff0311454178
-  network: ws
-  tls: tls
-  flow: ''
-  host: pAnel159.moOkomeILz.homes
-  path: /@FreeVPNHomes@FreeVPNHomes
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
+  server: 3d1c4a04.mcfront.xyz
+  port: 31701
+  uuid: b2b851bf-72b5-422b-b568-292e1aa2ad71
+  network: tcp
   tls: tls
   flow: ''
   host: ''
-  path: linkvws
+  path: ''
+- name: vmess__162.159.142.213_80
+  type: vmess
+  server: 162.159.142.213
+  port: 80
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  network: ws
+  tls: none
+  flow: ''
+  host: hk3.889611.com
+  path: /
+- name: vmess__162.159.142.243_80
+  type: vmess
+  server: 162.159.142.243
+  port: 80
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  network: ws
+  tls: none
+  flow: ''
+  host: uk3.889611.com
+  path: /
+- name: vmess__162.159.142.204_80
+  type: vmess
+  server: 162.159.142.204
+  port: 80
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.889611.com
+  path: /
+- name: vmess__4a2u0a06.mcfront.xyz_31511
+  type: vmess
+  server: 4a2u0a06.mcfront.xyz
+  port: 31511
+  uuid: b2b851bf-72b5-422b-b568-292e1aa2ad71
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__1c7s2g05.mcfront.xyz_31206
+  type: vmess
+  server: 1c7s2g05.mcfront.xyz
+  port: 31206
+  uuid: b2b851bf-72b5-422b-b568-292e1aa2ad71
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__uk-new01.gujuji.top_8080
+  type: vmess
+  server: uk-new01.gujuji.top
+  port: 8080
+  uuid: 6d123814-11b0-4c6a-ad71-4e9e0a1d58bf
+  network: ws
+  tls: none
+  flow: ''
+  host: uk-new01.gujuji.top
+  path: /
+- name: vmess__b23.ntbq.dynu.net_2024
+  type: vmess
+  server: b23.ntbq.dynu.net
+  port: 2024
+  uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__112.28.208.10_46602
+  type: vmess
+  server: 112.28.208.10
+  port: 46602
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -453,25 +483,28 @@ proxy-groups:
   - hy2_US_108.181.22.155:40246
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:40246
-  - vmess__cm.awslcn.info_25233
-  - vmess__cu.awslcn.info_25228
-  - vmess__sg1.awslcn.info_25283
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__free.domain.photos_80
-  - vmess__hk2.awslcn.info_25242
-  - vmess__us-02.jikuai.xyz_2082
-  - vmess__45.58.153.25_30000
-  - vmess__fra.yj2022.gq_8880
-  - vmess__hk1.awslcn.info_25242
+  - vmess__yes.cnmjcn.net_16626
+  - vmess__t.cnmjcn.cyou_16648
+  - vmess_NL_45.58.153.25_30000
+  - vmess_US_104.17.193.145_8080
   - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   - vmess__mffdallroad.996699.top_80
+  - vmess__cm.awslcn.info_25228
   - vmess__120.233.43.37_52629
   - vmess__v33.emovpn.xyz_443
   - vmess__aquaril.verdens.xyz_25021
   - vmess__193.238.153.14_8443
-  - vmess__us2.awslcn.info_25257
-  - vmess__104.21.69.44_2087
-  - vmess__172.99.190.109_443
+  - vmess__de-new01.gujuji.top_8080
+  - vmess__3d1c4a04.mcfront.xyz_31701
+  - vmess__162.159.142.213_80
+  - vmess__162.159.142.243_80
+  - vmess__162.159.142.204_80
+  - vmess__4a2u0a06.mcfront.xyz_31511
+  - vmess__1c7s2g05.mcfront.xyz_31206
+  - vmess__uk-new01.gujuji.top_8080
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__112.28.208.10_46602
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -497,25 +530,28 @@ proxy-groups:
   - hy2_US_108.181.22.155:40246
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:40246
-  - vmess__cm.awslcn.info_25233
-  - vmess__cu.awslcn.info_25228
-  - vmess__sg1.awslcn.info_25283
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__free.domain.photos_80
-  - vmess__hk2.awslcn.info_25242
-  - vmess__us-02.jikuai.xyz_2082
-  - vmess__45.58.153.25_30000
-  - vmess__fra.yj2022.gq_8880
-  - vmess__hk1.awslcn.info_25242
+  - vmess__yes.cnmjcn.net_16626
+  - vmess__t.cnmjcn.cyou_16648
+  - vmess_NL_45.58.153.25_30000
+  - vmess_US_104.17.193.145_8080
   - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   - vmess__mffdallroad.996699.top_80
+  - vmess__cm.awslcn.info_25228
   - vmess__120.233.43.37_52629
   - vmess__v33.emovpn.xyz_443
   - vmess__aquaril.verdens.xyz_25021
   - vmess__193.238.153.14_8443
-  - vmess__us2.awslcn.info_25257
-  - vmess__104.21.69.44_2087
-  - vmess__172.99.190.109_443
+  - vmess__de-new01.gujuji.top_8080
+  - vmess__3d1c4a04.mcfront.xyz_31701
+  - vmess__162.159.142.213_80
+  - vmess__162.159.142.243_80
+  - vmess__162.159.142.204_80
+  - vmess__4a2u0a06.mcfront.xyz_31511
+  - vmess__1c7s2g05.mcfront.xyz_31206
+  - vmess__uk-new01.gujuji.top_8080
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__112.28.208.10_46602
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
