@@ -256,16 +256,26 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: vmess__yes.cnmjcn.net_16626
+- name: vmess_CN_112.28.208.10_46602
   type: vmess
-  server: yes.cnmjcn.net
-  port: 16626
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  server: 112.28.208.10
+  port: 46602
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_VN_103.82.134.110_80
+  type: vmess
+  server: 103.82.134.110
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
   network: ws
   tls: none
   flow: ''
-  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-  path: /
+  host: 103.82.134.110
+  path: /ongtrumdata.com
 - name: vmess__t.cnmjcn.cyou_16648
   type: vmess
   server: t.cnmjcn.cyou
@@ -276,35 +286,25 @@ proxies:
   flow: ''
   host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
   path: /
-- name: vmess_NL_45.58.153.25_30000
+- name: vmess_US_162.159.142.245_80
   type: vmess
-  server: 45.58.153.25
-  port: 30000
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/1702961716738
-- name: vmess_US_104.17.193.145_8080
-  type: vmess
-  server: 104.17.193.145
-  port: 8080
-  uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc
+  server: 162.159.142.245
+  port: 80
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
   network: ws
   tls: none
   flow: ''
-  host: eu5.openxai.link
+  host: uk3.889611.com
   path: /
-- name: vmess__hytron.io_8080
+- name: vmess__us-new04.gujuji.top_8080
   type: vmess
-  server: hytron.io
+  server: us-new04.gujuji.top
   port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  uuid: befa6f3e-55e9-4ed9-bc53-f003c88bd8fe
   network: ws
   tls: none
   flow: ''
-  host: hytron.io
+  host: us-new04.gujuji.top
   path: /
 - name: vmess_GB_172.99.190.109_443
   type: vmess
@@ -314,77 +314,77 @@ proxies:
   network: ws
   tls: tls
   flow: ''
-  host: ''
+  host: 172.99.190.109
   path: linkvws
-- name: vmess__mffdallroad.996699.top_80
+- name: vmess__vn2.network.io.vn_80
   type: vmess
-  server: mffdallroad.996699.top
+  server: vn2.network.io.vn
   port: 80
-  uuid: 7d9f824b-b171-444b-82fa-622b1efa5f92
+  uuid: a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c
   network: ws
   tls: none
   flow: ''
-  host: mfuk1cf1.mfcmi.top
-  path: /mfuk1cf1
-- name: vmess__cm.awslcn.info_25228
+  host: dl.kgvn.garenanow.com
+  path: /network
+- name: vmess_US_107.148.202.180_443
   type: vmess
-  server: cm.awslcn.info
-  port: 25228
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: cm.awslcn.info
-  path: /
-- name: vmess__120.233.43.37_52629
-  type: vmess
-  server: 120.233.43.37
-  port: 52629
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__v33.emovpn.xyz_443
-  type: vmess
-  server: v33.emovpn.xyz
+  server: 107.148.202.180
   port: 443
-  uuid: 07f137c7-ca40-424f-b3a8-ab2d7c588228
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: ws
   tls: tls
   flow: ''
-  host: v33.emovpn.xyz
-  path: /
-- name: vmess__aquaril.verdens.xyz_25021
+  host: www.32307443.xyz
+  path: /path/1703231262875
+- name: vmess__23.227.38.35_80
   type: vmess
-  server: aquaril.verdens.xyz
-  port: 25021
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__193.238.153.14_8443
-  type: vmess
-  server: 193.238.153.14
-  port: 8443
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.21.75.246_80
-  type: vmess
-  server: 104.21.75.246
+  server: 23.227.38.35
   port: 80
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
   network: ws
   tls: none
   flow: ''
-  host: sbl2.shabijichang.com
+  host: us3.889611.com
+  path: /
+- name: vmess__103.15.90.199_80
+  type: vmess
+  server: 103.15.90.199
+  port: 80
+  uuid: baa85f59-844b-4aa6-95e6-1747d9b78e8a
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /vpngiangon.com
+- name: vmess__ca-new01.gujuji.top_8080
+  type: vmess
+  server: ca-new01.gujuji.top
+  port: 8080
+  uuid: befa6f3e-55e9-4ed9-bc53-f003c88bd8fe
+  network: ws
+  tls: none
+  flow: ''
+  host: ca-new01.gujuji.top
+  path: /
+- name: vmess__45.144.2.113_80
+  type: vmess
+  server: 45.144.2.113
+  port: 80
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  network: ws
+  tls: none
+  flow: ''
+  host: www.apple.com
+  path: /
+- name: vmess__162.159.142.233_80
+  type: vmess
+  server: 162.159.142.233
+  port: 80
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  network: ws
+  tls: none
+  flow: ''
+  host: jp3.889611.com
   path: /
 - name: vmess__singapore.com_80
   type: vmess
@@ -394,118 +394,58 @@ proxies:
   network: ws
   tls: none
   flow: ''
-  host: ssrsub.v005.ssrsub.com
+  host: ssrsub.v03.ssrsub.com
   path: /api/v3/download.getFile
-- name: vmess__172.67.229.34_2086
+- name: vmess__nb22.ntbq.dynu.net_12002
   type: vmess
-  server: 172.67.229.34
-  port: 2086
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  network: ws
-  tls: none
-  flow: ''
-  host: ca6.tehme100.fun
-  path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: vmess__162.159.142.236_80
-  type: vmess
-  server: 162.159.142.236
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: jp3.visaapp.top
-  path: /
-- name: vmess__103.67.197.195_80
-  type: vmess
-  server: 103.67.197.195
-  port: 80
-  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /ongtrumdata.com
-- name: vmess__162.159.142.232_80
-  type: vmess
-  server: 162.159.142.232
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: jp3.889611.com
-  path: /
-- name: vmess__m.cnmjcn.com_16648
-  type: vmess
-  server: m.cnmjcn.com
-  port: 16648
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  network: ws
-  tls: none
-  flow: ''
-  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-  path: /
-- name: vmess__162.159.142.245_80
-  type: vmess
-  server: 162.159.142.245
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: uk3.889611.com
-  path: /
-- name: vmess__162.159.142.204_80
-  type: vmess
-  server: 162.159.142.204
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess__64.176.82.171_10867
-  type: vmess
-  server: 64.176.82.171
-  port: 10867
-  uuid: e7d3319a-2a29-46f5-cf78-f5152f89a56b
-  network: ws
-  tls: none
-  flow: ''
-  host: m.linkedin.com
-  path: /alexdevil
-- name: vmess__162.159.142.235_80
-  type: vmess
-  server: 162.159.142.235
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: jp3.889611.com
-  path: /
-- name: vmess__162.159.142.212_80
-  type: vmess
-  server: 162.159.142.212
-  port: 80
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  network: ws
-  tls: none
-  flow: ''
-  host: ca3.889611.com
-  path: /
-- name: vmess__b23.ntbq.dynu.net_2024
-  type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
+  server: nb22.ntbq.dynu.net
+  port: 12002
   uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__103.82.21.6_80
+  type: vmess
+  server: 103.82.21.6
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
+  network: ws
+  tls: none
+  flow: ''
+  host: 103.82.21.6
+  path: /ongtrumdata.com
+- name: vmess__162.159.142.206_80
+  type: vmess
+  server: 162.159.142.206
+  port: 80
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.visaapp.top
+  path: /
+- name: vmess__45.121.48.196_10001
+  type: vmess
+  server: 45.121.48.196
+  port: 10001
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__162.159.142.213_80
+  type: vmess
+  server: 162.159.142.213
+  port: 80
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  network: ws
+  tls: none
+  flow: ''
+  host: ca3.889611.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -546,31 +486,25 @@ proxy-groups:
   - hy2_US_108.181.22.155:40246
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:40246
-  - vmess__yes.cnmjcn.net_16626
+  - vmess_CN_112.28.208.10_46602
+  - vmess_VN_103.82.134.110_80
   - vmess__t.cnmjcn.cyou_16648
-  - vmess_NL_45.58.153.25_30000
-  - vmess_US_104.17.193.145_8080
-  - vmess__hytron.io_8080
+  - vmess_US_162.159.142.245_80
+  - vmess__us-new04.gujuji.top_8080
   - vmess_GB_172.99.190.109_443
-  - vmess__mffdallroad.996699.top_80
-  - vmess__cm.awslcn.info_25228
-  - vmess__120.233.43.37_52629
-  - vmess__v33.emovpn.xyz_443
-  - vmess__aquaril.verdens.xyz_25021
-  - vmess__193.238.153.14_8443
-  - vmess__104.21.75.246_80
+  - vmess__vn2.network.io.vn_80
+  - vmess_US_107.148.202.180_443
+  - vmess__23.227.38.35_80
+  - vmess__103.15.90.199_80
+  - vmess__ca-new01.gujuji.top_8080
+  - vmess__45.144.2.113_80
+  - vmess__162.159.142.233_80
   - vmess__singapore.com_80
-  - vmess__172.67.229.34_2086
-  - vmess__162.159.142.236_80
-  - vmess__103.67.197.195_80
-  - vmess__162.159.142.232_80
-  - vmess__m.cnmjcn.com_16648
-  - vmess__162.159.142.245_80
-  - vmess__162.159.142.204_80
-  - vmess__64.176.82.171_10867
-  - vmess__162.159.142.235_80
-  - vmess__162.159.142.212_80
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__103.82.21.6_80
+  - vmess__162.159.142.206_80
+  - vmess__45.121.48.196_10001
+  - vmess__162.159.142.213_80
 - name: 手动选择
   type: select
   proxies:
@@ -593,31 +527,25 @@ proxy-groups:
   - hy2_US_108.181.22.155:40246
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:40246
-  - vmess__yes.cnmjcn.net_16626
+  - vmess_CN_112.28.208.10_46602
+  - vmess_VN_103.82.134.110_80
   - vmess__t.cnmjcn.cyou_16648
-  - vmess_NL_45.58.153.25_30000
-  - vmess_US_104.17.193.145_8080
-  - vmess__hytron.io_8080
+  - vmess_US_162.159.142.245_80
+  - vmess__us-new04.gujuji.top_8080
   - vmess_GB_172.99.190.109_443
-  - vmess__mffdallroad.996699.top_80
-  - vmess__cm.awslcn.info_25228
-  - vmess__120.233.43.37_52629
-  - vmess__v33.emovpn.xyz_443
-  - vmess__aquaril.verdens.xyz_25021
-  - vmess__193.238.153.14_8443
-  - vmess__104.21.75.246_80
+  - vmess__vn2.network.io.vn_80
+  - vmess_US_107.148.202.180_443
+  - vmess__23.227.38.35_80
+  - vmess__103.15.90.199_80
+  - vmess__ca-new01.gujuji.top_8080
+  - vmess__45.144.2.113_80
+  - vmess__162.159.142.233_80
   - vmess__singapore.com_80
-  - vmess__172.67.229.34_2086
-  - vmess__162.159.142.236_80
-  - vmess__103.67.197.195_80
-  - vmess__162.159.142.232_80
-  - vmess__m.cnmjcn.com_16648
-  - vmess__162.159.142.245_80
-  - vmess__162.159.142.204_80
-  - vmess__64.176.82.171_10867
-  - vmess__162.159.142.235_80
-  - vmess__162.159.142.212_80
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__103.82.21.6_80
+  - vmess__162.159.142.206_80
+  - vmess__45.121.48.196_10001
+  - vmess__162.159.142.213_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -640,31 +568,25 @@ proxy-groups:
   - hy2_US_108.181.22.155:40246
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:40246
-  - vmess__yes.cnmjcn.net_16626
+  - vmess_CN_112.28.208.10_46602
+  - vmess_VN_103.82.134.110_80
   - vmess__t.cnmjcn.cyou_16648
-  - vmess_NL_45.58.153.25_30000
-  - vmess_US_104.17.193.145_8080
-  - vmess__hytron.io_8080
+  - vmess_US_162.159.142.245_80
+  - vmess__us-new04.gujuji.top_8080
   - vmess_GB_172.99.190.109_443
-  - vmess__mffdallroad.996699.top_80
-  - vmess__cm.awslcn.info_25228
-  - vmess__120.233.43.37_52629
-  - vmess__v33.emovpn.xyz_443
-  - vmess__aquaril.verdens.xyz_25021
-  - vmess__193.238.153.14_8443
-  - vmess__104.21.75.246_80
+  - vmess__vn2.network.io.vn_80
+  - vmess_US_107.148.202.180_443
+  - vmess__23.227.38.35_80
+  - vmess__103.15.90.199_80
+  - vmess__ca-new01.gujuji.top_8080
+  - vmess__45.144.2.113_80
+  - vmess__162.159.142.233_80
   - vmess__singapore.com_80
-  - vmess__172.67.229.34_2086
-  - vmess__162.159.142.236_80
-  - vmess__103.67.197.195_80
-  - vmess__162.159.142.232_80
-  - vmess__m.cnmjcn.com_16648
-  - vmess__162.159.142.245_80
-  - vmess__162.159.142.204_80
-  - vmess__64.176.82.171_10867
-  - vmess__162.159.142.235_80
-  - vmess__162.159.142.212_80
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__103.82.21.6_80
+  - vmess__162.159.142.206_80
+  - vmess__45.121.48.196_10001
+  - vmess__162.159.142.213_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
