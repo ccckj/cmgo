@@ -238,136 +238,86 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: vmess__ee1-vmess.sshmax.xyz_8080
+- name: vmess_RU_46.29.166.237_47555
   type: vmess
-  server: ee1-vmess.sshmax.xyz
-  port: 8080
-  uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess_PL_94.131.96.137_2086
-  type: vmess
-  server: 94.131.96.137
-  port: 2086
-  uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess_JP_64.176.59.68_59350
-  type: vmess
-  server: 64.176.59.68
-  port: 59350
-  uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9
+  server: 46.29.166.237
+  port: 47555
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess_EE_5.181.23.67_8880
+- name: vmess_HK_20.239.80.27_443
+  type: vmess
+  server: 20.239.80.27
+  port: 443
+  uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de
+  network: ws
+  tls: tls
+  flow: ''
+  host: 20.239.80.27
+  path: /takeshi.wiki
+- name: vmess__v2gaming02.csadata4g.me_80
+  type: vmess
+  server: v2gaming02.csadata4g.me
+  port: 80
+  uuid: b197f270-b86c-4df2-9d37-771968e980f7
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /
+- name: vmess__singapore.com_80
+  type: vmess
+  server: singapore.com
+  port: 80
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  network: ws
+  tls: none
+  flow: ''
+  host: ssrsub.v004.ssrsub.com
+  path: /api/v3/download.getFile
+- name: vmess_EE_5.181.23.67_2082
   type: vmess
   server: 5.181.23.67
-  port: 8880
-  uuid: e342ac69-9671-4b47-bd62-64002ac97d8b
+  port: 2082
+  uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__ru-v2ray.ipracevpn.com_8443
+- name: vmess_CN_112.28.208.10_46602
   type: vmess
-  server: ru-v2ray.ipracevpn.com
-  port: 8443
-  uuid: 6b65926e-110d-4728-a807-5670d8829e09
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_DE_91.107.172.128_3350
-  type: vmess
-  server: 91.107.172.128
-  port: 3350
-  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_198.2.200.37_30000
-  type: vmess
-  server: 198.2.200.37
-  port: 30000
+  server: 112.28.208.10
+  port: 46602
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/1702215223320
-- name: vmess__us-new01.gujuji.top_8080
-  type: vmess
-  server: us-new01.gujuji.top
-  port: 8080
-  uuid: 7822b0c5-2059-43d4-a8af-ecad5edcebd0
-  network: ws
-  tls: none
-  flow: ''
-  host: us-new01.gujuji.top
-  path: /
-- name: vmess__jp.takeshi.wiki_443
-  type: vmess
-  server: jp.takeshi.wiki
-  port: 443
-  uuid: 803b8c6b-192e-4500-a919-485566f8e058
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /takeshi.wiki
-- name: vmess__149.28.19.63_42280
-  type: vmess
-  server: 149.28.19.63
-  port: 42280
-  uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.16.170.246_80
+- name: vmess__vn6.5gsieutocdo.com_80
   type: vmess
-  server: 104.16.170.246
-  port: 80
-  uuid: 47dba4a9-380d-4197-f0fb-bcd6704e82f2
-  network: ws
-  tls: none
-  flow: ''
-  host: vmiss.51.tf
-  path: /
-- name: vmess__hanoivip1.5gsieutocdo.com_80
-  type: vmess
-  server: hanoivip1.5gsieutocdo.com
+  server: vn6.5gsieutocdo.com
   port: 80
   uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
   network: ws
   tls: none
   flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /5gsieutocdo.com
-- name: vmess__81.12.27.4_20554
+  host: vn6.5gsieutocdo.com
+  path: /5gsieutocdo.club
+- name: vmess__cu.awslcn.info_25228
   type: vmess
-  server: 81.12.27.4
-  port: 20554
-  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
-  network: tcp
+  server: cu.awslcn.info
+  port: 25228
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: cu.awslcn.info
+  path: /
 - name: vmess__vn5.network.io.vn_80
   type: vmess
   server: vn5.network.io.vn
@@ -378,15 +328,45 @@ proxies:
   flow: ''
   host: vn5.network.io.vn
   path: /network
-- name: vmess__v4.cfnode.eu.org_8080
+- name: vmess__103.82.21.6_80
   type: vmess
-  server: v4.cfnode.eu.org
-  port: 8080
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  server: 103.82.21.6
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
   network: ws
   tls: none
   flow: ''
-  host: kryx.651568.xyz
+  host: 103.82.21.6
+  path: /ongtrumdata.com
+- name: vmess__sg3-v2ray.ipracevpn.com_8443
+  type: vmess
+  server: sg3-v2ray.ipracevpn.com
+  port: 8443
+  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__es1-vmess.sshmax.xyz_80
+  type: vmess
+  server: es1-vmess.sshmax.xyz
+  port: 80
+  uuid: 4c4eb1a2-4352-4b02-8d31-68fff24537a3
+  network: ws
+  tls: none
+  flow: ''
+  host: es1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess__cm1.awslcn.info_25216
+  type: vmess
+  server: cm1.awslcn.info
+  port: 25216
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  network: ws
+  tls: none
+  flow: ''
+  host: cm1.awslcn.info
   path: /
 - name: vmess__154.90.39.63_45343
   type: vmess
@@ -398,216 +378,16 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__cz1-vmess.sshmax.xyz_2082
+- name: vmess__91.107.172.128_3350
   type: vmess
-  server: cz1-vmess.sshmax.xyz
-  port: 2082
-  uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__85.208.104.22_40400
-  type: vmess
-  server: 85.208.104.22
-  port: 40400
-  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /eb6f75a1
-- name: vmess__phvray.purplrose.ir_809
-  type: vmess
-  server: phvray.purplrose.ir
-  port: 809
-  uuid: 1e4b4ad6-d778-4933-8640-64264b32d0ab
+  server: 91.107.172.128
+  port: 3350
+  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__142.171.202.130_443
-  type: vmess
-  server: 142.171.202.130
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/1702650992491
-- name: vmess__142.4.97.65_30000
-  type: vmess
-  server: 142.4.97.65
-  port: 30000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: www.39838266.xyz
-  path: /path/1699624723213
-- name: vmess__sg1.awslcn.info_25283
-  type: vmess
-  server: sg1.awslcn.info
-  port: 25283
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: sg1.awslcn.info
-  path: /
-- name: vmess__vn3.network.io.vn_80
-  type: vmess
-  server: vn3.network.io.vn
-  port: 80
-  uuid: a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /network
-- name: vmess__198.2.202.81_30000
-  type: vmess
-  server: 198.2.202.81
-  port: 30000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: www.65825524.xyz
-  path: /path/1702961716738
-- name: vmess__64.176.58.15_46154
-  type: vmess
-  server: 64.176.58.15
-  port: 46154
-  uuid: adcbe160-3010-483d-b438-d6057f465b1d
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__au.takeshi.wiki_80
-  type: vmess
-  server: au.takeshi.wiki
-  port: 80
-  uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /takeshi.wiki
-- name: vmess__cm.awslcn.info_25232
-  type: vmess
-  server: cm.awslcn.info
-  port: 25232
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: cm.awslcn.info
-  path: /
-- name: vmess__113.20.28.102_22188
-  type: vmess
-  server: 113.20.28.102
-  port: 22188
-  uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__pl2-vmess.sshmax.xyz_80
-  type: vmess
-  server: pl2-vmess.sshmax.xyz
-  port: 80
-  uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e
-  network: ws
-  tls: none
-  flow: ''
-  host: pl2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__183.181.36.194_41597
-  type: vmess
-  server: 183.181.36.194
-  port: 41597
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__45.58.153.25_30000
-  type: vmess
-  server: 45.58.153.25
-  port: 30000
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/1702961716738
-- name: vmess__38.54.36.181_50674
-  type: vmess
-  server: 38.54.36.181
-  port: 50674
-  uuid: 09a9bdf1-7584-4b52-e810-c1330396c2cb
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__45.77.176.217_16142
-  type: vmess
-  server: 45.77.176.217
-  port: 16142
-  uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__103.166.184.124_80
-  type: vmess
-  server: 103.166.184.124
-  port: 80
-  uuid: bed15443-6b23-445b-870f-92cc2547b076
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /trieublack4g
-- name: vmess__64.176.47.200_29414
-  type: vmess
-  server: 64.176.47.200
-  port: 29414
-  uuid: 4d5e8aa2-0641-4323-e92c-2c061cdc8e34
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__vn2.network.io.vn_80
-  type: vmess
-  server: vn2.network.io.vn
-  port: 80
-  uuid: a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /network
-- name: vmess__cu.awslcn.info_25284
-  type: vmess
-  server: cu.awslcn.info
-  port: 25284
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: cu.awslcn.info
-  path: /
 - name: vmess__158.178.227.16_30839
   type: vmess
   server: 158.178.227.16
@@ -618,6 +398,26 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__84.32.231.244_3001
+  type: vmess
+  server: 84.32.231.244
+  port: 3001
+  uuid: 8efe48f5-22e2-4f0c-93da-665a4bc64ab1
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__Telegram-Channel.hkbb0.66688888.xyz_2092
+  type: vmess
+  server: Telegram-Channel.hkbb0.66688888.xyz
+  port: 2092
+  uuid: 7b4680c5-222f-4a29-84c0-226d16dab9ab
+  network: ws
+  tls: none
+  flow: ''
+  host: Telegram-Channel.hkbb0.66688888.xyz
+  path: /telegram:@hkaa0
 - name: vmess__104.237.128.72_14432
   type: vmess
   server: 104.237.128.72
@@ -628,6 +428,26 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__v2gaming03.csadata4g.me_80
+  type: vmess
+  server: v2gaming03.csadata4g.me
+  port: 80
+  uuid: b197f270-b86c-4df2-9d37-771968e980f7
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /
+- name: vmess__us2.awslcn.info_25257
+  type: vmess
+  server: us2.awslcn.info
+  port: 25257
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -653,45 +473,27 @@ proxy-groups:
   - hy2_US_108.181.22.155:27710
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
-  - vmess__ee1-vmess.sshmax.xyz_8080
-  - vmess_PL_94.131.96.137_2086
-  - vmess_JP_64.176.59.68_59350
-  - vmess_EE_5.181.23.67_8880
-  - vmess__ru-v2ray.ipracevpn.com_8443
-  - vmess_DE_91.107.172.128_3350
-  - vmess_US_198.2.200.37_30000
-  - vmess__us-new01.gujuji.top_8080
-  - vmess__jp.takeshi.wiki_443
-  - vmess__149.28.19.63_42280
-  - vmess__104.16.170.246_80
-  - vmess__hanoivip1.5gsieutocdo.com_80
-  - vmess__81.12.27.4_20554
+  - vmess_RU_46.29.166.237_47555
+  - vmess_HK_20.239.80.27_443
+  - vmess__v2gaming02.csadata4g.me_80
+  - vmess__singapore.com_80
+  - vmess_EE_5.181.23.67_2082
+  - vmess_CN_112.28.208.10_46602
+  - vmess__vn6.5gsieutocdo.com_80
+  - vmess__cu.awslcn.info_25228
   - vmess__vn5.network.io.vn_80
-  - vmess__v4.cfnode.eu.org_8080
+  - vmess__103.82.21.6_80
+  - vmess__sg3-v2ray.ipracevpn.com_8443
+  - vmess__es1-vmess.sshmax.xyz_80
+  - vmess__cm1.awslcn.info_25216
   - vmess__154.90.39.63_45343
-  - vmess__cz1-vmess.sshmax.xyz_2082
-  - vmess__85.208.104.22_40400
-  - vmess__phvray.purplrose.ir_809
-  - vmess__142.171.202.130_443
-  - vmess__142.4.97.65_30000
-  - vmess__sg1.awslcn.info_25283
-  - vmess__vn3.network.io.vn_80
-  - vmess__198.2.202.81_30000
-  - vmess__64.176.58.15_46154
-  - vmess__au.takeshi.wiki_80
-  - vmess__cm.awslcn.info_25232
-  - vmess__113.20.28.102_22188
-  - vmess__pl2-vmess.sshmax.xyz_80
-  - vmess__183.181.36.194_41597
-  - vmess__45.58.153.25_30000
-  - vmess__38.54.36.181_50674
-  - vmess__45.77.176.217_16142
-  - vmess__103.166.184.124_80
-  - vmess__64.176.47.200_29414
-  - vmess__vn2.network.io.vn_80
-  - vmess__cu.awslcn.info_25284
+  - vmess__91.107.172.128_3350
   - vmess__158.178.227.16_30839
+  - vmess__84.32.231.244_3001
+  - vmess__Telegram-Channel.hkbb0.66688888.xyz_2092
   - vmess__104.237.128.72_14432
+  - vmess__v2gaming03.csadata4g.me_80
+  - vmess__us2.awslcn.info_25257
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -717,45 +519,27 @@ proxy-groups:
   - hy2_US_108.181.22.155:27710
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
-  - vmess__ee1-vmess.sshmax.xyz_8080
-  - vmess_PL_94.131.96.137_2086
-  - vmess_JP_64.176.59.68_59350
-  - vmess_EE_5.181.23.67_8880
-  - vmess__ru-v2ray.ipracevpn.com_8443
-  - vmess_DE_91.107.172.128_3350
-  - vmess_US_198.2.200.37_30000
-  - vmess__us-new01.gujuji.top_8080
-  - vmess__jp.takeshi.wiki_443
-  - vmess__149.28.19.63_42280
-  - vmess__104.16.170.246_80
-  - vmess__hanoivip1.5gsieutocdo.com_80
-  - vmess__81.12.27.4_20554
+  - vmess_RU_46.29.166.237_47555
+  - vmess_HK_20.239.80.27_443
+  - vmess__v2gaming02.csadata4g.me_80
+  - vmess__singapore.com_80
+  - vmess_EE_5.181.23.67_2082
+  - vmess_CN_112.28.208.10_46602
+  - vmess__vn6.5gsieutocdo.com_80
+  - vmess__cu.awslcn.info_25228
   - vmess__vn5.network.io.vn_80
-  - vmess__v4.cfnode.eu.org_8080
+  - vmess__103.82.21.6_80
+  - vmess__sg3-v2ray.ipracevpn.com_8443
+  - vmess__es1-vmess.sshmax.xyz_80
+  - vmess__cm1.awslcn.info_25216
   - vmess__154.90.39.63_45343
-  - vmess__cz1-vmess.sshmax.xyz_2082
-  - vmess__85.208.104.22_40400
-  - vmess__phvray.purplrose.ir_809
-  - vmess__142.171.202.130_443
-  - vmess__142.4.97.65_30000
-  - vmess__sg1.awslcn.info_25283
-  - vmess__vn3.network.io.vn_80
-  - vmess__198.2.202.81_30000
-  - vmess__64.176.58.15_46154
-  - vmess__au.takeshi.wiki_80
-  - vmess__cm.awslcn.info_25232
-  - vmess__113.20.28.102_22188
-  - vmess__pl2-vmess.sshmax.xyz_80
-  - vmess__183.181.36.194_41597
-  - vmess__45.58.153.25_30000
-  - vmess__38.54.36.181_50674
-  - vmess__45.77.176.217_16142
-  - vmess__103.166.184.124_80
-  - vmess__64.176.47.200_29414
-  - vmess__vn2.network.io.vn_80
-  - vmess__cu.awslcn.info_25284
+  - vmess__91.107.172.128_3350
   - vmess__158.178.227.16_30839
+  - vmess__84.32.231.244_3001
+  - vmess__Telegram-Channel.hkbb0.66688888.xyz_2092
   - vmess__104.237.128.72_14432
+  - vmess__v2gaming03.csadata4g.me_80
+  - vmess__us2.awslcn.info_25257
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
