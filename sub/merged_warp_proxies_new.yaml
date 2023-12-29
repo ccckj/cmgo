@@ -316,7 +316,7 @@ proxies:
   flow: ''
   host: hanoi4.5gsieutocdo.com
   path: /5gsieutocdo.club
-- name: vmess_PH_38.54.36.181_50674
+- name: vmess__38.54.36.181_50674
   type: vmess
   server: 38.54.36.181
   port: 50674
@@ -326,7 +326,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess_JP_183.181.36.194_41597
+- name: vmess__183.181.36.194_41597
   type: vmess
   server: 183.181.36.194
   port: 41597
@@ -446,6 +446,196 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__38.54.36.214_31682
+  type: vmess
+  server: 38.54.36.214
+  port: 31682
+  uuid: 217fdbc2-c062-4632-c440-36c3a4934713
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__154.90.39.63_45343
+  type: vmess
+  server: 154.90.39.63
+  port: 45343
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__vn1.network.io.vn_80
+  type: vmess
+  server: vn1.network.io.vn
+  port: 80
+  uuid: a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c
+  network: ws
+  tls: none
+  flow: ''
+  host: vn1.network.io.vn
+  path: /network
+- name: vmess__8r5u04.abzoones.xyz_36851
+  type: vmess
+  server: 8r5u04.abzoones.xyz
+  port: 36851
+  uuid: f059ddff-8050-4a6a-8763-07a42cb91168
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__9s5g06.abzoones.xyz_36211
+  type: vmess
+  server: 9s5g06.abzoones.xyz
+  port: 36211
+  uuid: f059ddff-8050-4a6a-8763-07a42cb91168
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__103.67.197.195_80
+  type: vmess
+  server: 103.67.197.195
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /ongtrumdata.com
+- name: vmess__142.171.202.130_443
+  type: vmess
+  server: 142.171.202.130
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.87981532.xyz
+  path: /path/1702650992491
+- name: vmess__duss.celebjared.pk_80
+  type: vmess
+  server: duss.celebjared.pk
+  port: 80
+  uuid: 781dfd50-3d2f-4d5b-99ef-47fa111bddb8
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /Y07GAOt43udo1xvoAgfajHtB
+- name: vmess__144.202.81.122_25514
+  type: vmess
+  server: 144.202.81.122
+  port: 25514
+  uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__103.82.134.110_80
+  type: vmess
+  server: 103.82.134.110
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
+  network: ws
+  tls: none
+  flow: ''
+  host: 103.82.134.110
+  path: /ongtrumdata.com
+- name: vmess__20.239.80.27_443
+  type: vmess
+  server: 20.239.80.27
+  port: 443
+  uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de
+  network: ws
+  tls: tls
+  flow: ''
+  host: 20.239.80.27
+  path: /takeshi.wiki
+- name: vmess__38.54.36.149_25189
+  type: vmess
+  server: 38.54.36.149
+  port: 25189
+  uuid: 3b9cc000-59ea-4cd2-f10e-91de3e69fe1c
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__au.takeshi.wiki_80
+  type: vmess
+  server: au.takeshi.wiki
+  port: 80
+  uuid: a19f357b-c836-4cf6-9e43-72390e6a00df
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /takeshi.wiki
+- name: vmess__Telegram-Channel.hkaa0.66688888.xyz_2092
+  type: vmess
+  server: Telegram-Channel.hkaa0.66688888.xyz
+  port: 2092
+  uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /telegram:@hkaa0
+- name: vmess__79.143.84.117_24141
+  type: vmess
+  server: 79.143.84.117
+  port: 24141
+  uuid: 46465bbe-628a-4988-ae3c-0c164237a039
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__6i2r04.abzoones.xyz_36877
+  type: vmess
+  server: 6i2r04.abzoones.xyz
+  port: 36877
+  uuid: f059ddff-8050-4a6a-8763-07a42cb91168
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__81.12.27.7_37975
+  type: vmess
+  server: 81.12.27.7
+  port: 37975
+  uuid: b3c49b53-2d5d-4d13-d195-76d48aeccd11
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__168.235.72.221_15551
+  type: vmess
+  server: 168.235.72.221
+  port: 15551
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__103.166.185.120_80
+  type: vmess
+  server: 103.166.185.120
+  port: 80
+  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /5gsieutocdo.club
 proxy-groups:
 - name: 节点选择
   type: select
@@ -492,8 +682,8 @@ proxy-groups:
   - vmess_DE_91.107.172.128_3350
   - vmess_US_142.171.122.68_443
   - vmess__hanoi4.5gsieutocdo.com_80
-  - vmess_PH_38.54.36.181_50674
-  - vmess_JP_183.181.36.194_41597
+  - vmess__38.54.36.181_50674
+  - vmess__183.181.36.194_41597
   - vmess__217.160.45.31_8880
   - vmess__cdn.ahdark.gay_80
   - vmess__172.233.188.217_55579
@@ -505,6 +695,25 @@ proxy-groups:
   - vmess__112.28.208.10_46602
   - vmess__113.20.28.102_22188
   - vmess__62.60.131.238_12888
+  - vmess__38.54.36.214_31682
+  - vmess__154.90.39.63_45343
+  - vmess__vn1.network.io.vn_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__103.67.197.195_80
+  - vmess__142.171.202.130_443
+  - vmess__duss.celebjared.pk_80
+  - vmess__144.202.81.122_25514
+  - vmess__103.82.134.110_80
+  - vmess__20.239.80.27_443
+  - vmess__38.54.36.149_25189
+  - vmess__au.takeshi.wiki_80
+  - vmess__Telegram-Channel.hkaa0.66688888.xyz_2092
+  - vmess__79.143.84.117_24141
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__81.12.27.7_37975
+  - vmess__168.235.72.221_15551
+  - vmess__103.166.185.120_80
 - name: 手动选择
   type: select
   proxies:
@@ -533,8 +742,8 @@ proxy-groups:
   - vmess_DE_91.107.172.128_3350
   - vmess_US_142.171.122.68_443
   - vmess__hanoi4.5gsieutocdo.com_80
-  - vmess_PH_38.54.36.181_50674
-  - vmess_JP_183.181.36.194_41597
+  - vmess__38.54.36.181_50674
+  - vmess__183.181.36.194_41597
   - vmess__217.160.45.31_8880
   - vmess__cdn.ahdark.gay_80
   - vmess__172.233.188.217_55579
@@ -546,6 +755,25 @@ proxy-groups:
   - vmess__112.28.208.10_46602
   - vmess__113.20.28.102_22188
   - vmess__62.60.131.238_12888
+  - vmess__38.54.36.214_31682
+  - vmess__154.90.39.63_45343
+  - vmess__vn1.network.io.vn_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__103.67.197.195_80
+  - vmess__142.171.202.130_443
+  - vmess__duss.celebjared.pk_80
+  - vmess__144.202.81.122_25514
+  - vmess__103.82.134.110_80
+  - vmess__20.239.80.27_443
+  - vmess__38.54.36.149_25189
+  - vmess__au.takeshi.wiki_80
+  - vmess__Telegram-Channel.hkaa0.66688888.xyz_2092
+  - vmess__79.143.84.117_24141
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__81.12.27.7_37975
+  - vmess__168.235.72.221_15551
+  - vmess__103.166.185.120_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -574,8 +802,8 @@ proxy-groups:
   - vmess_DE_91.107.172.128_3350
   - vmess_US_142.171.122.68_443
   - vmess__hanoi4.5gsieutocdo.com_80
-  - vmess_PH_38.54.36.181_50674
-  - vmess_JP_183.181.36.194_41597
+  - vmess__38.54.36.181_50674
+  - vmess__183.181.36.194_41597
   - vmess__217.160.45.31_8880
   - vmess__cdn.ahdark.gay_80
   - vmess__172.233.188.217_55579
@@ -587,6 +815,25 @@ proxy-groups:
   - vmess__112.28.208.10_46602
   - vmess__113.20.28.102_22188
   - vmess__62.60.131.238_12888
+  - vmess__38.54.36.214_31682
+  - vmess__154.90.39.63_45343
+  - vmess__vn1.network.io.vn_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__103.67.197.195_80
+  - vmess__142.171.202.130_443
+  - vmess__duss.celebjared.pk_80
+  - vmess__144.202.81.122_25514
+  - vmess__103.82.134.110_80
+  - vmess__20.239.80.27_443
+  - vmess__38.54.36.149_25189
+  - vmess__au.takeshi.wiki_80
+  - vmess__Telegram-Channel.hkaa0.66688888.xyz_2092
+  - vmess__79.143.84.117_24141
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__81.12.27.7_37975
+  - vmess__168.235.72.221_15551
+  - vmess__103.166.185.120_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
