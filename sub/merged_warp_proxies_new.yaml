@@ -316,7 +316,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_JP_167.179.111.237_14935
+- name: vmess__167.179.111.237_14935
   type: vmess
   server: 167.179.111.237
   port: 14935
@@ -456,156 +456,186 @@ proxies:
   flow: ''
   host: dl.kgvn.garenanow.com
   path: /5gsieutocdo.club
-- name: vmess__dnspsdhaitun.ncsuwei.top_12002
+- name: vmess__188.114.96.2_443
   type: vmess
-  server: dnspsdhaitun.ncsuwei.top
-  port: 12002
-  uuid: 0ad55260-5a43-3f71-8851-9348b5342c4d
+  server: 188.114.96.2
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: dnspsdhaitun.ncsuwei.top
-  path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
-- name: vmess__vn2.network.io.vn_80
+  host: ophelia.mom
+  path: linkvws
+- name: vmess__sbl2.shabijichang.com_80
   type: vmess
-  server: vn2.network.io.vn
+  server: sbl2.shabijichang.com
   port: 80
-  uuid: a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   network: ws
   tls: none
   flow: ''
-  host: vn2.network.io.vn
-  path: /network
-- name: vmess__kkyx.yydsii.com_80
-  type: vmess
-  server: kkyx.yydsii.com
-  port: 80
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
-  network: ws
-  tls: none
-  flow: ''
-  host: yxtw.651568.xyz
+  host: sbl2.shabijichang.com
   path: /
-- name: vmess__45.121.48.172_10001
+- name: vmess__nb24.ntbq.dynu.net_4443
   type: vmess
-  server: 45.121.48.172
-  port: 10001
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
+  server: nb24.ntbq.dynu.net
+  port: 4443
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__193.238.153.14_8443
+- name: vmess__139.180.202.213_42434
   type: vmess
-  server: 193.238.153.14
-  port: 8443
-  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+  server: 139.180.202.213
+  port: 42434
+  uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__8m6y01.abzoones.xyz_36887
+  type: vmess
+  server: 8m6y01.abzoones.xyz
+  port: 36887
+  uuid: 8b0ad4cb-df39-4bdf-b326-6fe70f84f3bd
   network: tcp
   tls: tls
   flow: ''
   host: ''
   path: ''
-- name: vmess__84.32.231.244_3001
+- name: vmess__3d6e04.abzoones.xyz_36841
   type: vmess
-  server: 84.32.231.244
-  port: 3001
-  uuid: 8efe48f5-22e2-4f0c-93da-665a4bc64ab1
+  server: 3d6e04.abzoones.xyz
+  port: 36841
+  uuid: 8b0ad4cb-df39-4bdf-b326-6fe70f84f3bd
   network: tcp
   tls: tls
   flow: ''
   host: ''
   path: ''
-- name: vmess__ca-new01.gujuji.top_8080
+- name: vmess__45.58.153.24_30000
   type: vmess
-  server: ca-new01.gujuji.top
-  port: 8080
-  uuid: ea1a0801-a7b2-4869-adc3-2fc6989aa810
+  server: 45.58.153.24
+  port: 30000
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: ca-new01.gujuji.top
-  path: /
-- name: vmess__64.176.58.15_46154
+  host: www.77935707.xyz
+  path: /path/1702392255355
+- name: vmess__139.162.125.97_49499
   type: vmess
-  server: 64.176.58.15
-  port: 46154
-  uuid: adcbe160-3010-483d-b438-d6057f465b1d
+  server: 139.162.125.97
+  port: 49499
+  uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__nb36.ntbq.dynu.net_4211
+- name: vmess__maxvip.ht4gvpn.com_80
   type: vmess
-  server: nb36.ntbq.dynu.net
-  port: 4211
-  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
+  server: maxvip.ht4gvpn.com
+  port: 80
+  uuid: a0fd6d4e-854f-4e82-a2da-ac0b9a9cb49d
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /ht4gvpn.com
+- name: vmess__142.4.97.65_30000
+  type: vmess
+  server: 142.4.97.65
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /path/1699624723213
+- name: vmess__9a8r04.abzoones.xyz_36861
+  type: vmess
+  server: 9a8r04.abzoones.xyz
+  port: 36861
+  uuid: 8b0ad4cb-df39-4bdf-b326-6fe70f84f3bd
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__168.235.72.221_15551
+  type: vmess
+  server: 168.235.72.221
+  port: 15551
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__64.176.39.31_56262
+- name: vmess__64.176.47.200_29414
   type: vmess
-  server: 64.176.39.31
-  port: 56262
-  uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41
+  server: 64.176.47.200
+  port: 29414
+  uuid: 4d5e8aa2-0641-4323-e92c-2c061cdc8e34
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__us-new03.gujuji.top_8080
+- name: vmess__fast.ht4gvpn.com_80
   type: vmess
-  server: us-new03.gujuji.top
-  port: 8080
-  uuid: ea1a0801-a7b2-4869-adc3-2fc6989aa810
+  server: fast.ht4gvpn.com
+  port: 80
+  uuid: 2b69324d-5fe2-48c2-923f-049c3093cd56
   network: ws
   tls: none
   flow: ''
-  host: us-new03.gujuji.top
-  path: /
-- name: vmess__89.221.224.12_8080
+  host: dl.kgvn.garenanow.com
+  path: /ht4gvpn.com
+- name: vmess__144.202.84.47_57848
   type: vmess
-  server: 89.221.224.12
-  port: 8080
-  uuid: c692f74a-9314-48ea-92e2-c4179e0dacbe
+  server: 144.202.84.47
+  port: 57848
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__gamevip.ht4gvpn.com_80
+  type: vmess
+  server: gamevip.ht4gvpn.com
+  port: 80
+  uuid: 111f6f0c-eea8-4089-bddb-b2eaaae19bfb
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /ht4gvpn.com
+- name: vmess__103.82.134.110_80
+  type: vmess
+  server: 103.82.134.110
+  port: 80
+  uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41
   network: ws
   tls: none
   flow: ''
   host: ''
+  path: /ongtrumdata.com
+- name: vmess__es1-vmess.sshmax.xyz_80
+  type: vmess
+  server: es1-vmess.sshmax.xyz
+  port: 80
+  uuid: 4c4eb1a2-4352-4b02-8d31-68fff24537a3
+  network: ws
+  tls: none
+  flow: ''
+  host: es1-vmess.sshmax.xyz
   path: /vmess
-- name: vmess__jp.takeshi.wiki_80
-  type: vmess
-  server: jp.takeshi.wiki
-  port: 80
-  uuid: a19f357b-c836-4cf6-9e43-72390e6a00df
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /takeshi.wiki
-- name: vmess__68.183.159.199_2092
-  type: vmess
-  server: 68.183.159.199
-  port: 2092
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /telegram:@hkaa0
-- name: vmess__58.187.206.121_80
-  type: vmess
-  server: 58.187.206.121
-  port: 80
-  uuid: a2893b4e-e6f8-40cb-bae5-8b3cb8937dae
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -652,7 +682,7 @@ proxy-groups:
   - vmess_NL_46.182.107.15_30000
   - vmess__cf-lt.sharecentre.online_80
   - vmess_JP_45.77.176.217_16142
-  - vmess_JP_167.179.111.237_14935
+  - vmess__167.179.111.237_14935
   - vmess__bolder-metal-comma.glitch.me_443
   - vmess__cu.awslcn.info_25281
   - vmess__47.245.2.84_80
@@ -666,21 +696,24 @@ proxy-groups:
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__172.67.229.13_80
   - vmess__vn6.5gsieutocdo.com_80
-  - vmess__dnspsdhaitun.ncsuwei.top_12002
-  - vmess__vn2.network.io.vn_80
-  - vmess__kkyx.yydsii.com_80
-  - vmess__45.121.48.172_10001
-  - vmess__193.238.153.14_8443
-  - vmess__84.32.231.244_3001
-  - vmess__ca-new01.gujuji.top_8080
-  - vmess__64.176.58.15_46154
-  - vmess__nb36.ntbq.dynu.net_4211
-  - vmess__64.176.39.31_56262
-  - vmess__us-new03.gujuji.top_8080
-  - vmess__89.221.224.12_8080
-  - vmess__jp.takeshi.wiki_80
-  - vmess__68.183.159.199_2092
-  - vmess__58.187.206.121_80
+  - vmess__188.114.96.2_443
+  - vmess__sbl2.shabijichang.com_80
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__139.180.202.213_42434
+  - vmess__8m6y01.abzoones.xyz_36887
+  - vmess__3d6e04.abzoones.xyz_36841
+  - vmess__45.58.153.24_30000
+  - vmess__139.162.125.97_49499
+  - vmess__maxvip.ht4gvpn.com_80
+  - vmess__142.4.97.65_30000
+  - vmess__9a8r04.abzoones.xyz_36861
+  - vmess__168.235.72.221_15551
+  - vmess__64.176.47.200_29414
+  - vmess__fast.ht4gvpn.com_80
+  - vmess__144.202.84.47_57848
+  - vmess__gamevip.ht4gvpn.com_80
+  - vmess__103.82.134.110_80
+  - vmess__es1-vmess.sshmax.xyz_80
 - name: 手动选择
   type: select
   proxies:
@@ -709,7 +742,7 @@ proxy-groups:
   - vmess_NL_46.182.107.15_30000
   - vmess__cf-lt.sharecentre.online_80
   - vmess_JP_45.77.176.217_16142
-  - vmess_JP_167.179.111.237_14935
+  - vmess__167.179.111.237_14935
   - vmess__bolder-metal-comma.glitch.me_443
   - vmess__cu.awslcn.info_25281
   - vmess__47.245.2.84_80
@@ -723,21 +756,24 @@ proxy-groups:
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__172.67.229.13_80
   - vmess__vn6.5gsieutocdo.com_80
-  - vmess__dnspsdhaitun.ncsuwei.top_12002
-  - vmess__vn2.network.io.vn_80
-  - vmess__kkyx.yydsii.com_80
-  - vmess__45.121.48.172_10001
-  - vmess__193.238.153.14_8443
-  - vmess__84.32.231.244_3001
-  - vmess__ca-new01.gujuji.top_8080
-  - vmess__64.176.58.15_46154
-  - vmess__nb36.ntbq.dynu.net_4211
-  - vmess__64.176.39.31_56262
-  - vmess__us-new03.gujuji.top_8080
-  - vmess__89.221.224.12_8080
-  - vmess__jp.takeshi.wiki_80
-  - vmess__68.183.159.199_2092
-  - vmess__58.187.206.121_80
+  - vmess__188.114.96.2_443
+  - vmess__sbl2.shabijichang.com_80
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__139.180.202.213_42434
+  - vmess__8m6y01.abzoones.xyz_36887
+  - vmess__3d6e04.abzoones.xyz_36841
+  - vmess__45.58.153.24_30000
+  - vmess__139.162.125.97_49499
+  - vmess__maxvip.ht4gvpn.com_80
+  - vmess__142.4.97.65_30000
+  - vmess__9a8r04.abzoones.xyz_36861
+  - vmess__168.235.72.221_15551
+  - vmess__64.176.47.200_29414
+  - vmess__fast.ht4gvpn.com_80
+  - vmess__144.202.84.47_57848
+  - vmess__gamevip.ht4gvpn.com_80
+  - vmess__103.82.134.110_80
+  - vmess__es1-vmess.sshmax.xyz_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -766,7 +802,7 @@ proxy-groups:
   - vmess_NL_46.182.107.15_30000
   - vmess__cf-lt.sharecentre.online_80
   - vmess_JP_45.77.176.217_16142
-  - vmess_JP_167.179.111.237_14935
+  - vmess__167.179.111.237_14935
   - vmess__bolder-metal-comma.glitch.me_443
   - vmess__cu.awslcn.info_25281
   - vmess__47.245.2.84_80
@@ -780,21 +816,24 @@ proxy-groups:
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__172.67.229.13_80
   - vmess__vn6.5gsieutocdo.com_80
-  - vmess__dnspsdhaitun.ncsuwei.top_12002
-  - vmess__vn2.network.io.vn_80
-  - vmess__kkyx.yydsii.com_80
-  - vmess__45.121.48.172_10001
-  - vmess__193.238.153.14_8443
-  - vmess__84.32.231.244_3001
-  - vmess__ca-new01.gujuji.top_8080
-  - vmess__64.176.58.15_46154
-  - vmess__nb36.ntbq.dynu.net_4211
-  - vmess__64.176.39.31_56262
-  - vmess__us-new03.gujuji.top_8080
-  - vmess__89.221.224.12_8080
-  - vmess__jp.takeshi.wiki_80
-  - vmess__68.183.159.199_2092
-  - vmess__58.187.206.121_80
+  - vmess__188.114.96.2_443
+  - vmess__sbl2.shabijichang.com_80
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__139.180.202.213_42434
+  - vmess__8m6y01.abzoones.xyz_36887
+  - vmess__3d6e04.abzoones.xyz_36841
+  - vmess__45.58.153.24_30000
+  - vmess__139.162.125.97_49499
+  - vmess__maxvip.ht4gvpn.com_80
+  - vmess__142.4.97.65_30000
+  - vmess__9a8r04.abzoones.xyz_36861
+  - vmess__168.235.72.221_15551
+  - vmess__64.176.47.200_29414
+  - vmess__fast.ht4gvpn.com_80
+  - vmess__144.202.84.47_57848
+  - vmess__gamevip.ht4gvpn.com_80
+  - vmess__103.82.134.110_80
+  - vmess__es1-vmess.sshmax.xyz_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
