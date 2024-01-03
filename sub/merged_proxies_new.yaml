@@ -448,6 +448,76 @@ proxies:
   flow: ''
   host: thesis-grande-residence-landscapes.trycloudflare.com
   path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
+- name: vmess__free.qdns.live_80
+  type: vmess
+  server: free.qdns.live
+  port: 80
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
+  network: ws
+  tls: none
+  flow: ''
+  host: free-us.qdns.live
+  path: /
+- name: vmess__ru-v2ray.ipracevpn.com_8443
+  type: vmess
+  server: ru-v2ray.ipracevpn.com
+  port: 8443
+  uuid: 6b65926e-110d-4728-a807-5670d8829e09
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__193.238.153.14_8443
+  type: vmess
+  server: 193.238.153.14
+  port: 8443
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__217.160.45.31_8880
+  type: vmess
+  server: 217.160.45.31
+  port: 8880
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__38.54.82.54_41604
+  type: vmess
+  server: 38.54.82.54
+  port: 41604
+  uuid: 54de50e5-5e4b-443f-d9b8-9e9e0eee865c
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__46.29.166.237_47555
+  type: vmess
+  server: 46.29.166.237
+  port: 47555
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__jp-v2ray.ipracevpn.com_8443
+  type: vmess
+  server: jp-v2ray.ipracevpn.com
+  port: 8443
+  uuid: 48a70784-86ca-4639-97b5-0fdc82026877
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__109.123.230.157_80
   type: vmess
   server: 109.123.230.157
@@ -458,101 +528,11 @@ proxies:
   flow: ''
   host: internet.life.com.by
   path: /takeshi.wiki
-- name: vmess__cold-dawn-9246.fly.dev_443
+- name: vmess__144.202.84.47_57848
   type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__yes.cnmjcn.net_16626
-  type: vmess
-  server: yes.cnmjcn.net
-  port: 16626
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  network: ws
-  tls: none
-  flow: ''
-  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-  path: /
-- name: vmess__95.179.128.114_80
-  type: vmess
-  server: 95.179.128.114
-  port: 80
-  uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /Av8czorIlYicU6D349brWUw6a
-- name: vmess__38.180.33.136_50104
-  type: vmess
-  server: 38.180.33.136
-  port: 50104
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__103.82.27.129_80
-  type: vmess
-  server: 103.82.27.129
-  port: 80
-  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /5gsieutocdo.com
-- name: vmess__64.176.37.216_45930
-  type: vmess
-  server: 64.176.37.216
-  port: 45930
-  uuid: b2930b0d-02b4-45dc-8025-a3c19879d4ab
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cf.fovi.tk_443
-  type: vmess
-  server: cf.fovi.tk
-  port: 443
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  network: ws
-  tls: tls
-  flow: ''
-  host: foxlux.fovi.tk
-  path: /eisasqa
-- name: vmess__162.159.142.204_80
-  type: vmess
-  server: 162.159.142.204
-  port: 80
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess__123.58.197.70_443
-  type: vmess
-  server: 123.58.197.70
-  port: 443
-  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__112.28.208.10_46602
-  type: vmess
-  server: 112.28.208.10
-  port: 46602
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 144.202.84.47
+  port: 57848
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
   network: tcp
   tls: none
   flow: ''
@@ -567,36 +547,6 @@ proxies:
   tls: none
   flow: ''
   host: ''
-  path: /
-- name: vmess__bs2.loadingip.com_80
-  type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess__162.159.142.202_80
-  type: vmess
-  server: 162.159.142.202
-  port: 80
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  network: ws
-  tls: none
-  flow: ''
-  host: tr3.889611.com
-  path: /
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
   path: /
 proxy-groups:
 - name: 节点选择
@@ -644,21 +594,16 @@ proxy-groups:
   - vmess__45.58.153.25_30000
   - vmess__103.82.21.6_80
   - vmess__cdn.yifenjichang.top_2086
+  - vmess__free.qdns.live_80
+  - vmess__ru-v2ray.ipracevpn.com_8443
+  - vmess__193.238.153.14_8443
+  - vmess__217.160.45.31_8880
+  - vmess__38.54.82.54_41604
+  - vmess__46.29.166.237_47555
+  - vmess__jp-v2ray.ipracevpn.com_8443
   - vmess__109.123.230.157_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__95.179.128.114_80
-  - vmess__38.180.33.136_50104
-  - vmess__103.82.27.129_80
-  - vmess__64.176.37.216_45930
-  - vmess__cf.fovi.tk_443
-  - vmess__162.159.142.204_80
-  - vmess__123.58.197.70_443
-  - vmess__112.28.208.10_46602
+  - vmess__144.202.84.47_57848
   - vmess__108.165.113.99_443
-  - vmess__bs2.loadingip.com_80
-  - vmess__162.159.142.202_80
-  - vmess__hytron.io_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -705,21 +650,16 @@ proxy-groups:
   - vmess__45.58.153.25_30000
   - vmess__103.82.21.6_80
   - vmess__cdn.yifenjichang.top_2086
+  - vmess__free.qdns.live_80
+  - vmess__ru-v2ray.ipracevpn.com_8443
+  - vmess__193.238.153.14_8443
+  - vmess__217.160.45.31_8880
+  - vmess__38.54.82.54_41604
+  - vmess__46.29.166.237_47555
+  - vmess__jp-v2ray.ipracevpn.com_8443
   - vmess__109.123.230.157_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__95.179.128.114_80
-  - vmess__38.180.33.136_50104
-  - vmess__103.82.27.129_80
-  - vmess__64.176.37.216_45930
-  - vmess__cf.fovi.tk_443
-  - vmess__162.159.142.204_80
-  - vmess__123.58.197.70_443
-  - vmess__112.28.208.10_46602
+  - vmess__144.202.84.47_57848
   - vmess__108.165.113.99_443
-  - vmess__bs2.loadingip.com_80
-  - vmess__162.159.142.202_80
-  - vmess__hytron.io_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
