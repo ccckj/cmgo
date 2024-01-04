@@ -238,6 +238,16 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
+- name: vmess__dongtaiwang2.com_443
+  type: vmess
+  server: dongtaiwang2.com
+  port: 443
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  network: ws
+  tls: tls
+  flow: ''
+  host: xray1.freeh1.xyz
+  path: /gzogws
 - name: vmess_NL_45.58.153.24_30000
   type: vmess
   server: 45.58.153.24
@@ -288,7 +298,7 @@ proxies:
   flow: ''
   host: sk1-vmess.sshmax.xyz
   path: /vmess
-- name: vmess__198.2.200.37_30000
+- name: vmess_US_198.2.200.37_30000
   type: vmess
   server: 198.2.200.37
   port: 30000
@@ -348,86 +358,76 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__45.58.153.25_30000
+- name: vmess__144.202.84.47_57848
   type: vmess
-  server: 45.58.153.25
-  port: 30000
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/1702961716738
-- name: vmess__yes.cnmjcn.net_16626
-  type: vmess
-  server: yes.cnmjcn.net
-  port: 16626
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  network: ws
-  tls: none
-  flow: ''
-  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-  path: /
-- name: vmess__64.176.58.15_46154
-  type: vmess
-  server: 64.176.58.15
-  port: 46154
-  uuid: adcbe160-3010-483d-b438-d6057f465b1d
+  server: 144.202.84.47
+  port: 57848
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__38.180.98.215_8080
+- name: vmess__81.12.27.4_20554
   type: vmess
-  server: 38.180.98.215
-  port: 8080
-  uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a
-  network: ws
+  server: 81.12.27.4
+  port: 20554
+  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
+  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: /
-- name: vmess__95.164.44.203_80
+  path: ''
+- name: vmess__139.162.125.97_49499
   type: vmess
-  server: 95.164.44.203
+  server: 139.162.125.97
+  port: 49499
+  uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__109.123.230.157_80
+  type: vmess
+  server: 109.123.230.157
   port: 80
-  uuid: 6f0cca5e-cf21-4279-871e-ca26d9c955a0
+  uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de
   network: ws
   tls: none
   flow: ''
-  host: 95.164.44.203
-  path: /vmess
-- name: vmess__154.26.157.244_80
-  type: vmess
-  server: 154.26.157.244
-  port: 80
-  uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546
-  network: ws
-  tls: none
-  flow: ''
-  host: internet.life.com.by
+  host: dl.kgvn.garenanow.com
   path: /takeshi.wiki
-- name: vmess__103.113.68.57_8443
+- name: vmess__168.235.72.221_15551
   type: vmess
-  server: 103.113.68.57
-  port: 8443
-  uuid: 6b65926e-110d-4728-a807-5670d8829e09
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__112.28.208.10_45055
-  type: vmess
-  server: 112.28.208.10
-  port: 45055
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 168.235.72.221
+  port: 15551
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__217.160.45.31_8880
+  type: vmess
+  server: 217.160.45.31
+  port: 8880
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__123.58.197.70_443
+  type: vmess
+  server: 123.58.197.70
+  port: 443
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
 - name: vmess__45.121.48.196_10001
   type: vmess
   server: 45.121.48.196
@@ -438,36 +438,106 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__lt2-vmess.sshmax.xyz_80
+- name: vmess__linde06.indiavideo.sbs_443
   type: vmess
-  server: lt2-vmess.sshmax.xyz
-  port: 80
-  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  server: linde06.indiavideo.sbs
+  port: 443
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: lt2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__hanoi4.5gsieutocdo.com_80
+  host: linde06.indiavideo.sbs
+  path: /linkws
+- name: vmess__au.takeshi.wiki_80
   type: vmess
-  server: hanoi4.5gsieutocdo.com
+  server: au.takeshi.wiki
   port: 80
-  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+  uuid: a19f357b-c836-4cf6-9e43-72390e6a00df
   network: ws
   tls: none
   flow: ''
   host: dl.kgvn.garenanow.com
-  path: /5gsieutocdo.club
-- name: vmess__vn6.5gsieutocdo.com_80
+  path: /takeshi.wiki
+- name: vmess__95.164.44.203_80
   type: vmess
-  server: vn6.5gsieutocdo.com
+  server: 95.164.44.203
   port: 80
-  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+  uuid: 6f0cca5e-cf21-4279-871e-ca26d9c955a0
   network: ws
   tls: none
   flow: ''
-  host: vn6.5gsieutocdo.com
-  path: /5gsieutocdo.club
+  host: 95.164.44.203
+  path: /vmess
+- name: vmess__183.237.20.148_52707
+  type: vmess
+  server: 183.237.20.148
+  port: 52707
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.26.15.229_8080
+  type: vmess
+  server: 104.26.15.229
+  port: 8080
+  uuid: 4d4dadbf-ed22-405b-822d-e7225094200a
+  network: ws
+  tls: none
+  flow: ''
+  host: uk-new01.gujuji.top
+  path: /
+- name: vmess__46.182.107.15_30000
+  type: vmess
+  server: 46.182.107.15
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.42077230.xyz
+  path: /path/1702215223320
+- name: vmess__103.113.68.57_8443
+  type: vmess
+  server: 103.113.68.57
+  port: 8443
+  uuid: 6b65926e-110d-4728-a807-5670d8829e09
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__whatismyipaddress.com_2052
+  type: vmess
+  server: whatismyipaddress.com
+  port: 2052
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  network: ws
+  tls: none
+  flow: ''
+  host: mgtow_cdn.yunjisuan.cf
+  path: /
+- name: vmess__47.91.28.15_80
+  type: vmess
+  server: 47.91.28.15
+  port: 80
+  uuid: 5f1363f8-eaee-42c5-9b77-7fd08350a529
+  network: ws
+  tls: none
+  flow: ''
+  host: elcjp01.tgyujcchannel.site
+  path: /?ed=2048
+- name: vmess__38.180.98.215_8080
+  type: vmess
+  server: 38.180.98.215
+  port: 8080
+  uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -493,29 +563,36 @@ proxy-groups:
   - hy2_US_108.181.22.155:27710
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
+  - vmess__dongtaiwang2.com_443
   - vmess_NL_45.58.153.24_30000
   - vmess_PH_38.54.86.217_56502
   - vmess__ee1-vmess.sshmax.xyz_80
   - vmess__cf-lt.sharecentre.online_80
   - vmess__sk1-vmess.sshmax.xyz_80
-  - vmess__198.2.200.37_30000
+  - vmess_US_198.2.200.37_30000
   - vmess__38.54.185.112_30000
   - vmess__cm1.awslcn.info_25233
   - vmess__ru-v2ray.ipracevpn.com_8443
   - vmess__sg1.awslcn.info_25245
   - vmess__38.54.82.54_41604
-  - vmess__45.58.153.25_30000
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__64.176.58.15_46154
-  - vmess__38.180.98.215_8080
-  - vmess__95.164.44.203_80
-  - vmess__154.26.157.244_80
-  - vmess__103.113.68.57_8443
-  - vmess__112.28.208.10_45055
+  - vmess__144.202.84.47_57848
+  - vmess__81.12.27.4_20554
+  - vmess__139.162.125.97_49499
+  - vmess__109.123.230.157_80
+  - vmess__168.235.72.221_15551
+  - vmess__217.160.45.31_8880
+  - vmess__123.58.197.70_443
   - vmess__45.121.48.196_10001
-  - vmess__lt2-vmess.sshmax.xyz_80
-  - vmess__hanoi4.5gsieutocdo.com_80
-  - vmess__vn6.5gsieutocdo.com_80
+  - vmess__linde06.indiavideo.sbs_443
+  - vmess__au.takeshi.wiki_80
+  - vmess__95.164.44.203_80
+  - vmess__183.237.20.148_52707
+  - vmess__104.26.15.229_8080
+  - vmess__46.182.107.15_30000
+  - vmess__103.113.68.57_8443
+  - vmess__whatismyipaddress.com_2052
+  - vmess__47.91.28.15_80
+  - vmess__38.180.98.215_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -541,29 +618,36 @@ proxy-groups:
   - hy2_US_108.181.22.155:27710
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
+  - vmess__dongtaiwang2.com_443
   - vmess_NL_45.58.153.24_30000
   - vmess_PH_38.54.86.217_56502
   - vmess__ee1-vmess.sshmax.xyz_80
   - vmess__cf-lt.sharecentre.online_80
   - vmess__sk1-vmess.sshmax.xyz_80
-  - vmess__198.2.200.37_30000
+  - vmess_US_198.2.200.37_30000
   - vmess__38.54.185.112_30000
   - vmess__cm1.awslcn.info_25233
   - vmess__ru-v2ray.ipracevpn.com_8443
   - vmess__sg1.awslcn.info_25245
   - vmess__38.54.82.54_41604
-  - vmess__45.58.153.25_30000
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__64.176.58.15_46154
-  - vmess__38.180.98.215_8080
-  - vmess__95.164.44.203_80
-  - vmess__154.26.157.244_80
-  - vmess__103.113.68.57_8443
-  - vmess__112.28.208.10_45055
+  - vmess__144.202.84.47_57848
+  - vmess__81.12.27.4_20554
+  - vmess__139.162.125.97_49499
+  - vmess__109.123.230.157_80
+  - vmess__168.235.72.221_15551
+  - vmess__217.160.45.31_8880
+  - vmess__123.58.197.70_443
   - vmess__45.121.48.196_10001
-  - vmess__lt2-vmess.sshmax.xyz_80
-  - vmess__hanoi4.5gsieutocdo.com_80
-  - vmess__vn6.5gsieutocdo.com_80
+  - vmess__linde06.indiavideo.sbs_443
+  - vmess__au.takeshi.wiki_80
+  - vmess__95.164.44.203_80
+  - vmess__183.237.20.148_52707
+  - vmess__104.26.15.229_8080
+  - vmess__46.182.107.15_30000
+  - vmess__103.113.68.57_8443
+  - vmess__whatismyipaddress.com_2052
+  - vmess__47.91.28.15_80
+  - vmess__38.180.98.215_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
