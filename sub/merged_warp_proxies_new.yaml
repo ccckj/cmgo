@@ -266,116 +266,96 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_DE_217.160.45.31_8880
+- name: vmess__whatismyipaddress.com_2052
   type: vmess
-  server: 217.160.45.31
-  port: 8880
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  server: whatismyipaddress.com
+  port: 2052
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
   network: ws
   tls: none
   flow: ''
-  host: ''
+  host: mgtow_cdn.yunjisuan.cf
   path: /
-- name: vmess_VN_103.74.107.237_80
+- name: vmess__www.visa.com.sg_8080
   type: vmess
-  server: 103.74.107.237
-  port: 80
-  uuid: 7a2c5296-683d-48db-9856-373cafac48b5
-  network: ws
-  tls: none
-  flow: ''
-  host: 103.74.107.237
-  path: /5gtocdocao.com
-- name: vmess__channel.hopev2ray.link_80
-  type: vmess
-  server: channel.hopev2ray.link
-  port: 80
-  uuid: e8f5f189-97c7-4845-8cfa-08bf9836c1ce
-  network: ws
-  tls: none
-  flow: ''
-  host: fr2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__v4.cfnode.eu.org_8080
-  type: vmess
-  server: v4.cfnode.eu.org
+  server: www.visa.com.sg
   port: 8080
-  uuid: 2dbeeb76-a71f-493f-bd92-33f0193291c5
+  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
   network: ws
   tls: none
   flow: ''
-  host: kryx.651568.xyz
+  host: icu4.mac2win.top
   path: /
-- name: vmess_VN_103.166.185.120_80
+- name: vmess_PH_38.54.86.217_56502
   type: vmess
-  server: 103.166.185.120
-  port: 80
-  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /5gsieutocdo.club
-- name: vmess_US_144.202.84.47_57848
-  type: vmess
-  server: 144.202.84.47
-  port: 57848
-  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+  server: 38.54.86.217
+  port: 56502
+  uuid: d20747ad-e689-4111-a46e-d5cf21ff4827
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__us2.awslcn.info_25257
+- name: vmess_EE_5.181.23.67_80
   type: vmess
-  server: us2.awslcn.info
-  port: 25257
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: us2.awslcn.info
-  path: /
-- name: vmess__47.245.52.165_80
-  type: vmess
-  server: 47.245.52.165
+  server: 5.181.23.67
   port: 80
-  uuid: 5f1363f8-eaee-42c5-9b77-7fd08350a529
+  uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18
   network: ws
   tls: none
   flow: ''
-  host: elcjp01.tgyujcchannel.site
-  path: /?ed=2048
-- name: vmess__cm1.awslcn.info_25233
+  host: ee1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess__cf-lt.sharecentre.online_80
   type: vmess
-  server: cm1.awslcn.info
-  port: 25233
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: cf-lt.sharecentre.online
+  port: 80
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
   network: ws
   tls: none
   flow: ''
-  host: cm1.awslcn.info
-  path: /
-- name: vmess__hk1.awslcn.info_25248
+  host: ssrsub.v03.ssrsub.com
+  path: /api/v3/download.getFile
+- name: vmess__free.qdns.live_80
   type: vmess
-  server: hk1.awslcn.info
-  port: 25248
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: free.qdns.live
+  port: 80
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
   network: ws
   tls: none
   flow: ''
-  host: hk1.awslcn.info
+  host: free-us.qdns.live
   path: /
-- name: vmess__sg1.awslcn.info_25221
+- name: vmess__9s5g04.abzoones.xyz_36201
   type: vmess
-  server: sg1.awslcn.info
-  port: 25221
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  server: 9s5g04.abzoones.xyz
+  port: 36201
+  uuid: dfbf7513-f077-4c94-9dbd-fdc8fce0620f
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__scadn.yydsii.com_2052
+  type: vmess
+  server: scadn.yydsii.com
+  port: 2052
+  uuid: 2dbeeb76-a71f-493f-bd92-33f0193291c5
   network: ws
   tls: none
   flow: ''
-  host: sg1.awslcn.info
+  host: hkyx.651568.xyz
   path: /
+- name: vmess__185.22.154.12_29715
+  type: vmess
+  server: 185.22.154.12
+  port: 29715
+  uuid: 8c6de0b1-7c20-45b2-e363-c55306db5022
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__46.182.107.15_30000
   type: vmess
   server: 46.182.107.15
@@ -386,86 +366,116 @@ proxies:
   flow: ''
   host: ''
   path: /path/1702215223320
-- name: vmess__162.159.136.232_8080
+- name: vmess__112.28.208.10_46602
   type: vmess
-  server: 162.159.136.232
-  port: 8080
-  uuid: 0bff280d-14fb-4078-b53c-77f19eb50fab
-  network: ws
-  tls: none
-  flow: ''
-  host: yyjc-uk-20240101.shaniugpt.top
-  path: /20240101
-- name: vmess__cu.awslcn.info_25277
-  type: vmess
-  server: cu.awslcn.info
-  port: 25277
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: cu.awslcn.info
-  path: /
-- name: vmess__www.speedtest.net_8080
-  type: vmess
-  server: www.speedtest.net
-  port: 8080
-  uuid: 963533bb-a363-48f9-8f35-fdf8aaaa5acd
-  network: ws
-  tls: none
-  flow: ''
-  host: yyjc-uk-20240101.shaniugpt.top
-  path: /20240101
-- name: vmess__us1.awslcn.info_25239
-  type: vmess
-  server: us1.awslcn.info
-  port: 25239
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  network: ws
-  tls: none
-  flow: ''
-  host: us1.awslcn.info
-  path: /
-- name: vmess__38.54.82.54_41604
-  type: vmess
-  server: 38.54.82.54
-  port: 41604
-  uuid: 54de50e5-5e4b-443f-d9b8-9e9e0eee865c
+  server: 112.28.208.10
+  port: 46602
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__96.30.197.59_56272
+- name: vmess__193.57.139.23_80
   type: vmess
-  server: 96.30.197.59
-  port: 56272
-  uuid: 8e8d5a10-7fd0-4818-8265-a4dc4a569d31
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cc3.shabijichang.com_80
-  type: vmess
-  server: cc3.shabijichang.com
+  server: 193.57.139.23
   port: 80
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  uuid: 507a7dd4-32e8-4071-a699-ace6a6f96487
   network: ws
   tls: none
   flow: ''
-  host: cc3.shabijichang.com
-  path: /
-- name: vmess__132.145.132.227_37121
+  host: internet.life.com.by
+  path: /vmess
+- name: vmess__ru1-vmess.sshmax.xyz_80
   type: vmess
-  server: 132.145.132.227
-  port: 37121
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  server: ru1-vmess.sshmax.xyz
+  port: 80
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  network: ws
+  tls: none
+  flow: ''
+  host: ru1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess__104.21.75.246_80
+  type: vmess
+  server: 104.21.75.246
+  port: 80
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  network: ws
+  tls: none
+  flow: ''
+  host: sbl2.shabijichang.com
+  path: /
+- name: vmess__154.26.157.244_80
+  type: vmess
+  server: 154.26.157.244
+  port: 80
+  uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /takeshi.wiki
+- name: vmess__7p3h04.abzoones.xyz_36801
+  type: vmess
+  server: 7p3h04.abzoones.xyz
+  port: 36801
+  uuid: dfbf7513-f077-4c94-9dbd-fdc8fce0620f
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__1j8p06.abzoones.xyz_36111
+  type: vmess
+  server: 1j8p06.abzoones.xyz
+  port: 36111
+  uuid: dfbf7513-f077-4c94-9dbd-fdc8fce0620f
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__sk1-vmess.sshmax.xyz_80
+  type: vmess
+  server: sk1-vmess.sshmax.xyz
+  port: 80
+  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
   network: ws
   tls: none
   flow: ''
   host: ''
-  path: /
+  path: /vmess
+- name: vmess__lt2-vmess.sshmax.xyz_80
+  type: vmess
+  server: lt2-vmess.sshmax.xyz
+  port: 80
+  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__103.232.54.160_80
+  type: vmess
+  server: 103.232.54.160
+  port: 80
+  uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /zenpn.com
+- name: vmess__3v4n04.abzoones.xyz_36874
+  type: vmess
+  server: 3v4n04.abzoones.xyz
+  port: 36874
+  uuid: dfbf7513-f077-4c94-9dbd-fdc8fce0620f
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -507,26 +517,27 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
   - vmess__dongtaiwang2.com_443
-  - vmess_DE_217.160.45.31_8880
-  - vmess_VN_103.74.107.237_80
-  - vmess__channel.hopev2ray.link_80
-  - vmess__v4.cfnode.eu.org_8080
-  - vmess_VN_103.166.185.120_80
-  - vmess_US_144.202.84.47_57848
-  - vmess__us2.awslcn.info_25257
-  - vmess__47.245.52.165_80
-  - vmess__cm1.awslcn.info_25233
-  - vmess__hk1.awslcn.info_25248
-  - vmess__sg1.awslcn.info_25221
+  - vmess__whatismyipaddress.com_2052
+  - vmess__www.visa.com.sg_8080
+  - vmess_PH_38.54.86.217_56502
+  - vmess_EE_5.181.23.67_80
+  - vmess__cf-lt.sharecentre.online_80
+  - vmess__free.qdns.live_80
+  - vmess__9s5g04.abzoones.xyz_36201
+  - vmess__scadn.yydsii.com_2052
+  - vmess__185.22.154.12_29715
   - vmess__46.182.107.15_30000
-  - vmess__162.159.136.232_8080
-  - vmess__cu.awslcn.info_25277
-  - vmess__www.speedtest.net_8080
-  - vmess__us1.awslcn.info_25239
-  - vmess__38.54.82.54_41604
-  - vmess__96.30.197.59_56272
-  - vmess__cc3.shabijichang.com_80
-  - vmess__132.145.132.227_37121
+  - vmess__112.28.208.10_46602
+  - vmess__193.57.139.23_80
+  - vmess__ru1-vmess.sshmax.xyz_80
+  - vmess__104.21.75.246_80
+  - vmess__154.26.157.244_80
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__1j8p06.abzoones.xyz_36111
+  - vmess__sk1-vmess.sshmax.xyz_80
+  - vmess__lt2-vmess.sshmax.xyz_80
+  - vmess__103.232.54.160_80
+  - vmess__3v4n04.abzoones.xyz_36874
 - name: 手动选择
   type: select
   proxies:
@@ -550,26 +561,27 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
   - vmess__dongtaiwang2.com_443
-  - vmess_DE_217.160.45.31_8880
-  - vmess_VN_103.74.107.237_80
-  - vmess__channel.hopev2ray.link_80
-  - vmess__v4.cfnode.eu.org_8080
-  - vmess_VN_103.166.185.120_80
-  - vmess_US_144.202.84.47_57848
-  - vmess__us2.awslcn.info_25257
-  - vmess__47.245.52.165_80
-  - vmess__cm1.awslcn.info_25233
-  - vmess__hk1.awslcn.info_25248
-  - vmess__sg1.awslcn.info_25221
+  - vmess__whatismyipaddress.com_2052
+  - vmess__www.visa.com.sg_8080
+  - vmess_PH_38.54.86.217_56502
+  - vmess_EE_5.181.23.67_80
+  - vmess__cf-lt.sharecentre.online_80
+  - vmess__free.qdns.live_80
+  - vmess__9s5g04.abzoones.xyz_36201
+  - vmess__scadn.yydsii.com_2052
+  - vmess__185.22.154.12_29715
   - vmess__46.182.107.15_30000
-  - vmess__162.159.136.232_8080
-  - vmess__cu.awslcn.info_25277
-  - vmess__www.speedtest.net_8080
-  - vmess__us1.awslcn.info_25239
-  - vmess__38.54.82.54_41604
-  - vmess__96.30.197.59_56272
-  - vmess__cc3.shabijichang.com_80
-  - vmess__132.145.132.227_37121
+  - vmess__112.28.208.10_46602
+  - vmess__193.57.139.23_80
+  - vmess__ru1-vmess.sshmax.xyz_80
+  - vmess__104.21.75.246_80
+  - vmess__154.26.157.244_80
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__1j8p06.abzoones.xyz_36111
+  - vmess__sk1-vmess.sshmax.xyz_80
+  - vmess__lt2-vmess.sshmax.xyz_80
+  - vmess__103.232.54.160_80
+  - vmess__3v4n04.abzoones.xyz_36874
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -593,26 +605,27 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:27710
   - vmess__dongtaiwang2.com_443
-  - vmess_DE_217.160.45.31_8880
-  - vmess_VN_103.74.107.237_80
-  - vmess__channel.hopev2ray.link_80
-  - vmess__v4.cfnode.eu.org_8080
-  - vmess_VN_103.166.185.120_80
-  - vmess_US_144.202.84.47_57848
-  - vmess__us2.awslcn.info_25257
-  - vmess__47.245.52.165_80
-  - vmess__cm1.awslcn.info_25233
-  - vmess__hk1.awslcn.info_25248
-  - vmess__sg1.awslcn.info_25221
+  - vmess__whatismyipaddress.com_2052
+  - vmess__www.visa.com.sg_8080
+  - vmess_PH_38.54.86.217_56502
+  - vmess_EE_5.181.23.67_80
+  - vmess__cf-lt.sharecentre.online_80
+  - vmess__free.qdns.live_80
+  - vmess__9s5g04.abzoones.xyz_36201
+  - vmess__scadn.yydsii.com_2052
+  - vmess__185.22.154.12_29715
   - vmess__46.182.107.15_30000
-  - vmess__162.159.136.232_8080
-  - vmess__cu.awslcn.info_25277
-  - vmess__www.speedtest.net_8080
-  - vmess__us1.awslcn.info_25239
-  - vmess__38.54.82.54_41604
-  - vmess__96.30.197.59_56272
-  - vmess__cc3.shabijichang.com_80
-  - vmess__132.145.132.227_37121
+  - vmess__112.28.208.10_46602
+  - vmess__193.57.139.23_80
+  - vmess__ru1-vmess.sshmax.xyz_80
+  - vmess__104.21.75.246_80
+  - vmess__154.26.157.244_80
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__1j8p06.abzoones.xyz_36111
+  - vmess__sk1-vmess.sshmax.xyz_80
+  - vmess__lt2-vmess.sshmax.xyz_80
+  - vmess__103.232.54.160_80
+  - vmess__3v4n04.abzoones.xyz_36874
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
