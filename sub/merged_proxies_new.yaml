@@ -458,126 +458,16 @@ proxies:
   flow: ''
   host: ''
   path: /catnet
-- name: vmess__104.18.154.42_80
+- name: vmess__hexsen.com_443
   type: vmess
-  server: 104.18.154.42
-  port: 80
-  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
-  network: ws
-  tls: none
-  flow: ''
-  host: Quran14.eSmAIlkORea.sHop
-  path: /
-- name: vmess__www.visa.com.sg_8080
-  type: vmess
-  server: www.visa.com.sg
-  port: 8080
-  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
-  network: ws
-  tls: none
-  flow: ''
-  host: icu4.mac2win.top
-  path: /
-- name: vmess__yes.cnmjcn.net_16626
-  type: vmess
-  server: yes.cnmjcn.net
-  port: 16626
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  network: ws
-  tls: none
-  flow: ''
-  host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-  path: /
-- name: vmess__104.17.171.34_80
-  type: vmess
-  server: 104.17.171.34
-  port: 80
-  uuid: 60be5ddb-c9f1-48ec-b0ee-f6bd4364b3ce
-  network: ws
-  tls: none
-  flow: ''
-  host: ccs.hostmjj.com
-  path: /
-- name: vmess__ser52.gsmxssh.com_20554
-  type: vmess
-  server: ser52.gsmxssh.com
-  port: 20554
-  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__38.54.185.111_30000
-  type: vmess
-  server: 38.54.185.111
-  port: 30000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: hexsen.com
+  port: 443
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
   network: ws
   tls: tls
   flow: ''
-  host: www.73664999.xyz
-  path: /path/1700571207277
-- name: vmess__112.28.208.10_45055
-  type: vmess
-  server: 112.28.208.10
-  port: 45055
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cc3.shabijichang.com_80
-  type: vmess
-  server: cc3.shabijichang.com
-  port: 80
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
-  network: ws
-  tls: none
-  flow: ''
-  host: cc3.shabijichang.com
-  path: /
-- name: vmess__bs5.loadingip.com_80
-  type: vmess
-  server: bs5.loadingip.com
-  port: 80
-  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
-  network: ws
-  tls: none
-  flow: ''
-  host: bs5.loadingip.com
-  path: /bs
-- name: vmess__cfcdn3.sanfencdn9.com_80
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80
-  network: ws
-  tls: none
-  flow: ''
-  host: 6Sn8mFtTjp3.yofnhkfc.xyz
-  path: /video/X37qXHip
-- name: vmess__108.165.113.99_443
-  type: vmess
-  server: 108.165.113.99
-  port: 443
-  uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__104.17.184.241_80
-  type: vmess
-  server: 104.17.184.241
-  port: 80
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  network: ws
-  tls: none
-  flow: ''
-  host: mg_cdn.yunjisuan.cf
-  path: /
+  host: cup-without-disappointed-objects.trycloudflare.com
+  path: /argo-vmess?ed=2048
 - name: vmess__94.131.14.177_80
   type: vmess
   server: 94.131.14.177
@@ -588,46 +478,116 @@ proxies:
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__www.glassdoor.com_2082
+- name: vmess__38.54.185.112_30000
   type: vmess
-  server: www.glassdoor.com
-  port: 2082
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  server: 38.54.185.112
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: ws
+  tls: tls
+  flow: ''
+  host: www.73664999.xyz
+  path: /path/1701091133409
+- name: vmess__81.12.27.4_20554
+  type: vmess
+  server: 81.12.27.4
+  port: 20554
+  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
+  network: tcp
   tls: none
   flow: ''
-  host: els_cdnone.yunjisuan.cf
-  path: /
-- name: vmess__jp.takeshi.wiki_80
+  host: ''
+  path: ''
+- name: vmess__104.31.16.28_80
   type: vmess
-  server: jp.takeshi.wiki
+  server: 104.31.16.28
   port: 80
-  uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   network: ws
   tls: none
   flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /takeshi.wiki
-- name: vmess__hytron.io_8080
+  host: ca4.tehme2.fun
+  path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: vmess__ru1-vmess.sshmax.xyz_80
   type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  server: ru1-vmess.sshmax.xyz
+  port: 80
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
   network: ws
   tls: none
   flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__172.99.190.109_443
+  host: ru1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess__188.114.96.2_443
   type: vmess
-  server: 172.99.190.109
+  server: 188.114.96.2
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
   tls: tls
   flow: ''
-  host: ''
+  host: ophelia.mom
   path: linkvws
+- name: vmess__singapore.com_80
+  type: vmess
+  server: singapore.com
+  port: 80
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  network: ws
+  tls: none
+  flow: ''
+  host: ssrsub.v004.ssrsub.com
+  path: /api/v3/download.getFile
+- name: vmess__217.160.45.31_8880
+  type: vmess
+  server: 217.160.45.31
+  port: 8880
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__38.180.33.136_50104
+  type: vmess
+  server: 38.180.33.136
+  port: 50104
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__cfcdn3.sanfencdn9.com_80
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 80
+  uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80
+  network: ws
+  tls: none
+  flow: ''
+  host: 6Sn8mFtTjp3.yofnhkfc.xyz
+  path: /video/X37qXHip
+- name: vmess__a3.bcbot.in_8880
+  type: vmess
+  server: a3.bcbot.in
+  port: 8880
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
 proxy-groups:
 - name: 节点选择
   type: select
@@ -675,23 +635,19 @@ proxy-groups:
   - vmess__38.54.185.113_30000
   - vmess__dnspsdhaitun.ncsuwei.top_17002
   - vmess__23.146.144.36_10002
-  - vmess__104.18.154.42_80
-  - vmess__www.visa.com.sg_8080
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__104.17.171.34_80
-  - vmess__ser52.gsmxssh.com_20554
-  - vmess__38.54.185.111_30000
-  - vmess__112.28.208.10_45055
-  - vmess__cc3.shabijichang.com_80
-  - vmess__bs5.loadingip.com_80
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__108.165.113.99_443
-  - vmess__104.17.184.241_80
+  - vmess__hexsen.com_443
   - vmess__94.131.14.177_80
-  - vmess__www.glassdoor.com_2082
-  - vmess__jp.takeshi.wiki_80
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess__38.54.185.112_30000
+  - vmess__81.12.27.4_20554
+  - vmess__104.31.16.28_80
+  - vmess__ru1-vmess.sshmax.xyz_80
+  - vmess__188.114.96.2_443
+  - vmess__singapore.com_80
+  - vmess__217.160.45.31_8880
+  - vmess__38.180.33.136_50104
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__a3.bcbot.in_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -739,23 +695,19 @@ proxy-groups:
   - vmess__38.54.185.113_30000
   - vmess__dnspsdhaitun.ncsuwei.top_17002
   - vmess__23.146.144.36_10002
-  - vmess__104.18.154.42_80
-  - vmess__www.visa.com.sg_8080
-  - vmess__yes.cnmjcn.net_16626
-  - vmess__104.17.171.34_80
-  - vmess__ser52.gsmxssh.com_20554
-  - vmess__38.54.185.111_30000
-  - vmess__112.28.208.10_45055
-  - vmess__cc3.shabijichang.com_80
-  - vmess__bs5.loadingip.com_80
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__108.165.113.99_443
-  - vmess__104.17.184.241_80
+  - vmess__hexsen.com_443
   - vmess__94.131.14.177_80
-  - vmess__www.glassdoor.com_2082
-  - vmess__jp.takeshi.wiki_80
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess__38.54.185.112_30000
+  - vmess__81.12.27.4_20554
+  - vmess__104.31.16.28_80
+  - vmess__ru1-vmess.sshmax.xyz_80
+  - vmess__188.114.96.2_443
+  - vmess__singapore.com_80
+  - vmess__217.160.45.31_8880
+  - vmess__38.180.33.136_50104
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__a3.bcbot.in_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
