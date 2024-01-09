@@ -308,7 +308,7 @@ proxies:
   flow: ''
   host: er3.889611.com
   path: /
-- name: vmess__104.18.140.242_2052
+- name: vmess_US_104.18.140.242_2052
   type: vmess
   server: 104.18.140.242
   port: 2052
@@ -448,6 +448,16 @@ proxies:
   flow: ''
   host: nl2.xv2ray.net
   path: /vmess
+- name: vmess__fr-new01.gujuji.top_8080
+  type: vmess
+  server: fr-new01.gujuji.top
+  port: 8080
+  uuid: e2b13230-2e75-4946-bd07-f700aef9e90d
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
 - name: vmess__91.242.229.69_2086
   type: vmess
   server: 91.242.229.69
@@ -458,15 +468,15 @@ proxies:
   flow: ''
   host: nl1.xv2ray.net
   path: /vmess
-- name: vmess__fr-new01.gujuji.top_8080
+- name: vmess__172.67.217.144_80
   type: vmess
-  server: fr-new01.gujuji.top
-  port: 8080
-  uuid: 32a1d578-16ea-49a9-b49e-3f9efc64b9cb
+  server: 172.67.217.144
+  port: 80
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
   network: ws
   tls: none
   flow: ''
-  host: ''
+  host: lv1.xv2ray.net
   path: /
 - name: vmess__cover.mac2win.top_8080
   type: vmess
@@ -478,6 +488,16 @@ proxies:
   flow: ''
   host: icu4.mac2win.top
   path: /
+- name: vmess__scadn.yydsii.com_8080
+  type: vmess
+  server: scadn.yydsii.com
+  port: 8080
+  uuid: 2dbeeb76-a71f-493f-bd92-33f0193291c5
+  network: ws
+  tls: none
+  flow: ''
+  host: kryx.651568.xyz
+  path: /
 - name: vmess__mehdi6.mehdimoghaddam.fun_2082
   type: vmess
   server: mehdi6.mehdimoghaddam.fun
@@ -488,6 +508,16 @@ proxies:
   flow: ''
   host: ''
   path: /@forwardv2ray
+- name: vmess__au.takeshi.wiki_80
+  type: vmess
+  server: au.takeshi.wiki
+  port: 80
+  uuid: a19f357b-c836-4cf6-9e43-72390e6a00df
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /takeshi.wiki
 - name: vmess__172.67.229.34_2086
   type: vmess
   server: 172.67.229.34
@@ -498,36 +528,46 @@ proxies:
   flow: ''
   host: ca6.tehme100.fun
   path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: vmess__154.90.39.63_45343
+- name: vmess__104.17.2.183_80
   type: vmess
-  server: 154.90.39.63
-  port: 45343
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+  server: 104.17.2.183
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  network: ws
+  tls: none
+  flow: ''
+  host: v3ra3do.wakeuptimerap.shop
+  path: /
+- name: vmess__us-new02.gujuji.top_8080
+  type: vmess
+  server: us-new02.gujuji.top
+  port: 8080
+  uuid: e2b13230-2e75-4946-bd07-f700aef9e90d
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__132.145.132.227_37121
+  type: vmess
+  server: 132.145.132.227
+  port: 37121
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__ser52.gsmxssh.com_20554
+  type: vmess
+  server: ser52.gsmxssh.com
+  port: 20554
+  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__skk.moe_8080
-  type: vmess
-  server: skk.moe
-  port: 8080
-  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
-  network: ws
-  tls: none
-  flow: ''
-  host: icu4.mac2win.top
-  path: /
-- name: vmess__mehdi15.mehdimoghaddam.fun_2095
-  type: vmess
-  server: mehdi15.mehdimoghaddam.fun
-  port: 2095
-  uuid: f14b7672-1272-437d-8ce1-e9dfff517e47
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
 - name: vmess__kkyx.yydsii.com_8080
   type: vmess
   server: kkyx.yydsii.com
@@ -570,7 +610,7 @@ proxy-groups:
   - vmess__hanoi4.speed4g.click_80
   - vmess__glweidf.cfd_443
   - vmess_US_162.159.142.203_80
-  - vmess__104.18.140.242_2052
+  - vmess_US_104.18.140.242_2052
   - vmess__103.197.184.41_80
   - vmess__108.165.113.99_443
   - vmess__81.12.27.4_20554
@@ -584,14 +624,18 @@ proxy-groups:
   - vmess__172.99.190.109_443
   - vmess__mehdi7.mehdimoghaddam.fun_2052
   - vmess__91.242.229.77_80
-  - vmess__91.242.229.69_2086
   - vmess__fr-new01.gujuji.top_8080
+  - vmess__91.242.229.69_2086
+  - vmess__172.67.217.144_80
   - vmess__cover.mac2win.top_8080
+  - vmess__scadn.yydsii.com_8080
   - vmess__mehdi6.mehdimoghaddam.fun_2082
+  - vmess__au.takeshi.wiki_80
   - vmess__172.67.229.34_2086
-  - vmess__154.90.39.63_45343
-  - vmess__skk.moe_8080
-  - vmess__mehdi15.mehdimoghaddam.fun_2095
+  - vmess__104.17.2.183_80
+  - vmess__us-new02.gujuji.top_8080
+  - vmess__132.145.132.227_37121
+  - vmess__ser52.gsmxssh.com_20554
   - vmess__kkyx.yydsii.com_8080
 - name: 自动选择
   type: url-test
@@ -625,7 +669,7 @@ proxy-groups:
   - vmess__hanoi4.speed4g.click_80
   - vmess__glweidf.cfd_443
   - vmess_US_162.159.142.203_80
-  - vmess__104.18.140.242_2052
+  - vmess_US_104.18.140.242_2052
   - vmess__103.197.184.41_80
   - vmess__108.165.113.99_443
   - vmess__81.12.27.4_20554
@@ -639,14 +683,18 @@ proxy-groups:
   - vmess__172.99.190.109_443
   - vmess__mehdi7.mehdimoghaddam.fun_2052
   - vmess__91.242.229.77_80
-  - vmess__91.242.229.69_2086
   - vmess__fr-new01.gujuji.top_8080
+  - vmess__91.242.229.69_2086
+  - vmess__172.67.217.144_80
   - vmess__cover.mac2win.top_8080
+  - vmess__scadn.yydsii.com_8080
   - vmess__mehdi6.mehdimoghaddam.fun_2082
+  - vmess__au.takeshi.wiki_80
   - vmess__172.67.229.34_2086
-  - vmess__154.90.39.63_45343
-  - vmess__skk.moe_8080
-  - vmess__mehdi15.mehdimoghaddam.fun_2095
+  - vmess__104.17.2.183_80
+  - vmess__us-new02.gujuji.top_8080
+  - vmess__132.145.132.227_37121
+  - vmess__ser52.gsmxssh.com_20554
   - vmess__kkyx.yydsii.com_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
