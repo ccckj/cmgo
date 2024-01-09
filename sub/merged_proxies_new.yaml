@@ -138,10 +138,10 @@ proxies:
   auth_str: dongtaiwang.com
   up: 5
   down: 10
-- name: hysteria_www.dtku50.xyz:23577
+- name: hysteria_www.dtku50.xyz:56252
   type: hysteria
   server: www.dtku50.xyz
-  port: 23577
+  port: 56252
   sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
@@ -214,10 +214,10 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.22.155:27710
+- name: hy2_US_108.181.22.155:31721
   type: hysteria2
   server: 108.181.22.155
-  port: 27710
+  port: 31721
   password: dongtaiwang.com
   fast-open: true
   sni: true
@@ -230,10 +230,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.22.155:27710
+- name: hy2_US_108.181.22.155:31721
   type: hysteria2
   server: 108.181.22.155
-  port: 27710
+  port: 31721
   password: dongtaiwang.com
   fast-open: true
   sni: true
@@ -248,206 +248,6 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_US_162.159.200.5_80
-  type: vmess
-  server: 162.159.200.5
-  port: 80
-  uuid: afbcaa39-6654-45a8-998f-2ea6935faa30
-  network: ws
-  tls: none
-  flow: ''
-  host: hk3.889611.com
-  path: /
-- name: vmess__glasco.fx-trader.shop_80
-  type: vmess
-  server: glasco.fx-trader.shop
-  port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  network: ws
-  tls: none
-  flow: ''
-  host: v3ra3do.wakeuptimerap.shop
-  path: /
-- name: vmess__kr-01.gujuji.top_8080
-  type: vmess
-  server: kr-01.gujuji.top
-  port: 8080
-  uuid: 32a1d578-16ea-49a9-b49e-3f9efc64b9cb
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__hanoi4.speed4g.click_80
-  type: vmess
-  server: hanoi4.speed4g.click
-  port: 80
-  uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
-  network: ws
-  tls: none
-  flow: ''
-  host: dl.kgvn.garenanow.com
-  path: /speed4g.click
-- name: vmess__glweidf.cfd_443
-  type: vmess
-  server: glweidf.cfd
-  port: 443
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  network: ws
-  tls: tls
-  flow: ''
-  host: glweidf.cfd
-  path: /linkws
-- name: vmess_US_162.159.142.203_80
-  type: vmess
-  server: 162.159.142.203
-  port: 80
-  uuid: afbcaa39-6654-45a8-998f-2ea6935faa30
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess_US_104.18.140.242_2052
-  type: vmess
-  server: 104.18.140.242
-  port: 2052
-  uuid: 2dbeeb76-a71f-493f-bd92-33f0193291c5
-  network: ws
-  tls: none
-  flow: ''
-  host: hkyx.651568.xyz
-  path: /
-- name: vmess__103.197.184.41_80
-  type: vmess
-  server: 103.197.184.41
-  port: 80
-  uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
-  network: ws
-  tls: none
-  flow: ''
-  host: internet.life.com.by
-  path: /speed4g.click
-- name: vmess__108.165.113.99_443
-  type: vmess
-  server: 108.165.113.99
-  port: 443
-  uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__81.12.27.4_20554
-  type: vmess
-  server: 81.12.27.4
-  port: 20554
-  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__us-new04.gujuji.top_8080
-  type: vmess
-  server: us-new04.gujuji.top
-  port: 8080
-  uuid: e2b13230-2e75-4946-bd07-f700aef9e90d
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__mehdi3.mehdimoghaddam.fun_8880
-  type: vmess
-  server: mehdi3.mehdimoghaddam.fun
-  port: 8880
-  uuid: 4f92e557-efa9-40d6-a673-7ccce4c9826f
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__mehdi13.mehdimoghaddam.fun_2086
-  type: vmess
-  server: mehdi13.mehdimoghaddam.fun
-  port: 2086
-  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__38.180.33.136_50104
-  type: vmess
-  server: 38.180.33.136
-  port: 50104
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__162.159.142.204_80
-  type: vmess
-  server: 162.159.142.204
-  port: 80
-  uuid: afbcaa39-6654-45a8-998f-2ea6935faa30
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
-- name: vmess__mehdi7.mehdimoghaddam.fun_2052
-  type: vmess
-  server: mehdi7.mehdimoghaddam.fun
-  port: 2052
-  uuid: f4b9203b-78df-425b-ab70-5ab006405884
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__91.242.229.77_80
-  type: vmess
-  server: 91.242.229.77
-  port: 80
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
-  network: ws
-  tls: none
-  flow: ''
-  host: nl2.xv2ray.net
-  path: /vmess
 - name: vmess__fr-new01.gujuji.top_8080
   type: vmess
   server: fr-new01.gujuji.top
@@ -458,7 +258,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess__91.242.229.69_2086
+- name: vmess_NL_91.242.229.69_2086
   type: vmess
   server: 91.242.229.69
   port: 2086
@@ -468,7 +268,17 @@ proxies:
   flow: ''
   host: nl1.xv2ray.net
   path: /vmess
-- name: vmess__172.67.217.144_80
+- name: vmess_US_108.165.113.99_443
+  type: vmess
+  server: 108.165.113.99
+  port: 443
+  uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess_US_172.67.217.144_80
   type: vmess
   server: 172.67.217.144
   port: 80
@@ -503,6 +313,16 @@ proxies:
   server: mehdi6.mehdimoghaddam.fun
   port: 2082
   uuid: 089b3e45-1be5-4dad-8754-6cec4ccb3ae9
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /@forwardv2ray
+- name: vmess__mehdi13.mehdimoghaddam.fun_2086
+  type: vmess
+  server: mehdi13.mehdimoghaddam.fun
+  port: 2086
+  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
   network: ws
   tls: none
   flow: ''
@@ -578,6 +398,136 @@ proxies:
   flow: ''
   host: kryx.651568.xyz
   path: /
+- name: vmess__hanoi4.speed4g.click_80
+  type: vmess
+  server: hanoi4.speed4g.click
+  port: 80
+  uuid: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.kgvn.garenanow.com
+  path: /speed4g.click
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.21.32.215_8880
+  type: vmess
+  server: 104.21.32.215
+  port: 8880
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  network: ws
+  tls: none
+  flow: ''
+  host: a3.bcbot.in
+  path: /
+- name: vmess__glasco.fx-trader.shop_80
+  type: vmess
+  server: glasco.fx-trader.shop
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  network: ws
+  tls: none
+  flow: ''
+  host: v3ra3do.wakeuptimerap.shop
+  path: /
+- name: vmess__v4.cfnode.eu.org_2052
+  type: vmess
+  server: v4.cfnode.eu.org
+  port: 2052
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  network: ws
+  tls: none
+  flow: ''
+  host: oiichk.yydsii.com
+  path: /
+- name: vmess__mehdi9.mehdimoghaddam.fun_8880
+  type: vmess
+  server: mehdi9.mehdimoghaddam.fun
+  port: 8880
+  uuid: 4f92e557-efa9-40d6-a673-7ccce4c9826f
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /@forwardv2ray
+- name: vmess__104.17.49.177_2052
+  type: vmess
+  server: 104.17.49.177
+  port: 2052
+  uuid: 2dbeeb76-a71f-493f-bd92-33f0193291c5
+  network: ws
+  tls: none
+  flow: ''
+  host: hkyx.651568.xyz
+  path: /
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__197.215.140.234_80
+  type: vmess
+  server: 197.215.140.234
+  port: 80
+  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
+  network: ws
+  tls: none
+  flow: ''
+  host: mizban888.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__kr-01.gujuji.top_8080
+  type: vmess
+  server: kr-01.gujuji.top
+  port: 8080
+  uuid: 32a1d578-16ea-49a9-b49e-3f9efc64b9cb
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__38.180.33.136_50104
+  type: vmess
+  server: 38.180.33.136
+  port: 50104
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__hexsen.com_443
+  type: vmess
+  server: hexsen.com
+  port: 443
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  network: ws
+  tls: tls
+  flow: ''
+  host: us.king361.cf
+  path: /argo-vmess?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -594,42 +544,24 @@ proxy-groups:
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
   - hysteria_62.204.54.81:46333
-  - hysteria_www.dtku50.xyz:23577
+  - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hy2_TW_1.162.134.86:55307
-  - hy2_US_108.181.22.155:27710
+  - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
-  - hy2_US_108.181.22.155:27710
+  - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess_US_162.159.200.5_80
-  - vmess__glasco.fx-trader.shop_80
-  - vmess__kr-01.gujuji.top_8080
-  - vmess__hanoi4.speed4g.click_80
-  - vmess__glweidf.cfd_443
-  - vmess_US_162.159.142.203_80
-  - vmess_US_104.18.140.242_2052
-  - vmess__103.197.184.41_80
-  - vmess__108.165.113.99_443
-  - vmess__81.12.27.4_20554
-  - vmess__us-new04.gujuji.top_8080
-  - vmess__mehdi3.mehdimoghaddam.fun_8880
-  - vmess__mehdi13.mehdimoghaddam.fun_2086
-  - vmess__38.180.33.136_50104
-  - vmess__162.159.142.204_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__mehdi7.mehdimoghaddam.fun_2052
-  - vmess__91.242.229.77_80
   - vmess__fr-new01.gujuji.top_8080
-  - vmess__91.242.229.69_2086
-  - vmess__172.67.217.144_80
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_108.165.113.99_443
+  - vmess_US_172.67.217.144_80
   - vmess__cover.mac2win.top_8080
   - vmess__scadn.yydsii.com_8080
   - vmess__mehdi6.mehdimoghaddam.fun_2082
+  - vmess__mehdi13.mehdimoghaddam.fun_2086
   - vmess__au.takeshi.wiki_80
   - vmess__172.67.229.34_2086
   - vmess__104.17.2.183_80
@@ -637,6 +569,19 @@ proxy-groups:
   - vmess__132.145.132.227_37121
   - vmess__ser52.gsmxssh.com_20554
   - vmess__kkyx.yydsii.com_8080
+  - vmess__hanoi4.speed4g.click_80
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.32.215_8880
+  - vmess__glasco.fx-trader.shop_80
+  - vmess__v4.cfnode.eu.org_2052
+  - vmess__mehdi9.mehdimoghaddam.fun_8880
+  - vmess__104.17.49.177_2052
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__197.215.140.234_80
+  - vmess__kr-01.gujuji.top_8080
+  - vmess__38.180.33.136_50104
+  - vmess__hexsen.com_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -653,42 +598,24 @@ proxy-groups:
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
   - hysteria_62.204.54.81:46333
-  - hysteria_www.dtku50.xyz:23577
+  - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hy2_TW_1.162.134.86:55307
-  - hy2_US_108.181.22.155:27710
+  - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
-  - hy2_US_108.181.22.155:27710
+  - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess_US_162.159.200.5_80
-  - vmess__glasco.fx-trader.shop_80
-  - vmess__kr-01.gujuji.top_8080
-  - vmess__hanoi4.speed4g.click_80
-  - vmess__glweidf.cfd_443
-  - vmess_US_162.159.142.203_80
-  - vmess_US_104.18.140.242_2052
-  - vmess__103.197.184.41_80
-  - vmess__108.165.113.99_443
-  - vmess__81.12.27.4_20554
-  - vmess__us-new04.gujuji.top_8080
-  - vmess__mehdi3.mehdimoghaddam.fun_8880
-  - vmess__mehdi13.mehdimoghaddam.fun_2086
-  - vmess__38.180.33.136_50104
-  - vmess__162.159.142.204_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__mehdi7.mehdimoghaddam.fun_2052
-  - vmess__91.242.229.77_80
   - vmess__fr-new01.gujuji.top_8080
-  - vmess__91.242.229.69_2086
-  - vmess__172.67.217.144_80
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_108.165.113.99_443
+  - vmess_US_172.67.217.144_80
   - vmess__cover.mac2win.top_8080
   - vmess__scadn.yydsii.com_8080
   - vmess__mehdi6.mehdimoghaddam.fun_2082
+  - vmess__mehdi13.mehdimoghaddam.fun_2086
   - vmess__au.takeshi.wiki_80
   - vmess__172.67.229.34_2086
   - vmess__104.17.2.183_80
@@ -696,6 +623,19 @@ proxy-groups:
   - vmess__132.145.132.227_37121
   - vmess__ser52.gsmxssh.com_20554
   - vmess__kkyx.yydsii.com_8080
+  - vmess__hanoi4.speed4g.click_80
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.32.215_8880
+  - vmess__glasco.fx-trader.shop_80
+  - vmess__v4.cfnode.eu.org_2052
+  - vmess__mehdi9.mehdimoghaddam.fun_8880
+  - vmess__104.17.49.177_2052
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__197.215.140.234_80
+  - vmess__kr-01.gujuji.top_8080
+  - vmess__38.180.33.136_50104
+  - vmess__hexsen.com_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
