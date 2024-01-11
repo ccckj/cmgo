@@ -248,49 +248,19 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__v4.cfnode.eu.org_80
+- name: vmess__mehdi18.mehdimoghaddam.fun_8080
   type: vmess
-  server: v4.cfnode.eu.org
-  port: 80
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  server: mehdi18.mehdimoghaddam.fun
+  port: 8080
+  uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
   network: ws
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
-  path: /
-- name: vmess__a3.bcbot.in_8880
-  type: vmess
-  server: a3.bcbot.in
-  port: 8880
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  network: ws
-  tls: none
-  flow: ''
-  host: a3.bcbot.in
-  path: /
-- name: vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
-  type: vmess
-  server: arvancloud17.forwardv2raytelegramchannel.fun
-  port: 2082
-  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
+  host: mehdi18.mehdimoghaddam.fun
   path: /@forwardv2ray
-- name: vmess__mehdi13.mehdimoghaddam.fun_2086
+- name: vmess_DK_89.23.86.189_59492
   type: vmess
-  server: mehdi13.mehdimoghaddam.fun
-  port: 2086
-  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__dm.imzcc.com_59492
-  type: vmess
-  server: dm.imzcc.com
+  server: 89.23.86.189
   port: 59492
   uuid: 3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7
   network: ws
@@ -298,16 +268,6 @@ proxies:
   flow: ''
   host: dm.imzcc.com
   path: /imzcc
-- name: vmess__glasco.fx-trader.shop_80
-  type: vmess
-  server: glasco.fx-trader.shop
-  port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  network: ws
-  tls: none
-  flow: ''
-  host: v3ra3do.wakeuptimerap.shop
-  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -334,12 +294,8 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__v4.cfnode.eu.org_80
-  - vmess__a3.bcbot.in_8880
-  - vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
-  - vmess__mehdi13.mehdimoghaddam.fun_2086
-  - vmess__dm.imzcc.com_59492
-  - vmess__glasco.fx-trader.shop_80
+  - vmess__mehdi18.mehdimoghaddam.fun_8080
+  - vmess_DK_89.23.86.189_59492
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -366,12 +322,8 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__v4.cfnode.eu.org_80
-  - vmess__a3.bcbot.in_8880
-  - vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
-  - vmess__mehdi13.mehdimoghaddam.fun_2086
-  - vmess__dm.imzcc.com_59492
-  - vmess__glasco.fx-trader.shop_80
+  - vmess__mehdi18.mehdimoghaddam.fun_8080
+  - vmess_DK_89.23.86.189_59492
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
