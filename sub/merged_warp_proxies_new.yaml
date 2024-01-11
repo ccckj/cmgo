@@ -87,10 +87,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_104.234.70.41:57153
-  server: 104.234.70.41
+- name: hysteria_108.181.2.154:33445
+  server: 108.181.2.154
   type: hysteria
-  port: 57153
+  port: 33445
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -109,10 +109,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_104.234.70.6:11330
-  server: 104.234.70.6
+- name: hysteria_167.160.91.116:55009
+  server: 167.160.91.116
   type: hysteria
-  port: 11330
+  port: 55009
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -224,9 +224,9 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_TW_1.162.161.253:55307
+- name: hy2_TW_111.243.65.249:55307
   type: hysteria2
-  server: 1.162.161.253
+  server: 111.243.65.249
   port: 55307
   password: dongtaiwang.com
   fast-open: true
@@ -266,36 +266,46 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__mehdi15.mehdimoghaddam.fun_2095
+- name: vmess__v4.cfnode.eu.org_80
   type: vmess
-  server: mehdi15.mehdimoghaddam.fun
-  port: 2095
-  uuid: f14b7672-1272-437d-8ce1-e9dfff517e47
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__high.forwardv2raytelegramchannel.fun_2095
-  type: vmess
-  server: high.forwardv2raytelegramchannel.fun
-  port: 2095
-  uuid: 703d8835-9973-4354-ad63-936b8e797106
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess_US_104.17.2.183_80
-  type: vmess
-  server: 104.17.2.183
+  server: v4.cfnode.eu.org
   port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
   network: ws
   tls: none
   flow: ''
-  host: v3ra3do.wakeuptimerap.shop
+  host: oiictw.yydsii.com
   path: /
+- name: vmess__a3.bcbot.in_8880
+  type: vmess
+  server: a3.bcbot.in
+  port: 8880
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  network: ws
+  tls: none
+  flow: ''
+  host: a3.bcbot.in
+  path: /
+- name: vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
+  type: vmess
+  server: arvancloud17.forwardv2raytelegramchannel.fun
+  port: 2082
+  uuid: b7bd0edc-19c7-47f6-b2da-973f54449357
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /@forwardv2ray
+- name: vmess__mehdi13.mehdimoghaddam.fun_2086
+  type: vmess
+  server: mehdi13.mehdimoghaddam.fun
+  port: 2086
+  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /@forwardv2ray
 - name: vmess__dm.imzcc.com_59492
   type: vmess
   server: dm.imzcc.com
@@ -306,16 +316,56 @@ proxies:
   flow: ''
   host: dm.imzcc.com
   path: /imzcc
-- name: vmess__mehdi11.mehdimoghaddam.fun_8080
+- name: vmess__4o5a3u04.m1k2s.xyz_31821
   type: vmess
-  server: mehdi11.mehdimoghaddam.fun
-  port: 8080
-  uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
+  server: 4o5a3u04.m1k2s.xyz
+  port: 31821
+  uuid: 525ee768-8491-4bdf-b3e1-0228e879bccb
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__mehdi9.mehdimoghaddam.fun_2082
+  type: vmess
+  server: mehdi9.mehdimoghaddam.fun
+  port: 2082
+  uuid: 089b3e45-1be5-4dad-8754-6cec4ccb3ae9
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /@forwardv2ray
+- name: vmess__mehdi14.mehdimoghaddam.fun_2082
+  type: vmess
+  server: mehdi14.mehdimoghaddam.fun
+  port: 2082
+  uuid: 089b3e45-1be5-4dad-8754-6cec4ccb3ae9
+  network: ws
+  tls: none
+  flow: ''
+  host: mehdi14.mehdimoghaddam.fun
+  path: /@forwardv2ray
+- name: vmess__3c2h4u04.m1k2s.xyz_31864
+  type: vmess
+  server: 3c2h4u04.m1k2s.xyz
+  port: 31864
+  uuid: 525ee768-8491-4bdf-b3e1-0228e879bccb
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__1c7s2g06.m1k2s.xyz_31211
+  type: vmess
+  server: 1c7s2g06.m1k2s.xyz
+  port: 31211
+  uuid: 525ee768-8491-4bdf-b3e1-0228e879bccb
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -341,9 +391,9 @@ proxy-groups:
   - hysteria_108.181.22.239:41146
   - hysteria_108.181.22.213:52284
   - hysteria_108.181.22.155:19721
-  - hysteria_104.234.70.41:57153
+  - hysteria_108.181.2.154:33445
   - hysteria_www.dtku46.xyz:11223
-  - hysteria_104.234.70.6:11330
+  - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
   - hysteria_62.204.54.81:46333
@@ -352,16 +402,21 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_1.162.161.253:55307
+  - hy2_TW_111.243.65.249:55307
   - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi15.mehdimoghaddam.fun_2095
-  - vmess__high.forwardv2raytelegramchannel.fun_2095
-  - vmess_US_104.17.2.183_80
+  - vmess__v4.cfnode.eu.org_80
+  - vmess__a3.bcbot.in_8880
+  - vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
+  - vmess__mehdi13.mehdimoghaddam.fun_2086
   - vmess__dm.imzcc.com_59492
-  - vmess__mehdi11.mehdimoghaddam.fun_8080
+  - vmess__4o5a3u04.m1k2s.xyz_31821
+  - vmess__mehdi9.mehdimoghaddam.fun_2082
+  - vmess__mehdi14.mehdimoghaddam.fun_2082
+  - vmess__3c2h4u04.m1k2s.xyz_31864
+  - vmess__1c7s2g06.m1k2s.xyz_31211
 - name: 手动选择
   type: select
   proxies:
@@ -369,9 +424,9 @@ proxy-groups:
   - hysteria_108.181.22.239:41146
   - hysteria_108.181.22.213:52284
   - hysteria_108.181.22.155:19721
-  - hysteria_104.234.70.41:57153
+  - hysteria_108.181.2.154:33445
   - hysteria_www.dtku46.xyz:11223
-  - hysteria_104.234.70.6:11330
+  - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
   - hysteria_62.204.54.81:46333
@@ -380,16 +435,21 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_1.162.161.253:55307
+  - hy2_TW_111.243.65.249:55307
   - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi15.mehdimoghaddam.fun_2095
-  - vmess__high.forwardv2raytelegramchannel.fun_2095
-  - vmess_US_104.17.2.183_80
+  - vmess__v4.cfnode.eu.org_80
+  - vmess__a3.bcbot.in_8880
+  - vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
+  - vmess__mehdi13.mehdimoghaddam.fun_2086
   - vmess__dm.imzcc.com_59492
-  - vmess__mehdi11.mehdimoghaddam.fun_8080
+  - vmess__4o5a3u04.m1k2s.xyz_31821
+  - vmess__mehdi9.mehdimoghaddam.fun_2082
+  - vmess__mehdi14.mehdimoghaddam.fun_2082
+  - vmess__3c2h4u04.m1k2s.xyz_31864
+  - vmess__1c7s2g06.m1k2s.xyz_31211
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -397,9 +457,9 @@ proxy-groups:
   - hysteria_108.181.22.239:41146
   - hysteria_108.181.22.213:52284
   - hysteria_108.181.22.155:19721
-  - hysteria_104.234.70.41:57153
+  - hysteria_108.181.2.154:33445
   - hysteria_www.dtku46.xyz:11223
-  - hysteria_104.234.70.6:11330
+  - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
   - hysteria_62.204.54.81:46333
@@ -408,16 +468,21 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_1.162.161.253:55307
+  - hy2_TW_111.243.65.249:55307
   - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi15.mehdimoghaddam.fun_2095
-  - vmess__high.forwardv2raytelegramchannel.fun_2095
-  - vmess_US_104.17.2.183_80
+  - vmess__v4.cfnode.eu.org_80
+  - vmess__a3.bcbot.in_8880
+  - vmess__arvancloud17.forwardv2raytelegramchannel.fun_2082
+  - vmess__mehdi13.mehdimoghaddam.fun_2086
   - vmess__dm.imzcc.com_59492
-  - vmess__mehdi11.mehdimoghaddam.fun_8080
+  - vmess__4o5a3u04.m1k2s.xyz_31821
+  - vmess__mehdi9.mehdimoghaddam.fun_2082
+  - vmess__mehdi14.mehdimoghaddam.fun_2082
+  - vmess__3c2h4u04.m1k2s.xyz_31864
+  - vmess__1c7s2g06.m1k2s.xyz_31211
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
