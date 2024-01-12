@@ -266,36 +266,6 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__mehdi18.mehdimoghaddam.fun_8080
-  type: vmess
-  server: mehdi18.mehdimoghaddam.fun
-  port: 8080
-  uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
-  network: ws
-  tls: none
-  flow: ''
-  host: mehdi18.mehdimoghaddam.fun
-  path: /@forwardv2ray
-- name: vmess_DK_89.23.86.189_59492
-  type: vmess
-  server: 89.23.86.189
-  port: 59492
-  uuid: 3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7
-  network: ws
-  tls: none
-  flow: ''
-  host: dm.imzcc.com
-  path: /imzcc
-- name: vmess__9s5g06.abzoones.xyz_36211
-  type: vmess
-  server: 9s5g06.abzoones.xyz
-  port: 36211
-  uuid: 299a0397-75c5-4915-a102-ebbd28f36d9c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -337,9 +307,6 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi18.mehdimoghaddam.fun_8080
-  - vmess_DK_89.23.86.189_59492
-  - vmess__9s5g06.abzoones.xyz_36211
 - name: 手动选择
   type: select
   proxies:
@@ -363,9 +330,6 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi18.mehdimoghaddam.fun_8080
-  - vmess_DK_89.23.86.189_59492
-  - vmess__9s5g06.abzoones.xyz_36211
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -389,9 +353,6 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__mehdi18.mehdimoghaddam.fun_8080
-  - vmess_DK_89.23.86.189_59492
-  - vmess__9s5g06.abzoones.xyz_36211
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
