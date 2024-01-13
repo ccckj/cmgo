@@ -266,6 +266,136 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
+- name: vmess__glaSco.fx-trAder.shop_80
+  type: vmess
+  server: glaSco.fx-trAder.shop
+  port: 80
+  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+  network: ws
+  tls: none
+  flow: ''
+  host: vvv2vayo2.everythingisreve.shop
+  path: /
+- name: vmess__b23.ntbq.dynu.net_2024
+  type: vmess
+  server: b23.ntbq.dynu.net
+  port: 2024
+  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__bs2.loadingip.com_80
+  type: vmess
+  server: bs2.loadingip.com
+  port: 80
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  network: ws
+  tls: none
+  flow: ''
+  host: bs2.loadingip.com
+  path: /bs
+- name: vmess__81.12.27.4_20512
+  type: vmess
+  server: 81.12.27.4
+  port: 20512
+  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__185.146.173.27_8880
+  type: vmess
+  server: 185.146.173.27
+  port: 8880
+  uuid: 8ec29f7f-edee-4065-bec5-b31d10c2d7e4
+  network: ws
+  tls: none
+  flow: ''
+  host: telegram.shadowbrowse.online
+  path: /main
+- name: vmess__mehdi19.mehdimoghaddam.fun_2096
+  type: vmess
+  server: mehdi19.mehdimoghaddam.fun
+  port: 2096
+  uuid: 1207c544-8199-45b8-befe-23fdd03630c0
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /@forwardv2ray
+- name: vmess__197.215.140.234_80
+  type: vmess
+  server: 197.215.140.234
+  port: 80
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  network: ws
+  tls: none
+  flow: ''
+  host: softiri.serveirc.com
+  path: /@forwardv2ray
+- name: vmess__c12.twtc.dynu.net_6122
+  type: vmess
+  server: c12.twtc.dynu.net
+  port: 6122
+  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__146.190.111.121_54642
+  type: vmess
+  server: 146.190.111.121
+  port: 54642
+  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
+  network: ws
+  tls: none
+  flow: ''
+  host: www.xbox.com
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  network: ws
+  tls: none
+  flow: ''
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
 proxy-groups:
 - name: 节点选择
   type: select
@@ -307,6 +437,19 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__bs2.loadingip.com_80
+  - vmess__81.12.27.4_20512
+  - vmess__185.146.173.27_8880
+  - vmess__mehdi19.mehdimoghaddam.fun_2096
+  - vmess__197.215.140.234_80
+  - vmess__c12.twtc.dynu.net_6122
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__146.190.111.121_54642
+  - vmess__cfcdn3.sanfencdn9.com_2052
 - name: 手动选择
   type: select
   proxies:
@@ -330,6 +473,19 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__bs2.loadingip.com_80
+  - vmess__81.12.27.4_20512
+  - vmess__185.146.173.27_8880
+  - vmess__mehdi19.mehdimoghaddam.fun_2096
+  - vmess__197.215.140.234_80
+  - vmess__c12.twtc.dynu.net_6122
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__146.190.111.121_54642
+  - vmess__cfcdn3.sanfencdn9.com_2052
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -353,6 +509,19 @@ proxy-groups:
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__bs2.loadingip.com_80
+  - vmess__81.12.27.4_20512
+  - vmess__185.146.173.27_8880
+  - vmess__mehdi19.mehdimoghaddam.fun_2096
+  - vmess__197.215.140.234_80
+  - vmess__c12.twtc.dynu.net_6122
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__146.190.111.121_54642
+  - vmess__cfcdn3.sanfencdn9.com_2052
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
