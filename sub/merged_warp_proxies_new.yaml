@@ -144,10 +144,10 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: hysteria_62.204.54.81:46333
+- name: hysteria_62.204.54.81:44550
   type: hysteria
   server: 62.204.54.81
-  port: 46333
+  port: 44550
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -296,7 +296,7 @@ proxy-groups:
   - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
-  - hysteria_62.204.54.81:46333
+  - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
@@ -319,7 +319,7 @@ proxy-groups:
   - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
-  - hysteria_62.204.54.81:46333
+  - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
@@ -342,7 +342,7 @@ proxy-groups:
   - hysteria_167.160.91.116:55009
   - hysteria_www.dtku46.xyz:11223
   - tuic_US_ip1
-  - hysteria_62.204.54.81:46333
+  - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
