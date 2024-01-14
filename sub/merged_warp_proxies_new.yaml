@@ -376,26 +376,136 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__146.190.111.121_54642
+- name: vmess__6i2r04.abzoones.xyz_36877
   type: vmess
-  server: 146.190.111.121
-  port: 54642
-  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
+  server: 6i2r04.abzoones.xyz
+  port: 36877
+  uuid: f5c56561-0bc3-4876-96ad-565b5a5f453c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__130.193.166.2_443
+  type: vmess
+  server: 130.193.166.2
+  port: 443
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  network: ws
+  tls: tls
+  flow: ''
+  host: soft8989.redirectme.net
+  path: /@forwardv2ray
+- name: vmess__6q3i1n04.m1k2s.xyz_31831
+  type: vmess
+  server: 6q3i1n04.m1k2s.xyz
+  port: 31831
+  uuid: b3275d89-5219-4357-bce0-8b33c6b07f75
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.17.2.183_80
+  type: vmess
+  server: 104.17.2.183
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   network: ws
   tls: none
   flow: ''
-  host: www.xbox.com
+  host: v3ra3do.wakeuptimerap.shop
   path: /
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+- name: vmess__mehdi9.mehdimoghaddam.fun_8880
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  server: mehdi9.mehdimoghaddam.fun
+  port: 8880
+  uuid: 4f92e557-efa9-40d6-a673-7ccce4c9826f
   network: ws
   tls: none
   flow: ''
-  host: wtywwcrzjp5.yofnhkfc.xyz
-  path: /video/9TfVEyku
+  host: ''
+  path: /@forwardv2ray
+- name: vmess__7p3h04.abzoones.xyz_36801
+  type: vmess
+  server: 7p3h04.abzoones.xyz
+  port: 36801
+  uuid: f5c56561-0bc3-4876-96ad-565b5a5f453c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__bs1.loadingip.com_80
+  type: vmess
+  server: bs1.loadingip.com
+  port: 80
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  network: ws
+  tls: none
+  flow: ''
+  host: bs1.loadingip.com
+  path: /bs
+- name: vmess__udemy.com_80
+  type: vmess
+  server: udemy.com
+  port: 80
+  uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302
+  network: ws
+  tls: none
+  flow: ''
+  host: px-001.xiaoxiaobujidao.xyz
+  path: /xiaodao?ed=2048
+- name: vmess__2t1u04.abzoones.xyz_36868
+  type: vmess
+  server: 2t1u04.abzoones.xyz
+  port: 36868
+  uuid: f5c56561-0bc3-4876-96ad-565b5a5f453c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__mehdi18.mehdimoghaddam.fun_8080
+  type: vmess
+  server: mehdi18.mehdimoghaddam.fun
+  port: 8080
+  uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
+  network: ws
+  tls: none
+  flow: ''
+  host: mehdi18.mehdimoghaddam.fun
+  path: /@forwardv2ray
+- name: vmess__5a4u04.abzoones.xyz_36821
+  type: vmess
+  server: 5a4u04.abzoones.xyz
+  port: 36821
+  uuid: f5c56561-0bc3-4876-96ad-565b5a5f453c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__4t1u6r04.m1k2s.xyz_31868
+  type: vmess
+  server: 4t1u6r04.m1k2s.xyz
+  port: 31868
+  uuid: b3275d89-5219-4357-bce0-8b33c6b07f75
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__cdn20.nwaf98.top_80
+  type: vmess
+  server: cdn20.nwaf98.top
+  port: 80
+  uuid: 4046171f-2176-4f56-8008-adc55676931a
+  network: ws
+  tls: none
+  flow: ''
+  host: cdn20.nwaf98.top
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -448,8 +558,19 @@ proxy-groups:
   - vmess__c12.twtc.dynu.net_6122
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__146.190.111.121_54642
-  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__130.193.166.2_443
+  - vmess__6q3i1n04.m1k2s.xyz_31831
+  - vmess__104.17.2.183_80
+  - vmess__mehdi9.mehdimoghaddam.fun_8880
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__bs1.loadingip.com_80
+  - vmess__udemy.com_80
+  - vmess__2t1u04.abzoones.xyz_36868
+  - vmess__mehdi18.mehdimoghaddam.fun_8080
+  - vmess__5a4u04.abzoones.xyz_36821
+  - vmess__4t1u6r04.m1k2s.xyz_31868
+  - vmess__cdn20.nwaf98.top_80
 - name: 手动选择
   type: select
   proxies:
@@ -484,8 +605,19 @@ proxy-groups:
   - vmess__c12.twtc.dynu.net_6122
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__146.190.111.121_54642
-  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__130.193.166.2_443
+  - vmess__6q3i1n04.m1k2s.xyz_31831
+  - vmess__104.17.2.183_80
+  - vmess__mehdi9.mehdimoghaddam.fun_8880
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__bs1.loadingip.com_80
+  - vmess__udemy.com_80
+  - vmess__2t1u04.abzoones.xyz_36868
+  - vmess__mehdi18.mehdimoghaddam.fun_8080
+  - vmess__5a4u04.abzoones.xyz_36821
+  - vmess__4t1u6r04.m1k2s.xyz_31868
+  - vmess__cdn20.nwaf98.top_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -520,8 +652,19 @@ proxy-groups:
   - vmess__c12.twtc.dynu.net_6122
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__146.190.111.121_54642
-  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__6i2r04.abzoones.xyz_36877
+  - vmess__130.193.166.2_443
+  - vmess__6q3i1n04.m1k2s.xyz_31831
+  - vmess__104.17.2.183_80
+  - vmess__mehdi9.mehdimoghaddam.fun_8880
+  - vmess__7p3h04.abzoones.xyz_36801
+  - vmess__bs1.loadingip.com_80
+  - vmess__udemy.com_80
+  - vmess__2t1u04.abzoones.xyz_36868
+  - vmess__mehdi18.mehdimoghaddam.fun_8080
+  - vmess__5a4u04.abzoones.xyz_36821
+  - vmess__4t1u6r04.m1k2s.xyz_31868
+  - vmess__cdn20.nwaf98.top_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
