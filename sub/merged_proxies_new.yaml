@@ -25,21 +25,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: hysteria_167.160.90.251:48089
+- name: hysteria_167.160.90.252:48089
   type: hysteria
-  server: 167.160.90.251
+  server: 167.160.90.252
   port: 48089
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: hysteria_108.181.22.239:41146
-  type: hysteria
-  server: 108.181.22.239
-  port: 41146
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -80,11 +69,11 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_www.dtku46.xyz:11223
+- name: hysteria_108.181.2.154:33445
+  server: 108.181.2.154
   type: hysteria
-  server: www.dtku46.xyz
-  port: 11223
-  auth-str: mqoE9qSoyMFa
+  port: 33445
+  auth-str: dongtaiwang.com
   alpn:
   - h3
   protocol: udp
@@ -102,30 +91,28 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_www.dtku46.xyz:11223
+- name: hysteria_64.110.25.10:44556
   type: hysteria
-  server: www.dtku46.xyz
-  port: 11223
-  auth-str: mqoE9qSoyMFa
+  server: 64.110.25.10
+  port: 44556
+  auth-str: dongtaiwang.com
   alpn:
   - h3
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: tuic_US_ip1
+- name: hysteria_64.110.25.10:44556
+  type: hysteria
   server: 64.110.25.10
-  port: 33445
-  type: tuic
-  uuid: 670998c6-a78f-43cc-86aa-29292476e040
-  password: dongtaiwang.com
-  sni: bing.com
+  port: 44556
+  auth-str: dongtaiwang.com
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  congestion-controller: bbr
 - name: hysteria_62.204.54.81:44550
   type: hysteria
   server: 62.204.54.81
@@ -206,12 +193,12 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_TW_111.243.65.249:55307
+- name: hy2_TW_111.243.97.209:64016
   type: hysteria2
-  server: 111.243.65.249
-  port: 55307
+  server: 111.243.97.209
+  port: 64016
   password: dongtaiwang.com
-  fast-open: true
+  fast-open: false
   sni: true
   skip-cert-verify: true
 - name: hy2_US_108.181.22.155:31721
@@ -248,190 +235,56 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__glaSco.fx-trAder.shop_80
-  type: vmess
-  server: glaSco.fx-trAder.shop
-  port: 80
-  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-  network: ws
-  tls: none
-  flow: ''
-  host: vvv2vayo2.everythingisreve.shop
-  path: /
-- name: vmess__b23.ntbq.dynu.net_2024
-  type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
-  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__bs2.loadingip.com_80
-  type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess_IR_81.12.27.4_20512
-  type: vmess
-  server: 81.12.27.4
-  port: 20512
-  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__185.146.173.27_8880
-  type: vmess
-  server: 185.146.173.27
-  port: 8880
-  uuid: 8ec29f7f-edee-4065-bec5-b31d10c2d7e4
-  network: ws
-  tls: none
-  flow: ''
-  host: telegram.shadowbrowse.online
-  path: /main
-- name: vmess__mehdi19.mehdimoghaddam.fun_2096
-  type: vmess
-  server: mehdi19.mehdimoghaddam.fun
-  port: 2096
-  uuid: 1207c544-8199-45b8-befe-23fdd03630c0
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__197.215.140.234_80
-  type: vmess
-  server: 197.215.140.234
-  port: 80
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  network: ws
-  tls: none
-  flow: ''
-  host: softiri.serveirc.com
-  path: /@forwardv2ray
-- name: vmess__c12.twtc.dynu.net_6122
-  type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - hysteria_167.160.90.251:48089
-  - hysteria_108.181.22.239:41146
+  - hysteria_167.160.90.252:48089
   - hysteria_108.181.22.213:52284
   - hysteria_108.181.22.155:19721
   - hysteria_108.181.2.154:33445
-  - hysteria_www.dtku46.xyz:11223
+  - hysteria_108.181.2.154:33445
   - hysteria_167.160.91.116:55009
-  - hysteria_www.dtku46.xyz:11223
-  - tuic_US_ip1
+  - hysteria_64.110.25.10:44556
+  - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_111.243.65.249:55307
+  - hy2_TW_111.243.97.209:64016
   - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__glaSco.fx-trAder.shop_80
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__bs2.loadingip.com_80
-  - vmess_IR_81.12.27.4_20512
-  - vmess__185.146.173.27_8880
-  - vmess__mehdi19.mehdimoghaddam.fun_2096
-  - vmess__197.215.140.234_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - hysteria_167.160.90.251:48089
-  - hysteria_108.181.22.239:41146
+  - hysteria_167.160.90.252:48089
   - hysteria_108.181.22.213:52284
   - hysteria_108.181.22.155:19721
   - hysteria_108.181.2.154:33445
-  - hysteria_www.dtku46.xyz:11223
+  - hysteria_108.181.2.154:33445
   - hysteria_167.160.91.116:55009
-  - hysteria_www.dtku46.xyz:11223
-  - tuic_US_ip1
+  - hysteria_64.110.25.10:44556
+  - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_111.243.65.249:55307
+  - hy2_TW_111.243.97.209:64016
   - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
   - hy2_US_108.181.22.155:31721
   - vmess__dongtaiwang2.com_443
-  - vmess__glaSco.fx-trAder.shop_80
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__bs2.loadingip.com_80
-  - vmess_IR_81.12.27.4_20512
-  - vmess__185.146.173.27_8880
-  - vmess__mehdi19.mehdimoghaddam.fun_2096
-  - vmess__197.215.140.234_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
