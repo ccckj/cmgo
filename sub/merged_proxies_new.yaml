@@ -36,10 +36,45 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_108.181.22.213:52284
+- name: vmess_dongtaiwang2.com:443
+  type: vmess
+  server: dongtaiwang2.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: vless_dongtaiwang2.com:443
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075
+  tls: true
+  servername: v2ray3.freegradely.xyz
+  network: ws
+  ws-opts:
+    path: /bqbows
+    headers:
+      host: v2ray3.freegradely.xyz
+  client-fingerprint: chrome
+- name: hysteria2_108.181.2.155:22223
+  type: hysteria2
+  server: 108.181.2.155
+  port: 22223
+  password: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+- name: hysteria_www4.dtku49.xyz:22334
   type: hysteria
-  server: 108.181.22.213
-  port: 52284
+  server: www4.dtku49.xyz
+  port: 22334
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -47,54 +82,17 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_108.181.22.155:19721
-  type: hysteria
-  server: 108.181.22.155
-  port: 19721
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: hysteria2_108.181.5.19:44446
+  type: hysteria2
+  server: 108.181.5.19
+  port: 44446
+  password: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
-- name: hysteria_108.181.2.154:33445
-  server: 108.181.2.154
+- name: hysteria_www4.dtku49.xyz:22334
   type: hysteria
-  port: 33445
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: hysteria_108.181.2.154:33445
-  server: 108.181.2.154
-  type: hysteria
-  port: 33445
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: hysteria_167.160.91.116:55009
-  server: 167.160.91.116
-  type: hysteria
-  port: 55009
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: hysteria_64.110.25.10:44556
-  type: hysteria
-  server: 64.110.25.10
-  port: 44556
+  server: www4.dtku49.xyz
+  port: 22334
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -154,14 +152,14 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 173.234.25.52
-  port: 20164
-  ports: 20164
-  auth_str: Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F
+  port: 30072
+  ports: 30072
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.microsoft.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -193,20 +191,20 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_TW_111.243.97.209:64016
+- name: hy2_US_167.160.90.252:63530
   type: hysteria2
-  server: 111.243.97.209
-  port: 64016
+  server: 167.160.90.252
+  port: 63530
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.22.155:31721
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 108.181.22.155
-  port: 31721
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
-  fast-open: true
+  fast-open: false
   sni: true
   skip-cert-verify: true
 - name: hy2_US_167.160.90.252:63530
@@ -217,12 +215,12 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.22.155:31721
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 108.181.22.155
-  port: 31721
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
-  fast-open: true
+  fast-open: false
   sni: true
   skip-cert-verify: true
 - name: vmess__dongtaiwang2.com_443
@@ -242,12 +240,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - hysteria_167.160.90.252:48089
-  - hysteria_108.181.22.213:52284
-  - hysteria_108.181.22.155:19721
-  - hysteria_108.181.2.154:33445
-  - hysteria_108.181.2.154:33445
-  - hysteria_167.160.91.116:55009
-  - hysteria_64.110.25.10:44556
+  - vmess_dongtaiwang2.com:443
+  - vless_dongtaiwang2.com:443
+  - hysteria2_108.181.2.155:22223
+  - hysteria_www4.dtku49.xyz:22334
+  - hysteria2_108.181.5.19:44446
+  - hysteria_www4.dtku49.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -255,10 +253,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_111.243.97.209:64016
-  - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
-  - hy2_US_108.181.22.155:31721
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_167.160.90.252:63530
+  - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
 - name: 自动选择
   type: url-test
@@ -267,12 +265,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - hysteria_167.160.90.252:48089
-  - hysteria_108.181.22.213:52284
-  - hysteria_108.181.22.155:19721
-  - hysteria_108.181.2.154:33445
-  - hysteria_108.181.2.154:33445
-  - hysteria_167.160.91.116:55009
-  - hysteria_64.110.25.10:44556
+  - vmess_dongtaiwang2.com:443
+  - vless_dongtaiwang2.com:443
+  - hysteria2_108.181.2.155:22223
+  - hysteria_www4.dtku49.xyz:22334
+  - hysteria2_108.181.5.19:44446
+  - hysteria_www4.dtku49.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -280,10 +278,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_TW_111.243.97.209:64016
-  - hy2_US_108.181.22.155:31721
   - hy2_US_167.160.90.252:63530
-  - hy2_US_108.181.22.155:31721
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_167.160.90.252:63530
+  - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
