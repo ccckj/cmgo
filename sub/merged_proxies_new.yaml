@@ -25,21 +25,32 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: vmess_dongtaiwang3.com:443
-  type: vmess
+- name: vless_dongtaiwang3.com:443
+  type: vless
   server: dongtaiwang3.com
   port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
   tls: true
-  skip-cert-verify: true
-  servername: ''
+  servername: dongtaiwang.dtku47.xyz
   network: ws
   ws-opts:
-    path: /gzogws
+    path: /eobjws
     headers:
-      host: xray1.freeh1.xyz
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: vless_dongtaiwang2.com:443
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
 - name: vmess_dongtaiwang2.com:443
   type: vmess
   server: dongtaiwang2.com
@@ -68,6 +79,34 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
+- name: vless_dongtaiwang3.com:443
+  type: vless
+  server: dongtaiwang3.com
+  port: 443
+  uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
+  tls: true
+  servername: dongtaiwang.freeh1.xyz
+  network: ws
+  ws-opts:
+    path: /pxzaws
+    headers:
+      host: dongtaiwang.freeh1.xyz
+  client-fingerprint: chrome
+- name: vmess_dongtaiwang2.com:443
+  type: vmess
+  server: dongtaiwang2.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
 - name: vmess_dongtaiwang3.com:443
   type: vmess
   server: dongtaiwang3.com
@@ -83,39 +122,9 @@ proxies:
     path: /gzogws
     headers:
       host: xray1.freeh1.xyz
-- name: vmess_cloudflare.cfgo.cc:443
-  type: vmess
-  server: cloudflare.cfgo.cc
-  port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /gzogws
-    headers:
-      host: xray1.freeh1.xyz
-- name: vmess_cloudflare.cfgo.cc:443
-  type: vmess
-  server: cloudflare.cfgo.cc
-  port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /gzogws
-    headers:
-      host: xray1.freeh1.xyz
-- name: hysteria_111.243.97.209:22334
+- name: hysteria_www2.dtku48.xyz:22334
   type: hysteria
-  server: 111.243.97.209
+  server: www2.dtku48.xyz
   port: 22334
   auth-str: dongtaiwang.com
   alpn:
@@ -257,29 +266,40 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+- name: vmess_US_104.21.79.143_80
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  server: 104.21.79.143
+  port: 80
+  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
   network: ws
   tls: none
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
+  host: periodically-microwave-firms-abc.trycloudflare.com
+  path: ae8e857abf1d?ed=2048
+- name: vmess_PS_82.213.5.50_80
+  type: vmess
+  server: 82.213.5.50
+  port: 80
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  network: ws
+  tls: none
+  flow: ''
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - vmess_dongtaiwang3.com:443
+  - vless_dongtaiwang3.com:443
+  - vless_dongtaiwang2.com:443
   - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
+  - vless_dongtaiwang3.com:443
+  - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
-  - vmess_cloudflare.cfgo.cc:443
-  - vmess_cloudflare.cfgo.cc:443
-  - hysteria_111.243.97.209:22334
+  - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -292,20 +312,22 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_104.21.79.143_80
+  - vmess_PS_82.213.5.50_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - vmess_dongtaiwang3.com:443
+  - vless_dongtaiwang3.com:443
+  - vless_dongtaiwang2.com:443
   - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
+  - vless_dongtaiwang3.com:443
+  - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
-  - vmess_cloudflare.cfgo.cc:443
-  - vmess_cloudflare.cfgo.cc:443
-  - hysteria_111.243.97.209:22334
+  - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -318,7 +340,8 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_104.21.79.143_80
+  - vmess_PS_82.213.5.50_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
