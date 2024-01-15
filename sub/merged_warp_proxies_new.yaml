@@ -43,17 +43,21 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: hysteria_167.160.90.252:48089
-  type: hysteria
-  server: 167.160.90.252
-  port: 48089
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: vmess_dongtaiwang3.com:443
+  type: vmess
+  server: dongtaiwang3.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
   skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
 - name: vmess_dongtaiwang2.com:443
   type: vmess
   server: dongtaiwang2.com
@@ -82,34 +86,54 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: hysteria2_108.181.2.155:22223
-  type: hysteria2
-  server: 108.181.2.155
-  port: 22223
-  password: dongtaiwang.com
-  sni: bing.com
+- name: vmess_dongtaiwang3.com:443
+  type: vmess
+  server: dongtaiwang3.com
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
   skip-cert-verify: true
-- name: hysteria_www4.dtku49.xyz:22334
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: vmess_cloudflare.cfgo.cc:443
+  type: vmess
+  server: cloudflare.cfgo.cc
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: vmess_cloudflare.cfgo.cc:443
+  type: vmess
+  server: cloudflare.cfgo.cc
+  port: 443
+  cipher: auto
+  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /gzogws
+    headers:
+      host: xray1.freeh1.xyz
+- name: hysteria_111.243.97.209:22334
   type: hysteria
-  server: www4.dtku49.xyz
-  port: 22334
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: hysteria2_108.181.5.19:44446
-  type: hysteria2
-  server: 108.181.5.19
-  port: 44446
-  password: dongtaiwang.com
-  sni: bing.com
-  skip-cert-verify: true
-- name: hysteria_www4.dtku49.xyz:22334
-  type: hysteria
-  server: www4.dtku49.xyz
+  server: 111.243.97.209
   port: 22334
   auth-str: dongtaiwang.com
   alpn:
@@ -209,10 +233,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_167.160.90.252:63530
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 167.160.90.252
-  port: 63530
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -225,10 +249,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_167.160.90.252:63530
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 167.160.90.252
-  port: 63530
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -251,6 +275,16 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
 proxy-groups:
 - name: 节点选择
   type: select
@@ -272,13 +306,13 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - hysteria_167.160.90.252:48089
+  - vmess_dongtaiwang3.com:443
   - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
-  - hysteria2_108.181.2.155:22223
-  - hysteria_www4.dtku49.xyz:22334
-  - hysteria2_108.181.5.19:44446
-  - hysteria_www4.dtku49.xyz:22334
+  - vmess_dongtaiwang3.com:443
+  - vmess_cloudflare.cfgo.cc:443
+  - vmess_cloudflare.cfgo.cc:443
+  - hysteria_111.243.97.209:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -286,21 +320,22 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_167.160.90.252:63530
   - hy2_US_64.110.25.11:33337
-  - hy2_US_167.160.90.252:63530
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
 - name: 手动选择
   type: select
   proxies:
-  - hysteria_167.160.90.252:48089
+  - vmess_dongtaiwang3.com:443
   - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
-  - hysteria2_108.181.2.155:22223
-  - hysteria_www4.dtku49.xyz:22334
-  - hysteria2_108.181.5.19:44446
-  - hysteria_www4.dtku49.xyz:22334
+  - vmess_dongtaiwang3.com:443
+  - vmess_cloudflare.cfgo.cc:443
+  - vmess_cloudflare.cfgo.cc:443
+  - hysteria_111.243.97.209:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -308,21 +343,22 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_167.160.90.252:63530
   - hy2_US_64.110.25.11:33337
-  - hy2_US_167.160.90.252:63530
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
 - name: 负载均衡
   type: load-balance
   proxies:
-  - hysteria_167.160.90.252:48089
+  - vmess_dongtaiwang3.com:443
   - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
-  - hysteria2_108.181.2.155:22223
-  - hysteria_www4.dtku49.xyz:22334
-  - hysteria2_108.181.5.19:44446
-  - hysteria_www4.dtku49.xyz:22334
+  - vmess_dongtaiwang3.com:443
+  - vmess_cloudflare.cfgo.cc:443
+  - vmess_cloudflare.cfgo.cc:443
+  - hysteria_111.243.97.209:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
@@ -330,11 +366,12 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_167.160.90.252:63530
   - hy2_US_64.110.25.11:33337
-  - hy2_US_167.160.90.252:63530
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
