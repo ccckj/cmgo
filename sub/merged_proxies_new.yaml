@@ -156,10 +156,10 @@ proxies:
   auth_str: dongtaiwang.com
   up: 5
   down: 10
-- name: hysteria_www.dtku50.xyz:56252
+- name: hysteria_www.dtku50.xyz:32408
   type: hysteria
   server: www.dtku50.xyz
-  port: 56252
+  port: 32408
   sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
@@ -266,36 +266,26 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__nb22.ntbq.dynu.net_12002
+- name: vmess__ap-northeast-anycast.lnaspiring.com_80
   type: vmess
-  server: nb22.ntbq.dynu.net
-  port: 12002
-  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cz1-vmess.sshmax.xyz_80
-  type: vmess
-  server: cz1-vmess.sshmax.xyz
+  server: ap-northeast-anycast.lnaspiring.com
   port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
   network: ws
   tls: none
   flow: ''
-  host: cz1-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__b23.ntbq.dynu.net_2024
+  host: jpli.edge.233.tw
+  path: /geg/45?ed=2048
+- name: vmess__glasco.fx-trader.shop_80
   type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
-  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
-  network: tcp
+  server: glasco.fx-trader.shop
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: v3ra3do.wakeuptimerap.shop
+  path: /
 - name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
@@ -306,47 +296,37 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+- name: vmess__cfcdn2.yuzhoucloud003.xyz_2052
   type: vmess
-  server: cfcdn3.sanfencdn9.com
+  server: cfcdn2.yuzhoucloud003.xyz
+  port: 2052
+  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  network: ws
+  tls: none
+  flow: ''
+  host: dwlwfykrjp1.zvhdeaof.xyz
+  path: /video/NgeVbib3
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
   port: 2052
   uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
   network: ws
   tls: none
   flow: ''
-  host: wtywwcrzjp5.yofnhkfc.xyz
-  path: /video/9TfVEyku
-- name: vmess__hytron.io_8080
+  host: yvhnbevxhk1.yofnhkfc.xyz
+  path: /video/34kKXbLM
+- name: vmess__hamrahaval.asan3a.shop_8080
   type: vmess
-  server: hytron.io
+  server: hamrahaval.asan3a.shop
   port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
   network: ws
   tls: none
   flow: ''
-  host: hytron.io
+  host: asan3.azad2.tech
   path: /
-- name: vmess__82.213.5.50_80
-  type: vmess
-  server: 82.213.5.50
-  port: 80
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  network: ws
-  tls: none
-  flow: ''
-  host: irisoft.servecounterstrike.com
-  path: /@forwardv2ray
-- name: vmess__104.18.15.147_80
-  type: vmess
-  server: 104.18.15.147
-  port: 80
-  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
-  network: ws
-  tls: none
-  flow: ''
-  host: us3.889611.com
-  path: /
-- name: vmess__104.17.2.183_80
+- name: vmess_US_104.17.2.183_80
   type: vmess
   server: 104.17.2.183
   port: 80
@@ -356,16 +336,36 @@ proxies:
   flow: ''
   host: v3ra3do.wakeuptimerap.shop
   path: /
-- name: vmess__114.37.130.69_2024
+- name: vmess__104.17.30.111_8080
   type: vmess
-  server: 114.37.130.69
-  port: 2024
-  uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
-  network: tcp
+  server: 104.17.30.111
+  port: 8080
+  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: asan3.azad2.tech
+  path: /
+- name: vmess__173.245.59.209_443
+  type: vmess
+  server: 173.245.59.209
+  port: 443
+  uuid: a0eb42f5-eed2-41ce-c574-1896a5388021
+  network: ws
+  tls: tls
+  flow: ''
+  host: toll-named-executive-doctor.trycloudflare.com
+  path: /uptime
+- name: vmess__162.159.200.5_80
+  type: vmess
+  server: 162.159.200.5
+  port: 80
+  uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
+  network: ws
+  tls: none
+  flow: ''
+  host: hk3.889611.com
+  path: /
 - name: vmess__glaSco.fx-trAder.shop_80
   type: vmess
   server: glaSco.fx-trAder.shop
@@ -376,16 +376,46 @@ proxies:
   flow: ''
   host: vvv2vayo2.everythingisreve.shop
   path: /
-- name: vmess__172.67.229.14_80
+- name: vmess__adenc35.fixedlfoat.top_443
   type: vmess
-  server: 172.67.229.14
+  server: adenc35.fixedlfoat.top
+  port: 443
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  network: ws
+  tls: tls
+  flow: ''
+  host: adenc35.fixedlfoat.top
+  path: /linkws
+- name: vmess__104.18.15.147_80
+  type: vmess
+  server: 104.18.15.147
   port: 80
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
   network: ws
   tls: none
   flow: ''
-  host: fr9.tehme100.fun
-  path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+  host: us3.889611.com
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_80
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 80
+  uuid: dab86579-d197-431b-8e72-3d8a75968040
+  network: ws
+  tls: none
+  flow: ''
+  host: oA5FSz9Tjp1.yofnhkfc.xyz
+  path: /video/P7EExoE2
+- name: vmess__104.18.202.232_80
+  type: vmess
+  server: 104.18.202.232
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  network: ws
+  tls: none
+  flow: ''
+  host: ca4.tehme2.fun
+  path: /IOebhLMhl1CTbFHbL95myfRX2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -402,7 +432,7 @@ proxy-groups:
   - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
-  - hysteria_www.dtku50.xyz:56252
+  - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -412,18 +442,21 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__nb22.ntbq.dynu.net_12002
-  - vmess__cz1-vmess.sshmax.xyz_80
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__glasco.fx-trader.shop_80
   - vmess_GB_172.99.190.109_443
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__hytron.io_8080
-  - vmess__82.213.5.50_80
-  - vmess__104.18.15.147_80
-  - vmess__104.17.2.183_80
-  - vmess__114.37.130.69_2024
+  - vmess__cfcdn2.yuzhoucloud003.xyz_2052
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__hamrahaval.asan3a.shop_8080
+  - vmess_US_104.17.2.183_80
+  - vmess__104.17.30.111_8080
+  - vmess__173.245.59.209_443
+  - vmess__162.159.200.5_80
   - vmess__glaSco.fx-trAder.shop_80
-  - vmess__172.67.229.14_80
+  - vmess__adenc35.fixedlfoat.top_443
+  - vmess__104.18.15.147_80
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.18.202.232_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -440,7 +473,7 @@ proxy-groups:
   - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
-  - hysteria_www.dtku50.xyz:56252
+  - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -450,18 +483,21 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__nb22.ntbq.dynu.net_12002
-  - vmess__cz1-vmess.sshmax.xyz_80
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__glasco.fx-trader.shop_80
   - vmess_GB_172.99.190.109_443
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__hytron.io_8080
-  - vmess__82.213.5.50_80
-  - vmess__104.18.15.147_80
-  - vmess__104.17.2.183_80
-  - vmess__114.37.130.69_2024
+  - vmess__cfcdn2.yuzhoucloud003.xyz_2052
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__hamrahaval.asan3a.shop_8080
+  - vmess_US_104.17.2.183_80
+  - vmess__104.17.30.111_8080
+  - vmess__173.245.59.209_443
+  - vmess__162.159.200.5_80
   - vmess__glaSco.fx-trAder.shop_80
-  - vmess__172.67.229.14_80
+  - vmess__adenc35.fixedlfoat.top_443
+  - vmess__104.18.15.147_80
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.18.202.232_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
