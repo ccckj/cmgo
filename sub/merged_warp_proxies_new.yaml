@@ -151,12 +151,16 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria2_108.181.24.77:18775
-  type: hysteria2
-  server: 108.181.24.77
-  port: 18775
-  password: dongtaiwang.com
-  sni: bing.com
+- name: hysteria_64.110.25.10:44556
+  type: hysteria
+  server: 64.110.25.10
+  port: 44556
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
 - name: hysteria_62.204.54.81:44550
   type: hysteria
@@ -238,18 +242,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_108.181.24.77:18775
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 108.181.24.77
-  port: 18775
-  password: dongtaiwang.com
-  fast-open: false
-  sni: true
-  skip-cert-verify: true
-- name: hy2_US_108.181.24.77:18775
-  type: hysteria2
-  server: 108.181.24.77
-  port: 18775
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -262,10 +258,18 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.24.77:18775
+- name: hy2_US_64.110.25.11:33337
   type: hysteria2
-  server: 108.181.24.77
-  port: 18775
+  server: 64.110.25.11
+  port: 33337
+  password: dongtaiwang.com
+  fast-open: false
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_64.110.25.11:33337
+  type: hysteria2
+  server: 64.110.25.11
+  port: 33337
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -280,26 +284,126 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_US_104.21.79.143_80
+- name: vmess__nb22.ntbq.dynu.net_12002
   type: vmess
-  server: 104.21.79.143
+  server: nb22.ntbq.dynu.net
+  port: 12002
+  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__cz1-vmess.sshmax.xyz_80
+  type: vmess
+  server: cz1-vmess.sshmax.xyz
   port: 80
-  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
   network: ws
   tls: none
   flow: ''
-  host: periodically-microwave-firms-abc.trycloudflare.com
-  path: ae8e857abf1d?ed=2048
-- name: vmess_US_104.21.20.16_80
-  type: vmess
-  server: 104.21.20.16
-  port: 80
-  uuid: c9e99213-170b-458a-b45b-79454ac7cf4b
-  network: ws
-  tls: none
-  flow: ''
-  host: fi2-vmess.sshmax.xyz
+  host: cz1-vmess.sshmax.xyz
   path: /vmess
+- name: vmess__b23.ntbq.dynu.net_2024
+  type: vmess
+  server: b23.ntbq.dynu.net
+  port: 2024
+  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_GB_172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__cfcdn3.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
+  network: ws
+  tls: none
+  flow: ''
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__82.213.5.50_80
+  type: vmess
+  server: 82.213.5.50
+  port: 80
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  network: ws
+  tls: none
+  flow: ''
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__104.18.15.147_80
+  type: vmess
+  server: 104.18.15.147
+  port: 80
+  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
+  network: ws
+  tls: none
+  flow: ''
+  host: us3.889611.com
+  path: /
+- name: vmess__104.17.2.183_80
+  type: vmess
+  server: 104.17.2.183
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  network: ws
+  tls: none
+  flow: ''
+  host: v3ra3do.wakeuptimerap.shop
+  path: /
+- name: vmess__114.37.130.69_2024
+  type: vmess
+  server: 114.37.130.69
+  port: 2024
+  uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__glaSco.fx-trAder.shop_80
+  type: vmess
+  server: glaSco.fx-trAder.shop
+  port: 80
+  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+  network: ws
+  tls: none
+  flow: ''
+  host: vvv2vayo2.everythingisreve.shop
+  path: /
+- name: vmess__172.67.229.14_80
+  type: vmess
+  server: 172.67.229.14
+  port: 80
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  network: ws
+  tls: none
+  flow: ''
+  host: fr9.tehme100.fun
+  path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 proxy-groups:
 - name: 节点选择
   type: select
@@ -329,20 +433,30 @@ proxy-groups:
   - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_108.181.24.77:18775
+  - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_108.181.24.77:18775
-  - hy2_US_108.181.24.77:18775
   - hy2_US_64.110.25.11:33337
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess_US_104.21.79.143_80
-  - vmess_US_104.21.20.16_80
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess_GB_172.99.190.109_443
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__hytron.io_8080
+  - vmess__82.213.5.50_80
+  - vmess__104.18.15.147_80
+  - vmess__104.17.2.183_80
+  - vmess__114.37.130.69_2024
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__172.67.229.14_80
 - name: 手动选择
   type: select
   proxies:
@@ -354,20 +468,30 @@ proxy-groups:
   - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_108.181.24.77:18775
+  - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_108.181.24.77:18775
-  - hy2_US_108.181.24.77:18775
   - hy2_US_64.110.25.11:33337
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess_US_104.21.79.143_80
-  - vmess_US_104.21.20.16_80
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess_GB_172.99.190.109_443
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__hytron.io_8080
+  - vmess__82.213.5.50_80
+  - vmess__104.18.15.147_80
+  - vmess__104.17.2.183_80
+  - vmess__114.37.130.69_2024
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__172.67.229.14_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -379,20 +503,30 @@ proxy-groups:
   - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_108.181.24.77:18775
+  - hysteria_64.110.25.10:44556
   - hysteria_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:56252
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_108.181.24.77:18775
-  - hy2_US_108.181.24.77:18775
   - hy2_US_64.110.25.11:33337
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
+  - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess_US_104.21.79.143_80
-  - vmess_US_104.21.20.16_80
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess_GB_172.99.190.109_443
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__hytron.io_8080
+  - vmess__82.213.5.50_80
+  - vmess__104.18.15.147_80
+  - vmess__104.17.2.183_80
+  - vmess__114.37.130.69_2024
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__172.67.229.14_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
