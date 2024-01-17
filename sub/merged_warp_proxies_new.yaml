@@ -162,10 +162,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria_62.204.54.81:44550
+- name: hysteria_62.204.54.81:62946
   type: hysteria
   server: 62.204.54.81
-  port: 44550
+  port: 62946
   sni: bing.com
   skip-cert-verify: true
   alpn:
@@ -374,16 +374,66 @@ proxies:
   flow: ''
   host: us3.889611.com
   path: /
-- name: vmess__ap-northeast-anycast.lnaspiring.com_80
+- name: vmess__104.17.25.1_80
   type: vmess
-  server: ap-northeast-anycast.lnaspiring.com
+  server: 104.17.25.1
   port: 80
-  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
+  uuid: d87339e4-d57d-4475-ef76-a78205daa90e
   network: ws
   tls: none
   flow: ''
-  host: jpli.edge.233.tw
-  path: /geg/45?ed=2048
+  host: 1.catnipballs.gay
+  path: /
+- name: vmess__cz1-vmess.sshmax.xyz_80
+  type: vmess
+  server: cz1-vmess.sshmax.xyz
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: cz1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess__107.182.189.201_55187
+  type: vmess
+  server: 107.182.189.201
+  port: 55187
+  uuid: 26670a76-5fe2-4738-a84b-1229905e0354
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__104.21.73.14_8880
+  type: vmess
+  server: 104.21.73.14
+  port: 8880
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  network: ws
+  tls: none
+  flow: ''
+  host: yaghoob55freenodes.repaco69437403.workers.dev
+  path: /adenc35.fixedlfoat.top/linkws
+- name: vmess__82.213.5.50_80
+  type: vmess
+  server: 82.213.5.50
+  port: 80
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  network: ws
+  tls: none
+  flow: ''
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__202.79.171.239_443
+  type: vmess
+  server: 202.79.171.239
+  port: 443
+  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.46130221.xyz
+  path: /path/143534141104
 proxy-groups:
 - name: 节点选择
   type: select
@@ -414,7 +464,7 @@ proxy-groups:
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
-  - hysteria_62.204.54.81:44550
+  - hysteria_62.204.54.81:62946
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
@@ -434,7 +484,12 @@ proxy-groups:
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__104.17.25.1_80
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__107.182.189.201_55187
+  - vmess__104.21.73.14_8880
+  - vmess__82.213.5.50_80
+  - vmess__202.79.171.239_443
 - name: 手动选择
   type: select
   proxies:
@@ -447,7 +502,7 @@ proxy-groups:
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
-  - hysteria_62.204.54.81:44550
+  - hysteria_62.204.54.81:62946
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
@@ -467,7 +522,12 @@ proxy-groups:
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__104.17.25.1_80
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__107.182.189.201_55187
+  - vmess__104.21.73.14_8880
+  - vmess__82.213.5.50_80
+  - vmess__202.79.171.239_443
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -480,7 +540,7 @@ proxy-groups:
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria_64.110.25.10:44556
-  - hysteria_62.204.54.81:44550
+  - hysteria_62.204.54.81:62946
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
@@ -500,7 +560,12 @@ proxy-groups:
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__104.17.25.1_80
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__107.182.189.201_55187
+  - vmess__104.21.73.14_8880
+  - vmess__82.213.5.50_80
+  - vmess__202.79.171.239_443
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
