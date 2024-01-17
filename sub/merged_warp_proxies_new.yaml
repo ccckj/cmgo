@@ -284,25 +284,35 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__ap-northeast-anycast.lnaspiring.com_80
+- name: vmess__cfcdn3.sanfencdn9.com_2052
   type: vmess
-  server: ap-northeast-anycast.lnaspiring.com
-  port: 80
-  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
   network: ws
   tls: none
   flow: ''
-  host: jpli.edge.233.tw
-  path: /geg/45?ed=2048
-- name: vmess__glasco.fx-trader.shop_80
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
+- name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
-  server: glasco.fx-trader.shop
-  port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   network: ws
   tls: none
   flow: ''
-  host: v3ra3do.wakeuptimerap.shop
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
   path: /
 - name: vmess_GB_172.99.190.109_443
   type: vmess
@@ -314,6 +324,16 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess_US_162.159.200.5_80
+  type: vmess
+  server: 162.159.200.5
+  port: 80
+  uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
+  network: ws
+  tls: none
+  flow: ''
+  host: hk3.889611.com
+  path: /
 - name: vmess__cfcdn2.yuzhoucloud003.xyz_2052
   type: vmess
   server: cfcdn2.yuzhoucloud003.xyz
@@ -324,66 +344,6 @@ proxies:
   flow: ''
   host: dwlwfykrjp1.zvhdeaof.xyz
   path: /video/NgeVbib3
-- name: vmess__cfcdn2.sanfencdn9.com_2052
-  type: vmess
-  server: cfcdn2.sanfencdn9.com
-  port: 2052
-  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
-  network: ws
-  tls: none
-  flow: ''
-  host: yvhnbevxhk1.yofnhkfc.xyz
-  path: /video/34kKXbLM
-- name: vmess__hamrahaval.asan3a.shop_8080
-  type: vmess
-  server: hamrahaval.asan3a.shop
-  port: 8080
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-  network: ws
-  tls: none
-  flow: ''
-  host: asan3.azad2.tech
-  path: /
-- name: vmess_US_104.17.2.183_80
-  type: vmess
-  server: 104.17.2.183
-  port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  network: ws
-  tls: none
-  flow: ''
-  host: v3ra3do.wakeuptimerap.shop
-  path: /
-- name: vmess__104.17.30.111_8080
-  type: vmess
-  server: 104.17.30.111
-  port: 8080
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-  network: ws
-  tls: none
-  flow: ''
-  host: asan3.azad2.tech
-  path: /
-- name: vmess__173.245.59.209_443
-  type: vmess
-  server: 173.245.59.209
-  port: 443
-  uuid: a0eb42f5-eed2-41ce-c574-1896a5388021
-  network: ws
-  tls: tls
-  flow: ''
-  host: toll-named-executive-doctor.trycloudflare.com
-  path: /uptime
-- name: vmess__162.159.200.5_80
-  type: vmess
-  server: 162.159.200.5
-  port: 80
-  uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
-  network: ws
-  tls: none
-  flow: ''
-  host: hk3.889611.com
-  path: /
 - name: vmess__glaSco.fx-trAder.shop_80
   type: vmess
   server: glaSco.fx-trAder.shop
@@ -414,26 +374,16 @@ proxies:
   flow: ''
   host: us3.889611.com
   path: /
-- name: vmess__cfcdn3.sanfencdn9.com_80
+- name: vmess__ap-northeast-anycast.lnaspiring.com_80
   type: vmess
-  server: cfcdn3.sanfencdn9.com
+  server: ap-northeast-anycast.lnaspiring.com
   port: 80
-  uuid: dab86579-d197-431b-8e72-3d8a75968040
+  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
   network: ws
   tls: none
   flow: ''
-  host: oA5FSz9Tjp1.yofnhkfc.xyz
-  path: /video/P7EExoE2
-- name: vmess__104.18.202.232_80
-  type: vmess
-  server: 104.18.202.232
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  network: ws
-  tls: none
-  flow: ''
-  host: ca4.tehme2.fun
-  path: /IOebhLMhl1CTbFHbL95myfRX2
+  host: jpli.edge.233.tw
+  path: /geg/45?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -475,21 +425,16 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
-  - vmess__glasco.fx-trader.shop_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__hytron.io_8080
   - vmess_GB_172.99.190.109_443
+  - vmess_US_162.159.200.5_80
   - vmess__cfcdn2.yuzhoucloud003.xyz_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__hamrahaval.asan3a.shop_8080
-  - vmess_US_104.17.2.183_80
-  - vmess__104.17.30.111_8080
-  - vmess__173.245.59.209_443
-  - vmess__162.159.200.5_80
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__104.18.202.232_80
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
 - name: 手动选择
   type: select
   proxies:
@@ -513,21 +458,16 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
-  - vmess__glasco.fx-trader.shop_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__hytron.io_8080
   - vmess_GB_172.99.190.109_443
+  - vmess_US_162.159.200.5_80
   - vmess__cfcdn2.yuzhoucloud003.xyz_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__hamrahaval.asan3a.shop_8080
-  - vmess_US_104.17.2.183_80
-  - vmess__104.17.30.111_8080
-  - vmess__173.245.59.209_443
-  - vmess__162.159.200.5_80
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__104.18.202.232_80
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -551,21 +491,16 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__ap-northeast-anycast.lnaspiring.com_80
-  - vmess__glasco.fx-trader.shop_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__hytron.io_8080
   - vmess_GB_172.99.190.109_443
+  - vmess_US_162.159.200.5_80
   - vmess__cfcdn2.yuzhoucloud003.xyz_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__hamrahaval.asan3a.shop_8080
-  - vmess_US_104.17.2.183_80
-  - vmess__104.17.30.111_8080
-  - vmess__173.245.59.209_443
-  - vmess__162.159.200.5_80
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__adenc35.fixedlfoat.top_443
   - vmess__104.18.15.147_80
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__104.18.202.232_80
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
