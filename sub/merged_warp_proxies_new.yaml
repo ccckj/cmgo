@@ -159,13 +159,13 @@ proxies:
 - name: hysteria2_51.158.54.46:23400
   type: hysteria2
   server: 51.158.54.46
-  port: 23400
-  up: 11 Mbps
-  down: 55 Mbps
   password: d64df453-34f0-4fa8-b115-e6805f6d54db
   obfs: salamander
   obfs-password: d64df453-34f0-4fa8-b115-e6805f6d54db
   skip-cert-verify: true
+  port: 23400
+  up: 11 Mbps
+  down: 55 Mbps
 - name: hysteria2_45.150.165.84:33440
   type: hysteria2
   server: 45.150.165.84
@@ -286,76 +286,6 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__bs2.loadingip.com_80
-  type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess__nb24.ntbq.dynu.net_4443
-  type: vmess
-  server: nb24.ntbq.dynu.net
-  port: 4443
-  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__skyht2.vpndata.vn_80
-  type: vmess
-  server: skyht2.vpndata.vn
-  port: 80
-  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
-  network: ws
-  tls: none
-  flow: ''
-  host: lienquan.garena.vn
-  path: /VPNDATA.VPN
-- name: vmess_TW_114.37.130.69_2024
-  type: vmess
-  server: 114.37.130.69
-  port: 2024
-  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__world13.freedomisnear.fun_2086
-  type: vmess
-  server: world13.freedomisnear.fun
-  port: 2086
-  uuid: 9ace23db-8b75-4b9a-881b-d6d93163cbec
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess_FR_57.129.16.96_8080
-  type: vmess
-  server: 57.129.16.96
-  port: 8080
-  uuid: d059bdd0-5dfc-5496-9ac1-025dffb1520b
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cfcdn3.sanfencdn9.com_80
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: dab86579-d197-431b-8e72-3d8a75968040
-  network: ws
-  tls: none
-  flow: ''
-  host: oA5FSz9Tjp1.yofnhkfc.xyz
-  path: /video/P7EExoE2
 - name: vmess__glasco.fx-trader.shop_80
   type: vmess
   server: glasco.fx-trader.shop
@@ -366,26 +296,46 @@ proxies:
   flow: ''
   host: v3ra3do.wakeuptimerap.shop
   path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+- name: vmess_CN_112.28.208.14_41702
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
+  server: 112.28.208.14
+  port: 41702
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
   tls: none
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__42.96.3.223_80
-  type: vmess
-  server: 42.96.3.223
-  port: 80
-  uuid: f2d51ddb-1dea-414d-b179-3880e7a60ad6
-  network: ws
-  tls: none
-  flow: ''
-  host: lienquan.garena.vn
+  host: ''
   path: ''
+- name: vmess_HK_199.15.76.35_443
+  type: vmess
+  server: 199.15.76.35
+  port: 443
+  uuid: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c
+  network: ws
+  tls: tls
+  flow: ''
+  host: sometimes-able-imported-drainage.trycloudflare.com
+  path: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm
+- name: vmess_CN_183.240.232.94_35601
+  type: vmess
+  server: 183.240.232.94
+  port: 35601
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_PS_82.213.5.50_80
+  type: vmess
+  server: 82.213.5.50
+  port: 80
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  network: ws
+  tls: none
+  flow: ''
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
 - name: vmess__104.17.2.183_80
   type: vmess
   server: 104.17.2.183
@@ -396,61 +346,11 @@ proxies:
   flow: ''
   host: v3ra3do.wakeuptimerap.shop
   path: /
-- name: vmess__82.213.5.50_80
-  type: vmess
-  server: 82.213.5.50
-  port: 80
-  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
-  network: ws
-  tls: none
-  flow: ''
-  host: tabyan205.serveftp.com
-  path: /@forwardv2ray
 - name: vmess__c12.twtc.dynu.net_6122
   type: vmess
   server: c12.twtc.dynu.net
   port: 6122
   uuid: 60ab817e-0566-44cb-becd-6b51698d5672
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__world11.freedomisnear.fun_8080
-  type: vmess
-  server: world11.freedomisnear.fun
-  port: 8080
-  uuid: d16c0dcb-4a18-4665-92bf-9e7035103c7f
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__b23.ntbq.dynu.net_2024
-  type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
-  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
   network: tcp
   tls: none
   flow: ''
@@ -497,23 +397,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__bs2.loadingip.com_80
-  - vmess__nb24.ntbq.dynu.net_4443
-  - vmess__skyht2.vpndata.vn_80
-  - vmess_TW_114.37.130.69_2024
-  - vmess__world13.freedomisnear.fun_2086
-  - vmess_FR_57.129.16.96_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__glasco.fx-trader.shop_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__42.96.3.223_80
+  - vmess_CN_112.28.208.14_41702
+  - vmess_HK_199.15.76.35_443
+  - vmess_CN_183.240.232.94_35601
+  - vmess_PS_82.213.5.50_80
   - vmess__104.17.2.183_80
-  - vmess__82.213.5.50_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess__172.99.190.109_443
-  - vmess__hytron.io_8080
-  - vmess__world11.freedomisnear.fun_8080
-  - vmess__b23.ntbq.dynu.net_2024
 - name: 手动选择
   type: select
   proxies:
@@ -537,23 +427,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__bs2.loadingip.com_80
-  - vmess__nb24.ntbq.dynu.net_4443
-  - vmess__skyht2.vpndata.vn_80
-  - vmess_TW_114.37.130.69_2024
-  - vmess__world13.freedomisnear.fun_2086
-  - vmess_FR_57.129.16.96_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__glasco.fx-trader.shop_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__42.96.3.223_80
+  - vmess_CN_112.28.208.14_41702
+  - vmess_HK_199.15.76.35_443
+  - vmess_CN_183.240.232.94_35601
+  - vmess_PS_82.213.5.50_80
   - vmess__104.17.2.183_80
-  - vmess__82.213.5.50_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess__172.99.190.109_443
-  - vmess__hytron.io_8080
-  - vmess__world11.freedomisnear.fun_8080
-  - vmess__b23.ntbq.dynu.net_2024
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -577,23 +457,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__bs2.loadingip.com_80
-  - vmess__nb24.ntbq.dynu.net_4443
-  - vmess__skyht2.vpndata.vn_80
-  - vmess_TW_114.37.130.69_2024
-  - vmess__world13.freedomisnear.fun_2086
-  - vmess_FR_57.129.16.96_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__glasco.fx-trader.shop_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__42.96.3.223_80
+  - vmess_CN_112.28.208.14_41702
+  - vmess_HK_199.15.76.35_443
+  - vmess_CN_183.240.232.94_35601
+  - vmess_PS_82.213.5.50_80
   - vmess__104.17.2.183_80
-  - vmess__82.213.5.50_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess__172.99.190.109_443
-  - vmess__hytron.io_8080
-  - vmess__world11.freedomisnear.fun_8080
-  - vmess__b23.ntbq.dynu.net_2024
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
