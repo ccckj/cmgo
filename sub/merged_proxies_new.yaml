@@ -25,6 +25,32 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: vless_dongtaiwang3.com:443
+  type: vless
+  server: dongtaiwang3.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: vless_dongtaiwang2.com:443
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
 - name: ss_167.160.90.252:8883
   type: ss
   server: 167.160.90.252
@@ -45,21 +71,6 @@ proxies:
     min-streams: '16'
     statistic: true
     only-tcp: false
-- name: vmess_dongtaiwang2.com:443
-  type: vmess
-  server: dongtaiwang2.com
-  port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /gzogws
-    headers:
-      host: xray1.freeh1.xyz
 - name: vless_dongtaiwang2.com:443
   type: vless
   server: dongtaiwang2.com
@@ -357,6 +368,56 @@ proxies:
   flow: ''
   host: lienquan.garena.vn
   path: ''
+- name: vmess__104.17.2.183_80
+  type: vmess
+  server: 104.17.2.183
+  port: 80
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  network: ws
+  tls: none
+  flow: ''
+  host: v3ra3do.wakeuptimerap.shop
+  path: /
+- name: vmess__82.213.5.50_80
+  type: vmess
+  server: 82.213.5.50
+  port: 80
+  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
+  network: ws
+  tls: none
+  flow: ''
+  host: tabyan205.serveftp.com
+  path: /@forwardv2ray
+- name: vmess__c12.twtc.dynu.net_6122
+  type: vmess
+  server: c12.twtc.dynu.net
+  port: 6122
+  uuid: 60ab817e-0566-44cb-becd-6b51698d5672
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
 - name: vmess__world11.freedomisnear.fun_8080
   type: vmess
   server: world11.freedomisnear.fun
@@ -377,64 +438,15 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__world14.freedomisnear.fun_8880
-  type: vmess
-  server: world14.freedomisnear.fun
-  port: 8880
-  uuid: fde70c8f-02ba-4386-9fcb-0a0aa1458d25
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /@forwardv2ray
-- name: vmess__112.28.208.14_40702
-  type: vmess
-  server: 112.28.208.14
-  port: 40702
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__27.124.8.132_443
-  type: vmess
-  server: 27.124.8.132
-  port: 443
-  uuid: 9e338965-6a07-4a5f-ad97-d57f4a6e6fd3
-  network: ws
-  tls: tls
-  flow: ''
-  host: www.98355923.xyz
-  path: /path/143534141104
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
+  - vless_dongtaiwang3.com:443
+  - vless_dongtaiwang2.com:443
   - ss_167.160.90.252:8883
-  - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
   - vless_dongtaiwang3.com:443
   - vmess_dongtaiwang2.com:443
@@ -462,21 +474,22 @@ proxy-groups:
   - vmess__glasco.fx-trader.shop_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__42.96.3.223_80
+  - vmess__104.17.2.183_80
+  - vmess__82.213.5.50_80
+  - vmess__c12.twtc.dynu.net_6122
+  - vmess__172.99.190.109_443
+  - vmess__hytron.io_8080
   - vmess__world11.freedomisnear.fun_8080
   - vmess__b23.ntbq.dynu.net_2024
-  - vmess__world14.freedomisnear.fun_8880
-  - vmess__112.28.208.14_40702
-  - vmess__27.124.8.132_443
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
+  - vless_dongtaiwang3.com:443
+  - vless_dongtaiwang2.com:443
   - ss_167.160.90.252:8883
-  - vmess_dongtaiwang2.com:443
   - vless_dongtaiwang2.com:443
   - vless_dongtaiwang3.com:443
   - vmess_dongtaiwang2.com:443
@@ -504,13 +517,13 @@ proxy-groups:
   - vmess__glasco.fx-trader.shop_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__42.96.3.223_80
+  - vmess__104.17.2.183_80
+  - vmess__82.213.5.50_80
+  - vmess__c12.twtc.dynu.net_6122
+  - vmess__172.99.190.109_443
+  - vmess__hytron.io_8080
   - vmess__world11.freedomisnear.fun_8080
   - vmess__b23.ntbq.dynu.net_2024
-  - vmess__world14.freedomisnear.fun_8880
-  - vmess__112.28.208.14_40702
-  - vmess__27.124.8.132_443
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
