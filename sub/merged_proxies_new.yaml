@@ -138,16 +138,13 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria2_51.158.54.46:23400
+- name: hysteria2_51.158.54.46:44550
   type: hysteria2
   server: 51.158.54.46
-  password: d64df453-34f0-4fa8-b115-e6805f6d54db
-  obfs: salamander
-  obfs-password: d64df453-34f0-4fa8-b115-e6805f6d54db
+  port: 44550
+  password: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
-  port: 23400
-  up: 11 Mbps
-  down: 55 Mbps
 - name: hysteria2_45.150.165.84:33440
   type: hysteria2
   server: 45.150.165.84
@@ -268,76 +265,76 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__glasco.fx-trader.shop_80
+- name: vmess_GR_94.131.8.32_80
   type: vmess
-  server: glasco.fx-trader.shop
+  server: 94.131.8.32
   port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
   network: ws
   tls: none
   flow: ''
-  host: v3ra3do.wakeuptimerap.shop
-  path: /
-- name: vmess_CN_112.28.208.14_41702
+  host: ''
+  path: /vmess
+- name: vmess__cc3.shabijichang.com_80
   type: vmess
-  server: 112.28.208.14
-  port: 41702
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
+  server: cc3.shabijichang.com
+  port: 80
+  uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
-- name: vmess_HK_199.15.76.35_443
+  host: cc3.shabijichang.com
+  path: /
+- name: vmess__19.namesilo123.top_8880
   type: vmess
-  server: 199.15.76.35
+  server: 19.namesilo123.top
+  port: 8880
+  uuid: c92caa39-eda5-4c57-bafd-df3501854f24
+  network: ws
+  tls: none
+  flow: ''
+  host: tw.sanfen003.top
+  path: /grdhhgrdhhhhhhj?ed=2048
+- name: vmess__cfcdn3.sanfencdn9.com_80
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 80
+  uuid: dab86579-d197-431b-8e72-3d8a75968040
+  network: ws
+  tls: none
+  flow: ''
+  host: oA5FSz9Tjp1.yofnhkfc.xyz
+  path: /video/P7EExoE2
+- name: vmess_GB_172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
   port: 443
-  uuid: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
   tls: tls
   flow: ''
-  host: sometimes-able-imported-drainage.trycloudflare.com
-  path: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm
-- name: vmess_CN_183.240.232.94_35601
-  type: vmess
-  server: 183.240.232.94
-  port: 35601
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
   host: ''
-  path: ''
-- name: vmess_PS_82.213.5.50_80
+  path: linkvws
+- name: vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
   type: vmess
-  server: 82.213.5.50
-  port: 80
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
+  port: 443
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  network: ws
+  tls: tls
+  flow: ''
+  host: mikasa.erenyeager.cloudns.biz
+  path: /glweidf.sbs/linkws
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
   network: ws
   tls: none
   flow: ''
-  host: irisoft.servecounterstrike.com
-  path: /@forwardv2ray
-- name: vmess__104.17.2.183_80
-  type: vmess
-  server: 104.17.2.183
-  port: 80
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  network: ws
-  tls: none
-  flow: ''
-  host: v3ra3do.wakeuptimerap.shop
+  host: hytron.io
   path: /
-- name: vmess__c12.twtc.dynu.net_6122
-  type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 60ab817e-0566-44cb-becd-6b51698d5672
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -352,7 +349,7 @@ proxy-groups:
   - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_51.158.54.46:23400
+  - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:33440
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
@@ -364,13 +361,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__glasco.fx-trader.shop_80
-  - vmess_CN_112.28.208.14_41702
-  - vmess_HK_199.15.76.35_443
-  - vmess_CN_183.240.232.94_35601
-  - vmess_PS_82.213.5.50_80
-  - vmess__104.17.2.183_80
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess_GR_94.131.8.32_80
+  - vmess__cc3.shabijichang.com_80
+  - vmess__19.namesilo123.top_8880
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess_GB_172.99.190.109_443
+  - vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
+  - vmess__hytron.io_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -385,7 +382,7 @@ proxy-groups:
   - vmess_dongtaiwang2.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_51.158.54.46:23400
+  - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:33440
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
@@ -397,13 +394,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - vmess__dongtaiwang2.com_443
-  - vmess__glasco.fx-trader.shop_80
-  - vmess_CN_112.28.208.14_41702
-  - vmess_HK_199.15.76.35_443
-  - vmess_CN_183.240.232.94_35601
-  - vmess_PS_82.213.5.50_80
-  - vmess__104.17.2.183_80
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess_GR_94.131.8.32_80
+  - vmess__cc3.shabijichang.com_80
+  - vmess__19.namesilo123.top_8880
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess_GB_172.99.190.109_443
+  - vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
+  - vmess__hytron.io_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
