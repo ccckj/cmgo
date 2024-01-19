@@ -247,10 +247,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_64.110.25.11:33337
+- name: hy2_US_108.181.24.77:18775
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 108.181.24.77
+  port: 18775
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -335,16 +335,36 @@ proxies:
   flow: ''
   host: tw.sanfen003.top
   path: /grdhhgrdhhhhhhj?ed=2048
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+- name: vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
+  port: 443
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  network: ws
+  tls: tls
+  flow: ''
+  host: mikasa.erenyeager.cloudns.biz
+  path: /glweidf.sbs/linkws
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   network: ws
   tls: none
   flow: ''
-  host: wtywwcrzjp5.yofnhkfc.xyz
-  path: /video/9TfVEyku
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__nb24.ntbq.dynu.net_4443
+  type: vmess
+  server: nb24.ntbq.dynu.net
+  port: 4443
+  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -369,7 +389,7 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
-  - hy2_US_64.110.25.11:33337
+  - hy2_US_108.181.24.77:18775
   - vmess__dongtaiwang2.com_443
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__b23.ntbq.dynu.net_2024
@@ -378,7 +398,9 @@ proxy-groups:
   - vmess_GR_94.131.8.32_80
   - vmess__cc3.shabijichang.com_80
   - vmess__19.namesilo123.top_8880
-  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__nb24.ntbq.dynu.net_4443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -403,7 +425,7 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
-  - hy2_US_64.110.25.11:33337
+  - hy2_US_108.181.24.77:18775
   - vmess__dongtaiwang2.com_443
   - vmess__glaSco.fx-trAder.shop_80
   - vmess__b23.ntbq.dynu.net_2024
@@ -412,7 +434,9 @@ proxy-groups:
   - vmess_GR_94.131.8.32_80
   - vmess__cc3.shabijichang.com_80
   - vmess__19.namesilo123.top_8880
-  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__nb24.ntbq.dynu.net_4443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
