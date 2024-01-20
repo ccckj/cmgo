@@ -325,7 +325,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess_GB_172.99.190.109_443
+- name: vmess__172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -335,6 +335,36 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess__cold-dawn-9246.fly.dev_443
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  network: ws
+  tls: tls
+  flow: ''
+  host: cold-dawn-9246.fly.dev
+  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: vmess__s1c.v2.v001sss.xyz_2082
+  type: vmess
+  server: s1c.v2.v001sss.xyz
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
+  tls: none
+  flow: ''
+  host: s1c.v2.v001sss.xyz
+  path: /
+- name: vmess__104.21.229.78_2082
+  type: vmess
+  server: 104.21.229.78
+  port: 2082
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  network: ws
+  tls: none
+  flow: ''
+  host: us4Bb5oSgJA.fzbqfrse.xyz
+  path: /video/CuTy87zAzV/
 proxy-groups:
 - name: 节点选择
   type: select
@@ -367,7 +397,10 @@ proxy-groups:
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__nb22.ntbq.dynu.net_12002
   - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
+  - vmess__172.99.190.109_443
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.21.229.78_2082
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -400,7 +433,10 @@ proxy-groups:
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__nb22.ntbq.dynu.net_12002
   - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
+  - vmess__172.99.190.109_443
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.21.229.78_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
