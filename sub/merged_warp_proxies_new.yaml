@@ -56,9 +56,9 @@ proxies:
     headers:
       host: dongtaiwang.dtku47.xyz
   client-fingerprint: chrome
-- name: vless_dongtaiwang2.com:443
+- name: vless_cu.dongtaiwang3.com:443
   type: vless
-  server: dongtaiwang2.com
+  server: cu.dongtaiwang3.com
   port: 443
   uuid: a9202ced-3185-489c-8b28-74e9a00d894d
   tls: true
@@ -89,9 +89,9 @@ proxies:
     min-streams: '16'
     statistic: true
     only-tcp: false
-- name: vless_dongtaiwang2.com:443
+- name: vless_cu.dongtaiwang3.com:443
   type: vless
-  server: dongtaiwang2.com
+  server: cu.dongtaiwang3.com
   port: 443
   uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075
   tls: true
@@ -102,9 +102,9 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: vless_dongtaiwang3.com:443
+- name: vless_dongtaiwang2.com:443
   type: vless
-  server: dongtaiwang3.com
+  server: dongtaiwang2.com
   port: 443
   uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
   tls: true
@@ -115,9 +115,9 @@ proxies:
     headers:
       host: dongtaiwang.freeh1.xyz
   client-fingerprint: chrome
-- name: vmess_dongtaiwang2.com:443
+- name: vmess_cm.dongtaiwang3.com:443
   type: vmess
-  server: dongtaiwang2.com
+  server: cm.dongtaiwang3.com
   port: 443
   cipher: auto
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
@@ -273,9 +273,9 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__dongtaiwang2.com_443
+- name: vmess__cm.dongtaiwang3.com_443
   type: vmess
-  server: dongtaiwang2.com
+  server: cm.dongtaiwang3.com
   port: 443
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
   network: ws
@@ -283,56 +283,66 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__b23.ntbq.dynu.net_2024
+- name: vmess__us-west-anycast.lnaspiring.com_80
   type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
+  server: us-west-anycast.lnaspiring.com
+  port: 80
+  uuid: 43a22093-03b0-4c58-856c-774d0c95b7b7
+  network: ws
+  tls: none
+  flow: ''
+  host: uspz.edge.233.tw
+  path: /geg/44?ed=2048
+- name: vmess__c12.twtc.dynu.net_6122
+  type: vmess
+  server: c12.twtc.dynu.net
+  port: 6122
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__c12.twtc.dynu.net_6122
+- name: vmess_US_104.18.202.250_2082
   type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 867b8e57-9355-40dc-a696-9ca2518b091e
-  network: tcp
+  server: 104.18.202.250
+  port: 2082
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
-- name: vmess_GB_95.164.69.27_80
+  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  path: /nina.bond/linkvws
+- name: vmess_US_104.18.202.232_80
   type: vmess
-  server: 95.164.69.27
+  server: 104.18.202.232
   port: 80
-  uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   network: ws
   tls: none
   flow: ''
-  host: internet.life.com.by
-  path: /vmess
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+  host: ca4.tehme2.fun
+  path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: vmess_GB_172.99.190.109_443
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__nb22.ntbq.dynu.net_12002
+  host: ''
+  path: linkvws
+- name: vmess_KR_64.110.89.209_34755
   type: vmess
-  server: nb22.ntbq.dynu.net
-  port: 12002
-  uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6
-  network: tcp
+  server: 64.110.89.209
+  port: 34755
+  uuid: 7741626f-9c38-4a89-dfb2-fd95299c65ed
+  network: ws
   tls: none
   flow: ''
   host: ''
-  path: ''
+  path: /
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -343,46 +353,6 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__s1c.v2.v001sss.xyz_2082
-  type: vmess
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  network: ws
-  tls: none
-  flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__104.21.229.78_2082
-  type: vmess
-  server: 104.21.229.78
-  port: 2082
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
-  network: ws
-  tls: none
-  flow: ''
-  host: us4Bb5oSgJA.fzbqfrse.xyz
-  path: /video/CuTy87zAzV/
 proxy-groups:
 - name: 节点选择
   type: select
@@ -405,11 +375,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - vless_dongtaiwang3.com:443
-  - vless_dongtaiwang2.com:443
+  - vless_cu.dongtaiwang3.com:443
   - ss_167.160.90.252:8883
+  - vless_cu.dongtaiwang3.com:443
   - vless_dongtaiwang2.com:443
-  - vless_dongtaiwang3.com:443
-  - vmess_dongtaiwang2.com:443
+  - vmess_cm.dongtaiwang3.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -423,26 +393,23 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
-  - vmess__dongtaiwang2.com_443
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__cm.dongtaiwang3.com_443
+  - vmess__us-west-anycast.lnaspiring.com_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess_GB_95.164.69.27_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess_US_104.18.202.250_2082
+  - vmess_US_104.18.202.232_80
+  - vmess_GB_172.99.190.109_443
+  - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.21.229.78_2082
 - name: 手动选择
   type: select
   proxies:
   - vless_dongtaiwang3.com:443
-  - vless_dongtaiwang2.com:443
+  - vless_cu.dongtaiwang3.com:443
   - ss_167.160.90.252:8883
+  - vless_cu.dongtaiwang3.com:443
   - vless_dongtaiwang2.com:443
-  - vless_dongtaiwang3.com:443
-  - vmess_dongtaiwang2.com:443
+  - vmess_cm.dongtaiwang3.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -456,26 +423,23 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
-  - vmess__dongtaiwang2.com_443
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__cm.dongtaiwang3.com_443
+  - vmess__us-west-anycast.lnaspiring.com_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess_GB_95.164.69.27_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess_US_104.18.202.250_2082
+  - vmess_US_104.18.202.232_80
+  - vmess_GB_172.99.190.109_443
+  - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.21.229.78_2082
 - name: 负载均衡
   type: load-balance
   proxies:
   - vless_dongtaiwang3.com:443
-  - vless_dongtaiwang2.com:443
+  - vless_cu.dongtaiwang3.com:443
   - ss_167.160.90.252:8883
+  - vless_cu.dongtaiwang3.com:443
   - vless_dongtaiwang2.com:443
-  - vless_dongtaiwang3.com:443
-  - vmess_dongtaiwang2.com:443
+  - vmess_cm.dongtaiwang3.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -489,17 +453,14 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
-  - vmess__dongtaiwang2.com_443
-  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__cm.dongtaiwang3.com_443
+  - vmess__us-west-anycast.lnaspiring.com_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess_GB_95.164.69.27_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess_US_104.18.202.250_2082
+  - vmess_US_104.18.202.232_80
+  - vmess_GB_172.99.190.109_443
+  - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.21.229.78_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
