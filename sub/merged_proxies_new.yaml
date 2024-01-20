@@ -38,18 +38,18 @@ proxies:
     headers:
       host: dongtaiwang.dtku47.xyz
   client-fingerprint: chrome
-- name: vless_cu.dongtaiwang3.com:443
+- name: vless_fr.freeh1.xyz:443
   type: vless
-  server: cu.dongtaiwang3.com
+  server: fr.freeh1.xyz
   port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.dtku47.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /eobjws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.dtku47.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
 - name: ss_167.160.90.252:8883
   type: ss
@@ -84,18 +84,18 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: vless_dongtaiwang2.com:443
+- name: vless_fr.freeh1.xyz:443
   type: vless
-  server: dongtaiwang2.com
+  server: fr.freeh1.xyz
   port: 443
-  uuid: 869d601c-9e4c-4e83-b816-bb553234aaea
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.freeh1.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /pxzaws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.freeh1.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
 - name: vmess_cm.dongtaiwang3.com:443
   type: vmess
@@ -335,6 +335,66 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.17.25.1_80
+  type: vmess
+  server: 104.17.25.1
+  port: 80
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  network: ws
+  tls: none
+  flow: ''
+  host: sgvpn.catnipballs.gay
+  path: /
+- name: vmess__172.67.37.10_8080
+  type: vmess
+  server: 172.67.37.10
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
+- name: vmess__glaSco.fx-trAder.shop_80
+  type: vmess
+  server: glaSco.fx-trAder.shop
+  port: 80
+  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+  network: ws
+  tls: none
+  flow: ''
+  host: vvv2vayo2.everythingisreve.shop
+  path: /
+- name: vmess__172.67.212.171_8080
+  type: vmess
+  server: 172.67.212.171
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -342,10 +402,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - vless_dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
+  - vless_fr.freeh1.xyz:443
   - ss_167.160.90.252:8883
   - vless_cu.dongtaiwang3.com:443
-  - vless_dongtaiwang2.com:443
+  - vless_fr.freeh1.xyz:443
   - vmess_cm.dongtaiwang3.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
@@ -368,6 +428,12 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.17.25.1_80
+  - vmess__172.67.37.10_8080
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__172.67.212.171_8080
+  - vmess__cf.openxai.link_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -375,10 +441,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - vless_dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
+  - vless_fr.freeh1.xyz:443
   - ss_167.160.90.252:8883
   - vless_cu.dongtaiwang3.com:443
-  - vless_dongtaiwang2.com:443
+  - vless_fr.freeh1.xyz:443
   - vmess_cm.dongtaiwang3.com:443
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
@@ -401,6 +467,12 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.17.25.1_80
+  - vmess__172.67.37.10_8080
+  - vmess__glaSco.fx-trAder.shop_80
+  - vmess__172.67.212.171_8080
+  - vmess__cf.openxai.link_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
