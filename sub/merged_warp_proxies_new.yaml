@@ -283,106 +283,76 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__us-west-anycast.lnaspiring.com_80
+- name: vmess_US_104.18.154.42_80
   type: vmess
-  server: us-west-anycast.lnaspiring.com
+  server: 104.18.154.42
   port: 80
-  uuid: 43a22093-03b0-4c58-856c-774d0c95b7b7
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
   network: ws
   tls: none
   flow: ''
-  host: uspz.edge.233.tw
-  path: /geg/44?ed=2048
-- name: vmess__c12.twtc.dynu.net_6122
+  host: us3.visaapp.top
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_2052
   type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  network: ws
+  tls: none
+  flow: ''
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
+- name: vmess_NL_45.136.51.175_32567
+  type: vmess
+  server: 45.136.51.175
+  port: 32567
+  uuid: df35304b-1f31-4b0d-9d02-f70256f732f1
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_104.18.202.250_2082
+- name: vmess__bs2.loadingip.com_80
   type: vmess
-  server: 104.18.202.250
+  server: bs2.loadingip.com
+  port: 80
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  network: ws
+  tls: none
+  flow: ''
+  host: bs2.loadingip.com
+  path: /bs
+- name: vmess__s1c.v2.v001sss.xyz_2082
+  type: vmess
+  server: s1c.v2.v001sss.xyz
   port: 2082
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   network: ws
   tls: none
   flow: ''
-  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-  path: /nina.bond/linkvws
-- name: vmess_US_104.18.202.232_80
-  type: vmess
-  server: 104.18.202.232
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  network: ws
-  tls: none
-  flow: ''
-  host: ca4.tehme2.fun
-  path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: vmess_GB_172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
-- name: vmess_KR_64.110.89.209_34755
-  type: vmess
-  server: 64.110.89.209
-  port: 34755
-  uuid: 7741626f-9c38-4a89-dfb2-fd95299c65ed
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
+  host: s1c.v2.v001sss.xyz
   path: /
-- name: vmess__hytron.io_8080
+- name: vmess__104.21.229.78_2082
   type: vmess
-  server: hytron.io
+  server: 104.21.229.78
+  port: 2082
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  network: ws
+  tls: none
+  flow: ''
+  host: us4Bb5oSgJA.fzbqfrse.xyz
+  path: /video/CuTy87zAzV/
+- name: vmess__172.67.212.171_8080
+  type: vmess
+  server: 172.67.212.171
   port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   network: ws
   tls: none
   flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__118.167.71.177_12002
-  type: vmess
-  server: 118.167.71.177
-  port: 12002
-  uuid: df2add0d-5f99-4a3f-a135-0259541b87e1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__61.228.149.88_2024
-  type: vmess
-  server: 61.228.149.88
-  port: 2024
-  uuid: df2add0d-5f99-4a3f-a135-0259541b87e1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__202.78.162.6_80
-  type: vmess
-  server: 202.78.162.6
-  port: 80
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  network: ws
-  tls: none
-  flow: ''
-  host: irisoft.servecounterstrike.com
-  path: /@forwardv2ray
+  host: eu5.openxai.link
+  path: /?ed=2048
 - name: vmess__162.159.200.4_80
   type: vmess
   server: 162.159.200.4
@@ -393,46 +363,16 @@ proxies:
   flow: ''
   host: ca3.889611.com
   path: /
-- name: vmess__skyht2.vpndata.vn_80
+- name: vmess__172.67.139.188_8080
   type: vmess
-  server: skyht2.vpndata.vn
-  port: 80
-  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+  server: 172.67.139.188
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   network: ws
   tls: none
   flow: ''
-  host: lienquan.garena.vn
-  path: /VPNDATA.VPN
-- name: vmess__03.kccic2pa.xyz_50003
-  type: vmess
-  server: 03.kccic2pa.xyz
-  port: 50003
-  uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__162.159.200.7_80
-  type: vmess
-  server: 162.159.200.7
-  port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.visaapp.top
-  path: /
-- name: vmess__45.136.51.175_32567
-  type: vmess
-  server: 45.136.51.175
-  port: 32567
-  uuid: df35304b-1f31-4b0d-9d02-f70256f732f1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -474,21 +414,15 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess__us-west-anycast.lnaspiring.com_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess_US_104.18.202.250_2082
-  - vmess_US_104.18.202.232_80
-  - vmess_GB_172.99.190.109_443
-  - vmess_KR_64.110.89.209_34755
-  - vmess__hytron.io_8080
-  - vmess__118.167.71.177_12002
-  - vmess__61.228.149.88_2024
-  - vmess__202.78.162.6_80
+  - vmess_US_104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess_NL_45.136.51.175_32567
+  - vmess__bs2.loadingip.com_80
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.21.229.78_2082
+  - vmess__172.67.212.171_8080
   - vmess__162.159.200.4_80
-  - vmess__skyht2.vpndata.vn_80
-  - vmess__03.kccic2pa.xyz_50003
-  - vmess__162.159.200.7_80
-  - vmess__45.136.51.175_32567
+  - vmess__172.67.139.188_8080
 - name: 手动选择
   type: select
   proxies:
@@ -512,21 +446,15 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess__us-west-anycast.lnaspiring.com_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess_US_104.18.202.250_2082
-  - vmess_US_104.18.202.232_80
-  - vmess_GB_172.99.190.109_443
-  - vmess_KR_64.110.89.209_34755
-  - vmess__hytron.io_8080
-  - vmess__118.167.71.177_12002
-  - vmess__61.228.149.88_2024
-  - vmess__202.78.162.6_80
+  - vmess_US_104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess_NL_45.136.51.175_32567
+  - vmess__bs2.loadingip.com_80
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.21.229.78_2082
+  - vmess__172.67.212.171_8080
   - vmess__162.159.200.4_80
-  - vmess__skyht2.vpndata.vn_80
-  - vmess__03.kccic2pa.xyz_50003
-  - vmess__162.159.200.7_80
-  - vmess__45.136.51.175_32567
+  - vmess__172.67.139.188_8080
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -550,21 +478,15 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess__us-west-anycast.lnaspiring.com_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess_US_104.18.202.250_2082
-  - vmess_US_104.18.202.232_80
-  - vmess_GB_172.99.190.109_443
-  - vmess_KR_64.110.89.209_34755
-  - vmess__hytron.io_8080
-  - vmess__118.167.71.177_12002
-  - vmess__61.228.149.88_2024
-  - vmess__202.78.162.6_80
+  - vmess_US_104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess_NL_45.136.51.175_32567
+  - vmess__bs2.loadingip.com_80
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.21.229.78_2082
+  - vmess__172.67.212.171_8080
   - vmess__162.159.200.4_80
-  - vmess__skyht2.vpndata.vn_80
-  - vmess__03.kccic2pa.xyz_50003
-  - vmess__162.159.200.7_80
-  - vmess__45.136.51.175_32567
+  - vmess__172.67.139.188_8080
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
