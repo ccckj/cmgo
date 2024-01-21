@@ -241,10 +241,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_64.110.25.11:33337
+- name: hy2_FR_62.210.101.0:52465
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 62.210.101.0
+  port: 52465
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -353,66 +353,86 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+- name: vmess__118.167.71.177_12002
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
+  server: 118.167.71.177
+  port: 12002
+  uuid: df2add0d-5f99-4a3f-a135-0259541b87e1
+  network: tcp
   tls: none
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__104.17.25.1_80
+  host: ''
+  path: ''
+- name: vmess__61.228.149.88_2024
   type: vmess
-  server: 104.17.25.1
+  server: 61.228.149.88
+  port: 2024
+  uuid: df2add0d-5f99-4a3f-a135-0259541b87e1
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__202.78.162.6_80
+  type: vmess
+  server: 202.78.162.6
   port: 80
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
   network: ws
   tls: none
   flow: ''
-  host: sgvpn.catnipballs.gay
-  path: /
-- name: vmess__172.67.37.10_8080
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__162.159.200.4_80
   type: vmess
-  server: 172.67.37.10
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
-  network: ws
-  tls: none
-  flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
-- name: vmess__glaSco.fx-trAder.shop_80
-  type: vmess
-  server: glaSco.fx-trAder.shop
+  server: 162.159.200.4
   port: 80
-  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
   network: ws
   tls: none
   flow: ''
-  host: vvv2vayo2.everythingisreve.shop
+  host: ca3.889611.com
   path: /
-- name: vmess__172.67.212.171_8080
+- name: vmess__skyht2.vpndata.vn_80
   type: vmess
-  server: 172.67.212.171
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  server: skyht2.vpndata.vn
+  port: 80
+  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
   network: ws
   tls: none
   flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
-- name: vmess__cf.openxai.link_8080
+  host: lienquan.garena.vn
+  path: /VPNDATA.VPN
+- name: vmess__03.kccic2pa.xyz_50003
   type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  server: 03.kccic2pa.xyz
+  port: 50003
+  uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__162.159.200.7_80
+  type: vmess
+  server: 162.159.200.7
+  port: 80
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
   network: ws
   tls: none
   flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
+  host: er3.visaapp.top
+  path: /
+- name: vmess__45.136.51.175_32567
+  type: vmess
+  server: 45.136.51.175
+  port: 32567
+  uuid: df35304b-1f31-4b0d-9d02-f70256f732f1
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -449,7 +469,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
@@ -461,12 +481,14 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.1_80
-  - vmess__172.67.37.10_8080
-  - vmess__glaSco.fx-trAder.shop_80
-  - vmess__172.67.212.171_8080
-  - vmess__cf.openxai.link_8080
+  - vmess__118.167.71.177_12002
+  - vmess__61.228.149.88_2024
+  - vmess__202.78.162.6_80
+  - vmess__162.159.200.4_80
+  - vmess__skyht2.vpndata.vn_80
+  - vmess__03.kccic2pa.xyz_50003
+  - vmess__162.159.200.7_80
+  - vmess__45.136.51.175_32567
 - name: 手动选择
   type: select
   proxies:
@@ -485,7 +507,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
@@ -497,12 +519,14 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.1_80
-  - vmess__172.67.37.10_8080
-  - vmess__glaSco.fx-trAder.shop_80
-  - vmess__172.67.212.171_8080
-  - vmess__cf.openxai.link_8080
+  - vmess__118.167.71.177_12002
+  - vmess__61.228.149.88_2024
+  - vmess__202.78.162.6_80
+  - vmess__162.159.200.4_80
+  - vmess__skyht2.vpndata.vn_80
+  - vmess__03.kccic2pa.xyz_50003
+  - vmess__162.159.200.7_80
+  - vmess__45.136.51.175_32567
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -521,7 +545,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
@@ -533,12 +557,14 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_KR_64.110.89.209_34755
   - vmess__hytron.io_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.1_80
-  - vmess__172.67.37.10_8080
-  - vmess__glaSco.fx-trAder.shop_80
-  - vmess__172.67.212.171_8080
-  - vmess__cf.openxai.link_8080
+  - vmess__118.167.71.177_12002
+  - vmess__61.228.149.88_2024
+  - vmess__202.78.162.6_80
+  - vmess__162.159.200.4_80
+  - vmess__skyht2.vpndata.vn_80
+  - vmess__03.kccic2pa.xyz_50003
+  - vmess__162.159.200.7_80
+  - vmess__45.136.51.175_32567
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
