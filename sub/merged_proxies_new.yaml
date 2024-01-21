@@ -145,10 +145,10 @@ proxies:
   password: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
-- name: hysteria2_45.150.165.84:33440
+- name: hysteria2_45.150.165.84:8881
   type: hysteria2
   server: 45.150.165.84
-  port: 33440
+  port: 8881
   password: d017e316-82cb-441c-8eea-7b5e9de64a20
   obfs: salamander
   obfs-password: d017e316-82cb-441c-8eea-7b5e9de64a20
@@ -265,27 +265,87 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_US_104.18.154.42_80
+- name: vmess_TW_61.228.149.88_2024
   type: vmess
-  server: 104.18.154.42
+  server: 61.228.149.88
+  port: 2024
+  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_LY_197.215.140.235_80
+  type: vmess
+  server: 197.215.140.235
   port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
   network: ws
   tls: none
   flow: ''
-  host: us3.visaapp.top
-  path: /
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+  host: tabyan205.serveftp.com
+  path: /@forwardv2ray
+- name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   network: ws
   tls: none
   flow: ''
-  host: wtywwcrzjp5.yofnhkfc.xyz
-  path: /video/9TfVEyku
-- name: vmess_NL_45.136.51.175_32567
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess_US_104.17.25.1_80
+  type: vmess
+  server: 104.17.25.1
+  port: 80
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  network: ws
+  tls: none
+  flow: ''
+  host: sgvpn.catnipballs.gay
+  path: /
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  network: ws
+  tls: none
+  flow: ''
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__1.162.139.104_21353
+  type: vmess
+  server: 1.162.139.104
+  port: 21353
+  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__45.136.51.175_32567
   type: vmess
   server: 45.136.51.175
   port: 32567
@@ -295,29 +355,9 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__bs2.loadingip.com_80
+- name: vmess__cfcdn1.sanfencdn9.com_2082
   type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess__s1c.v2.v001sss.xyz_2082
-  type: vmess
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  network: ws
-  tls: none
-  flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__104.21.229.78_2082
-  type: vmess
-  server: 104.21.229.78
+  server: cfcdn1.sanfencdn9.com
   port: 2082
   uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
   network: ws
@@ -325,29 +365,39 @@ proxies:
   flow: ''
   host: us4Bb5oSgJA.fzbqfrse.xyz
   path: /video/CuTy87zAzV/
-- name: vmess__172.67.212.171_8080
+- name: vmess__185.158.211.186_80
   type: vmess
-  server: 172.67.212.171
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  server: 185.158.211.186
+  port: 80
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
   network: ws
   tls: none
   flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
-- name: vmess__162.159.200.4_80
+  host: irisoft.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__205.164.28.103_13487
   type: vmess
-  server: 162.159.200.4
+  server: 205.164.28.103
+  port: 13487
+  uuid: f5502283-53ba-442b-bdb1-a25745fd5c17
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.18.15.150_80
+  type: vmess
+  server: 104.18.15.150
   port: 80
   uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
   network: ws
   tls: none
   flow: ''
-  host: ca3.889611.com
+  host: er3.889611.com
   path: /
-- name: vmess__172.67.139.188_8080
+- name: vmess__172.67.212.171_8080
   type: vmess
-  server: 172.67.139.188
+  server: 172.67.212.171
   port: 8080
   uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   network: ws
@@ -370,7 +420,7 @@ proxy-groups:
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
-  - hysteria2_45.150.165.84:33440
+  - hysteria2_45.150.165.84:8881
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
@@ -381,15 +431,20 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.18.154.42_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_NL_45.136.51.175_32567
-  - vmess__bs2.loadingip.com_80
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.21.229.78_2082
+  - vmess_TW_61.228.149.88_2024
+  - vmess_LY_197.215.140.235_80
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_104.17.25.1_80
+  - vmess__cf.openxai.link_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__1.162.139.104_21353
+  - vmess__45.136.51.175_32567
+  - vmess__cfcdn1.sanfencdn9.com_2082
+  - vmess__185.158.211.186_80
+  - vmess__205.164.28.103_13487
+  - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
-  - vmess__162.159.200.4_80
-  - vmess__172.67.139.188_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -405,7 +460,7 @@ proxy-groups:
   - vmess_dongtaiwang3.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
-  - hysteria2_45.150.165.84:33440
+  - hysteria2_45.150.165.84:8881
   - hysteria_www.dtku50.xyz:32408
   - hysteria_0
   - hysteria_1
@@ -416,15 +471,20 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.18.154.42_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_NL_45.136.51.175_32567
-  - vmess__bs2.loadingip.com_80
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.21.229.78_2082
+  - vmess_TW_61.228.149.88_2024
+  - vmess_LY_197.215.140.235_80
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_104.17.25.1_80
+  - vmess__cf.openxai.link_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__1.162.139.104_21353
+  - vmess__45.136.51.175_32567
+  - vmess__cfcdn1.sanfencdn9.com_2082
+  - vmess__185.158.211.186_80
+  - vmess__205.164.28.103_13487
+  - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
-  - vmess__162.159.200.4_80
-  - vmess__172.67.139.188_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
