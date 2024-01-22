@@ -405,6 +405,66 @@ proxies:
   flow: ''
   host: eu5.openxai.link
   path: /?ed=2048
+- name: vmess__yx.zhke.cf_443
+  type: vmess
+  server: yx.zhke.cf
+  port: 443
+  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
+  network: ws
+  tls: tls
+  flow: ''
+  host: h196-fr.kxnn.eu.org
+  path: /D26xvdqUdCpvvPTz4R
+- name: vmess__172.67.37.10_8080
+  type: vmess
+  server: 172.67.37.10
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
+- name: vmess__bs2.loadingip.com_80
+  type: vmess
+  server: bs2.loadingip.com
+  port: 80
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  network: ws
+  tls: none
+  flow: ''
+  host: bs2.loadingip.com
+  path: /bs
+- name: vmess__103.214.68.57_10001
+  type: vmess
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__nb22.ntbq.dynu.net_12002
+  type: vmess
+  server: nb22.ntbq.dynu.net
+  port: 12002
+  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__c12.twtc.dynu.net_6122
+  type: vmess
+  server: c12.twtc.dynu.net
+  port: 6122
+  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -445,6 +505,12 @@ proxy-groups:
   - vmess__205.164.28.103_13487
   - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
+  - vmess__yx.zhke.cf_443
+  - vmess__172.67.37.10_8080
+  - vmess__bs2.loadingip.com_80
+  - vmess__103.214.68.57_10001
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__c12.twtc.dynu.net_6122
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -485,6 +551,12 @@ proxy-groups:
   - vmess__205.164.28.103_13487
   - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
+  - vmess__yx.zhke.cf_443
+  - vmess__172.67.37.10_8080
+  - vmess__bs2.loadingip.com_80
+  - vmess__103.214.68.57_10001
+  - vmess__nb22.ntbq.dynu.net_12002
+  - vmess__c12.twtc.dynu.net_6122
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
