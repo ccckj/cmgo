@@ -343,7 +343,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -423,16 +423,6 @@ proxies:
   flow: ''
   host: eu5.openxai.link
   path: /?ed=2048
-- name: vmess__yx.zhke.cf_443
-  type: vmess
-  server: yx.zhke.cf
-  port: 443
-  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
-  network: ws
-  tls: tls
-  flow: ''
-  host: h196-fr.kxnn.eu.org
-  path: /D26xvdqUdCpvvPTz4R
 - name: vmess__172.67.37.10_8080
   type: vmess
   server: 172.67.37.10
@@ -443,16 +433,16 @@ proxies:
   flow: ''
   host: eu5.openxai.link
   path: /?ed=2048
-- name: vmess__bs2.loadingip.com_80
+- name: vmess__183.236.48.169_1002
   type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
+  server: 183.236.48.169
+  port: 1002
+  uuid: 229ccd44-c56c-3947-88de-849dd70c180d
+  network: tcp
   tls: none
   flow: ''
-  host: bs2.loadingip.com
-  path: /bs
+  host: ''
+  path: ''
 - name: vmess__103.214.68.57_10001
   type: vmess
   server: 103.214.68.57
@@ -463,26 +453,46 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__nb22.ntbq.dynu.net_12002
+- name: vmess__42.96.11.242_80
   type: vmess
-  server: nb22.ntbq.dynu.net
-  port: 12002
+  server: 42.96.11.242
+  port: 80
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  network: ws
+  tls: none
+  flow: ''
+  host: ANTIDDOS5.5GTOCDOCAO.COM
+  path: /anti5.5gtocdocao.com
+- name: vmess__104.18.202.250_2082
+  type: vmess
+  server: 104.18.202.250
+  port: 2082
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: none
+  flow: ''
+  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  path: /nina.bond/linkvws
+- name: vmess__nb24.ntbq.dynu.net_4443
+  type: vmess
+  server: nb24.ntbq.dynu.net
+  port: 4443
   uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__c12.twtc.dynu.net_6122
+- name: vmess__s1c.v2.v001sss.xyz_2082
   type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
-  network: tcp
+  server: s1c.v2.v001sss.xyz
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: s1c.v2.v001sss.xyz
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -530,7 +540,7 @@ proxy-groups:
   - vmess_US_104.17.25.1_80
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__1.162.139.104_21353
   - vmess__45.136.51.175_32567
   - vmess__cfcdn1.sanfencdn9.com_2082
@@ -538,12 +548,13 @@ proxy-groups:
   - vmess__205.164.28.103_13487
   - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
-  - vmess__yx.zhke.cf_443
   - vmess__172.67.37.10_8080
-  - vmess__bs2.loadingip.com_80
+  - vmess__183.236.48.169_1002
   - vmess__103.214.68.57_10001
-  - vmess__nb22.ntbq.dynu.net_12002
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__42.96.11.242_80
+  - vmess__104.18.202.250_2082
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__s1c.v2.v001sss.xyz_2082
 - name: 手动选择
   type: select
   proxies:
@@ -573,7 +584,7 @@ proxy-groups:
   - vmess_US_104.17.25.1_80
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__1.162.139.104_21353
   - vmess__45.136.51.175_32567
   - vmess__cfcdn1.sanfencdn9.com_2082
@@ -581,12 +592,13 @@ proxy-groups:
   - vmess__205.164.28.103_13487
   - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
-  - vmess__yx.zhke.cf_443
   - vmess__172.67.37.10_8080
-  - vmess__bs2.loadingip.com_80
+  - vmess__183.236.48.169_1002
   - vmess__103.214.68.57_10001
-  - vmess__nb22.ntbq.dynu.net_12002
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__42.96.11.242_80
+  - vmess__104.18.202.250_2082
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__s1c.v2.v001sss.xyz_2082
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -616,7 +628,7 @@ proxy-groups:
   - vmess_US_104.17.25.1_80
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__1.162.139.104_21353
   - vmess__45.136.51.175_32567
   - vmess__cfcdn1.sanfencdn9.com_2082
@@ -624,12 +636,13 @@ proxy-groups:
   - vmess__205.164.28.103_13487
   - vmess__104.18.15.150_80
   - vmess__172.67.212.171_8080
-  - vmess__yx.zhke.cf_443
   - vmess__172.67.37.10_8080
-  - vmess__bs2.loadingip.com_80
+  - vmess__183.236.48.169_1002
   - vmess__103.214.68.57_10001
-  - vmess__nb22.ntbq.dynu.net_12002
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__42.96.11.242_80
+  - vmess__104.18.202.250_2082
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__s1c.v2.v001sss.xyz_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
