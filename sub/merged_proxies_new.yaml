@@ -325,7 +325,7 @@ proxies:
   flow: ''
   host: s1c.v2.v001sss.xyz
   path: /
-- name: vmess_CA_5.101.222.5_443
+- name: vmess__5.101.222.5_443
   type: vmess
   server: 5.101.222.5
   port: 443
@@ -345,6 +345,76 @@ proxies:
   flow: ''
   host: sgvpn.catnipballs.gay
   path: /
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633
+  network: ws
+  tls: none
+  flow: ''
+  host: 7nAi74jJsg1.yofnhkfc.xyz
+  path: /video/c9efxRCi
+- name: vmess__61.228.149.57_4443
+  type: vmess
+  server: 61.228.149.57
+  port: 4443
+  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__vn2.4gchill.com_80
+  type: vmess
+  server: vn2.4gchill.com
+  port: 80
+  uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
+  network: ws
+  tls: none
+  flow: ''
+  host: dl.ks.freefiremobile.com
+  path: /4gchill.com
+- name: vmess__5.182.39.27_8880
+  type: vmess
+  server: 5.182.39.27
+  port: 8880
+  uuid: ffa054fd-602e-4a72-b4b1-90902479ba9d
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__103.27.237.185_80
+  type: vmess
+  server: 103.27.237.185
+  port: 80
+  uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
+  network: ws
+  tls: none
+  flow: ''
+  host: vn2.4gchill.com
+  path: /4gchill.com
+- name: vmess__91.242.229.77_80
+  type: vmess
+  server: 91.242.229.77
+  port: 80
+  uuid: 56890326-df58-432d-be1e-67064e2b4355
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__13.226.120.2_80
+  type: vmess
+  server: 13.226.120.2
+  port: 80
+  uuid: fa7af35b-3f0b-4404-987e-884d8e7d25db
+  network: ws
+  tls: none
+  flow: ''
+  host: jpli.edge.233.tw
+  path: /geg/45?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -377,8 +447,15 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_CN_183.236.48.169_1002
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_CA_5.101.222.5_443
+  - vmess__5.101.222.5_443
   - vmess__104.17.25.1_80
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__61.228.149.57_4443
+  - vmess__vn2.4gchill.com_80
+  - vmess__5.182.39.27_8880
+  - vmess__103.27.237.185_80
+  - vmess__91.242.229.77_80
+  - vmess__13.226.120.2_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -411,8 +488,15 @@ proxy-groups:
   - vmess_GB_172.99.190.109_443
   - vmess_CN_183.236.48.169_1002
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_CA_5.101.222.5_443
+  - vmess__5.101.222.5_443
   - vmess__104.17.25.1_80
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__61.228.149.57_4443
+  - vmess__vn2.4gchill.com_80
+  - vmess__5.182.39.27_8880
+  - vmess__103.27.237.185_80
+  - vmess__91.242.229.77_80
+  - vmess__13.226.120.2_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
