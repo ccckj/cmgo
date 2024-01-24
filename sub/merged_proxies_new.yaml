@@ -132,9 +132,9 @@ proxies:
     path: /gzogws
     headers:
       host: xray1.freeh1.xyz
-- name: vmess_dongtaiwang3.com:443
+- name: vmess_dongtaiwang2.com:443
   type: vmess
-  server: dongtaiwang3.com
+  server: dongtaiwang2.com
   port: 443
   cipher: auto
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
@@ -285,66 +285,36 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_US_104.17.25.1_80
+- name: vmess__www.coldstone.club_8080
   type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  server: www.coldstone.club
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: sgvpn.catnipballs.gay
+  host: www.coldstone.club
   path: /
-- name: vmess_US_45.144.2.113_80
+- name: vmess_TW_36.232.158.210_6122
   type: vmess
-  server: 45.144.2.113
-  port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  network: ws
-  tls: none
-  flow: ''
-  host: www.apple.com
-  path: /
-- name: vmess_US_162.159.200.6_80
-  type: vmess
-  server: 162.159.200.6
-  port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess__hn5.fuzzypn.me_80
-  type: vmess
-  server: hn5.fuzzypn.me
-  port: 80
-  uuid: 7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee
-  network: ws
+  server: 36.232.158.210
+  port: 6122
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: /
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+  path: ''
+- name: vmess__yhnsb3.shabijichang.com_80
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: 357b8d95-af0c-44fe-a406-b6aed810699b
-  network: ws
-  tls: none
-  flow: ''
-  host: kvjqqknzjp6.yofnhkfc.xyz
-  path: /video/Zo98PYfE
-- name: vmess_EE_95.164.8.106_80
-  type: vmess
-  server: 95.164.8.106
+  server: yhnsb3.shabijichang.com
   port: 80
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   network: ws
   tls: none
   flow: ''
-  host: ee2-vmess.sshmax.xyz
-  path: /vmess
+  host: yhnsb3.shabijichang.com
+  path: /
 - name: vmess__c12.twtc.dynu.net_6122
   type: vmess
   server: c12.twtc.dynu.net
@@ -355,76 +325,46 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__cold-dawn-9246.fly.dev_443
+- name: vmess_CN_202.79.171.239_443
   type: vmess
-  server: cold-dawn-9246.fly.dev
+  server: 202.79.171.239
   port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
   network: ws
   tls: tls
   flow: ''
-  host: ''
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__104.18.15.148_80
+  host: www.46130221.xyz
+  path: /path/143534141104
+- name: vmess__104.17.184.241_2095
   type: vmess
-  server: 104.18.15.148
-  port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  server: 104.17.184.241
+  port: 2095
+  uuid: 0f42a063-315b-4524-8501-469c51838bb6
   network: ws
   tls: none
   flow: ''
-  host: hk3.889611.com
+  host: mgone_cdn.yunjisuan.cf
   path: /
-- name: vmess__172.67.207.26_443
+- name: vmess__118.167.69.122_12002
   type: vmess
-  server: 172.67.207.26
-  port: 443
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  network: ws
-  tls: tls
-  flow: ''
-  host: glweidf.sbs
-  path: /linkws
-- name: vmess__115.79.238.34_80
-  type: vmess
-  server: 115.79.238.34
-  port: 80
-  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
-  network: ws
-  tls: none
-  flow: ''
-  host: skyht2.vpndata.vn
-  path: /VPNDATA.VPN
-- name: vmess__172.67.212.171_8080
-  type: vmess
-  server: 172.67.212.171
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
-  network: ws
-  tls: none
-  flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
-- name: vmess__104.18.15.147_80
-  type: vmess
-  server: 104.18.15.147
-  port: 80
-  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-  network: ws
-  tls: none
-  flow: ''
-  host: us3.889611.com
-  path: /
-- name: vmess__36.232.158.210_6122
-  type: vmess
-  server: 36.232.158.210
-  port: 6122
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+  server: 118.167.69.122
+  port: 12002
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -438,7 +378,7 @@ proxy-groups:
   - vless_cu.dongtaiwang3.com:443
   - vless_cu.dongtaiwang3.com:443
   - vmess_cm.dongtaiwang3.com:443
-  - vmess_dongtaiwang3.com:443
+  - vmess_dongtaiwang2.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
@@ -452,20 +392,14 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.17.25.1_80
-  - vmess_US_45.144.2.113_80
-  - vmess_US_162.159.200.6_80
-  - vmess__hn5.fuzzypn.me_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_EE_95.164.8.106_80
+  - vmess__www.coldstone.club_8080
+  - vmess_TW_36.232.158.210_6122
+  - vmess__yhnsb3.shabijichang.com_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__104.18.15.148_80
-  - vmess__172.67.207.26_443
-  - vmess__115.79.238.34_80
-  - vmess__172.67.212.171_8080
-  - vmess__104.18.15.147_80
-  - vmess__36.232.158.210_6122
+  - vmess_CN_202.79.171.239_443
+  - vmess__104.17.184.241_2095
+  - vmess__118.167.69.122_12002
+  - vmess__hytron.io_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -479,7 +413,7 @@ proxy-groups:
   - vless_cu.dongtaiwang3.com:443
   - vless_cu.dongtaiwang3.com:443
   - vmess_cm.dongtaiwang3.com:443
-  - vmess_dongtaiwang3.com:443
+  - vmess_dongtaiwang2.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
@@ -493,20 +427,14 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.17.25.1_80
-  - vmess_US_45.144.2.113_80
-  - vmess_US_162.159.200.6_80
-  - vmess__hn5.fuzzypn.me_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_EE_95.164.8.106_80
+  - vmess__www.coldstone.club_8080
+  - vmess_TW_36.232.158.210_6122
+  - vmess__yhnsb3.shabijichang.com_80
   - vmess__c12.twtc.dynu.net_6122
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__104.18.15.148_80
-  - vmess__172.67.207.26_443
-  - vmess__115.79.238.34_80
-  - vmess__172.67.212.171_8080
-  - vmess__104.18.15.147_80
-  - vmess__36.232.158.210_6122
+  - vmess_CN_202.79.171.239_443
+  - vmess__104.17.184.241_2095
+  - vmess__118.167.69.122_12002
+  - vmess__hytron.io_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
