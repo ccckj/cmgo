@@ -335,7 +335,7 @@ proxies:
   flow: ''
   host: kvjqqknzjp6.yofnhkfc.xyz
   path: /video/Zo98PYfE
-- name: vmess__95.164.8.106_80
+- name: vmess_EE_95.164.8.106_80
   type: vmess
   server: 95.164.8.106
   port: 80
@@ -365,6 +365,66 @@ proxies:
   flow: ''
   host: ''
   path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: vmess__104.18.15.148_80
+  type: vmess
+  server: 104.18.15.148
+  port: 80
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  network: ws
+  tls: none
+  flow: ''
+  host: hk3.889611.com
+  path: /
+- name: vmess__172.67.207.26_443
+  type: vmess
+  server: 172.67.207.26
+  port: 443
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  network: ws
+  tls: tls
+  flow: ''
+  host: glweidf.sbs
+  path: /linkws
+- name: vmess__115.79.238.34_80
+  type: vmess
+  server: 115.79.238.34
+  port: 80
+  uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+  network: ws
+  tls: none
+  flow: ''
+  host: skyht2.vpndata.vn
+  path: /VPNDATA.VPN
+- name: vmess__172.67.212.171_8080
+  type: vmess
+  server: 172.67.212.171
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
+- name: vmess__104.18.15.147_80
+  type: vmess
+  server: 104.18.15.147
+  port: 80
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  network: ws
+  tls: none
+  flow: ''
+  host: us3.889611.com
+  path: /
+- name: vmess__36.232.158.210_6122
+  type: vmess
+  server: 36.232.158.210
+  port: 6122
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -397,9 +457,15 @@ proxy-groups:
   - vmess_US_162.159.200.6_80
   - vmess__hn5.fuzzypn.me_80
   - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__95.164.8.106_80
+  - vmess_EE_95.164.8.106_80
   - vmess__c12.twtc.dynu.net_6122
   - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__104.18.15.148_80
+  - vmess__172.67.207.26_443
+  - vmess__115.79.238.34_80
+  - vmess__172.67.212.171_8080
+  - vmess__104.18.15.147_80
+  - vmess__36.232.158.210_6122
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -432,9 +498,15 @@ proxy-groups:
   - vmess_US_162.159.200.6_80
   - vmess__hn5.fuzzypn.me_80
   - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__95.164.8.106_80
+  - vmess_EE_95.164.8.106_80
   - vmess__c12.twtc.dynu.net_6122
   - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__104.18.15.148_80
+  - vmess__172.67.207.26_443
+  - vmess__115.79.238.34_80
+  - vmess__172.67.212.171_8080
+  - vmess__104.18.15.147_80
+  - vmess__36.232.158.210_6122
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
