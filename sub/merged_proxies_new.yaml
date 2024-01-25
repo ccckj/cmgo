@@ -285,129 +285,9 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__pt2-vmess.sshmax.xyz_80
+- name: vmess_US_104.17.25.1_80
   type: vmess
-  server: pt2-vmess.sshmax.xyz
-  port: 80
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  network: ws
-  tls: none
-  flow: ''
-  host: pt2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__3d6e04.abzoones.xyz_36841
-  type: vmess
-  server: 3d6e04.abzoones.xyz
-  port: 36841
-  uuid: f5d5a2ac-1ad5-47da-bea4-2910f22a8389
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_34.217.129.215_80
-  type: vmess
-  server: 34.217.129.215
-  port: 80
-  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
-  network: ws
-  tls: none
-  flow: ''
-  host: us-3.hajimihajimihajimi.online
-  path: /
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
-  network: ws
-  tls: none
-  flow: ''
-  host: eu4.openxai.link
-  path: /?ed=2048
-- name: vmess_LV_45.133.216.209_8880
-  type: vmess
-  server: 45.133.216.209
-  port: 8880
-  uuid: 638ab354-95da-4517-8714-3607683d8085
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__cfcdn3.sanfencdn9.com_2052
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
-  network: ws
-  tls: none
-  flow: ''
-  host: kvjqqknzjp6.yofnhkfc.xyz
-  path: /video/Zo98PYfE
-- name: vmess_US_104.31.16.104_8080
-  type: vmess
-  server: 104.31.16.104
-  port: 8080
-  uuid: 3a6752b4-8353-4172-85b1-32202116714d
-  network: ws
-  tls: none
-  flow: ''
-  host: asan3.azad1.tech
-  path: /
-- name: vmess__104.16.26.132_2052
-  type: vmess
-  server: 104.16.26.132
-  port: 2052
-  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
-  network: ws
-  tls: none
-  flow: ''
-  host: kvjqqknzjp6.yofnhkfc.xyz
-  path: /video/Zo98PYfE
-- name: vmess__biezaicuoguoxyz.qiliqili.store_2052
-  type: vmess
-  server: biezaicuoguoxyz.qiliqili.store
-  port: 2052
-  uuid: 20fb7fae-1ef0-4663-a175-f5add2d0198e
-  network: ws
-  tls: none
-  flow: ''
-  host: cuoguouk.qiliqili.store
-  path: /
-- name: vmess__36.232.158.210_6122
-  type: vmess
-  server: 36.232.158.210
-  port: 6122
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__b23.ntbq.dynu.net_2024
-  type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__94.131.13.110_80
-  type: vmess
-  server: 94.131.13.110
-  port: 80
-  uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2
-  network: ws
-  tls: none
-  flow: ''
-  host: lt1-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__104.17.25.2_80
-  type: vmess
-  server: 104.17.25.2
+  server: 104.17.25.1
   port: 80
   uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
   network: ws
@@ -415,16 +295,46 @@ proxies:
   flow: ''
   host: sgvpn.catnipballs.gay
   path: /
-- name: vmess__ee2-vmess.sshmax.xyz_80
+- name: vmess_NL_91.242.229.69_2086
   type: vmess
-  server: ee2-vmess.sshmax.xyz
-  port: 80
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  server: 91.242.229.69
+  port: 2086
+  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
   network: ws
   tls: none
   flow: ''
-  host: ee2-vmess.sshmax.xyz
+  host: nl1.xv2ray.net
   path: /vmess
+- name: vmess_US_172.67.217.144_80
+  type: vmess
+  server: 172.67.217.144
+  port: 80
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  network: ws
+  tls: none
+  flow: ''
+  host: lv1.xv2ray.net
+  path: /
+- name: vmess__www.crispyrainbow.biz_8080
+  type: vmess
+  server: www.crispyrainbow.biz
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__ru01.333210.xyz_80
+  type: vmess
+  server: ru01.333210.xyz
+  port: 80
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
   server: data-us-v1.shwjfkw.cn
@@ -435,6 +345,16 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -462,21 +382,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess__pt2-vmess.sshmax.xyz_80
-  - vmess__3d6e04.abzoones.xyz_36841
-  - vmess_US_34.217.129.215_80
-  - vmess__cf.openxai.link_8080
-  - vmess_LV_45.133.216.209_8880
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_US_104.31.16.104_8080
-  - vmess__104.16.26.132_2052
-  - vmess__biezaicuoguoxyz.qiliqili.store_2052
-  - vmess__36.232.158.210_6122
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess__94.131.13.110_80
-  - vmess__104.17.25.2_80
-  - vmess__ee2-vmess.sshmax.xyz_80
+  - vmess_US_104.17.25.1_80
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_172.67.217.144_80
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__hytron.io_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -504,21 +416,13 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
   - vmess__cm.dongtaiwang3.com_443
-  - vmess__pt2-vmess.sshmax.xyz_80
-  - vmess__3d6e04.abzoones.xyz_36841
-  - vmess_US_34.217.129.215_80
-  - vmess__cf.openxai.link_8080
-  - vmess_LV_45.133.216.209_8880
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess_US_104.31.16.104_8080
-  - vmess__104.16.26.132_2052
-  - vmess__biezaicuoguoxyz.qiliqili.store_2052
-  - vmess__36.232.158.210_6122
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess__94.131.13.110_80
-  - vmess__104.17.25.2_80
-  - vmess__ee2-vmess.sshmax.xyz_80
+  - vmess_US_104.17.25.1_80
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_172.67.217.144_80
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__hytron.io_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
