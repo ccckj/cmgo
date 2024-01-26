@@ -373,6 +373,56 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
+- name: vmess__104.31.16.104_8080
+  type: vmess
+  server: 104.31.16.104
+  port: 8080
+  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  network: ws
+  tls: none
+  flow: ''
+  host: asan3.azad1.tech
+  path: /
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
+  network: ws
+  tls: none
+  flow: ''
+  host: jpafzyhfsg3.yofnhkfc.xyz
+  path: /video/u4eCZTxW
+- name: vmess__www.coldstone.club_8080
+  type: vmess
+  server: www.coldstone.club
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__36.139.110.169_33302
+  type: vmess
+  server: 36.139.110.169
+  port: 33302
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__162.159.200.3_80
+  type: vmess
+  server: 162.159.200.3
+  port: 80
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  network: ws
+  tls: none
+  flow: ''
+  host: sg3.889611.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -422,6 +472,11 @@ proxy-groups:
   - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__hytron.io_8080
+  - vmess__104.31.16.104_8080
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__www.coldstone.club_8080
+  - vmess__36.139.110.169_33302
+  - vmess__162.159.200.3_80
 - name: 手动选择
   type: select
   proxies:
@@ -453,6 +508,11 @@ proxy-groups:
   - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__hytron.io_8080
+  - vmess__104.31.16.104_8080
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__www.coldstone.club_8080
+  - vmess__36.139.110.169_33302
+  - vmess__162.159.200.3_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -484,6 +544,11 @@ proxy-groups:
   - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__hytron.io_8080
+  - vmess__104.31.16.104_8080
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__www.coldstone.club_8080
+  - vmess__36.139.110.169_33302
+  - vmess__162.159.200.3_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
