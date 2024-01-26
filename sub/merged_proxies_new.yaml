@@ -355,56 +355,56 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__104.31.16.104_8080
+- name: vmess__172.99.190.109_443
   type: vmess
-  server: 104.31.16.104
-  port: 8080
-  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
-  tls: none
-  flow: ''
-  host: asan3.azad1.tech
-  path: /
-- name: vmess__cfcdn2.sanfencdn9.com_2052
-  type: vmess
-  server: cfcdn2.sanfencdn9.com
-  port: 2052
-  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
-  network: ws
-  tls: none
-  flow: ''
-  host: jpafzyhfsg3.yofnhkfc.xyz
-  path: /video/u4eCZTxW
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
+  tls: tls
   flow: ''
   host: ''
-  path: /
-- name: vmess__36.139.110.169_33302
+  path: linkvws
+- name: vmess__118.167.77.5_4443
   type: vmess
-  server: 36.139.110.169
-  port: 33302
-  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+  server: 118.167.77.5
+  port: 4443
+  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__162.159.200.3_80
+- name: vmess__104.18.15.149_80
   type: vmess
-  server: 162.159.200.3
+  server: 104.18.15.149
   port: 80
   uuid: 4899b015-5823-486d-bfe6-06c3239260f5
   network: ws
   tls: none
   flow: ''
-  host: sg3.889611.com
+  host: tr3.889611.com
   path: /
+- name: vmess__91.242.229.77_80
+  type: vmess
+  server: 91.242.229.77
+  port: 80
+  uuid: 56890326-df58-432d-be1e-67064e2b4355
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__104.18.8.215_8880
+  type: vmess
+  server: 104.18.8.215
+  port: 8880
+  uuid: 338c954f-482a-4b59-81e3-8030d63998a2
+  network: ws
+  tls: none
+  flow: ''
+  host: mgthree_cdn.yunjisuan.cf
+  path: /?ed=1024
 proxy-groups:
 - name: 节点选择
   type: select
@@ -439,11 +439,11 @@ proxy-groups:
   - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__hytron.io_8080
-  - vmess__104.31.16.104_8080
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__www.coldstone.club_8080
-  - vmess__36.139.110.169_33302
-  - vmess__162.159.200.3_80
+  - vmess__172.99.190.109_443
+  - vmess__118.167.77.5_4443
+  - vmess__104.18.15.149_80
+  - vmess__91.242.229.77_80
+  - vmess__104.18.8.215_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -478,11 +478,11 @@ proxy-groups:
   - vmess__ru01.333210.xyz_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__hytron.io_8080
-  - vmess__104.31.16.104_8080
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__www.coldstone.club_8080
-  - vmess__36.139.110.169_33302
-  - vmess__162.159.200.3_80
+  - vmess__172.99.190.109_443
+  - vmess__118.167.77.5_4443
+  - vmess__104.18.15.149_80
+  - vmess__91.242.229.77_80
+  - vmess__104.18.8.215_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
