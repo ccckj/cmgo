@@ -25,9 +25,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: vless_dongtaiwang3.com:443
+- name: vless_23.227.38.51:443
   type: vless
-  server: dongtaiwang3.com
+  server: 23.227.38.51
   port: 443
   uuid: a9202ced-3185-489c-8b28-74e9a00d894d
   tls: true
@@ -38,9 +38,9 @@ proxies:
     headers:
       host: dongtaiwang.dtku47.xyz
   client-fingerprint: chrome
-- name: vless_cu.dongtaiwang3.com:443
+- name: vless_dongtaiwang2.com:443
   type: vless
-  server: cu.dongtaiwang3.com
+  server: dongtaiwang2.com
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -51,49 +51,35 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: ss_62.210.103.0:12299
-  type: ss
-  server: 62.210.103.0
-  port: 12299
-  cipher: 2022-blake3-aes-128-gcm
-  password: guXsVF5bET8TgJV0HYUYew==
-  plugin: shadow-tls
-  client-fingerprint: chrome
-  plugin-opts:
-    host: addons.mozilla.org
-    password: 1fba3104-360c-483f-9fc2-c90c85b55389
-    version: 3
-  smux:
-    enabled: true
-    protocol: h2mux
-    padding: true
-    max-connections: '8'
-    min-streams: '16'
-    statistic: true
-    only-tcp: false
-- name: ss_167.160.90.252:8883
-  type: ss
-  server: 167.160.90.252
-  port: 8883
-  cipher: 2022-blake3-aes-128-gcm
-  password: lolvK9uAhEDYTMuqCRblBg==
-  plugin: shadow-tls
-  client-fingerprint: chrome
-  plugin-opts:
-    host: addons.mozilla.org
-    password: d3971b31-e16b-4af2-b430-afb896380543
-    version: 3
-  smux:
-    enabled: true
-    protocol: h2mux
-    padding: true
-    max-connections: '8'
-    min-streams: '16'
-    statistic: true
-    only-tcp: false
-- name: vless_cu.dongtaiwang3.com:443
+- name: vless_172.67.70.101:443
   type: vless
-  server: cu.dongtaiwang3.com
+  server: 172.67.70.101
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: vless_172.67.70.103:443
+  type: vless
+  server: 172.67.70.103
+  port: 443
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
+  tls: true
+  servername: fr.freeh1.xyz
+  network: ws
+  ws-opts:
+    path: /kfhaws
+    headers:
+      host: fr.freeh1.xyz
+  client-fingerprint: chrome
+- name: vless_198.41.220.101:443
+  type: vless
+  server: 198.41.220.101
   port: 443
   uuid: ffb15cd2-0521-49de-b8aa-fb15d58c8075
   tls: true
@@ -104,9 +90,9 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: vless_cu.dongtaiwang3.com:443
+- name: vless_23.227.39.53:443
   type: vless
-  server: cu.dongtaiwang3.com
+  server: 23.227.39.53
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -117,9 +103,9 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: vmess_cm.dongtaiwang3.com:443
+- name: vmess_198.41.221.100:443
   type: vmess
-  server: cm.dongtaiwang3.com
+  server: 198.41.221.100
   port: 443
   cipher: auto
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
@@ -275,9 +261,9 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__cm.dongtaiwang3.com_443
+- name: vmess_US_198.41.220.100_443
   type: vmess
-  server: cm.dongtaiwang3.com
+  server: 198.41.220.100
   port: 443
   uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
   network: ws
@@ -285,9 +271,19 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_US_104.17.25.1_80
+- name: vmess_US_104.21.24.72_80
   type: vmess
-  server: 104.17.25.1
+  server: 104.21.24.72
+  port: 80
+  uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34
+  network: ws
+  tls: none
+  flow: ''
+  host: no1.xv2ray.net
+  path: /vmess
+- name: vmess_US_104.17.25.2_80
+  type: vmess
+  server: 104.17.25.2
   port: 80
   uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
   network: ws
@@ -295,17 +291,57 @@ proxies:
   flow: ''
   host: sgvpn.catnipballs.gay
   path: /
-- name: vmess_NL_91.242.229.69_2086
+- name: vmess_US_45.144.2.113_80
   type: vmess
-  server: 91.242.229.69
-  port: 2086
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+  server: 45.144.2.113
+  port: 80
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
   network: ws
   tls: none
   flow: ''
-  host: nl1.xv2ray.net
-  path: /vmess
-- name: vmess_US_172.67.217.144_80
+  host: www.apple.com
+  path: /
+- name: vmess_CN_36.212.152.13_33329
+  type: vmess
+  server: 36.212.152.13
+  port: 33329
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__s1c.v2.v001sss.xyz_2082
+  type: vmess
+  server: s1c.v2.v001sss.xyz
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__104.156.85.242_80
+  type: vmess
+  server: 104.156.85.242
+  port: 80
+  uuid: d5dc4073-06c1-40d6-96df-2df86f0ad713
+  network: ws
+  tls: none
+  flow: ''
+  host: zhejiang2024.com
+  path: /
+- name: vmess__104.18.15.150_80
+  type: vmess
+  server: 104.18.15.150
+  port: 80
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.889611.com
+  path: /
+- name: vmess__172.67.217.144_80
   type: vmess
   server: 172.67.217.144
   port: 80
@@ -315,23 +351,23 @@ proxies:
   flow: ''
   host: lv1.xv2ray.net
   path: /
-- name: vmess__www.crispyrainbow.biz_8080
+- name: vmess__103.118.29.229_80
   type: vmess
-  server: www.crispyrainbow.biz
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 103.118.29.229
+  port: 80
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
   network: ws
   tls: none
   flow: ''
-  host: ''
-  path: /
-- name: vmess__ru01.333210.xyz_80
+  host: lienquan.garena.vn
+  path: /5gtocdocao.com
+- name: vmess__es---join.outline-vpn.cloud_16767
   type: vmess
-  server: ru01.333210.xyz
-  port: 80
-  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  server: es---join.outline-vpn.cloud
+  port: 16767
+  uuid: d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7
   network: tcp
-  tls: tls
+  tls: none
   flow: ''
   host: ''
   path: ''
@@ -345,16 +381,6 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
 - name: vmess__172.99.190.109_443
   type: vmess
   server: 172.99.190.109
@@ -365,59 +391,49 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__118.167.77.5_4443
+- name: vmess__93.123.17.132_80
   type: vmess
-  server: 118.167.77.5
-  port: 4443
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-  network: tcp
+  server: 93.123.17.132
+  port: 80
+  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
+  network: ws
   tls: none
+  flow: ''
+  host: saman8888.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__45.159.250.78_8443
+  type: vmess
+  server: 45.159.250.78
+  port: 8443
+  uuid: f3a14df7-6140-45d7-9b36-9cbac435c0a9
+  network: tcp
+  tls: tls
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.18.15.149_80
+- name: vmess__hytron.io_8080
   type: vmess
-  server: 104.18.15.149
-  port: 80
-  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
   network: ws
   tls: none
   flow: ''
-  host: tr3.889611.com
+  host: hytron.io
   path: /
-- name: vmess__91.242.229.77_80
-  type: vmess
-  server: 91.242.229.77
-  port: 80
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__104.18.8.215_8880
-  type: vmess
-  server: 104.18.8.215
-  port: 8880
-  uuid: 338c954f-482a-4b59-81e3-8030d63998a2
-  network: ws
-  tls: none
-  flow: ''
-  host: mgthree_cdn.yunjisuan.cf
-  path: /?ed=1024
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - vless_dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
-  - ss_62.210.103.0:12299
-  - ss_167.160.90.252:8883
-  - vless_cu.dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
-  - vmess_cm.dongtaiwang3.com:443
+  - vless_23.227.38.51:443
+  - vless_dongtaiwang2.com:443
+  - vless_172.67.70.101:443
+  - vless_172.67.70.103:443
+  - vless_198.41.220.101:443
+  - vless_23.227.39.53:443
+  - vmess_198.41.221.100:443
   - vmess_dongtaiwang2.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -431,32 +447,35 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
-  - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.17.25.1_80
-  - vmess_NL_91.242.229.69_2086
-  - vmess_US_172.67.217.144_80
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__ru01.333210.xyz_80
+  - vmess_US_198.41.220.100_443
+  - vmess_US_104.21.24.72_80
+  - vmess_US_104.17.25.2_80
+  - vmess_US_45.144.2.113_80
+  - vmess_CN_36.212.152.13_33329
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.156.85.242_80
+  - vmess__104.18.15.150_80
+  - vmess__172.67.217.144_80
+  - vmess__103.118.29.229_80
+  - vmess__es---join.outline-vpn.cloud_16767
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__118.167.77.5_4443
-  - vmess__104.18.15.149_80
-  - vmess__91.242.229.77_80
-  - vmess__104.18.8.215_8880
+  - vmess__93.123.17.132_80
+  - vmess__45.159.250.78_8443
+  - vmess__hytron.io_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - vless_dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
-  - ss_62.210.103.0:12299
-  - ss_167.160.90.252:8883
-  - vless_cu.dongtaiwang3.com:443
-  - vless_cu.dongtaiwang3.com:443
-  - vmess_cm.dongtaiwang3.com:443
+  - vless_23.227.38.51:443
+  - vless_dongtaiwang2.com:443
+  - vless_172.67.70.101:443
+  - vless_172.67.70.103:443
+  - vless_198.41.220.101:443
+  - vless_23.227.39.53:443
+  - vmess_198.41.221.100:443
   - vmess_dongtaiwang2.com:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -470,19 +489,22 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_US_64.110.25.11:33337
   - hy2_US_108.181.24.77:18775
-  - vmess__cm.dongtaiwang3.com_443
-  - vmess_US_104.17.25.1_80
-  - vmess_NL_91.242.229.69_2086
-  - vmess_US_172.67.217.144_80
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__ru01.333210.xyz_80
+  - vmess_US_198.41.220.100_443
+  - vmess_US_104.21.24.72_80
+  - vmess_US_104.17.25.2_80
+  - vmess_US_45.144.2.113_80
+  - vmess_CN_36.212.152.13_33329
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__104.156.85.242_80
+  - vmess__104.18.15.150_80
+  - vmess__172.67.217.144_80
+  - vmess__103.118.29.229_80
+  - vmess__es---join.outline-vpn.cloud_16767
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__118.167.77.5_4443
-  - vmess__104.18.15.149_80
-  - vmess__91.242.229.77_80
-  - vmess__104.18.8.215_8880
+  - vmess__93.123.17.132_80
+  - vmess__45.159.250.78_8443
+  - vmess__hytron.io_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
