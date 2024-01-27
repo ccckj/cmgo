@@ -321,7 +321,7 @@ proxies:
   flow: ''
   host: www.coldstone.club
   path: /
-- name: vmess_US_104.17.25.2_80
+- name: vmess__104.17.25.2_80
   type: vmess
   server: 104.17.25.2
   port: 80
@@ -331,7 +331,7 @@ proxies:
   flow: ''
   host: sgvpn.catnipballs.gay
   path: /
-- name: vmess_TW_125.224.144.24_6122
+- name: vmess__125.224.144.24_6122
   type: vmess
   server: 125.224.144.24
   port: 6122
@@ -371,36 +371,26 @@ proxies:
   flow: ''
   host: lv1.xv2ray.net
   path: /
-- name: vmess__103.214.68.57_10001
+- name: vmess__173.245.49.1_80
   type: vmess
-  server: 103.214.68.57
-  port: 10001
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__c12.twtc.dynu.net_6122
-  type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__www.crispyrainbow.online_8080
-  type: vmess
-  server: www.crispyrainbow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 173.245.49.1
+  port: 80
+  uuid: 4fd4c27a-2b01-4dd6-94ee-a2c465542177
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.online
-  path: /
+  host: 1.digikala.sbs
+  path: /c7z8J4SE3QpsmJZmSRZp3WCDd7QY
+- name: vmess__94.131.97.123_80
+  type: vmess
+  server: 94.131.97.123
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
 - name: vmess__104.31.16.104_8080
   type: vmess
   server: 104.31.16.104
@@ -411,56 +401,36 @@ proxies:
   flow: ''
   host: asan3.azad1.tech
   path: /
-- name: vmess__www.crispyrainbow.biz_8080
+- name: vmess__3SAO.5GTOCDOCAO.COM_80
   type: vmess
-  server: www.crispyrainbow.biz
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 3SAO.5GTOCDOCAO.COM
+  port: 80
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__cz1-vmess.sshmax.xyz_80
+  host: lienquan.garena.vn
+  path: /5gtocdocao.com
+- name: vmess__104.19.43.12_80
   type: vmess
-  server: cz1-vmess.sshmax.xyz
+  server: 104.19.43.12
   port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
   network: ws
+  tls: none
+  flow: ''
+  host: ams.178820225.xyz
+  path: /h5e65fd
+- name: vmess__c12.twtc.dynu.net_6122
+  type: vmess
+  server: c12.twtc.dynu.net
+  port: 6122
+  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
+  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: /vmess
-- name: vmess__94.131.97.123_80
-  type: vmess
-  server: 94.131.97.123
-  port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  network: ws
-  tls: none
-  flow: ''
-  host: cz1-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__www.blueberrywindow.online_8080
-  type: vmess
-  server: www.blueberrywindow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.blueberrywindow.online
-  path: /
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -493,20 +463,17 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess_KR_185.214.103.249_8002
   - vmess__www.coldstone.club_8080
-  - vmess_US_104.17.25.2_80
-  - vmess_TW_125.224.144.24_6122
+  - vmess__104.17.25.2_80
+  - vmess__125.224.144.24_6122
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__172.67.217.144_80
-  - vmess__103.214.68.57_10001
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__104.31.16.104_8080
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__173.245.49.1_80
   - vmess__94.131.97.123_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__www.blueberrywindow.online_8080
+  - vmess__104.31.16.104_8080
+  - vmess__3SAO.5GTOCDOCAO.COM_80
+  - vmess__104.19.43.12_80
+  - vmess__c12.twtc.dynu.net_6122
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -539,20 +506,17 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess_KR_185.214.103.249_8002
   - vmess__www.coldstone.club_8080
-  - vmess_US_104.17.25.2_80
-  - vmess_TW_125.224.144.24_6122
+  - vmess__104.17.25.2_80
+  - vmess__125.224.144.24_6122
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__172.67.217.144_80
-  - vmess__103.214.68.57_10001
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__104.31.16.104_8080
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__173.245.49.1_80
   - vmess__94.131.97.123_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__www.blueberrywindow.online_8080
+  - vmess__104.31.16.104_8080
+  - vmess__3SAO.5GTOCDOCAO.COM_80
+  - vmess__104.19.43.12_80
+  - vmess__c12.twtc.dynu.net_6122
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
