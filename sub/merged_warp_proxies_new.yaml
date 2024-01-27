@@ -47,18 +47,18 @@ proxies:
   type: vless
   server: 23.227.38.51
   port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.dtku47.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /eobjws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.dtku47.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: vless_dongtaiwang2.com:443
+- name: vless_23.227.39.51:443
   type: vless
-  server: dongtaiwang2.com
+  server: 23.227.39.51
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -73,14 +73,14 @@ proxies:
   type: vless
   server: 172.67.70.101
   port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.dtku47.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /eobjws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.dtku47.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
 - name: vless_172.67.70.103:443
   type: vless
@@ -263,10 +263,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_64.110.25.11:33337
+- name: hy2_FR_62.210.103.0:52465
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 62.210.103.0
+  port: 52465
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -289,26 +289,116 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess_KZ_45.159.250.78_8443
+- name: vmess_TW_125.224.144.24_6122
   type: vmess
-  server: 45.159.250.78
-  port: 8443
-  uuid: f3a14df7-6140-45d7-9b36-9cbac435c0a9
+  server: 125.224.144.24
+  port: 6122
+  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
   network: tcp
-  tls: tls
+  tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__be1-vmess.sshmax.xyz_80
+- name: vmess_PT_94.131.10.135_80
   type: vmess
-  server: be1-vmess.sshmax.xyz
+  server: 94.131.10.135
   port: 80
-  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /vmess
+- name: vmess__www.crispyrainbow.biz_8080
+  type: vmess
+  server: www.crispyrainbow.biz
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess_VN_103.118.29.229_80
+  type: vmess
+  server: 103.118.29.229
+  port: 80
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  network: ws
+  tls: none
+  flow: ''
+  host: lienquan.garena.vn
+  path: /5gtocdocao.com
+- name: vmess__05.kccic2pa.xyz_50005
+  type: vmess
+  server: 05.kccic2pa.xyz
+  port: 50005
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__cz1-vmess.sshmax.xyz_80
+  type: vmess
+  server: cz1-vmess.sshmax.xyz
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: cz1-vmess.sshmax.xyz
+  path: /vmess
+- name: vmess_NL_103.214.68.57_10001
+  type: vmess
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__130.193.166.2_443
+  type: vmess
+  server: 130.193.166.2
+  port: 443
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  network: ws
+  tls: tls
+  flow: ''
+  host: soft8989.redirectme.net
+  path: /@forwardv2ray
+- name: vmess__ru01.333210.xyz_80
+  type: vmess
+  server: ru01.333210.xyz
+  port: 80
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.17.25.1_80
+  type: vmess
+  server: 104.17.25.1
+  port: 80
+  uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169
+  network: ws
+  tls: none
+  flow: ''
+  host: dg.catnipballs.gay
+  path: /
+- name: vmess__172.67.217.144_80
+  type: vmess
+  server: 172.67.217.144
+  port: 80
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  network: ws
+  tls: none
+  flow: ''
+  host: lv1.xv2ray.net
+  path: /
 - name: vmess__s1c.v2.v001sss.xyz_2082
   type: vmess
   server: s1c.v2.v001sss.xyz
@@ -319,46 +409,36 @@ proxies:
   flow: ''
   host: s1c.v2.v001sss.xyz
   path: /
-- name: vmess_KR_185.214.103.249_8002
+- name: vmess__www.crispyrainbow.online_8080
   type: vmess
-  server: 185.214.103.249
-  port: 8002
-  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
-  network: ws
-  tls: none
-  flow: ''
-  host: cache-hk-1.cn-db.top
-  path: /db00
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
+  server: www.crispyrainbow.online
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.coldstone.club
+  host: www.crispyrainbow.online
   path: /
-- name: vmess__104.17.25.2_80
+- name: vmess__pt2-vmess.sshmax.xyz_80
   type: vmess
-  server: 104.17.25.2
+  server: pt2-vmess.sshmax.xyz
   port: 80
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   network: ws
   tls: none
   flow: ''
-  host: sgvpn.catnipballs.gay
-  path: /
-- name: vmess__125.224.144.24_6122
+  host: ''
+  path: /vmess
+- name: vmess__104.18.202.232_2052
   type: vmess
-  server: 125.224.144.24
-  port: 6122
-  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
-  network: tcp
+  server: 104.18.202.232
+  port: 2052
+  uuid: 33316b88-907c-4562-ac4e-75aecbc0d8a0
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: etc.tellss.ir
+  path: /
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -379,76 +459,16 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__172.67.217.144_80
+- name: vmess__185.214.103.249_8002
   type: vmess
-  server: 172.67.217.144
-  port: 80
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  server: 185.214.103.249
+  port: 8002
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
   network: ws
   tls: none
   flow: ''
-  host: lv1.xv2ray.net
-  path: /
-- name: vmess__173.245.49.1_80
-  type: vmess
-  server: 173.245.49.1
-  port: 80
-  uuid: 4fd4c27a-2b01-4dd6-94ee-a2c465542177
-  network: ws
-  tls: none
-  flow: ''
-  host: 1.digikala.sbs
-  path: /c7z8J4SE3QpsmJZmSRZp3WCDd7QY
-- name: vmess__94.131.97.123_80
-  type: vmess
-  server: 94.131.97.123
-  port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__104.31.16.104_8080
-  type: vmess
-  server: 104.31.16.104
-  port: 8080
-  uuid: 3a6752b4-8353-4172-85b1-32202116714d
-  network: ws
-  tls: none
-  flow: ''
-  host: asan3.azad1.tech
-  path: /
-- name: vmess__3SAO.5GTOCDOCAO.COM_80
-  type: vmess
-  server: 3SAO.5GTOCDOCAO.COM
-  port: 80
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  network: ws
-  tls: none
-  flow: ''
-  host: lienquan.garena.vn
-  path: /5gtocdocao.com
-- name: vmess__104.19.43.12_80
-  type: vmess
-  server: 104.19.43.12
-  port: 80
-  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
-  network: ws
-  tls: none
-  flow: ''
-  host: ams.178820225.xyz
-  path: /h5e65fd
-- name: vmess__c12.twtc.dynu.net_6122
-  type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
+  host: cache-hk-1.cn-db.top
+  path: /db00
 proxy-groups:
 - name: 节点选择
   type: select
@@ -471,7 +491,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - vless_23.227.38.51:443
-  - vless_dongtaiwang2.com:443
+  - vless_23.227.39.51:443
   - vless_172.67.70.101:443
   - vless_172.67.70.103:443
   - vless_198.41.220.101:443
@@ -488,30 +508,32 @@ proxy-groups:
   - hysteria_3
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:18775
   - vmess_US_198.41.220.100_443
-  - vmess_KZ_45.159.250.78_8443
-  - vmess__be1-vmess.sshmax.xyz_80
+  - vmess_TW_125.224.144.24_6122
+  - vmess_PT_94.131.10.135_80
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess_VN_103.118.29.229_80
+  - vmess__05.kccic2pa.xyz_50005
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess_NL_103.214.68.57_10001
+  - vmess__130.193.166.2_443
+  - vmess__ru01.333210.xyz_80
+  - vmess__104.17.25.1_80
+  - vmess__172.67.217.144_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_KR_185.214.103.249_8002
-  - vmess__www.coldstone.club_8080
-  - vmess__104.17.25.2_80
-  - vmess__125.224.144.24_6122
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__pt2-vmess.sshmax.xyz_80
+  - vmess__104.18.202.232_2052
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.217.144_80
-  - vmess__173.245.49.1_80
-  - vmess__94.131.97.123_80
-  - vmess__104.31.16.104_8080
-  - vmess__3SAO.5GTOCDOCAO.COM_80
-  - vmess__104.19.43.12_80
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__185.214.103.249_8002
 - name: 手动选择
   type: select
   proxies:
   - vless_23.227.38.51:443
-  - vless_dongtaiwang2.com:443
+  - vless_23.227.39.51:443
   - vless_172.67.70.101:443
   - vless_172.67.70.103:443
   - vless_198.41.220.101:443
@@ -528,30 +550,32 @@ proxy-groups:
   - hysteria_3
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:18775
   - vmess_US_198.41.220.100_443
-  - vmess_KZ_45.159.250.78_8443
-  - vmess__be1-vmess.sshmax.xyz_80
+  - vmess_TW_125.224.144.24_6122
+  - vmess_PT_94.131.10.135_80
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess_VN_103.118.29.229_80
+  - vmess__05.kccic2pa.xyz_50005
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess_NL_103.214.68.57_10001
+  - vmess__130.193.166.2_443
+  - vmess__ru01.333210.xyz_80
+  - vmess__104.17.25.1_80
+  - vmess__172.67.217.144_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_KR_185.214.103.249_8002
-  - vmess__www.coldstone.club_8080
-  - vmess__104.17.25.2_80
-  - vmess__125.224.144.24_6122
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__pt2-vmess.sshmax.xyz_80
+  - vmess__104.18.202.232_2052
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.217.144_80
-  - vmess__173.245.49.1_80
-  - vmess__94.131.97.123_80
-  - vmess__104.31.16.104_8080
-  - vmess__3SAO.5GTOCDOCAO.COM_80
-  - vmess__104.19.43.12_80
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__185.214.103.249_8002
 - name: 负载均衡
   type: load-balance
   proxies:
   - vless_23.227.38.51:443
-  - vless_dongtaiwang2.com:443
+  - vless_23.227.39.51:443
   - vless_172.67.70.101:443
   - vless_172.67.70.103:443
   - vless_198.41.220.101:443
@@ -568,25 +592,27 @@ proxy-groups:
   - hysteria_3
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
-  - hy2_US_64.110.25.11:33337
+  - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:18775
   - vmess_US_198.41.220.100_443
-  - vmess_KZ_45.159.250.78_8443
-  - vmess__be1-vmess.sshmax.xyz_80
+  - vmess_TW_125.224.144.24_6122
+  - vmess_PT_94.131.10.135_80
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess_VN_103.118.29.229_80
+  - vmess__05.kccic2pa.xyz_50005
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess_NL_103.214.68.57_10001
+  - vmess__130.193.166.2_443
+  - vmess__ru01.333210.xyz_80
+  - vmess__104.17.25.1_80
+  - vmess__172.67.217.144_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_KR_185.214.103.249_8002
-  - vmess__www.coldstone.club_8080
-  - vmess__104.17.25.2_80
-  - vmess__125.224.144.24_6122
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__pt2-vmess.sshmax.xyz_80
+  - vmess__104.18.202.232_2052
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.217.144_80
-  - vmess__173.245.49.1_80
-  - vmess__94.131.97.123_80
-  - vmess__104.31.16.104_8080
-  - vmess__3SAO.5GTOCDOCAO.COM_80
-  - vmess__104.19.43.12_80
-  - vmess__c12.twtc.dynu.net_6122
+  - vmess__185.214.103.249_8002
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
