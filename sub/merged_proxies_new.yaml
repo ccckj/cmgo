@@ -271,95 +271,35 @@ proxies:
   flow: ''
   host: xray1.freeh1.xyz
   path: /gzogws
-- name: vmess__cf.fovi.tk_443
+- name: vmess_GT_181.174.80.182_80
   type: vmess
-  server: cf.fovi.tk
-  port: 443
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  network: ws
-  tls: tls
-  flow: ''
-  host: foxlux.fovi.tk
-  path: /eisasqa
-- name: vmess_VN_103.118.29.229_80
-  type: vmess
-  server: 103.118.29.229
+  server: 181.174.80.182
   port: 80
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
   network: ws
   tls: none
   flow: ''
-  host: lienquan.garena.vn
-  path: /5gtocdocao.com
-- name: vmess__www.blueberrywindow.online_8080
-  type: vmess
-  server: www.blueberrywindow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.blueberrywindow.online
-  path: /
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  network: ws
-  tls: none
-  flow: ''
-  host: eu2.openxai.link
-  path: /?ed=2048
-- name: vmess__190.95.248.34_80
-  type: vmess
-  server: 190.95.248.34
-  port: 80
-  uuid: 726a0a65-04fd-4531-a96b-5510537737fc
-  network: ws
-  tls: none
-  flow: ''
-  host: saber.serveirc.com
+  host: xyz33.servecounterstrike.com
   path: /@forwardv2ray
-- name: vmess__172.67.217.144_80
+- name: vmess__nb24.ntbq.dynu.net_4443
   type: vmess
-  server: 172.67.217.144
-  port: 80
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  network: ws
-  tls: none
-  flow: ''
-  host: lv1.xv2ray.net
-  path: /
-- name: vmess__94.131.10.135_80
-  type: vmess
-  server: 94.131.10.135
-  port: 80
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  network: ws
+  server: nb24.ntbq.dynu.net
+  port: 4443
+  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: /vmess
-- name: vmess__104.18.15.149_80
+  path: ''
+- name: vmess_US_104.17.25.1_80
   type: vmess
-  server: 104.18.15.149
+  server: 104.17.25.1
   port: 80
-  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
   network: ws
   tls: none
   flow: ''
-  host: er3.889611.com
+  host: sgvpn.catnipballs.gay
   path: /
 - name: vmess__www.coldstone.club_8080
   type: vmess
@@ -371,17 +311,7 @@ proxies:
   flow: ''
   host: www.coldstone.club
   path: /
-- name: vmess__94.131.97.123_80
-  type: vmess
-  server: 94.131.97.123
-  port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  network: ws
-  tls: none
-  flow: ''
-  host: cz1-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__162.159.137.28_8080
+- name: vmess_US_162.159.137.28_8080
   type: vmess
   server: 162.159.137.28
   port: 8080
@@ -391,61 +321,41 @@ proxies:
   flow: ''
   host: eu4.openxai.link
   path: /?ed=2048
-- name: vmess__195.85.59.161_2082
+- name: vmess__104.19.234.82_8080
   type: vmess
-  server: 195.85.59.161
-  port: 2082
-  uuid: 4f95be3b-fb31-49c1-becd-1a31ab4b44f1
+  server: 104.19.234.82
+  port: 8080
+  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
   network: ws
   tls: none
   flow: ''
-  host: mgfive_cdn.yunjisuan.cf
-  path: /?ed=1024
-- name: vmess__172.64.229.5_80
+  host: us5PhAx6xsj.fzbqfrse.xyz
+  path: /video/f8ZKTGaGoC/
+- name: vmess__130.193.166.2_80
   type: vmess
-  server: 172.64.229.5
+  server: 130.193.166.2
   port: 80
-  uuid: 333c917d-7a3f-419e-a88a-36a420f0d791
+  uuid: 726a0a65-04fd-4531-a96b-5510537737fc
   network: ws
   tls: none
   flow: ''
-  host: jpli.edge.233.tw
-  path: /geg/45?ed=2048
-- name: vmess__45.144.2.113_80
+  host: saber.serveirc.com
+  path: /@forwardv2ray
+- name: vmess__pt2-vmess.sshmax.xyz_80
   type: vmess
-  server: 45.144.2.113
+  server: pt2-vmess.sshmax.xyz
   port: 80
-  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   network: ws
-  tls: none
-  flow: ''
-  host: www.apple.com
-  path: /
-- name: vmess__38.180.40.86_8420
-  type: vmess
-  server: 38.180.40.86
-  port: 8420
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  network: ws
-  tls: tls
-  flow: ''
-  host: xray1.freeh1.xyz
-  path: /gzogws
-- name: vmess__gz.daxun.cyou_26040
-  type: vmess
-  server: gz.daxun.cyou
-  port: 26040
-  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
-  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: ''
-- name: vmess__128.199.37.183_5752
+  path: /vmess
+- name: vmess__www.blueberrywindow.online_8080
   type: vmess
-  server: 128.199.37.183
-  port: 5752
-  uuid: 3311aab9-b148-4f85-e5e6-328d2328fbe0
+  server: www.blueberrywindow.online
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
@@ -455,42 +365,12 @@ proxies:
   type: vmess
   server: 114.37.139.157
   port: 2024
-  uuid: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
+  uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  network: ws
-  tls: none
-  flow: ''
-  host: lmnyvpn.catnipballs.gay
-  path: /
-- name: vmess__www.crispyrainbow.biz_8080
-  type: vmess
-  server: www.crispyrainbow.biz
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
 proxy-groups:
 - name: 节点选择
   type: select
@@ -518,28 +398,16 @@ proxy-groups:
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:18775
   - vmess_US_198.41.220.100_443
-  - vmess__cf.fovi.tk_443
-  - vmess_VN_103.118.29.229_80
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__cf.openxai.link_8080
-  - vmess__190.95.248.34_80
-  - vmess__172.67.217.144_80
-  - vmess__94.131.10.135_80
-  - vmess__104.18.15.149_80
+  - vmess_GT_181.174.80.182_80
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess_US_104.17.25.1_80
   - vmess__www.coldstone.club_8080
-  - vmess__94.131.97.123_80
-  - vmess__162.159.137.28_8080
-  - vmess__195.85.59.161_2082
-  - vmess__172.64.229.5_80
-  - vmess__45.144.2.113_80
-  - vmess__38.180.40.86_8420
-  - vmess__gz.daxun.cyou_26040
-  - vmess__128.199.37.183_5752
+  - vmess_US_162.159.137.28_8080
+  - vmess__104.19.234.82_8080
+  - vmess__130.193.166.2_80
+  - vmess__pt2-vmess.sshmax.xyz_80
+  - vmess__www.blueberrywindow.online_8080
   - vmess__114.37.139.157_2024
-  - vmess__104.17.25.1_80
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -567,28 +435,16 @@ proxy-groups:
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:18775
   - vmess_US_198.41.220.100_443
-  - vmess__cf.fovi.tk_443
-  - vmess_VN_103.118.29.229_80
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__cf.openxai.link_8080
-  - vmess__190.95.248.34_80
-  - vmess__172.67.217.144_80
-  - vmess__94.131.10.135_80
-  - vmess__104.18.15.149_80
+  - vmess_GT_181.174.80.182_80
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess_US_104.17.25.1_80
   - vmess__www.coldstone.club_8080
-  - vmess__94.131.97.123_80
-  - vmess__162.159.137.28_8080
-  - vmess__195.85.59.161_2082
-  - vmess__172.64.229.5_80
-  - vmess__45.144.2.113_80
-  - vmess__38.180.40.86_8420
-  - vmess__gz.daxun.cyou_26040
-  - vmess__128.199.37.183_5752
+  - vmess_US_162.159.137.28_8080
+  - vmess__104.19.234.82_8080
+  - vmess__130.193.166.2_80
+  - vmess__pt2-vmess.sshmax.xyz_80
+  - vmess__www.blueberrywindow.online_8080
   - vmess__114.37.139.157_2024
-  - vmess__104.17.25.1_80
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
