@@ -371,15 +371,75 @@ proxies:
   flow: ''
   host: www.crispyrainbow.biz
   path: /
-- name: vmess__181.174.80.182_80
+- name: vmess__cz1-vmess.sshmax.xyz_80
   type: vmess
-  server: 181.174.80.182
+  server: cz1-vmess.sshmax.xyz
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__185.48.136.150_80
+  type: vmess
+  server: 185.48.136.150
   port: 80
   uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
   network: ws
   tls: none
   flow: ''
   host: xyz33.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__104.20.231.30_80
+  type: vmess
+  server: 104.20.231.30
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /?ed=2048
+- name: vmess__172.67.212.171_8080
+  type: vmess
+  server: 172.67.212.171
+  port: 8080
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
+  network: ws
+  tls: none
+  flow: ''
+  host: eu5.openxai.link
+  path: /?ed=2048
+- name: vmess__130.193.166.2_443
+  type: vmess
+  server: 130.193.166.2
+  port: 443
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  network: ws
+  tls: tls
+  flow: ''
+  host: soft8989.redirectme.net
+  path: /@forwardv2ray
+- name: vmess__181.39.11.210_80
+  type: vmess
+  server: 181.39.11.210
+  port: 80
+  uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
+  network: ws
+  tls: none
+  flow: ''
+  host: xyz33.servecounterstrike.com
+  path: /@forwardv2ray
+- name: vmess__181.174.80.182_80
+  type: vmess
+  server: 181.174.80.182
+  port: 80
+  uuid: f0028153-2a2d-45fe-b44e-a1a6dbd0c65e
+  network: ws
+  tls: none
+  flow: ''
+  host: saman8888.servecounterstrike.com
   path: /@forwardv2ray
 - name: vmess__b23.ntbq.dynu.net_2024
   type: vmess
@@ -391,36 +451,16 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.20.231.30_80
+- name: vmess__114.37.136.126_4443
   type: vmess
-  server: 104.20.231.30
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__cdn.yifenjichang.top_2086
-  type: vmess
-  server: cdn.yifenjichang.top
-  port: 2086
-  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
-  network: ws
-  tls: none
-  flow: ''
-  host: gc-sql-blast-law.trycloudflare.com
-  path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
-- name: vmess__45.144.2.113_80
-  type: vmess
-  server: 45.144.2.113
-  port: 80
-  uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13
-  network: ws
+  server: 114.37.136.126
+  port: 4443
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: /
+  path: ''
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -430,6 +470,36 @@ proxies:
   tls: none
   flow: ''
   host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.17.25.2_80
+  type: vmess
+  server: 104.17.25.2
+  port: 80
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  network: ws
+  tls: none
+  flow: ''
+  host: sgvpn.catnipballs.gay
   path: /
 proxy-groups:
 - name: 节点选择
@@ -468,12 +538,19 @@ proxy-groups:
   - vmess__94.131.97.123_80
   - vmess__172.67.166.190_8080
   - vmess__104.21.23.176_8080
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__185.48.136.150_80
+  - vmess__104.20.231.30_80
+  - vmess__172.67.212.171_8080
+  - vmess__130.193.166.2_443
+  - vmess__181.39.11.210_80
   - vmess__181.174.80.182_80
   - vmess__b23.ntbq.dynu.net_2024
-  - vmess__104.20.231.30_80
-  - vmess__cdn.yifenjichang.top_2086
-  - vmess__45.144.2.113_80
+  - vmess__114.37.136.126_4443
   - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.17.25.2_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -511,12 +588,19 @@ proxy-groups:
   - vmess__94.131.97.123_80
   - vmess__172.67.166.190_8080
   - vmess__104.21.23.176_8080
+  - vmess__cz1-vmess.sshmax.xyz_80
+  - vmess__185.48.136.150_80
+  - vmess__104.20.231.30_80
+  - vmess__172.67.212.171_8080
+  - vmess__130.193.166.2_443
+  - vmess__181.39.11.210_80
   - vmess__181.174.80.182_80
   - vmess__b23.ntbq.dynu.net_2024
-  - vmess__104.20.231.30_80
-  - vmess__cdn.yifenjichang.top_2086
-  - vmess__45.144.2.113_80
+  - vmess__114.37.136.126_4443
   - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.17.25.2_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
