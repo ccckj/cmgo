@@ -449,9 +449,9 @@ proxies:
   flow: ''
   host: lv1.xv2ray.net
   path: /
-- name: vmess__181.39.11.210_80
+- name: vmess__181.174.80.182_80
   type: vmess
-  server: 181.39.11.210
+  server: 181.174.80.182
   port: 80
   uuid: 9dca0609-a375-4cb4-9641-6246354b8da2
   network: ws
@@ -459,9 +459,39 @@ proxies:
   flow: ''
   host: mehdi21.servecounterstrike.com
   path: /@forwardv2ray
-- name: vmess__181.174.80.182_80
+- name: vmess__172.64.150.65_2095
   type: vmess
-  server: 181.174.80.182
+  server: 172.64.150.65
+  port: 2095
+  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  network: ws
+  tls: none
+  flow: ''
+  host: us82pRzxDMb.fzbqfrse.xyz
+  path: /video/qYZue4zaWS
+- name: vmess__1j8p04.abzoones.xyz_36116
+  type: vmess
+  server: 1j8p04.abzoones.xyz
+  port: 36116
+  uuid: 29111626-1535-42ed-9380-a15216f1bbad
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__9s5g06.abzoones.xyz_36211
+  type: vmess
+  server: 9s5g06.abzoones.xyz
+  port: 36211
+  uuid: 29111626-1535-42ed-9380-a15216f1bbad
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__130.193.166.2_80
+  type: vmess
+  server: 130.193.166.2
   port: 80
   uuid: 726a0a65-04fd-4531-a96b-5510537737fc
   network: ws
@@ -469,25 +499,25 @@ proxies:
   flow: ''
   host: saber.serveirc.com
   path: /@forwardv2ray
-- name: vmess__108.162.194.165_80
+- name: vmess__8r5u04.abzoones.xyz_36851
   type: vmess
-  server: 108.162.194.165
+  server: 8r5u04.abzoones.xyz
+  port: 36851
+  uuid: 29111626-1535-42ed-9380-a15216f1bbad
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__sg02.hajimihajimihajimi.online_80
+  type: vmess
+  server: sg02.hajimihajimihajimi.online
   port: 80
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  uuid: dbf67e8f-eca2-4a01-9c87-c8cfea490a51
   network: ws
   tls: none
   flow: ''
-  host: cghyxmvhjp3.zvhdeaof.xyz
-  path: /video/fz2DANLn
-- name: vmess__104.21.23.176_8080
-  type: vmess
-  server: 104.21.23.176
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.biz
+  host: sg02.xpoti.online
   path: /
 - name: vmess__172.67.212.171_8080
   type: vmess
@@ -499,19 +529,9 @@ proxies:
   flow: ''
   host: eu5.openxai.link
   path: /?ed=2048
-- name: vmess__www.coldstone.club_8080
+- name: vmess__197.215.140.235_80
   type: vmess
-  server: www.coldstone.club
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__197.215.140.234_80
-  type: vmess
-  server: 197.215.140.234
+  server: 197.215.140.235
   port: 80
   uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
   network: ws
@@ -519,46 +539,76 @@ proxies:
   flow: ''
   host: xyz33.servecounterstrike.com
   path: /@forwardv2ray
-- name: vmess__162.159.137.28_8080
+- name: vmess__cdn.yifenjichang.top_2086
   type: vmess
-  server: 162.159.137.28
-  port: 8080
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
+  server: cdn.yifenjichang.top
+  port: 2086
+  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
   network: ws
   tls: none
   flow: ''
-  host: eu4.openxai.link
-  path: /?ed=2048
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+  host: gc-sql-blast-law.trycloudflare.com
+  path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
+- name: vmess__3u1s05.abzoones.xyz_36506
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  server: 3u1s05.abzoones.xyz
+  port: 36506
+  uuid: 29111626-1535-42ed-9380-a15216f1bbad
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__108.162.194.165_2052
+  type: vmess
+  server: 108.162.194.165
+  port: 2052
+  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
   network: ws
   tls: none
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__172.64.229.1_80
+  host: dwlwfykrjp1.zvhdeaof.xyz
+  path: /video/NgeVbib3
+- name: vmess__8k2r04.abzoones.xyz_36401
   type: vmess
-  server: 172.64.229.1
-  port: 80
-  uuid: 16764b38-4ab4-4063-86bb-392c680a0482
-  network: ws
+  server: 8k2r04.abzoones.xyz
+  port: 36401
+  uuid: 29111626-1535-42ed-9380-a15216f1bbad
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__114.37.132.46_2024
+  type: vmess
+  server: 114.37.132.46
+  port: 2024
+  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+  network: tcp
   tls: none
   flow: ''
-  host: jpli.edge.233.tw
-  path: /geg/45?ed=2048
-- name: vmess__www.blueberrywindow.online_8080
+  host: ''
+  path: ''
+- name: vmess__104.21.23.176_8080
   type: vmess
-  server: www.blueberrywindow.online
+  server: 104.21.23.176
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.blueberrywindow.online
+  host: www.crispyrainbow.biz
   path: /
+- name: vmess__cz1-vmess.sshmax.xyz_80
+  type: vmess
+  server: cz1-vmess.sshmax.xyz
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
 proxy-groups:
 - name: 节点选择
   type: select
@@ -617,17 +667,22 @@ proxy-groups:
   - vmess__172.99.190.109_443
   - vmess__114.37.139.157_2024
   - vmess__172.67.217.144_80
-  - vmess__181.39.11.210_80
   - vmess__181.174.80.182_80
-  - vmess__108.162.194.165_80
-  - vmess__104.21.23.176_8080
+  - vmess__172.64.150.65_2095
+  - vmess__1j8p04.abzoones.xyz_36116
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__130.193.166.2_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__sg02.hajimihajimihajimi.online_80
   - vmess__172.67.212.171_8080
-  - vmess__www.coldstone.club_8080
-  - vmess__197.215.140.234_80
-  - vmess__162.159.137.28_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__172.64.229.1_80
-  - vmess__www.blueberrywindow.online_8080
+  - vmess__197.215.140.235_80
+  - vmess__cdn.yifenjichang.top_2086
+  - vmess__3u1s05.abzoones.xyz_36506
+  - vmess__108.162.194.165_2052
+  - vmess__8k2r04.abzoones.xyz_36401
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.23.176_8080
+  - vmess__cz1-vmess.sshmax.xyz_80
 - name: 手动选择
   type: select
   proxies:
@@ -668,17 +723,22 @@ proxy-groups:
   - vmess__172.99.190.109_443
   - vmess__114.37.139.157_2024
   - vmess__172.67.217.144_80
-  - vmess__181.39.11.210_80
   - vmess__181.174.80.182_80
-  - vmess__108.162.194.165_80
-  - vmess__104.21.23.176_8080
+  - vmess__172.64.150.65_2095
+  - vmess__1j8p04.abzoones.xyz_36116
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__130.193.166.2_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__sg02.hajimihajimihajimi.online_80
   - vmess__172.67.212.171_8080
-  - vmess__www.coldstone.club_8080
-  - vmess__197.215.140.234_80
-  - vmess__162.159.137.28_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__172.64.229.1_80
-  - vmess__www.blueberrywindow.online_8080
+  - vmess__197.215.140.235_80
+  - vmess__cdn.yifenjichang.top_2086
+  - vmess__3u1s05.abzoones.xyz_36506
+  - vmess__108.162.194.165_2052
+  - vmess__8k2r04.abzoones.xyz_36401
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.23.176_8080
+  - vmess__cz1-vmess.sshmax.xyz_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -719,17 +779,22 @@ proxy-groups:
   - vmess__172.99.190.109_443
   - vmess__114.37.139.157_2024
   - vmess__172.67.217.144_80
-  - vmess__181.39.11.210_80
   - vmess__181.174.80.182_80
-  - vmess__108.162.194.165_80
-  - vmess__104.21.23.176_8080
+  - vmess__172.64.150.65_2095
+  - vmess__1j8p04.abzoones.xyz_36116
+  - vmess__9s5g06.abzoones.xyz_36211
+  - vmess__130.193.166.2_80
+  - vmess__8r5u04.abzoones.xyz_36851
+  - vmess__sg02.hajimihajimihajimi.online_80
   - vmess__172.67.212.171_8080
-  - vmess__www.coldstone.club_8080
-  - vmess__197.215.140.234_80
-  - vmess__162.159.137.28_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__172.64.229.1_80
-  - vmess__www.blueberrywindow.online_8080
+  - vmess__197.215.140.235_80
+  - vmess__cdn.yifenjichang.top_2086
+  - vmess__3u1s05.abzoones.xyz_36506
+  - vmess__108.162.194.165_2052
+  - vmess__8k2r04.abzoones.xyz_36401
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.23.176_8080
+  - vmess__cz1-vmess.sshmax.xyz_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
