@@ -367,10 +367,10 @@ proxies:
   skip-cert-verify: true
   up: 2 Mbps
   down: 10 Mbps
-- name: hysteria_www.dtku50.xyz:32408
+- name: hysteria_www.dtku50.xyz:18470
   type: hysteria
   server: www.dtku50.xyz
-  port: 32408
+  port: 18470
   sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
@@ -459,10 +459,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_108.181.24.77:18775
+- name: hy2_US_108.181.24.77:43656
   type: hysteria2
   server: 108.181.24.77
-  port: 18775
+  port: 43656
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -487,196 +487,56 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_104.20.231.30_80
+- name: vmess__gz.daxun.cyou_38011
   type: vmess
-  server: 104.20.231.30
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess_GR_94.131.8.32_2086
-  type: vmess
-  server: 94.131.8.32
-  port: 2086
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess_PT_94.131.10.135_80
-  type: vmess
-  server: 94.131.10.135
-  port: 80
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__be1-vmess.sshmax.xyz_80
-  type: vmess
-  server: be1-vmess.sshmax.xyz
-  port: 80
-  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
-  network: ws
-  tls: none
-  flow: ''
-  host: be1-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess_HK_212.192.12.231_80
-  type: vmess
-  server: 212.192.12.231
-  port: 80
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
-  network: ws
-  tls: none
-  flow: ''
-  host: www.apple.com
-  path: /
-- name: vmess__61.228.160.39_4443
-  type: vmess
-  server: 61.228.160.39
-  port: 4443
-  uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+  server: gz.daxun.cyou
+  port: 38011
+  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__www.crispyrainbow.biz_8080
+- name: vmess__www.darkroom.lol_8080
   type: vmess
-  server: www.crispyrainbow.biz
+  server: www.darkroom.lol
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
+  host: ''
   path: /
-- name: vmess__104.19.234.82_2095
+- name: vmess_US_172.67.212.171_8080
   type: vmess
-  server: 104.19.234.82
-  port: 2095
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  network: ws
-  tls: none
-  flow: ''
-  host: us82pRzxDMb.fzbqfrse.xyz
-  path: /video/qYZue4zaWS
-- name: vmess__vn18.4gchill.com_80
-  type: vmess
-  server: vn18.4gchill.com
-  port: 80
-  uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
-  network: ws
-  tls: none
-  flow: ''
-  host: vn18.4gchill.com
-  path: /4gchill.com
-- name: vmess__162.159.200.6_80
-  type: vmess
-  server: 162.159.200.6
-  port: 80
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
-  network: ws
-  tls: none
-  flow: ''
-  host: er3.889611.com
-  path: /
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
+  server: 172.67.212.171
   port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   network: ws
   tls: none
   flow: ''
-  host: eu3.openxai.link
+  host: eu5.openxai.link
   path: /?ed=2048
-- name: vmess__104.18.15.148_80
+- name: vmess_ES_172.64.229.3_80
   type: vmess
-  server: 104.18.15.148
+  server: 172.64.229.3
   port: 80
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
+  uuid: 4c391e67-94ac-4a4f-9b37-6c95112ccad2
   network: ws
   tls: none
   flow: ''
-  host: ca3.889611.com
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+  host: jpli.edge.233.tw
+  path: /geg/45?ed=2048
+- name: vmess__103.214.68.57_10001
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
   flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__104.17.25.2_80
-  type: vmess
-  server: 104.17.25.2
-  port: 80
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-  network: ws
-  tls: none
-  flow: ''
-  host: sgvpn.catnipballs.gay
-  path: /
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
-  network: ws
-  tls: none
-  flow: ''
-  host: usnatvpn.catnipballs.gay
-  path: /
-- name: vmess__104.21.83.10_8080
-  type: vmess
-  server: 104.21.83.10
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.coldstone.club
-  path: /
-- name: vmess__104.24.208.37_80
-  type: vmess
-  server: 104.24.208.37
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -727,7 +587,7 @@ proxy-groups:
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
-  - hysteria_www.dtku50.xyz:32408
+  - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -735,28 +595,14 @@ proxy-groups:
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.20.231.30_80
-  - vmess_GR_94.131.8.32_2086
-  - vmess_PT_94.131.10.135_80
-  - vmess__www.coldstone.club_8080
-  - vmess__be1-vmess.sshmax.xyz_80
-  - vmess_HK_212.192.12.231_80
-  - vmess__61.228.160.39_4443
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.19.234.82_2095
-  - vmess__vn18.4gchill.com_80
-  - vmess__162.159.200.6_80
-  - vmess__cf.openxai.link_8080
-  - vmess__104.18.15.148_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.2_80
-  - vmess__hytron.io_8080
-  - vmess__104.17.25.1_80
-  - vmess__104.21.83.10_8080
-  - vmess__104.24.208.37_80
+  - vmess__gz.daxun.cyou_38011
+  - vmess__www.darkroom.lol_8080
+  - vmess_US_172.67.212.171_8080
+  - vmess_ES_172.64.229.3_80
+  - vmess__103.214.68.57_10001
 - name: 手动选择
   type: select
   proxies:
@@ -789,7 +635,7 @@ proxy-groups:
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
-  - hysteria_www.dtku50.xyz:32408
+  - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -797,28 +643,14 @@ proxy-groups:
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.20.231.30_80
-  - vmess_GR_94.131.8.32_2086
-  - vmess_PT_94.131.10.135_80
-  - vmess__www.coldstone.club_8080
-  - vmess__be1-vmess.sshmax.xyz_80
-  - vmess_HK_212.192.12.231_80
-  - vmess__61.228.160.39_4443
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.19.234.82_2095
-  - vmess__vn18.4gchill.com_80
-  - vmess__162.159.200.6_80
-  - vmess__cf.openxai.link_8080
-  - vmess__104.18.15.148_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.2_80
-  - vmess__hytron.io_8080
-  - vmess__104.17.25.1_80
-  - vmess__104.21.83.10_8080
-  - vmess__104.24.208.37_80
+  - vmess__gz.daxun.cyou_38011
+  - vmess__www.darkroom.lol_8080
+  - vmess_US_172.67.212.171_8080
+  - vmess_ES_172.64.229.3_80
+  - vmess__103.214.68.57_10001
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -851,7 +683,7 @@ proxy-groups:
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
-  - hysteria_www.dtku50.xyz:32408
+  - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -859,28 +691,14 @@ proxy-groups:
   - hy2_FR_62.210.101.0:52465
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
-  - hy2_US_108.181.24.77:18775
+  - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.20.231.30_80
-  - vmess_GR_94.131.8.32_2086
-  - vmess_PT_94.131.10.135_80
-  - vmess__www.coldstone.club_8080
-  - vmess__be1-vmess.sshmax.xyz_80
-  - vmess_HK_212.192.12.231_80
-  - vmess__61.228.160.39_4443
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.19.234.82_2095
-  - vmess__vn18.4gchill.com_80
-  - vmess__162.159.200.6_80
-  - vmess__cf.openxai.link_8080
-  - vmess__104.18.15.148_80
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.17.25.2_80
-  - vmess__hytron.io_8080
-  - vmess__104.17.25.1_80
-  - vmess__104.21.83.10_8080
-  - vmess__104.24.208.37_80
+  - vmess__gz.daxun.cyou_38011
+  - vmess__www.darkroom.lol_8080
+  - vmess_US_172.67.212.171_8080
+  - vmess_ES_172.64.229.3_80
+  - vmess__103.214.68.57_10001
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
