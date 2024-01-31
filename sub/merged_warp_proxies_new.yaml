@@ -537,6 +537,56 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__94.131.8.32_8880
+  type: vmess
+  server: 94.131.8.32
+  port: 8880
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__172.67.212.114_8080
+  type: vmess
+  server: 172.67.212.114
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.biz
+  path: /
+- name: vmess__104.18.202.250_2082
+  type: vmess
+  server: 104.18.202.250
+  port: 2082
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: none
+  flow: ''
+  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  path: /nina.bond/linkvws
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__cz1-vmess.sshmax.xyz_80
+  type: vmess
+  server: cz1-vmess.sshmax.xyz
+  port: 80
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
 proxy-groups:
 - name: 节点选择
   type: select
@@ -603,6 +653,11 @@ proxy-groups:
   - vmess_US_172.67.212.171_8080
   - vmess_ES_172.64.229.3_80
   - vmess__103.214.68.57_10001
+  - vmess__94.131.8.32_8880
+  - vmess__172.67.212.114_8080
+  - vmess__104.18.202.250_2082
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cz1-vmess.sshmax.xyz_80
 - name: 手动选择
   type: select
   proxies:
@@ -651,6 +706,11 @@ proxy-groups:
   - vmess_US_172.67.212.171_8080
   - vmess_ES_172.64.229.3_80
   - vmess__103.214.68.57_10001
+  - vmess__94.131.8.32_8880
+  - vmess__172.67.212.114_8080
+  - vmess__104.18.202.250_2082
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cz1-vmess.sshmax.xyz_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -699,6 +759,11 @@ proxy-groups:
   - vmess_US_172.67.212.171_8080
   - vmess_ES_172.64.229.3_80
   - vmess__103.214.68.57_10001
+  - vmess__94.131.8.32_8880
+  - vmess__172.67.212.114_8080
+  - vmess__104.18.202.250_2082
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cz1-vmess.sshmax.xyz_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
