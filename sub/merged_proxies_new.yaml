@@ -25,6 +25,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: vless_109.104.152.4:16414
+  type: vless
+  server: 109.104.152.4
+  port: 16414
+  udp: true
+  uuid: 80b5b4de-0619-4ac2-b1ff-f2bcc697b641
+  tls: true
+  servername: mensura.cdn-apple.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: vless_108.181.5.130:17346
   type: vless
   server: 108.181.5.130
@@ -240,67 +254,47 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_CZ_94.131.97.123_80
+- name: vmess_US_162.159.137.28_8080
   type: vmess
-  server: 94.131.97.123
-  port: 80
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
-- name: vmess__3SAO.5GTOCDOCAO.COM_80
-  type: vmess
-  server: 3SAO.5GTOCDOCAO.COM
-  port: 80
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  network: ws
-  tls: none
-  flow: ''
-  host: lienquan.garena.vn
-  path: /5gtocdocao.com
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
+  server: 162.159.137.28
   port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
   network: ws
   tls: none
   flow: ''
-  host: ''
-  path: /
-- name: vmess__gz.daxun.cyou_38011
+  host: eu4.openxai.link
+  path: /?ed=2048
+- name: vmess_TW_114.37.134.116_4443
   type: vmess
-  server: gz.daxun.cyou
-  port: 38011
-  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
+  server: 114.37.134.116
+  port: 4443
+  uuid: 19999918-f5fc-4a0b-89d1-f19210b430c9
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_172.67.212.114_8080
+- name: vmess__www.crispyrainbow.biz_8080
   type: vmess
-  server: 172.67.212.114
+  server: www.crispyrainbow.biz
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
+  host: ''
   path: /
-- name: vmess__b23.ntbq.dynu.net_2024
+- name: vmess__nb24.ntbq.dynu.net_4443
   type: vmess
-  server: b23.ntbq.dynu.net
-  port: 2024
+  server: nb24.ntbq.dynu.net
+  port: 4443
   uuid: 1d08abce-b0ad-4f5e-aa49-884d5f6690f8
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_173.249.197.176_443
+- name: vmess__173.249.197.176_443
   type: vmess
   server: 173.249.197.176
   port: 443
@@ -310,56 +304,6 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.17.25.2_80
-  type: vmess
-  server: 104.17.25.2
-  port: 80
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-  network: ws
-  tls: none
-  flow: ''
-  host: sgvpn.catnipballs.gay
-  path: /
-- name: vmess__104.21.56.185_443
-  type: vmess
-  server: 104.21.56.185
-  port: 443
-  uuid: 38535031-ccc3-4a94-bd54-c68806486406
-  network: ws
-  tls: tls
-  flow: ''
-  host: ie1-vmess.greenssh.xyz
-  path: /vmess
-- name: vmess__104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169
-  network: ws
-  tls: none
-  flow: ''
-  host: dg.catnipballs.gay
-  path: /
-- name: vmess__c12.twtc.dynu.net_6122
-  type: vmess
-  server: c12.twtc.dynu.net
-  port: 6122
-  uuid: 19999918-f5fc-4a0b-89d1-f19210b430c9
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
 - name: vmess__www.blueberrywindow.online_8080
   type: vmess
   server: www.blueberrywindow.online
@@ -370,16 +314,16 @@ proxies:
   flow: ''
   host: www.blueberrywindow.online
   path: /
-- name: vmess__cf.openxai.link_8080
+- name: vmess__gz.daxun.cyou_26040
   type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  network: ws
+  server: gz.daxun.cyou
+  port: 26040
+  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
+  network: tcp
   tls: none
   flow: ''
-  host: eu1.openxai.link
-  path: /?ed=2048
+  host: ''
+  path: ''
 - name: vmess__94.131.8.32_2086
   type: vmess
   server: 94.131.8.32
@@ -390,16 +334,26 @@ proxies:
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__120.233.45.104_2095
+- name: vmess__turkmenistan.ednovas.org_443
   type: vmess
-  server: 120.233.45.104
-  port: 2095
-  uuid: 8c456efc-67d7-3190-8b75-5c879e133288
-  network: ws
+  server: turkmenistan.ednovas.org
+  port: 443
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+  network: tcp
   tls: none
   flow: ''
-  host: data-us-2.db-link02.top
-  path: /dabai.in
+  host: ''
+  path: ''
+- name: vmess__103.214.68.57_10001
+  type: vmess
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -420,12 +374,123 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess__b23.ntbq.dynu.net_2024
+  type: vmess
+  server: b23.ntbq.dynu.net
+  port: 2024
+  uuid: 1d08abce-b0ad-4f5e-aa49-884d5f6690f8
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.17.25.2_80
+  type: vmess
+  server: 104.17.25.2
+  port: 80
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  network: ws
+  tls: none
+  flow: ''
+  host: sgvpn.catnipballs.gay
+  path: /
+- name: vmess__103.118.29.229_80
+  type: vmess
+  server: 103.118.29.229
+  port: 80
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  network: ws
+  tls: none
+  flow: ''
+  host: lienquan.garena.vn
+  path: /5gtocdocao.com
+- name: vmess__104.20.231.30_80
+  type: vmess
+  server: 104.20.231.30
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /?ed=2048
+- name: vmess__183.232.170.22_30128
+  type: vmess
+  server: 183.232.170.22
+  port: 30128
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__www.coldstone.club_8080
+  type: vmess
+  server: www.coldstone.club
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.coldstone.club
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: 1eb5c2af-9211-461d-843b-de0de5de1d80
+  network: ws
+  tls: none
+  flow: ''
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
+- name: vmess__jp03-alt-vm0.entry.srthdw.art_21585
+  type: vmess
+  server: jp03-alt-vm0.entry.srthdw.art
+  port: 21585
+  uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__ru01.333210.xyz_80
+  type: vmess
+  server: ru01.333210.xyz
+  port: 80
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__172.67.171.177_8080
+  type: vmess
+  server: 172.67.171.177
+  port: 8080
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  network: ws
+  tls: none
+  flow: ''
+  host: eu3.openxai.link
+  path: /?ed=2048
+- name: vmess__172.67.166.190_8080
+  type: vmess
+  server: 172.67.166.190
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.online
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
+  - vless_109.104.152.4:16414
   - vless_108.181.5.130:17346
   - vmess_108.181.2.154:33445
   - vmess_108.181.2.154:33445
@@ -446,30 +511,36 @@ proxy-groups:
   - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_CZ_94.131.97.123_80
-  - vmess__3SAO.5GTOCDOCAO.COM_80
-  - vmess__www.coldstone.club_8080
-  - vmess__gz.daxun.cyou_38011
-  - vmess_US_172.67.212.114_8080
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess_US_173.249.197.176_443
-  - vmess__104.17.25.2_80
-  - vmess__104.21.56.185_443
-  - vmess__104.17.25.1_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_162.159.137.28_8080
+  - vmess_TW_114.37.134.116_4443
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__173.249.197.176_443
   - vmess__www.blueberrywindow.online_8080
-  - vmess__cf.openxai.link_8080
+  - vmess__gz.daxun.cyou_26040
   - vmess__94.131.8.32_2086
-  - vmess__120.233.45.104_2095
+  - vmess__turkmenistan.ednovas.org_443
+  - vmess__103.214.68.57_10001
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__104.17.25.2_80
+  - vmess__103.118.29.229_80
+  - vmess__104.20.231.30_80
+  - vmess__183.232.170.22_30128
+  - vmess__www.coldstone.club_8080
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__jp03-alt-vm0.entry.srthdw.art_21585
+  - vmess__ru01.333210.xyz_80
+  - vmess__172.67.171.177_8080
+  - vmess__172.67.166.190_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
+  - vless_109.104.152.4:16414
   - vless_108.181.5.130:17346
   - vmess_108.181.2.154:33445
   - vmess_108.181.2.154:33445
@@ -490,24 +561,29 @@ proxy-groups:
   - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_CZ_94.131.97.123_80
-  - vmess__3SAO.5GTOCDOCAO.COM_80
-  - vmess__www.coldstone.club_8080
-  - vmess__gz.daxun.cyou_38011
-  - vmess_US_172.67.212.114_8080
-  - vmess__b23.ntbq.dynu.net_2024
-  - vmess_US_173.249.197.176_443
-  - vmess__104.17.25.2_80
-  - vmess__104.21.56.185_443
-  - vmess__104.17.25.1_80
-  - vmess__c12.twtc.dynu.net_6122
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess_US_162.159.137.28_8080
+  - vmess_TW_114.37.134.116_4443
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__nb24.ntbq.dynu.net_4443
+  - vmess__173.249.197.176_443
   - vmess__www.blueberrywindow.online_8080
-  - vmess__cf.openxai.link_8080
+  - vmess__gz.daxun.cyou_26040
   - vmess__94.131.8.32_2086
-  - vmess__120.233.45.104_2095
+  - vmess__turkmenistan.ednovas.org_443
+  - vmess__103.214.68.57_10001
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__104.17.25.2_80
+  - vmess__103.118.29.229_80
+  - vmess__104.20.231.30_80
+  - vmess__183.232.170.22_30128
+  - vmess__www.coldstone.club_8080
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__jp03-alt-vm0.entry.srthdw.art_21585
+  - vmess__ru01.333210.xyz_80
+  - vmess__172.67.171.177_8080
+  - vmess__172.67.166.190_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
