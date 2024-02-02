@@ -330,7 +330,7 @@ proxies:
   flow: ''
   host: www.apple.com
   path: /
-- name: vmess__104.17.25.2_80
+- name: vmess_US_104.17.25.2_80
   type: vmess
   server: 104.17.25.2
   port: 80
@@ -440,16 +440,6 @@ proxies:
   flow: ''
   host: us3.visaapp.top
   path: /
-- name: vmess__172.67.166.190_8080
-  type: vmess
-  server: 172.67.166.190
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.online
-  path: /
 - name: vmess__36.226.132.249_12002
   type: vmess
   server: 36.226.132.249
@@ -460,86 +450,66 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__114.37.132.46_2024
+- name: vmess__ap-northeast-anycast.lnaspiring.com_80
   type: vmess
-  server: 114.37.132.46
-  port: 2024
-  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.21.83.10_8080
-  type: vmess
-  server: 104.21.83.10
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.coldstone.club
-  path: /
-- name: vmess__www.crispyrainbow.biz_8080
-  type: vmess
-  server: www.crispyrainbow.biz
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__104.18.154.42_80
-  type: vmess
-  server: 104.18.154.42
+  server: ap-northeast-anycast.lnaspiring.com
   port: 80
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  uuid: 43a22093-03b0-4c58-856c-774d0c95b7b7
   network: ws
   tls: none
   flow: ''
-  host: us3.visaapp.top
-  path: /
-- name: vmess__cfcdn3.sanfencdn9.com_2052
+  host: jpli.edge.233.tw
+  path: /geg/45?ed=2048
+- name: vmess__103.154.62.226_80
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 2052
-  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
+  server: 103.154.62.226
+  port: 80
+  uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
   network: ws
   tls: none
   flow: ''
-  host: kvjqqknzjp6.yofnhkfc.xyz
-  path: /video/Zo98PYfE
-- name: vmess__108.181.5.18_18657
+  host: vn18.4gchill.com
+  path: /4gchill.com
+- name: vmess__173.245.58.11_80
   type: vmess
-  server: 108.181.5.18
-  port: 18657
-  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
+  server: 173.245.58.11
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.prapt3.ir
+  path: /?ed=2048
+- name: vmess__185.214.103.249_8002
+  type: vmess
+  server: 185.214.103.249
+  port: 8002
+  uuid: 1405f400-4d72-3cd2-88fc-5bfb9dd9120d
+  network: ws
+  tls: none
+  flow: ''
+  host: data-hk-1.cn-db.top
+  path: /db00
+- name: vmess__173.249.197.176_443
+  type: vmess
+  server: 173.249.197.176
+  port: 443
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.21.23.176_8080
+- name: vmess__104.17.25.1_80
   type: vmess
-  server: 104.21.23.176
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 104.17.25.1
+  port: 80
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
+  host: kr1.ljyyds.top
   path: /
-- name: vmess__108.181.2.154_33445
-  type: vmess
-  server: 108.181.2.154
-  port: 33445
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -550,6 +520,56 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__cold-dawn-9246.fly.dev_443
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  network: ws
+  tls: tls
+  flow: ''
+  host: cold-dawn-9246.fly.dev
+  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
+  network: ws
+  tls: none
+  flow: ''
+  host: jpafzyhfsg3.yofnhkfc.xyz
+  path: /video/u4eCZTxW
 proxy-groups:
 - name: 节点选择
   type: select
@@ -597,7 +617,7 @@ proxy-groups:
   - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
   - vmess_RU_45.144.2.113_80
-  - vmess__104.17.25.2_80
+  - vmess_US_104.17.25.2_80
   - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
@@ -608,17 +628,19 @@ proxy-groups:
   - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
-  - vmess__172.67.166.190_8080
   - vmess__36.226.132.249_12002
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.83.10_8080
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.18.154.42_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__108.181.5.18_18657
-  - vmess__104.21.23.176_8080
-  - vmess__108.181.2.154_33445
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__103.154.62.226_80
+  - vmess__173.245.58.11_80
+  - vmess__185.214.103.249_8002
+  - vmess__173.249.197.176_443
+  - vmess__104.17.25.1_80
   - vmess__www.darkroom.lol_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
 - name: 手动选择
   type: select
   proxies:
@@ -648,7 +670,7 @@ proxy-groups:
   - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
   - vmess_RU_45.144.2.113_80
-  - vmess__104.17.25.2_80
+  - vmess_US_104.17.25.2_80
   - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
@@ -659,17 +681,19 @@ proxy-groups:
   - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
-  - vmess__172.67.166.190_8080
   - vmess__36.226.132.249_12002
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.83.10_8080
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.18.154.42_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__108.181.5.18_18657
-  - vmess__104.21.23.176_8080
-  - vmess__108.181.2.154_33445
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__103.154.62.226_80
+  - vmess__173.245.58.11_80
+  - vmess__185.214.103.249_8002
+  - vmess__173.249.197.176_443
+  - vmess__104.17.25.1_80
   - vmess__www.darkroom.lol_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -699,7 +723,7 @@ proxy-groups:
   - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
   - vmess_RU_45.144.2.113_80
-  - vmess__104.17.25.2_80
+  - vmess_US_104.17.25.2_80
   - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
@@ -710,17 +734,19 @@ proxy-groups:
   - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
-  - vmess__172.67.166.190_8080
   - vmess__36.226.132.249_12002
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.83.10_8080
-  - vmess__www.crispyrainbow.biz_8080
-  - vmess__104.18.154.42_80
-  - vmess__cfcdn3.sanfencdn9.com_2052
-  - vmess__108.181.5.18_18657
-  - vmess__104.21.23.176_8080
-  - vmess__108.181.2.154_33445
+  - vmess__ap-northeast-anycast.lnaspiring.com_80
+  - vmess__103.154.62.226_80
+  - vmess__173.245.58.11_80
+  - vmess__185.214.103.249_8002
+  - vmess__173.249.197.176_443
+  - vmess__104.17.25.1_80
   - vmess__www.darkroom.lol_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
