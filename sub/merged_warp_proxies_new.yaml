@@ -290,156 +290,6 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169
-  network: ws
-  tls: none
-  flow: ''
-  host: dg.catnipballs.gay
-  path: /
-- name: vmess_TW_114.37.134.116_4443
-  type: vmess
-  server: 114.37.134.116
-  port: 4443
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__bs2.loadingip.com_80
-  type: vmess
-  server: bs2.loadingip.com
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess_US_104.21.73.14_8880
-  type: vmess
-  server: 104.21.73.14
-  port: 8880
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  network: ws
-  tls: none
-  flow: ''
-  host: yaghoob55freenodes.repaco69437403.workers.dev
-  path: /adenc35.fixedlfoat.top/linkws
-- name: vmess__www.crispyrainbow.online_8080
-  type: vmess
-  server: www.crispyrainbow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.online
-  path: /
-- name: vmess__gz.daxun.cyou_38011
-  type: vmess
-  server: gz.daxun.cyou
-  port: 38011
-  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__www.blueberrywindow.online_8080
-  type: vmess
-  server: www.blueberrywindow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.blueberrywindow.online
-  path: /
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__183.232.170.22_30128
-  type: vmess
-  server: 183.232.170.22
-  port: 30128
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__94.182.129.164_20636
-  type: vmess
-  server: 94.182.129.164
-  port: 20636
-  uuid: cb263749-d00c-4919-a79c-a144a71ceceb
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__114.37.132.46_2024
-  type: vmess
-  server: 114.37.132.46
-  port: 2024
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.21.23.176_8080
-  type: vmess
-  server: 104.21.23.176
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__162.159.200.3_80
-  type: vmess
-  server: 162.159.200.3
-  port: 80
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  network: ws
-  tls: none
-  flow: ''
-  host: ca3.visaapp.top
-  path: /
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__94.131.10.135_2095
-  type: vmess
-  server: 94.131.10.135
-  port: 2095
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  network: ws
-  tls: none
-  flow: ''
-  host: 94.131.10.135
-  path: /vmess
 - name: vmess__cf.openxai.link_8080
   type: vmess
   server: cf.openxai.link
@@ -450,6 +300,16 @@ proxies:
   flow: ''
   host: eu2.openxai.link
   path: /?ed=2048
+- name: vmess__www.blueberrywindow.online_8080
+  type: vmess
+  server: www.blueberrywindow.online
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.blueberrywindow.online
+  path: /
 - name: vmess__server21.beheshtbaneh.com_8880
   type: vmess
   server: server21.beheshtbaneh.com
@@ -460,7 +320,7 @@ proxies:
   flow: ''
   host: server21.beheshtbaneh.com
   path: /
-- name: vmess__45.144.2.113_80
+- name: vmess_RU_45.144.2.113_80
   type: vmess
   server: 45.144.2.113
   port: 80
@@ -479,6 +339,16 @@ proxies:
   tls: none
   flow: ''
   host: sgvpn.catnipballs.gay
+  path: /
+- name: vmess__www.crispyrainbow.online_8080
+  type: vmess
+  server: www.crispyrainbow.online
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
   path: /
 - name: vmess__162.159.200.7_80
   type: vmess
@@ -500,6 +370,16 @@ proxies:
   flow: ''
   host: www.crispyrainbow.biz
   path: /
+- name: vmess__94.131.10.135_2082
+  type: vmess
+  server: 94.131.10.135
+  port: 2082
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
 - name: vmess__197.243.57.239_22222
   type: vmess
   server: 197.243.57.239
@@ -530,6 +410,16 @@ proxies:
   flow: ''
   host: server4.beheshtbaneh.com
   path: /
+- name: vmess__162.159.200.3_80
+  type: vmess
+  server: 162.159.200.3
+  port: 80
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  network: ws
+  tls: none
+  flow: ''
+  host: ca3.visaapp.top
+  path: /
 - name: vmess__104.18.15.147_80
   type: vmess
   server: 104.18.15.147
@@ -549,6 +439,116 @@ proxies:
   tls: none
   flow: ''
   host: us3.visaapp.top
+  path: /
+- name: vmess__172.67.166.190_8080
+  type: vmess
+  server: 172.67.166.190
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.online
+  path: /
+- name: vmess__36.226.132.249_12002
+  type: vmess
+  server: 36.226.132.249
+  port: 12002
+  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__114.37.132.46_2024
+  type: vmess
+  server: 114.37.132.46
+  port: 2024
+  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.21.83.10_8080
+  type: vmess
+  server: 104.21.83.10
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.coldstone.club
+  path: /
+- name: vmess__www.crispyrainbow.biz_8080
+  type: vmess
+  server: www.crispyrainbow.biz
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.biz
+  path: /
+- name: vmess__104.18.154.42_80
+  type: vmess
+  server: 104.18.154.42
+  port: 80
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  network: ws
+  tls: none
+  flow: ''
+  host: us3.visaapp.top
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
+  network: ws
+  tls: none
+  flow: ''
+  host: kvjqqknzjp6.yofnhkfc.xyz
+  path: /video/Zo98PYfE
+- name: vmess__108.181.5.18_18657
+  type: vmess
+  server: 108.181.5.18
+  port: 18657
+  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.21.23.176_8080
+  type: vmess
+  server: 104.21.23.176
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.biz
+  path: /
+- name: vmess__108.181.2.154_33445
+  type: vmess
+  server: 108.181.2.154
+  port: 33445
+  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
   path: /
 proxy-groups:
 - name: 节点选择
@@ -593,32 +593,32 @@ proxy-groups:
   - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.17.25.1_80
-  - vmess_TW_114.37.134.116_4443
-  - vmess__bs2.loadingip.com_80
-  - vmess_US_104.21.73.14_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__gz.daxun.cyou_38011
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__www.darkroom.lol_8080
-  - vmess__183.232.170.22_30128
-  - vmess__94.182.129.164_20636
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.23.176_8080
-  - vmess__162.159.200.3_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__94.131.10.135_2095
   - vmess__cf.openxai.link_8080
+  - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
-  - vmess__45.144.2.113_80
+  - vmess_RU_45.144.2.113_80
   - vmess__104.17.25.2_80
+  - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
+  - vmess__94.131.10.135_2082
   - vmess__197.243.57.239_22222
   - vmess__104.24.208.37_80
   - vmess__server4.beheshtbaneh.com_8880
+  - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
+  - vmess__172.67.166.190_8080
+  - vmess__36.226.132.249_12002
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.83.10_8080
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__108.181.5.18_18657
+  - vmess__104.21.23.176_8080
+  - vmess__108.181.2.154_33445
+  - vmess__www.darkroom.lol_8080
 - name: 手动选择
   type: select
   proxies:
@@ -644,32 +644,32 @@ proxy-groups:
   - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.17.25.1_80
-  - vmess_TW_114.37.134.116_4443
-  - vmess__bs2.loadingip.com_80
-  - vmess_US_104.21.73.14_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__gz.daxun.cyou_38011
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__www.darkroom.lol_8080
-  - vmess__183.232.170.22_30128
-  - vmess__94.182.129.164_20636
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.23.176_8080
-  - vmess__162.159.200.3_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__94.131.10.135_2095
   - vmess__cf.openxai.link_8080
+  - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
-  - vmess__45.144.2.113_80
+  - vmess_RU_45.144.2.113_80
   - vmess__104.17.25.2_80
+  - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
+  - vmess__94.131.10.135_2082
   - vmess__197.243.57.239_22222
   - vmess__104.24.208.37_80
   - vmess__server4.beheshtbaneh.com_8880
+  - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
+  - vmess__172.67.166.190_8080
+  - vmess__36.226.132.249_12002
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.83.10_8080
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__108.181.5.18_18657
+  - vmess__104.21.23.176_8080
+  - vmess__108.181.2.154_33445
+  - vmess__www.darkroom.lol_8080
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -695,32 +695,32 @@ proxy-groups:
   - hy2_US_108.181.24.77:43656
   - vmess_US_108.181.22.213_11223
   - vmess_FR_62.210.100.235_20138
-  - vmess_US_104.17.25.1_80
-  - vmess_TW_114.37.134.116_4443
-  - vmess__bs2.loadingip.com_80
-  - vmess_US_104.21.73.14_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__gz.daxun.cyou_38011
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__www.darkroom.lol_8080
-  - vmess__183.232.170.22_30128
-  - vmess__94.182.129.164_20636
-  - vmess__114.37.132.46_2024
-  - vmess__104.21.23.176_8080
-  - vmess__162.159.200.3_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__94.131.10.135_2095
   - vmess__cf.openxai.link_8080
+  - vmess__www.blueberrywindow.online_8080
   - vmess__server21.beheshtbaneh.com_8880
-  - vmess__45.144.2.113_80
+  - vmess_RU_45.144.2.113_80
   - vmess__104.17.25.2_80
+  - vmess__www.crispyrainbow.online_8080
   - vmess__162.159.200.7_80
   - vmess__172.67.212.114_8080
+  - vmess__94.131.10.135_2082
   - vmess__197.243.57.239_22222
   - vmess__104.24.208.37_80
   - vmess__server4.beheshtbaneh.com_8880
+  - vmess__162.159.200.3_80
   - vmess__104.18.15.147_80
   - vmess__162.159.142.209_80
+  - vmess__172.67.166.190_8080
+  - vmess__36.226.132.249_12002
+  - vmess__114.37.132.46_2024
+  - vmess__104.21.83.10_8080
+  - vmess__www.crispyrainbow.biz_8080
+  - vmess__104.18.154.42_80
+  - vmess__cfcdn3.sanfencdn9.com_2052
+  - vmess__108.181.5.18_18657
+  - vmess__104.21.23.176_8080
+  - vmess__108.181.2.154_33445
+  - vmess__www.darkroom.lol_8080
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
