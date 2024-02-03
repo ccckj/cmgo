@@ -25,106 +25,84 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: vless_51.159.103.141:12207
-  type: vless
-  server: 51.159.103.141
-  port: 12207
-  udp: true
-  uuid: 63925418-7ae3-4da1-9e73-fb3fc5af6fdb
-  tls: true
-  servername: s0.awsstatic.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: vless_109.104.152.4:16414
-  type: vless
+- name: tuic_US_dongtaiwang.com_1
+  type: tuic
   server: 109.104.152.4
-  port: 16414
+  port: 443
   udp: true
-  uuid: 80b5b4de-0619-4ac2-b1ff-f2bcc697b641
-  tls: true
-  servername: mensura.cdn-apple.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: vless_108.181.5.130:20221
-  type: vless
-  server: 108.181.5.130
-  port: 20221
-  udp: true
-  uuid: 8eb74635-0857-4673-9965-f6d928b420c9
-  tls: true
-  servername: www.lovelive-anime.jp
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: vless_51.159.103.141:12207
-  type: vless
-  server: 51.159.103.141
-  port: 12207
-  udp: true
-  uuid: 63925418-7ae3-4da1-9e73-fb3fc5af6fdb
-  tls: true
-  servername: s0.awsstatic.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: ssr_108.181.2.157:22222
-  type: ssr
-  server: 108.181.2.157
-  port: 22222
+  uuid: 9ec44c8c-5dc0-4c92-a7ed-5422b0ac1913
   password: dongtaiwang.com
-  cipher: dummy
-  obfs: plain
-  protocol: auth_chain_a
-- name: hysteria_108.181.5.20:22881
-  type: hysteria
-  server: 108.181.5.20
-  port: 22881
-  auth-str: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: vless_108.181.2.156:19695
-  type: vless
-  server: 108.181.2.156
-  port: 19695
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: tuic_FR_dongtaiwang.com_1
+  type: tuic
+  server: 62.210.103.14
+  port: 44556
   udp: true
-  uuid: 906d367a-a5d2-467c-b476-a29c79215003
-  tls: true
-  servername: lol.secure.dyn.riotcdn.net
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: vmess_108.181.5.18:18657
-  type: vmess
-  server: 108.181.5.18
-  port: 18657
-  cipher: auto
-  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: tcp
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: tuic_FR_dongtaiwang.com_1
+  type: tuic
+  server: 62.210.103.14
+  port: 44556
+  udp: true
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: tuic_FR_dongtaiwang.com_1
+  type: tuic
+  server: 62.210.103.14
+  port: 44556
+  udp: true
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: tuic_FR_dongtaiwang.com_1
+  type: tuic
+  server: 62.210.103.14
+  port: 44556
+  udp: true
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: tuic_FR_dongtaiwang.com_1
+  type: tuic
+  server: 62.210.103.14
+  port: 44556
+  udp: true
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: hysteria_www2.dtku48.xyz:22334
   type: hysteria
   server: www2.dtku48.xyz
@@ -263,36 +241,46 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_EE_5.181.23.58_80
+- name: vmess_US_104.18.99.110_2095
   type: vmess
-  server: 5.181.23.58
+  server: 104.18.99.110
+  port: 2095
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  network: ws
+  tls: none
+  flow: ''
+  host: us82pRzxDMb.fzbqfrse.xyz
+  path: /video/qYZue4zaWS
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  network: ws
+  tls: none
+  flow: ''
+  host: server6.beheshtbaneh.com
+  path: /
+- name: vmess__server4.beheshtbaneh.com_8880
+  type: vmess
+  server: server4.beheshtbaneh.com
+  port: 8880
+  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  network: ws
+  tls: none
+  flow: ''
+  host: server4.beheshtbaneh.com
+  path: /
+- name: vmess__ee2-vmess.sshmax.xyz_80
+  type: vmess
+  server: ee2-vmess.sshmax.xyz
   port: 80
-  uuid: 6eff4314-ad4c-4ebc-b1d0-d3b79656f43d
+  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__pitcairn.ednovas.org_443
-  type: vmess
-  server: pitcairn.ednovas.org
-  port: 443
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_104.16.10.0_80
-  type: vmess
-  server: 104.16.10.0
-  port: 80
-  uuid: 306e2c6f-aaeb-4509-9c96-455deb70d155
-  network: ws
-  tls: none
-  flow: ''
-  host: uspz.edge.233.tw
-  path: /geg/44?ed=2048
 - name: vmess__server2.beheshtbaneh.com_8880
   type: vmess
   server: server2.beheshtbaneh.com
@@ -303,35 +291,115 @@ proxies:
   flow: ''
   host: server2.beheshtbaneh.com
   path: /
-- name: vmess_US_104.17.25.1_80
+- name: vmess__104.24.208.37_80
   type: vmess
-  server: 104.17.25.1
+  server: 104.24.208.37
   port: 80
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: kr1.ljyyds.top
-  path: /
-- name: vmess__www.darkroom.lol_8080
+  host: my1.tooters.ir
+  path: /?ed=2048
+- name: vmess__172.64.150.65_2095
   type: vmess
-  server: www.darkroom.lol
+  server: 172.64.150.65
+  port: 2095
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  network: ws
+  tls: none
+  flow: ''
+  host: us82pRzxDMb.fzbqfrse.xyz
+  path: /video/qYZue4zaWS
+- name: vmess__freesg2.adw1681ddaw.tk_8080
+  type: vmess
+  server: freesg2.adw1681ddaw.tk
+  port: 8080
+  uuid: e5b5da26-c0a5-40a0-ed36-56bf24313754
+  network: ws
+  tls: none
+  flow: ''
+  host: freesg2.adw1681ddaw.tk
+  path: /freesg2
+- name: vmess__104.18.202.250_2082
+  type: vmess
+  server: 104.18.202.250
+  port: 2082
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: none
+  flow: ''
+  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  path: /nina.bond/linkvws
+- name: vmess__172.67.171.177_8080
+  type: vmess
+  server: 172.67.171.177
+  port: 8080
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  network: ws
+  tls: none
+  flow: ''
+  host: eu3.openxai.link
+  path: /?ed=2048
+- name: vmess__104.20.231.30_80
+  type: vmess
+  server: 104.20.231.30
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__94.131.10.135_2086
+  type: vmess
+  server: 94.131.10.135
+  port: 2086
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__www.speedtest.net_80
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  network: ws
+  tls: none
+  flow: ''
+  host: us4e-20240111.v2freevpn.com
+  path: /v149-dskds65
+- name: vmess__104.21.23.176_8080
+  type: vmess
+  server: 104.21.23.176
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.darkroom.lol
+  host: www.crispyrainbow.biz
   path: /
-- name: vmess__server32.beheshtbaneh.com_8880
+- name: vmess__173.245.58.11_80
   type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  server: 173.245.58.11
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: ''
+  host: my1.prapt3.ir
+  path: /?ed=2048
+- name: vmess__172.67.185.208_2095
+  type: vmess
+  server: 172.67.185.208
+  port: 2095
+  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
+  network: ws
+  tls: none
+  flow: ''
+  host: ebiii.fozool76.lol
   path: /
 - name: vmess__104.21.94.99_8080
   type: vmess
@@ -343,76 +411,56 @@ proxies:
   flow: ''
   host: www.blueberrywindow.online
   path: /
-- name: vmess__104.19.234.82_2052
+- name: vmess__server3.beheshtbaneh.com_8880
   type: vmess
-  server: 104.19.234.82
-  port: 2052
-  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
-  network: ws
-  tls: none
-  flow: ''
-  host: us3AJ8biuQx.fzbqfrse.xyz
-  path: /video/QXjZG5u4F2
-- name: vmess__172.64.229.1_80
-  type: vmess
-  server: 172.64.229.1
-  port: 80
-  uuid: 37aded7f-a1ba-448b-9529-b0498c813b98
-  network: ws
-  tls: none
-  flow: ''
-  host: jpli.edge.233.tw
-  path: /geg/45?ed=2048
-- name: vmess__104.24.208.37_80
-  type: vmess
-  server: 104.24.208.37
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__www.crispyrainbow.online_8080
-  type: vmess
-  server: www.crispyrainbow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.online
-  path: /
-- name: vmess__gz.daxun.cyou_26040
-  type: vmess
-  server: gz.daxun.cyou
-  port: 26040
-  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__us2e-20240116.v2freevpn.com_80
-  type: vmess
-  server: us2e-20240116.v2freevpn.com
-  port: 80
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  network: ws
-  tls: none
-  flow: ''
-  host: us2e-20240116.v2freevpn.com
-  path: /us2ekjds3nay
-- name: vmess__server6.beheshtbaneh.com_8880
-  type: vmess
-  server: server6.beheshtbaneh.com
+  server: server3.beheshtbaneh.com
   port: 8880
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  uuid: e305fc57-6153-4650-8c52-9a36865a199d
   network: ws
   tls: none
   flow: ''
-  host: server6.beheshtbaneh.com
+  host: server3.beheshtbaneh.com
   path: /
+- name: vmess__104.19.87.19_2052
+  type: vmess
+  server: 104.19.87.19
+  port: 2052
+  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
+  network: ws
+  tls: none
+  flow: ''
+  host: us2jdgv5GC7.fzbqfrse.xyz
+  path: /video/DDC4btA8wc/
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
+  network: ws
+  tls: none
+  flow: ''
+  host: 7nAi74jJsg1.yofnhkfc.xyz
+  path: /video/c9efxRCi
+- name: vmess__aws.daxun.cyou_38889
+  type: vmess
+  server: aws.daxun.cyou
+  port: 38889
+  uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
+  network: ws
+  tls: none
+  flow: ''
+  host: www.baidu.com
+  path: /daxun/us2
 - name: vmess__cfcdn1.sanfencdn9.com_2052
   type: vmess
   server: cfcdn1.sanfencdn9.com
@@ -423,85 +471,35 @@ proxies:
   flow: ''
   host: us2jdgv5GC7.fzbqfrse.xyz
   path: /video/DDC4btA8wc/
-- name: vmess__cf.openxai.link_8080
+- name: vmess__server13.beheshtbaneh.com_8880
   type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  network: ws
-  tls: none
-  flow: ''
-  host: eu3.openxai.link
-  path: /?ed=2048
-- name: vmess__104.22.51.162_80
-  type: vmess
-  server: 104.22.51.162
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: cold-dawn-9246.fly.dev
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess__94.131.10.135_2095
-  type: vmess
-  server: 94.131.10.135
-  port: 2095
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  server: server13.beheshtbaneh.com
+  port: 8880
+  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
   network: ws
   tls: none
   flow: ''
   host: ''
-  path: /vmess
-- name: vmess__172.67.139.188_8080
-  type: vmess
-  server: 172.67.139.188
-  port: 8080
-  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
-  network: ws
-  tls: none
-  flow: ''
-  host: eu5.openxai.link
-  path: /?ed=2048
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.coldstone.club
   path: /
-- name: vmess__ee2-vmess.sshmax.xyz_80
+- name: vmess__server21.beheshtbaneh.com_8880
   type: vmess
-  server: ee2-vmess.sshmax.xyz
-  port: 80
-  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
-  network: ws
-  tls: none
-  flow: ''
-  host: ee2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__server3.beheshtbaneh.com_8880
-  type: vmess
-  server: server3.beheshtbaneh.com
+  server: server21.beheshtbaneh.com
   port: 8880
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  uuid: 11cd2b93-a102-49a2-97be-27c33c743618
   network: ws
   tls: none
   flow: ''
-  host: server3.beheshtbaneh.com
+  host: server21.beheshtbaneh.com
+  path: /
+- name: vmess__65.21.146.219_59004
+  type: vmess
+  server: 65.21.146.219
+  port: 59004
+  uuid: b1f10ca8-9018-4575-9020-13c73bc11bff
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
   path: /
 - name: vmess__162.159.137.28_8080
   type: vmess
@@ -513,50 +511,28 @@ proxies:
   flow: ''
   host: eu4.openxai.link
   path: /?ed=2048
-- name: vmess__103.214.68.57_10001
+- name: vmess__server9.beheshtbaneh.com_8880
   type: vmess
-  server: 103.214.68.57
-  port: 10001
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__www.greendam.site_80
-  type: vmess
-  server: www.greendam.site
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__94.131.8.32_8880
-  type: vmess
-  server: 94.131.8.32
+  server: server9.beheshtbaneh.com
   port: 8880
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
   network: ws
   tls: none
   flow: ''
   host: ''
-  path: /vmess
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - vless_51.159.103.141:12207
-  - vless_109.104.152.4:16414
-  - vless_108.181.5.130:20221
-  - vless_51.159.103.141:12207
-  - ssr_108.181.2.157:22222
-  - hysteria_108.181.5.20:22881
-  - vless_108.181.2.156:19695
-  - vmess_108.181.5.18:18657
+  - tuic_US_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
@@ -570,48 +546,46 @@ proxy-groups:
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
   - vmess_FR_62.210.100.235_20138
-  - vmess_EE_5.181.23.58_80
-  - vmess__pitcairn.ednovas.org_443
-  - vmess_US_104.16.10.0_80
-  - vmess__server2.beheshtbaneh.com_8880
-  - vmess_US_104.17.25.1_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.21.94.99_8080
-  - vmess__104.19.234.82_2052
-  - vmess__172.64.229.1_80
-  - vmess__104.24.208.37_80
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__gz.daxun.cyou_26040
-  - vmess__us2e-20240116.v2freevpn.com_80
-  - vmess__server6.beheshtbaneh.com_8880
-  - vmess__cfcdn1.sanfencdn9.com_2052
-  - vmess__cf.openxai.link_8080
-  - vmess__104.22.51.162_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__94.131.10.135_2095
-  - vmess__172.67.139.188_8080
-  - vmess__www.coldstone.club_8080
+  - vmess_US_104.18.99.110_2095
+  - vmess__104.21.82.183_8880
+  - vmess__server4.beheshtbaneh.com_8880
   - vmess__ee2-vmess.sshmax.xyz_80
+  - vmess__server2.beheshtbaneh.com_8880
+  - vmess__104.24.208.37_80
+  - vmess__172.64.150.65_2095
+  - vmess__freesg2.adw1681ddaw.tk_8080
+  - vmess__104.18.202.250_2082
+  - vmess__172.67.171.177_8080
+  - vmess__104.20.231.30_80
+  - vmess__94.131.10.135_2086
+  - vmess__www.speedtest.net_80
+  - vmess__104.21.23.176_8080
+  - vmess__173.245.58.11_80
+  - vmess__172.67.185.208_2095
+  - vmess__104.21.94.99_8080
   - vmess__server3.beheshtbaneh.com_8880
+  - vmess__104.19.87.19_2052
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__aws.daxun.cyou_38889
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__server21.beheshtbaneh.com_8880
+  - vmess__65.21.146.219_59004
   - vmess__162.159.137.28_8080
-  - vmess__103.214.68.57_10001
-  - vmess__www.greendam.site_80
-  - vmess__94.131.8.32_8880
+  - vmess__server9.beheshtbaneh.com_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - vless_51.159.103.141:12207
-  - vless_109.104.152.4:16414
-  - vless_108.181.5.130:20221
-  - vless_51.159.103.141:12207
-  - ssr_108.181.2.157:22222
-  - hysteria_108.181.5.20:22881
-  - vless_108.181.2.156:19695
-  - vmess_108.181.5.18:18657
+  - tuic_US_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
+  - tuic_FR_dongtaiwang.com_1
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
   - hysteria2_45.150.165.84:8881
@@ -625,34 +599,34 @@ proxy-groups:
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
   - vmess_FR_62.210.100.235_20138
-  - vmess_EE_5.181.23.58_80
-  - vmess__pitcairn.ednovas.org_443
-  - vmess_US_104.16.10.0_80
-  - vmess__server2.beheshtbaneh.com_8880
-  - vmess_US_104.17.25.1_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.21.94.99_8080
-  - vmess__104.19.234.82_2052
-  - vmess__172.64.229.1_80
-  - vmess__104.24.208.37_80
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__gz.daxun.cyou_26040
-  - vmess__us2e-20240116.v2freevpn.com_80
-  - vmess__server6.beheshtbaneh.com_8880
-  - vmess__cfcdn1.sanfencdn9.com_2052
-  - vmess__cf.openxai.link_8080
-  - vmess__104.22.51.162_80
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess__94.131.10.135_2095
-  - vmess__172.67.139.188_8080
-  - vmess__www.coldstone.club_8080
+  - vmess_US_104.18.99.110_2095
+  - vmess__104.21.82.183_8880
+  - vmess__server4.beheshtbaneh.com_8880
   - vmess__ee2-vmess.sshmax.xyz_80
+  - vmess__server2.beheshtbaneh.com_8880
+  - vmess__104.24.208.37_80
+  - vmess__172.64.150.65_2095
+  - vmess__freesg2.adw1681ddaw.tk_8080
+  - vmess__104.18.202.250_2082
+  - vmess__172.67.171.177_8080
+  - vmess__104.20.231.30_80
+  - vmess__94.131.10.135_2086
+  - vmess__www.speedtest.net_80
+  - vmess__104.21.23.176_8080
+  - vmess__173.245.58.11_80
+  - vmess__172.67.185.208_2095
+  - vmess__104.21.94.99_8080
   - vmess__server3.beheshtbaneh.com_8880
+  - vmess__104.19.87.19_2052
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__aws.daxun.cyou_38889
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__server21.beheshtbaneh.com_8880
+  - vmess__65.21.146.219_59004
   - vmess__162.159.137.28_8080
-  - vmess__103.214.68.57_10001
-  - vmess__www.greendam.site_80
-  - vmess__94.131.8.32_8880
+  - vmess__server9.beheshtbaneh.com_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
