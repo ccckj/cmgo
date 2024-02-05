@@ -139,16 +139,17 @@ proxies:
   password: dongtaiwang.com
   sni: bing.com
   skip-cert-verify: true
-- name: hysteria2_45.150.165.84:8881
-  type: hysteria2
-  server: 45.150.165.84
-  port: 8881
-  password: d017e316-82cb-441c-8eea-7b5e9de64a20
-  obfs: salamander
-  obfs-password: d017e316-82cb-441c-8eea-7b5e9de64a20
+- name: hysteria_www2.dtku48.xyz:22334
+  type: hysteria
+  server: www2.dtku48.xyz
+  port: 22334
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  up: 2 Mbps
-  down: 10 Mbps
 - name: hysteria_www.dtku50.xyz:18470
   type: hysteria
   server: www.dtku50.xyz
@@ -409,36 +410,36 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__172.67.166.190_8080
+- name: vmess__cfcdn3.sanfencdn9.com_80
   type: vmess
-  server: 172.67.166.190
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: cfcdn3.sanfencdn9.com
+  port: 80
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.online
+  host: agzbjszujp4.yofnhkfc.xyz
+  path: /video/ibCT6z55
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
+  network: ws
+  tls: none
+  flow: ''
+  host: server2.beheshtbaneh.com
   path: /
-- name: vmess__104.17.123.55_8080
+- name: vmess__server33.beheshtbaneh.com_8880
   type: vmess
-  server: 104.17.123.55
-  port: 8080
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  server: server33.beheshtbaneh.com
+  port: 8880
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
   network: ws
   tls: none
   flow: ''
-  host: pq.kmoljklj.top
-  path: /qZTtpya?ed=2048
-- name: vmess__61.228.160.178_4443
-  type: vmess
-  server: 61.228.160.178
-  port: 4443
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
+  host: server33.beheshtbaneh.com
+  path: /
 - name: vmess__server26.beheshtbaneh.com_8880
   type: vmess
   server: server26.beheshtbaneh.com
@@ -449,45 +450,45 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
-- name: vmess__server8.beheshtbaneh.com_8880
+- name: vmess__ip.sb_80
   type: vmess
-  server: server8.beheshtbaneh.com
-  port: 8880
-  uuid: f46acc36-5edf-4c5f-8c8f-3520ff46cdd9
+  server: ip.sb
+  port: 80
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
   network: ws
   tls: none
   flow: ''
-  host: server8.beheshtbaneh.com
+  host: kr1.ljyyds.top
   path: /
-- name: vmess__server10.beheshtbaneh.com_8880
+- name: vmess__www.crispyrainbow.online_8080
   type: vmess
-  server: server10.beheshtbaneh.com
-  port: 8880
-  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
+  server: www.crispyrainbow.online
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: server10.beheshtbaneh.com
+  host: www.crispyrainbow.online
   path: /
-- name: vmess__104.20.231.30_80
+- name: vmess__server9.beheshtbaneh.com_8880
   type: vmess
-  server: 104.20.231.30
+  server: server9.beheshtbaneh.com
+  port: 8880
+  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  network: ws
+  tls: none
+  flow: ''
+  host: server9.beheshtbaneh.com
+  path: /
+- name: vmess__104.22.51.162_80
+  type: vmess
+  server: 104.22.51.162
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
   host: my1.tooters.ir
-  path: /
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  network: ws
-  tls: none
-  flow: ''
-  host: eu2.openxai.link
   path: /?ed=2048
 - name: vmess__server2.beheshtbaneh.com_8880
   type: vmess
@@ -499,6 +500,56 @@ proxies:
   flow: ''
   host: server2.beheshtbaneh.com
   path: /
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  network: ws
+  tls: none
+  flow: ''
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__125.224.140.64_6122
+  type: vmess
+  server: 125.224.140.64
+  port: 6122
+  uuid: 6d1d2171-fab5-4313-8e8c-91ecc9f5dee0
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__172.67.166.190_8080
+  type: vmess
+  server: 172.67.166.190
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.online
+  path: /
+- name: vmess__185.214.103.249_8002
+  type: vmess
+  server: 185.214.103.249
+  port: 8002
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  network: ws
+  tls: none
+  flow: ''
+  host: cache-hk-1.cn-db.top
+  path: /db00
+- name: vmess__chrome.cloudflare-dns.com_443
+  type: vmess
+  server: chrome.cloudflare-dns.com
+  port: 443
+  uuid: 7f14e42a-f453-4c39-a762-019ee493237d
+  network: ws
+  tls: tls
+  flow: ''
+  host: a4.bbbbbbbb.tk
+  path: /argox-vm?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -528,7 +579,7 @@ proxy-groups:
   - tuic_FR_dongtaiwang.com_1
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
-  - hysteria2_45.150.165.84:8881
+  - hysteria_www2.dtku48.xyz:22334
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
@@ -554,15 +605,20 @@ proxy-groups:
   - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.166.190_8080
-  - vmess__104.17.123.55_8080
-  - vmess__61.228.160.178_4443
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__server33.beheshtbaneh.com_8880
   - vmess__server26.beheshtbaneh.com_8880
-  - vmess__server8.beheshtbaneh.com_8880
-  - vmess__server10.beheshtbaneh.com_8880
-  - vmess__104.20.231.30_80
-  - vmess__cf.openxai.link_8080
+  - vmess__ip.sb_80
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__server9.beheshtbaneh.com_8880
+  - vmess__104.22.51.162_80
   - vmess__server2.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__125.224.140.64_6122
+  - vmess__172.67.166.190_8080
+  - vmess__185.214.103.249_8002
+  - vmess__chrome.cloudflare-dns.com_443
 - name: 手动选择
   type: select
   proxies:
@@ -574,7 +630,7 @@ proxy-groups:
   - tuic_FR_dongtaiwang.com_1
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
-  - hysteria2_45.150.165.84:8881
+  - hysteria_www2.dtku48.xyz:22334
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
@@ -600,15 +656,20 @@ proxy-groups:
   - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.166.190_8080
-  - vmess__104.17.123.55_8080
-  - vmess__61.228.160.178_4443
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__server33.beheshtbaneh.com_8880
   - vmess__server26.beheshtbaneh.com_8880
-  - vmess__server8.beheshtbaneh.com_8880
-  - vmess__server10.beheshtbaneh.com_8880
-  - vmess__104.20.231.30_80
-  - vmess__cf.openxai.link_8080
+  - vmess__ip.sb_80
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__server9.beheshtbaneh.com_8880
+  - vmess__104.22.51.162_80
   - vmess__server2.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__125.224.140.64_6122
+  - vmess__172.67.166.190_8080
+  - vmess__185.214.103.249_8002
+  - vmess__chrome.cloudflare-dns.com_443
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -620,7 +681,7 @@ proxy-groups:
   - tuic_FR_dongtaiwang.com_1
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
-  - hysteria2_45.150.165.84:8881
+  - hysteria_www2.dtku48.xyz:22334
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
   - hysteria_1
@@ -646,15 +707,20 @@ proxy-groups:
   - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__172.67.166.190_8080
-  - vmess__104.17.123.55_8080
-  - vmess__61.228.160.178_4443
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__server33.beheshtbaneh.com_8880
   - vmess__server26.beheshtbaneh.com_8880
-  - vmess__server8.beheshtbaneh.com_8880
-  - vmess__server10.beheshtbaneh.com_8880
-  - vmess__104.20.231.30_80
-  - vmess__cf.openxai.link_8080
+  - vmess__ip.sb_80
+  - vmess__www.crispyrainbow.online_8080
+  - vmess__server9.beheshtbaneh.com_8880
+  - vmess__104.22.51.162_80
   - vmess__server2.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__125.224.140.64_6122
+  - vmess__172.67.166.190_8080
+  - vmess__185.214.103.249_8002
+  - vmess__chrome.cloudflare-dns.com_443
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
