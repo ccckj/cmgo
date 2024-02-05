@@ -249,7 +249,7 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__62.210.100.235_20138
+- name: vmess_FR_62.210.100.235_20138
   type: vmess
   server: 62.210.100.235
   port: 20138
@@ -259,6 +259,16 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess_US_45.144.2.113_80
+  type: vmess
+  server: 45.144.2.113
+  port: 80
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  network: ws
+  tls: none
+  flow: ''
+  host: 45.144.2.113
+  path: /
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -267,27 +277,17 @@ proxies:
   network: ws
   tls: none
   flow: ''
-  host: www.darkroom.lol
+  host: ''
   path: /
-- name: vmess__172.67.171.177_8080
+- name: vmess__104.17.25.1_80
   type: vmess
-  server: 172.67.171.177
-  port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  server: 104.17.25.1
+  port: 80
+  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
   network: ws
   tls: none
   flow: ''
-  host: eu3.openxai.link
-  path: /?ed=2048
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
+  host: lmnyvpn.catnipballs.gay
   path: /
 - name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
@@ -299,19 +299,9 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__tw1-vds3.anyhk.co_21353
+- name: vmess__104.24.208.37_80
   type: vmess
-  server: tw1-vds3.anyhk.co
-  port: 21353
-  uuid: 1ae0f67d-197e-4c80-8d91-a8388821c81b
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.22.51.162_80
-  type: vmess
-  server: 104.22.51.162
+  server: 104.24.208.37
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -319,25 +309,45 @@ proxies:
   flow: ''
   host: my1.tooters.ir
   path: /
-- name: vmess__45.170.248.137_2053
+- name: vmess__www.coldstone.club_8080
   type: vmess
-  server: 45.170.248.137
-  port: 2053
-  uuid: 8b0136d3-148d-4efd-a866-76bd8d3e061e
-  network: ws
-  tls: tls
-  flow: ''
-  host: usacv.universecloud.cloud
-  path: /
-- name: vmess__server26.beheshtbaneh.com_8880
-  type: vmess
-  server: server26.beheshtbaneh.com
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  server: www.coldstone.club
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: server26.beheshtbaneh.com
+  host: www.coldstone.club
+  path: /
+- name: vmess__server13.beheshtbaneh.com_8880
+  type: vmess
+  server: server13.beheshtbaneh.com
+  port: 8880
+  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__172.67.71.13_2052
+  type: vmess
+  server: 172.67.71.13
+  port: 2052
+  uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf
+  network: ws
+  tls: none
+  flow: ''
+  host: mianfei-us-0001.bpjc.site
+  path: /?ed
+- name: vmess__server12.beheshtbaneh.com_8880
+  type: vmess
+  server: server12.beheshtbaneh.com
+  port: 8880
+  uuid: 39c03e6d-9efd-4e5a-8851-cd4ed0ec303c
+  network: ws
+  tls: none
+  flow: ''
+  host: server12.beheshtbaneh.com
   path: /
 - name: vmess__chuncheonarm.yuwan.link_20326
   type: vmess
@@ -349,185 +359,35 @@ proxies:
   flow: ''
   host: chuncheonarm.yuwan.link
   path: /
-- name: vmess__server20.beheshtbaneh.com_8880
+- name: vmess__server32.beheshtbaneh.com_8880
   type: vmess
-  server: server20.beheshtbaneh.com
+  server: server32.beheshtbaneh.com
   port: 8880
-  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   network: ws
   tls: none
   flow: ''
-  host: server20.beheshtbaneh.com
+  host: server32.beheshtbaneh.com
   path: /
-- name: vmess__www.crispyrainbow.online_8080
+- name: vmess__server31.beheshtbaneh.com_8880
   type: vmess
-  server: www.crispyrainbow.online
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.online
-  path: /
-- name: vmess__cfcdn3.sanfencdn9.com_80
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: e393dd86-fddc-4bce-8abe-d902cf831670
-  network: ws
-  tls: none
-  flow: ''
-  host: GWYp69Yujp2.yofnhkfc.xyz
-  path: /video/VDXcaM7r
-- name: vmess__104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
-  network: ws
-  tls: none
-  flow: ''
-  host: kr1.ljyyds.top
-  path: /
-- name: vmess__118.167.72.11_12002
-  type: vmess
-  server: 118.167.72.11
-  port: 12002
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__server4.beheshtbaneh.com_8880
-  type: vmess
-  server: server4.beheshtbaneh.com
+  server: server31.beheshtbaneh.com
   port: 8880
-  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
-  network: ws
-  tls: none
-  flow: ''
-  host: server4.beheshtbaneh.com
-  path: /
-- name: vmess__server9.beheshtbaneh.com_8880
-  type: vmess
-  server: server9.beheshtbaneh.com
-  port: 8880
-  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /
-- name: vmess__jpe02.node.onepai.top_443
+- name: vmess__server6.beheshtbaneh.com_8880
   type: vmess
-  server: jpe02.node.onepai.top
-  port: 443
-  uuid: bcd089f0-92f2-4f46-b2b4-c2031ba49d59
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__104.20.231.30_80
-  type: vmess
-  server: 104.20.231.30
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__172.67.166.190_8080
-  type: vmess
-  server: 172.67.166.190
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.online
-  path: /
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  network: ws
-  tls: none
-  flow: ''
-  host: eu2.openxai.link
-  path: /?ed=2048
-- name: vmess__server2.beheshtbaneh.com_8880
-  type: vmess
-  server: server2.beheshtbaneh.com
-  port: 8880
-  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
-  network: ws
-  tls: none
-  flow: ''
-  host: server2.beheshtbaneh.com
-  path: /
-- name: vmess__104.21.23.176_8080
-  type: vmess
-  server: 104.21.23.176
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__104.21.94.99_8080
-  type: vmess
-  server: 104.21.94.99
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.blueberrywindow.online
-  path: /
-- name: vmess__server12.beheshtbaneh.com_8880
-  type: vmess
-  server: server12.beheshtbaneh.com
-  port: 8880
-  uuid: 39c03e6d-9efd-4e5a-8851-cd4ed0ec303c
-  network: ws
-  tls: none
-  flow: ''
-  host: server12.beheshtbaneh.com
-  path: /
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
+  server: server6.beheshtbaneh.com
   port: 8880
   uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
   network: ws
   tls: none
   flow: ''
   host: server6.beheshtbaneh.com
-  path: /
-- name: vmess__jp-tokyo-oracle-03b285.ip1.shop_31302
-  type: vmess
-  server: jp-tokyo-oracle-03b285.ip1.shop
-  port: 31302
-  uuid: 1ae0f67d-197e-4c80-8d91-a8388821c81b
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__wus01.node.onepai.top_443
-  type: vmess
-  server: wus01.node.onepai.top
-  port: 443
-  uuid: bcd089f0-92f2-4f46-b2b4-c2031ba49d59
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
   path: /
 - name: vmess__hytron.io_8080
   type: vmess
@@ -549,25 +409,95 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__103.214.68.57_10001
+- name: vmess__172.67.166.190_8080
   type: vmess
-  server: 103.214.68.57
-  port: 10001
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__server13.beheshtbaneh.com_8880
-  type: vmess
-  server: server13.beheshtbaneh.com
-  port: 8880
-  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  server: 172.67.166.190
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
+  host: www.crispyrainbow.online
+  path: /
+- name: vmess__104.17.123.55_8080
+  type: vmess
+  server: 104.17.123.55
+  port: 8080
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  network: ws
+  tls: none
+  flow: ''
+  host: pq.kmoljklj.top
+  path: /qZTtpya?ed=2048
+- name: vmess__61.228.160.178_4443
+  type: vmess
+  server: 61.228.160.178
+  port: 4443
+  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
+  network: tcp
+  tls: none
+  flow: ''
   host: ''
+  path: ''
+- name: vmess__server26.beheshtbaneh.com_8880
+  type: vmess
+  server: server26.beheshtbaneh.com
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__server8.beheshtbaneh.com_8880
+  type: vmess
+  server: server8.beheshtbaneh.com
+  port: 8880
+  uuid: f46acc36-5edf-4c5f-8c8f-3520ff46cdd9
+  network: ws
+  tls: none
+  flow: ''
+  host: server8.beheshtbaneh.com
+  path: /
+- name: vmess__server10.beheshtbaneh.com_8880
+  type: vmess
+  server: server10.beheshtbaneh.com
+  port: 8880
+  uuid: 66d4af1c-fcc3-479b-847c-3260253e1faa
+  network: ws
+  tls: none
+  flow: ''
+  host: server10.beheshtbaneh.com
+  path: /
+- name: vmess__104.20.231.30_80
+  type: vmess
+  server: 104.20.231.30
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  network: ws
+  tls: none
+  flow: ''
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__server2.beheshtbaneh.com_8880
+  type: vmess
+  server: server2.beheshtbaneh.com
+  port: 8880
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
+  network: ws
+  tls: none
+  flow: ''
+  host: server2.beheshtbaneh.com
   path: /
 proxy-groups:
 - name: 节点选择
@@ -608,38 +538,31 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
-  - vmess__62.210.100.235_20138
+  - vmess_FR_62.210.100.235_20138
+  - vmess_US_45.144.2.113_80
   - vmess__www.darkroom.lol_8080
-  - vmess__172.67.171.177_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__tw1-vds3.anyhk.co_21353
-  - vmess__104.22.51.162_80
-  - vmess__45.170.248.137_2053
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__chuncheonarm.yuwan.link_20326
-  - vmess__server20.beheshtbaneh.com_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__104.17.25.1_80
-  - vmess__118.167.72.11_12002
-  - vmess__server4.beheshtbaneh.com_8880
-  - vmess__server9.beheshtbaneh.com_8880
-  - vmess__jpe02.node.onepai.top_443
-  - vmess__104.20.231.30_80
-  - vmess__172.67.166.190_8080
-  - vmess__cf.openxai.link_8080
-  - vmess__server2.beheshtbaneh.com_8880
-  - vmess__104.21.23.176_8080
-  - vmess__104.21.94.99_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.24.208.37_80
+  - vmess__www.coldstone.club_8080
+  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.71.13_2052
   - vmess__server12.beheshtbaneh.com_8880
-  - vmess__104.21.82.183_8880
-  - vmess__jp-tokyo-oracle-03b285.ip1.shop_31302
-  - vmess__wus01.node.onepai.top_443
+  - vmess__chuncheonarm.yuwan.link_20326
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__103.214.68.57_10001
-  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.166.190_8080
+  - vmess__104.17.123.55_8080
+  - vmess__61.228.160.178_4443
+  - vmess__server26.beheshtbaneh.com_8880
+  - vmess__server8.beheshtbaneh.com_8880
+  - vmess__server10.beheshtbaneh.com_8880
+  - vmess__104.20.231.30_80
+  - vmess__cf.openxai.link_8080
+  - vmess__server2.beheshtbaneh.com_8880
 - name: 手动选择
   type: select
   proxies:
@@ -661,38 +584,31 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
-  - vmess__62.210.100.235_20138
+  - vmess_FR_62.210.100.235_20138
+  - vmess_US_45.144.2.113_80
   - vmess__www.darkroom.lol_8080
-  - vmess__172.67.171.177_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__tw1-vds3.anyhk.co_21353
-  - vmess__104.22.51.162_80
-  - vmess__45.170.248.137_2053
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__chuncheonarm.yuwan.link_20326
-  - vmess__server20.beheshtbaneh.com_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__104.17.25.1_80
-  - vmess__118.167.72.11_12002
-  - vmess__server4.beheshtbaneh.com_8880
-  - vmess__server9.beheshtbaneh.com_8880
-  - vmess__jpe02.node.onepai.top_443
-  - vmess__104.20.231.30_80
-  - vmess__172.67.166.190_8080
-  - vmess__cf.openxai.link_8080
-  - vmess__server2.beheshtbaneh.com_8880
-  - vmess__104.21.23.176_8080
-  - vmess__104.21.94.99_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.24.208.37_80
+  - vmess__www.coldstone.club_8080
+  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.71.13_2052
   - vmess__server12.beheshtbaneh.com_8880
-  - vmess__104.21.82.183_8880
-  - vmess__jp-tokyo-oracle-03b285.ip1.shop_31302
-  - vmess__wus01.node.onepai.top_443
+  - vmess__chuncheonarm.yuwan.link_20326
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__103.214.68.57_10001
-  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.166.190_8080
+  - vmess__104.17.123.55_8080
+  - vmess__61.228.160.178_4443
+  - vmess__server26.beheshtbaneh.com_8880
+  - vmess__server8.beheshtbaneh.com_8880
+  - vmess__server10.beheshtbaneh.com_8880
+  - vmess__104.20.231.30_80
+  - vmess__cf.openxai.link_8080
+  - vmess__server2.beheshtbaneh.com_8880
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -714,38 +630,31 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
-  - vmess__62.210.100.235_20138
+  - vmess_FR_62.210.100.235_20138
+  - vmess_US_45.144.2.113_80
   - vmess__www.darkroom.lol_8080
-  - vmess__172.67.171.177_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__tw1-vds3.anyhk.co_21353
-  - vmess__104.22.51.162_80
-  - vmess__45.170.248.137_2053
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__chuncheonarm.yuwan.link_20326
-  - vmess__server20.beheshtbaneh.com_8880
-  - vmess__www.crispyrainbow.online_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__104.17.25.1_80
-  - vmess__118.167.72.11_12002
-  - vmess__server4.beheshtbaneh.com_8880
-  - vmess__server9.beheshtbaneh.com_8880
-  - vmess__jpe02.node.onepai.top_443
-  - vmess__104.20.231.30_80
-  - vmess__172.67.166.190_8080
-  - vmess__cf.openxai.link_8080
-  - vmess__server2.beheshtbaneh.com_8880
-  - vmess__104.21.23.176_8080
-  - vmess__104.21.94.99_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.24.208.37_80
+  - vmess__www.coldstone.club_8080
+  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.71.13_2052
   - vmess__server12.beheshtbaneh.com_8880
-  - vmess__104.21.82.183_8880
-  - vmess__jp-tokyo-oracle-03b285.ip1.shop_31302
-  - vmess__wus01.node.onepai.top_443
+  - vmess__chuncheonarm.yuwan.link_20326
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__server6.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__103.214.68.57_10001
-  - vmess__server13.beheshtbaneh.com_8880
+  - vmess__172.67.166.190_8080
+  - vmess__104.17.123.55_8080
+  - vmess__61.228.160.178_4443
+  - vmess__server26.beheshtbaneh.com_8880
+  - vmess__server8.beheshtbaneh.com_8880
+  - vmess__server10.beheshtbaneh.com_8880
+  - vmess__104.20.231.30_80
+  - vmess__cf.openxai.link_8080
+  - vmess__server2.beheshtbaneh.com_8880
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
