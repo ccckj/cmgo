@@ -232,7 +232,7 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_FR_62.210.100.235_20138
+- name: vmess_US_62.210.100.235_20138
   type: vmess
   server: 62.210.100.235
   port: 20138
@@ -392,16 +392,36 @@ proxies:
   flow: ''
   host: dk1.xv2ray.net
   path: /vmess
-- name: vmess__cf.openxai.link_8080
+- name: vmess__b23.ntbq.dynu.net_2024
   type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
+  server: b23.ntbq.dynu.net
+  port: 2024
+  uuid: 9cc18dc9-993d-4d34-8638-904024f5efb5
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.17.19.122_2052
+  type: vmess
+  server: 104.17.19.122
+  port: 2052
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   network: ws
   tls: none
   flow: ''
-  host: eu4.openxai.link
-  path: /?ed=2048
+  host: us3AJ8biuQx.fzbqfrse.xyz
+  path: /video/QXjZG5u4F2
+- name: vmess__www.blueberrywindow.online_8080
+  type: vmess
+  server: www.blueberrywindow.online
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.blueberrywindow.online
+  path: /
 - name: vmess__114.37.112.239_2024
   type: vmess
   server: 114.37.112.239
@@ -412,46 +432,66 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online_80
+- name: vmess__104.17.123.55_8080
   type: vmess
-  server: hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online
-  port: 80
-  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
-  network: ws
-  tls: none
-  flow: ''
-  host: bilibili.com
-  path: /?ed=2048
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
+  server: 104.17.123.55
   port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
   network: ws
   tls: none
   flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__172.67.212.114_8080
+  host: pq.kmoljklj.top
+  path: /qZTtpya?ed=2048
+- name: vmess__104.18.126.211_2052
   type: vmess
-  server: 172.67.212.114
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 104.18.126.211
+  port: 2052
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
-  path: /
-- name: vmess__183.232.170.22_30128
+  host: us3AJ8biuQx.fzbqfrse.xyz
+  path: /video/QXjZG5u4F2
+- name: vmess__185.214.103.249_8002
   type: vmess
-  server: 183.232.170.22
-  port: 30128
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+  server: 185.214.103.249
+  port: 8002
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  network: ws
+  tls: none
+  flow: ''
+  host: cache-hk-1.cn-db.top
+  path: /db00
+- name: vmess__112.28.208.18_54137
+  type: vmess
+  server: 112.28.208.18
+  port: 54137
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__server20.beheshtbaneh.com_8880
+  type: vmess
+  server: server20.beheshtbaneh.com
+  port: 8880
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  network: ws
+  tls: none
+  flow: ''
+  host: server20.beheshtbaneh.com
+  path: /
+- name: vmess__154.12.87.218_80
+  type: vmess
+  server: 154.12.87.218
+  port: 80
+  uuid: eeee6cb6-7023-433a-8f6c-66293f018113
+  network: ws
+  tls: none
+  flow: ''
+  host: www.microsoft.com
+  path: /zh-cn
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -506,7 +546,7 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
-  - vmess_FR_62.210.100.235_20138
+  - vmess_US_62.210.100.235_20138
   - vmess_US_104.22.51.162_80
   - vmess__103.214.68.57_10001
   - vmess__104.21.82.183_8880
@@ -522,12 +562,16 @@ proxy-groups:
   - vmess__193.104.57.136_80
   - vmess__jpcd07-4c4e-9945-219dfebd1776.xn--jsrz0o258a.online_80
   - vmess__18arcims.ir_80
-  - vmess__cf.openxai.link_8080
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__104.17.19.122_2052
+  - vmess__www.blueberrywindow.online_8080
   - vmess__114.37.112.239_2024
-  - vmess__hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__172.67.212.114_8080
-  - vmess__183.232.170.22_30128
+  - vmess__104.17.123.55_8080
+  - vmess__104.18.126.211_2052
+  - vmess__185.214.103.249_8002
+  - vmess__112.28.208.18_54137
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__154.12.87.218_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.21.94.99_8080
@@ -555,7 +599,7 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:52465
   - hy2_US_108.181.24.77:43656
-  - vmess_FR_62.210.100.235_20138
+  - vmess_US_62.210.100.235_20138
   - vmess_US_104.22.51.162_80
   - vmess__103.214.68.57_10001
   - vmess__104.21.82.183_8880
@@ -571,12 +615,16 @@ proxy-groups:
   - vmess__193.104.57.136_80
   - vmess__jpcd07-4c4e-9945-219dfebd1776.xn--jsrz0o258a.online_80
   - vmess__18arcims.ir_80
-  - vmess__cf.openxai.link_8080
+  - vmess__b23.ntbq.dynu.net_2024
+  - vmess__104.17.19.122_2052
+  - vmess__www.blueberrywindow.online_8080
   - vmess__114.37.112.239_2024
-  - vmess__hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__172.67.212.114_8080
-  - vmess__183.232.170.22_30128
+  - vmess__104.17.123.55_8080
+  - vmess__104.18.126.211_2052
+  - vmess__185.214.103.249_8002
+  - vmess__112.28.208.18_54137
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__154.12.87.218_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.21.94.99_8080
