@@ -43,19 +43,20 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: tuic_US_dongtaiwang.com_1
-  type: tuic
-  server: 195.137.220.189
-  port: 33445
-  udp: true
-  uuid: 983a85bd-8fae-45d2-a702-5d00a383763e
-  password: dongtaiwang.com
+- name: hysteria_51.159.103.141:18044
+  type: hysteria
+  server: 51.159.103.141
+  port: 18044
+  10000-13000: null
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 190
 - name: tuic_US_dongtaiwang.com_1
   type: tuic
   server: 74.63.249.229
@@ -69,12 +70,12 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: tuic_US_dongtaiwang.com_1
+- name: tuic_TW_dongtaiwang.com_1
   type: tuic
-  server: 108.181.2.158
-  port: 33440
+  server: 1.162.136.33
+  port: 33098
   udp: true
-  uuid: 996c2970-ec1c-4659-9c5f-b3609c42a764
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
@@ -97,21 +98,19 @@ proxies:
     public-key: JMHogufiGO132mtTq26O34ssU8rjCkUcFC98PSeMF3A
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: vless_92.118.205.66:10081
-  type: vless
-  server: 92.118.205.66
-  port: 10081
+- name: tuic_US_dongtaiwang.com_1
+  type: tuic
+  server: 195.137.220.189
+  port: 33445
   udp: true
-  uuid: 7c009b14-ceb0-4373-9504-ab2a9ca2354a
-  tls: true
-  servername: images-na.ssl-images-amazon.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-  reality-opts:
-    public-key: JMHogufiGO132mtTq26O34ssU8rjCkUcFC98PSeMF3A
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
+  uuid: 983a85bd-8fae-45d2-a702-5d00a383763e
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: vless_92.118.205.66:10081
   type: vless
   server: 92.118.205.66
@@ -256,85 +255,45 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__www.coldstone.club_8080
+- name: vmess_NL_91.242.229.77_80
   type: vmess
-  server: www.coldstone.club
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: 91.242.229.77
+  port: 80
+  uuid: 56890326-df58-432d-be1e-67064e2b4355
   network: ws
   tls: none
   flow: ''
-  host: www.coldstone.club
+  host: 91.242.229.77
+  path: /vmess
+- name: vmess_US_104.22.51.162_80
+  type: vmess
+  server: 104.22.51.162
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
   path: /
-- name: vmess_US_104.21.23.176_8080
+- name: vmess__s12.956256.xyz_80
   type: vmess
-  server: 104.21.23.176
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: s12.956256.xyz
+  port: 80
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.biz
+  host: caonimashabiwanyi21.daxiongda.top
   path: /
-- name: vmess__9s5g05.abzoones.xyz_36206
+- name: vmess__s1.956256.xyz_80
   type: vmess
-  server: 9s5g05.abzoones.xyz
-  port: 36206
-  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_104.21.89.252_8080
-  type: vmess
-  server: 104.21.89.252
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  server: s1.956256.xyz
+  port: 80
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   network: ws
   tls: none
   flow: ''
-  host: www.crispyrainbow.online
-  path: /
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__server26.beheshtbaneh.com_8880
-  type: vmess
-  server: server26.beheshtbaneh.com
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__104.21.94.99_8080
-  type: vmess
-  server: 104.21.94.99
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.blueberrywindow.online
+  host: caonimashabiwanyi4.daxiongda.top
   path: /
 - name: vmess__www.blueberrywindow.online_8080
   type: vmess
@@ -346,26 +305,76 @@ proxies:
   flow: ''
   host: www.blueberrywindow.online
   path: /
-- name: vmess__104.18.202.250_2082
+- name: vmess__gov.uk_443
   type: vmess
-  server: 104.18.202.250
-  port: 2082
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  network: ws
+  tls: tls
+  flow: ''
+  host: zheshiscp.com
+  path: /77848824
+- name: vmess_US_172.67.221.183_8080
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-  path: /nina.bond/linkvws
-- name: vmess__172.67.187.109_80
+  host: www.blueberrywindow.online
+  path: /
+- name: vmess__185.162.228.99_8080
   type: vmess
-  server: 172.67.187.109
+  server: 185.162.228.99
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: uare-rice-0f92.nojojoy404.workers.dev
+  path: /www.blueberrywindow.online/
+- name: vmess__server20.beheshtbaneh.com_8880
+  type: vmess
+  server: server20.beheshtbaneh.com
+  port: 8880
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  network: ws
+  tls: none
+  flow: ''
+  host: server20.beheshtbaneh.com
+  path: /
+- name: vmess__s6.956256.xyz_80
+  type: vmess
+  server: s6.956256.xyz
   port: 80
-  uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   network: ws
   tls: none
   flow: ''
-  host: ee1.xv2ray.net
-  path: /vmess
+  host: a.189.cn
+  path: /
+- name: vmess__ip.sb_80
+  type: vmess
+  server: ip.sb
+  port: 80
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  network: ws
+  tls: none
+  flow: ''
+  host: kr1.ljyyds.top
+  path: /
+- name: vmess__165.1.66.37_80
+  type: vmess
+  server: 165.1.66.37
+  port: 80
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  network: ws
+  tls: none
+  flow: ''
+  host: caonimashabiwanyi4.daxiongda.top
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -387,11 +396,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - hysteria_51.159.103.141:18044
   - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
+  - tuic_TW_dongtaiwang.com_1
   - vless_92.118.205.66:10081
-  - vless_92.118.205.66:10081
+  - tuic_US_dongtaiwang.com_1
   - vless_92.118.205.66:10081
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -405,25 +414,26 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess__www.coldstone.club_8080
-  - vmess_US_104.21.23.176_8080
-  - vmess__9s5g05.abzoones.xyz_36206
-  - vmess_US_104.21.89.252_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__104.21.94.99_8080
+  - vmess_NL_91.242.229.77_80
+  - vmess_US_104.22.51.162_80
+  - vmess__s12.956256.xyz_80
+  - vmess__s1.956256.xyz_80
   - vmess__www.blueberrywindow.online_8080
-  - vmess__104.18.202.250_2082
-  - vmess__172.67.187.109_80
+  - vmess__gov.uk_443
+  - vmess_US_172.67.221.183_8080
+  - vmess__185.162.228.99_8080
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__s6.956256.xyz_80
+  - vmess__ip.sb_80
+  - vmess__165.1.66.37_80
 - name: 手动选择
   type: select
   proxies:
+  - hysteria_51.159.103.141:18044
   - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
+  - tuic_TW_dongtaiwang.com_1
   - vless_92.118.205.66:10081
-  - vless_92.118.205.66:10081
+  - tuic_US_dongtaiwang.com_1
   - vless_92.118.205.66:10081
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -437,25 +447,26 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess__www.coldstone.club_8080
-  - vmess_US_104.21.23.176_8080
-  - vmess__9s5g05.abzoones.xyz_36206
-  - vmess_US_104.21.89.252_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__104.21.94.99_8080
+  - vmess_NL_91.242.229.77_80
+  - vmess_US_104.22.51.162_80
+  - vmess__s12.956256.xyz_80
+  - vmess__s1.956256.xyz_80
   - vmess__www.blueberrywindow.online_8080
-  - vmess__104.18.202.250_2082
-  - vmess__172.67.187.109_80
+  - vmess__gov.uk_443
+  - vmess_US_172.67.221.183_8080
+  - vmess__185.162.228.99_8080
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__s6.956256.xyz_80
+  - vmess__ip.sb_80
+  - vmess__165.1.66.37_80
 - name: 负载均衡
   type: load-balance
   proxies:
+  - hysteria_51.159.103.141:18044
   - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
-  - tuic_US_dongtaiwang.com_1
+  - tuic_TW_dongtaiwang.com_1
   - vless_92.118.205.66:10081
-  - vless_92.118.205.66:10081
+  - tuic_US_dongtaiwang.com_1
   - vless_92.118.205.66:10081
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.158.54.46:44550
@@ -469,17 +480,18 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess__www.coldstone.club_8080
-  - vmess_US_104.21.23.176_8080
-  - vmess__9s5g05.abzoones.xyz_36206
-  - vmess_US_104.21.89.252_8080
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__104.21.94.99_8080
+  - vmess_NL_91.242.229.77_80
+  - vmess_US_104.22.51.162_80
+  - vmess__s12.956256.xyz_80
+  - vmess__s1.956256.xyz_80
   - vmess__www.blueberrywindow.online_8080
-  - vmess__104.18.202.250_2082
-  - vmess__172.67.187.109_80
+  - vmess__gov.uk_443
+  - vmess_US_172.67.221.183_8080
+  - vmess__185.162.228.99_8080
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__s6.956256.xyz_80
+  - vmess__ip.sb_80
+  - vmess__165.1.66.37_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
