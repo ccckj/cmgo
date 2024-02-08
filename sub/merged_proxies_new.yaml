@@ -277,7 +277,7 @@ proxies:
   flow: ''
   host: eu2.openxai.link
   path: /?ed=2048
-- name: vmess__45.144.2.113_80
+- name: vmess_US_45.144.2.113_80
   type: vmess
   server: 45.144.2.113
   port: 80
@@ -357,76 +357,36 @@ proxies:
   flow: ''
   host: s7.956256.xyz
   path: /
-- name: vmess__ip.sb_80
+- name: vmess__s2.956256.xyz_80
   type: vmess
-  server: ip.sb
+  server: s2.956256.xyz
   port: 80
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
   network: ws
   tls: none
   flow: ''
-  host: kr1.ljyyds.top
+  host: caonimashabiwanyi5.daxiongda.top
   path: /
-- name: vmess__gov.uk_443
+- name: vmess__www.blueberrywindow.online_8080
   type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  network: ws
-  tls: tls
-  flow: ''
-  host: zheshiscp.com
-  path: /77848824
-- name: vmess__www.coldstone.club_8080
-  type: vmess
-  server: www.coldstone.club
+  server: www.blueberrywindow.online
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.coldstone.club
+  host: ''
   path: /
-- name: vmess__202.78.162.5_443
+- name: vmess__104.21.73.14_8880
   type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  network: ws
-  tls: tls
-  flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
+  server: 104.21.73.14
   port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
   network: ws
   tls: none
   flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__104.24.208.37_80
-  type: vmess
-  server: 104.24.208.37
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__104.20.231.30_80
-  type: vmess
-  server: 104.20.231.30
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
+  host: yaghoob55freenodes.repaco69437403.workers.dev
+  path: /adenc35.fixedlfoat.top/linkws
 - name: vmess__172.67.221.183_8080
   type: vmess
   server: 172.67.221.183
@@ -437,16 +397,76 @@ proxies:
   flow: ''
   host: www.blueberrywindow.online
   path: /
-- name: vmess__91.242.229.69_2086
+- name: vmess__ip.sb_80
   type: vmess
-  server: 91.242.229.69
-  port: 2086
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+  server: ip.sb
+  port: 80
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
   network: ws
   tls: none
   flow: ''
-  host: nl1.xv2ray.net
-  path: /vmess
+  host: kr1.ljyyds.top
+  path: /
+- name: vmess__s6.956256.xyz_80
+  type: vmess
+  server: s6.956256.xyz
+  port: 80
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.189.cn
+  path: /
+- name: vmess__s3.956256.xyz_80
+  type: vmess
+  server: s3.956256.xyz
+  port: 80
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  network: ws
+  tls: none
+  flow: ''
+  host: caonimashabiwanyi5.daxiongda.top
+  path: /
+- name: vmess__172.67.217.144_80
+  type: vmess
+  server: 172.67.217.144
+  port: 80
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  network: ws
+  tls: none
+  flow: ''
+  host: lv1.xv2ray.net
+  path: /
+- name: vmess__ffbf920.t2.gladns.com_3331
+  type: vmess
+  server: ffbf920.t2.gladns.com
+  port: 3331
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  network: ws
+  tls: tls
+  flow: ''
+  host: tls.apple.com
+  path: /s/ffbf920.fm.apple.com:68447
+- name: vmess__for-irancell.outline-vpn.cloud_80
+  type: vmess
+  server: for-irancell.outline-vpn.cloud
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__server20.beheshtbaneh.com_8880
+  type: vmess
+  server: server20.beheshtbaneh.com
+  port: 8880
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  network: ws
+  tls: none
+  flow: ''
+  host: server20.beheshtbaneh.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -475,7 +495,7 @@ proxy-groups:
   - vmess_US_104.21.61.214_8080
   - vmess_US_45.65.8.4_443
   - vmess__cf.openxai.link_8080
-  - vmess__45.144.2.113_80
+  - vmess_US_45.144.2.113_80
   - vmess__server2.beheshtbaneh.com_8880
   - vmess__s4.956256.xyz_80
   - vmess__172.67.212.114_8080
@@ -483,15 +503,17 @@ proxy-groups:
   - vmess__bs2.loadingip.com_80
   - vmess__104.21.23.176_8080
   - vmess__141.148.193.95_80
-  - vmess__ip.sb_80
-  - vmess__gov.uk_443
-  - vmess__www.coldstone.club_8080
-  - vmess__202.78.162.5_443
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.24.208.37_80
-  - vmess__104.20.231.30_80
+  - vmess__s2.956256.xyz_80
+  - vmess__www.blueberrywindow.online_8080
+  - vmess__104.21.73.14_8880
   - vmess__172.67.221.183_8080
-  - vmess__91.242.229.69_2086
+  - vmess__ip.sb_80
+  - vmess__s6.956256.xyz_80
+  - vmess__s3.956256.xyz_80
+  - vmess__172.67.217.144_80
+  - vmess__ffbf920.t2.gladns.com_3331
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__server20.beheshtbaneh.com_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -520,7 +542,7 @@ proxy-groups:
   - vmess_US_104.21.61.214_8080
   - vmess_US_45.65.8.4_443
   - vmess__cf.openxai.link_8080
-  - vmess__45.144.2.113_80
+  - vmess_US_45.144.2.113_80
   - vmess__server2.beheshtbaneh.com_8880
   - vmess__s4.956256.xyz_80
   - vmess__172.67.212.114_8080
@@ -528,15 +550,17 @@ proxy-groups:
   - vmess__bs2.loadingip.com_80
   - vmess__104.21.23.176_8080
   - vmess__141.148.193.95_80
-  - vmess__ip.sb_80
-  - vmess__gov.uk_443
-  - vmess__www.coldstone.club_8080
-  - vmess__202.78.162.5_443
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.24.208.37_80
-  - vmess__104.20.231.30_80
+  - vmess__s2.956256.xyz_80
+  - vmess__www.blueberrywindow.online_8080
+  - vmess__104.21.73.14_8880
   - vmess__172.67.221.183_8080
-  - vmess__91.242.229.69_2086
+  - vmess__ip.sb_80
+  - vmess__s6.956256.xyz_80
+  - vmess__s3.956256.xyz_80
+  - vmess__172.67.217.144_80
+  - vmess__ffbf920.t2.gladns.com_3331
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__server20.beheshtbaneh.com_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
