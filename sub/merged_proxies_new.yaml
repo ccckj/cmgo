@@ -237,105 +237,125 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_NL_91.242.229.77_80
+- name: vmess__www.darkroom.lol_8080
   type: vmess
-  server: 91.242.229.77
-  port: 80
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
-  network: ws
-  tls: none
-  flow: ''
-  host: 91.242.229.77
-  path: /vmess
-- name: vmess_US_104.22.51.162_80
-  type: vmess
-  server: 104.22.51.162
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__s12.956256.xyz_80
-  type: vmess
-  server: s12.956256.xyz
-  port: 80
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  network: ws
-  tls: none
-  flow: ''
-  host: caonimashabiwanyi21.daxiongda.top
-  path: /
-- name: vmess__s1.956256.xyz_80
-  type: vmess
-  server: s1.956256.xyz
-  port: 80
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  network: ws
-  tls: none
-  flow: ''
-  host: caonimashabiwanyi4.daxiongda.top
-  path: /
-- name: vmess__www.blueberrywindow.online_8080
-  type: vmess
-  server: www.blueberrywindow.online
+  server: www.darkroom.lol
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: www.blueberrywindow.online
+  host: www.darkroom.lol
   path: /
-- name: vmess__gov.uk_443
+- name: vmess_US_104.21.61.214_8080
   type: vmess
-  server: gov.uk
+  server: 104.21.61.214
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
+- name: vmess_US_45.65.8.4_443
+  type: vmess
+  server: 45.65.8.4
   port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   network: ws
   tls: tls
   flow: ''
-  host: zheshiscp.com
-  path: /77848824
-- name: vmess_US_172.67.221.183_8080
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
+- name: vmess__cf.openxai.link_8080
   type: vmess
-  server: 172.67.221.183
+  server: cf.openxai.link
   port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   network: ws
   tls: none
   flow: ''
-  host: www.blueberrywindow.online
-  path: /
-- name: vmess__185.162.228.99_8080
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__45.144.2.113_80
   type: vmess
-  server: 185.162.228.99
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: uare-rice-0f92.nojojoy404.workers.dev
-  path: /www.blueberrywindow.online/
-- name: vmess__server20.beheshtbaneh.com_8880
-  type: vmess
-  server: server20.beheshtbaneh.com
-  port: 8880
-  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-  network: ws
-  tls: none
-  flow: ''
-  host: server20.beheshtbaneh.com
-  path: /
-- name: vmess__s6.956256.xyz_80
-  type: vmess
-  server: s6.956256.xyz
+  server: 45.144.2.113
   port: 80
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
   network: ws
   tls: none
   flow: ''
-  host: a.189.cn
+  host: 45.144.2.113
+  path: /
+- name: vmess__server2.beheshtbaneh.com_8880
+  type: vmess
+  server: server2.beheshtbaneh.com
+  port: 8880
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
+  network: ws
+  tls: none
+  flow: ''
+  host: server2.beheshtbaneh.com
+  path: /
+- name: vmess__s4.956256.xyz_80
+  type: vmess
+  server: s4.956256.xyz
+  port: 80
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  network: ws
+  tls: none
+  flow: ''
+  host: caonimashabiwanyi5.daxiongda.top
+  path: /
+- name: vmess__172.67.212.114_8080
+  type: vmess
+  server: 172.67.212.114
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.biz
+  path: /
+- name: vmess__172.67.166.190_8080
+  type: vmess
+  server: 172.67.166.190
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.online
+  path: /
+- name: vmess__bs2.loadingip.com_80
+  type: vmess
+  server: bs2.loadingip.com
+  port: 80
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  network: ws
+  tls: none
+  flow: ''
+  host: bs2.loadingip.com
+  path: /bs
+- name: vmess__104.21.23.176_8080
+  type: vmess
+  server: 104.21.23.176
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.crispyrainbow.biz
+  path: /
+- name: vmess__141.148.193.95_80
+  type: vmess
+  server: 141.148.193.95
+  port: 80
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  network: ws
+  tls: none
+  flow: ''
+  host: s7.956256.xyz
   path: /
 - name: vmess__ip.sb_80
   type: vmess
@@ -347,16 +367,86 @@ proxies:
   flow: ''
   host: kr1.ljyyds.top
   path: /
-- name: vmess__165.1.66.37_80
+- name: vmess__gov.uk_443
   type: vmess
-  server: 165.1.66.37
-  port: 80
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  network: ws
+  tls: tls
+  flow: ''
+  host: zheshiscp.com
+  path: /77848824
+- name: vmess__www.coldstone.club_8080
+  type: vmess
+  server: www.coldstone.club
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: caonimashabiwanyi4.daxiongda.top
+  host: www.coldstone.club
   path: /
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
+- name: vmess__server32.beheshtbaneh.com_8880
+  type: vmess
+  server: server32.beheshtbaneh.com
+  port: 8880
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  network: ws
+  tls: none
+  flow: ''
+  host: server32.beheshtbaneh.com
+  path: /
+- name: vmess__104.24.208.37_80
+  type: vmess
+  server: 104.24.208.37
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__104.20.231.30_80
+  type: vmess
+  server: 104.20.231.30
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__172.67.221.183_8080
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.blueberrywindow.online
+  path: /
+- name: vmess__91.242.229.69_2086
+  type: vmess
+  server: 91.242.229.69
+  port: 2086
+  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+  network: ws
+  tls: none
+  flow: ''
+  host: nl1.xv2ray.net
+  path: /vmess
 proxy-groups:
 - name: 节点选择
   type: select
@@ -381,18 +471,27 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess_NL_91.242.229.77_80
-  - vmess_US_104.22.51.162_80
-  - vmess__s12.956256.xyz_80
-  - vmess__s1.956256.xyz_80
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__gov.uk_443
-  - vmess_US_172.67.221.183_8080
-  - vmess__185.162.228.99_8080
-  - vmess__server20.beheshtbaneh.com_8880
-  - vmess__s6.956256.xyz_80
+  - vmess__www.darkroom.lol_8080
+  - vmess_US_104.21.61.214_8080
+  - vmess_US_45.65.8.4_443
+  - vmess__cf.openxai.link_8080
+  - vmess__45.144.2.113_80
+  - vmess__server2.beheshtbaneh.com_8880
+  - vmess__s4.956256.xyz_80
+  - vmess__172.67.212.114_8080
+  - vmess__172.67.166.190_8080
+  - vmess__bs2.loadingip.com_80
+  - vmess__104.21.23.176_8080
+  - vmess__141.148.193.95_80
   - vmess__ip.sb_80
-  - vmess__165.1.66.37_80
+  - vmess__gov.uk_443
+  - vmess__www.coldstone.club_8080
+  - vmess__202.78.162.5_443
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__104.24.208.37_80
+  - vmess__104.20.231.30_80
+  - vmess__172.67.221.183_8080
+  - vmess__91.242.229.69_2086
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -417,18 +516,27 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess_NL_91.242.229.77_80
-  - vmess_US_104.22.51.162_80
-  - vmess__s12.956256.xyz_80
-  - vmess__s1.956256.xyz_80
-  - vmess__www.blueberrywindow.online_8080
-  - vmess__gov.uk_443
-  - vmess_US_172.67.221.183_8080
-  - vmess__185.162.228.99_8080
-  - vmess__server20.beheshtbaneh.com_8880
-  - vmess__s6.956256.xyz_80
+  - vmess__www.darkroom.lol_8080
+  - vmess_US_104.21.61.214_8080
+  - vmess_US_45.65.8.4_443
+  - vmess__cf.openxai.link_8080
+  - vmess__45.144.2.113_80
+  - vmess__server2.beheshtbaneh.com_8880
+  - vmess__s4.956256.xyz_80
+  - vmess__172.67.212.114_8080
+  - vmess__172.67.166.190_8080
+  - vmess__bs2.loadingip.com_80
+  - vmess__104.21.23.176_8080
+  - vmess__141.148.193.95_80
   - vmess__ip.sb_80
-  - vmess__165.1.66.37_80
+  - vmess__gov.uk_443
+  - vmess__www.coldstone.club_8080
+  - vmess__202.78.162.5_443
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__104.24.208.37_80
+  - vmess__104.20.231.30_80
+  - vmess__172.67.221.183_8080
+  - vmess__91.242.229.69_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
