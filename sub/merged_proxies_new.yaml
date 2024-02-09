@@ -25,22 +25,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: tuic_US_dongtaiwang.com_1
-  type: tuic
-  server: 109.104.152.212
-  port: 33440
-  udp: true
-  uuid: 41b29997-f495-4957-845c-a3f0d421d9e0
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+- name: vless_cloudflare.cfgo.cc:2053
+  type: vless
+  server: cloudflare.cfgo.cc
+  port: 2053
+  uuid: 627016c6-a565-47f9-93cf-df937b38bbb7
+  tls: true
+  servername: 4.dtku43.xyz
+  network: ws
+  ws-opts:
+    path: /hcxiws
+    headers:
+      host: 4.dtku43.xyz
+  client-fingerprint: chrome
 - name: tuic_TW_dongtaiwang.com_1
   type: tuic
-  server: 111.243.69.34
+  server: 1.162.156.206
   port: 33098
   udp: true
   uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
@@ -51,12 +51,25 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: tuic_TW_dongtaiwang.com_1
+- name: vless_23.227.38.54:2096
+  type: vless
+  server: 23.227.38.54
+  port: 2096
+  uuid: e80e0204-ddf1-4f59-8e75-44ea502aabae
+  tls: true
+  servername: 2.dtku43.xyz
+  network: ws
+  ws-opts:
+    path: /mjyrws
+    headers:
+      host: 2.dtku43.xyz
+  client-fingerprint: chrome
+- name: tuic_US_dongtaiwang.com_1
   type: tuic
-  server: 111.243.69.34
-  port: 33098
+  server: 64.31.55.124
+  port: 44556
   udp: true
-  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+  uuid: a72c47f7-5d2d-4029-a5ca-997ac2d1c956
   password: dongtaiwang.com
   alpn:
   - h3
@@ -66,10 +79,10 @@ proxies:
   congestion-controller: bbr
 - name: tuic_US_dongtaiwang.com_1
   type: tuic
-  server: 108.181.5.18
-  port: 22889
+  server: 64.31.55.124
+  port: 44556
   udp: true
-  uuid: 5051cc18-0850-48fb-9036-0b4f9680571b
+  uuid: a72c47f7-5d2d-4029-a5ca-997ac2d1c956
   password: dongtaiwang.com
   alpn:
   - h3
@@ -79,23 +92,10 @@ proxies:
   congestion-controller: bbr
 - name: tuic_US_dongtaiwang.com_1
   type: tuic
-  server: 108.181.5.18
-  port: 22889
+  server: 64.31.55.124
+  port: 44556
   udp: true
-  uuid: 5051cc18-0850-48fb-9036-0b4f9680571b
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: tuic_US_dongtaiwang.com_1
-  type: tuic
-  server: 108.181.5.18
-  port: 22889
-  udp: true
-  uuid: 5051cc18-0850-48fb-9036-0b4f9680571b
+  uuid: a72c47f7-5d2d-4029-a5ca-997ac2d1c956
   password: dongtaiwang.com
   alpn:
   - h3
@@ -161,8 +161,8 @@ proxies:
 - name: hysteria_1
   type: hysteria
   server: 173.234.25.52
-  port: 30072
-  ports: 30072
+  port: 48919
+  ports: 48919
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -232,7 +232,7 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__104.17.123.55_8080
+- name: vmess_US_104.17.123.55_8080
   type: vmess
   server: 104.17.123.55
   port: 8080
@@ -242,7 +242,7 @@ proxies:
   flow: ''
   host: pq.kmoljklj.top
   path: /qZTtpya?ed=2048
-- name: vmess__91.242.229.69_2086
+- name: vmess_NL_91.242.229.69_2086
   type: vmess
   server: 91.242.229.69
   port: 2086
@@ -432,15 +432,75 @@ proxies:
   flow: ''
   host: www.crispyrainbow.online
   path: /
+- name: vmess__193.104.57.136_80
+  type: vmess
+  server: 193.104.57.136
+  port: 80
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__server26.beheshtbaneh.com_8880
+  type: vmess
+  server: server26.beheshtbaneh.com
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__103.214.68.57_10001
+  type: vmess
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__server20.beheshtbaneh.com_8880
+  type: vmess
+  server: server20.beheshtbaneh.com
+  port: 8880
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__183.232.170.22_30128
+  type: vmess
+  server: 183.232.170.22
+  port: 30128
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - tuic_US_dongtaiwang.com_1
+  - vless_cloudflare.cfgo.cc:2053
   - tuic_TW_dongtaiwang.com_1
-  - tuic_TW_dongtaiwang.com_1
+  - vless_23.227.38.54:2096
   - tuic_US_dongtaiwang.com_1
   - tuic_US_dongtaiwang.com_1
   - tuic_US_dongtaiwang.com_1
@@ -456,8 +516,8 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess__104.17.123.55_8080
-  - vmess__91.242.229.69_2086
+  - vmess_US_104.17.123.55_8080
+  - vmess_NL_91.242.229.69_2086
   - vmess__202.78.162.5_443
   - vmess__cf.openxai.link_8080
   - vmess__ffbf920.t2.gladns.com_3331
@@ -476,15 +536,21 @@ proxy-groups:
   - vmess__104.20.231.30_80
   - vmess__s8.956256.xyz_80
   - vmess__172.67.166.190_8080
+  - vmess__193.104.57.136_80
+  - vmess__server26.beheshtbaneh.com_8880
+  - vmess__103.214.68.57_10001
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__183.232.170.22_30128
+  - vmess__www.darkroom.lol_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - tuic_US_dongtaiwang.com_1
+  - vless_cloudflare.cfgo.cc:2053
   - tuic_TW_dongtaiwang.com_1
-  - tuic_TW_dongtaiwang.com_1
+  - vless_23.227.38.54:2096
   - tuic_US_dongtaiwang.com_1
   - tuic_US_dongtaiwang.com_1
   - tuic_US_dongtaiwang.com_1
@@ -500,8 +566,8 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess__104.17.123.55_8080
-  - vmess__91.242.229.69_2086
+  - vmess_US_104.17.123.55_8080
+  - vmess_NL_91.242.229.69_2086
   - vmess__202.78.162.5_443
   - vmess__cf.openxai.link_8080
   - vmess__ffbf920.t2.gladns.com_3331
@@ -520,6 +586,12 @@ proxy-groups:
   - vmess__104.20.231.30_80
   - vmess__s8.956256.xyz_80
   - vmess__172.67.166.190_8080
+  - vmess__193.104.57.136_80
+  - vmess__server26.beheshtbaneh.com_8880
+  - vmess__103.214.68.57_10001
+  - vmess__server20.beheshtbaneh.com_8880
+  - vmess__183.232.170.22_30128
+  - vmess__www.darkroom.lol_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
