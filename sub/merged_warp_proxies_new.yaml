@@ -43,109 +43,66 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: vmess_www.darkroom.lol:8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.darkroom.lol
-- name: vmess_172.67.221.183:8080
-  type: vmess
-  server: 172.67.221.183
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.blueberrywindow.online
-- name: ss_fast_2ray_telchannelll.fast2rayy.eu.org:443
-  type: ss
-  server: fast_2ray_telchannelll.fast2rayy.eu.org
-  port: 443
-  password: Bog0ELmMM9DSxDdQ
-  cipher: chacha20-ietf-poly1305
-- name: vmess_104.21.82.183:8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  cipher: auto
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: server26.beheshtbaneh.com
-- name: tuic_US_dongtaiwang.com_5
-  type: tuic
-  server: 64.31.55.216
-  port: 56789
-  udp: true
-  uuid: 9a661a16-675c-4451-ba20-cde666de44ae
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: ss_jseyu.arvancode.eu.org:443
-  type: ss
-  server: jseyu.arvancode.eu.org
-  port: 443
-  password: Bog0ELmMM9DSxDdQ
-  cipher: chacha20-ietf-poly1305
-- name: ss_yd.qianggewangluo.buzz:10818
-  type: ss
-  server: yd.qianggewangluo.buzz
-  port: 10818
-  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
-  cipher: chacha20-ietf-poly1305
-- name: ss_foshan.chiguayun.shop:27105
+- name: ss_foshan.chiguayun.shop:27103
   type: ss
   server: foshan.chiguayun.shop
+  port: 27103
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10809
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10809
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10813
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10813
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10815
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10815
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10803
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10803
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_hefei.chiguayun.shop:27101
+  type: ss
+  server: hefei.chiguayun.shop
+  port: 27101
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10817
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10817
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_hefei.chiguayun.shop:27105
+  type: ss
+  server: hefei.chiguayun.shop
   port: 27105
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_foshan.chiguayun.shop:27108
+- name: ss_uydyfkghjrtcsdx.youcansee.cyou:20167
   type: ss
-  server: foshan.chiguayun.shop
-  port: 27108
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  server: uydyfkghjrtcsdx.youcansee.cyou
+  port: 20167
+  password: ca7e0c98-136d-472c-927b-b56bcba722e3
   cipher: chacha20-ietf-poly1305
-- name: vmess_www.darkroom.lol:8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.darkroom.lol
+- name: ss_zhejiang.52vpn.top:32143
+  type: ss
+  server: zhejiang.52vpn.top
+  port: 32143
+  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
+  cipher: chacha20-ietf-poly1305
 - name: vmess_data-us-v1.shwjfkw.cn:20401
   type: vmess
   server: data-us-v1.shwjfkw.cn
@@ -187,6 +144,48 @@ proxies:
   server: service.ouluyun9803.com
   port: 20005
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
+- name: vmess_172.67.221.183:8080
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.blueberrywindow.online
+- name: vmess_104.21.82.183:8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: ss_foshan.chiguayun.shop:27105
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27105
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27108
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27108
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
 - name: ss_yd.qianggewangluo.buzz:10808
   type: ss
@@ -206,33 +205,108 @@ proxies:
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_series-a2.samanehha.co:443
+- name: vmess_data-us-v1.shwjfkw.cn:20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  cipher: auto
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /debian
+    headers:
+      host: data-us-v1.shwjfkw.cn
+- name: ss_service.ouluyun9803.com:20003
   type: ss
-  server: series-a2.samanehha.co
-  port: 443
-  password: mps3FwmDjLrWaOVg
+  server: service.ouluyun9803.com
+  port: 20003
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   cipher: chacha20-ietf-poly1305
-- name: ss_foshan.chiguayun.shop:27103
+- name: vmess_104.21.82.183:8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: ss_service.ouluyun9803.com:20005
+  type: ss
+  server: service.ouluyun9803.com
+  port: 20005
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
+- name: vmess_172.67.221.183:8080
+  type: vmess
+  server: 172.67.221.183
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: www.blueberrywindow.online
+- name: vmess_104.21.82.183:8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: ss_foshan.chiguayun.shop:27105
   type: ss
   server: foshan.chiguayun.shop
-  port: 27103
+  port: 27105
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: vmess_www.darkroom.lol:8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  cipher: auto
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: www.darkroom.lol
+- name: ss_foshan.chiguayun.shop:27108
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27108
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10808
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10808
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27104
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27104
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27102
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27102
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
 - name: vmess_data-us-v1.shwjfkw.cn:20401
   type: vmess
   server: data-us-v1.shwjfkw.cn
@@ -275,33 +349,9 @@ proxies:
   port: 20005
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.161:12345
-  type: ss
-  server: 109.104.152.161
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.33:12345
-  type: ss
-  server: 109.104.152.33
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_64.31.55.124:12345
-  type: ss
-  server: 64.31.55.124
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_111.243.98.243:12345
-  type: ss
-  server: 111.243.98.243
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: vmess_www.darkroom.lol:8080
+- name: vmess_172.67.221.183:8080
   type: vmess
-  server: www.darkroom.lol
+  server: 172.67.221.183
   port: 8080
   cipher: auto
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -313,7 +363,52 @@ proxies:
   ws-opts:
     path: /
     headers:
-      host: www.darkroom.lol
+      host: www.blueberrywindow.online
+- name: vmess_104.21.82.183:8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: ss_foshan.chiguayun.shop:27105
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27105
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27108
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27108
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_yd.qianggewangluo.buzz:10808
+  type: ss
+  server: yd.qianggewangluo.buzz
+  port: 10808
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27104
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27104
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: ss_foshan.chiguayun.shop:27102
+  type: ss
+  server: foshan.chiguayun.shop
+  port: 27102
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
 - name: vmess_data-us-v1.shwjfkw.cn:20401
   type: vmess
   server: data-us-v1.shwjfkw.cn
@@ -356,33 +451,9 @@ proxies:
   port: 20005
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.161:12345
-  type: ss
-  server: 109.104.152.161
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.33:12345
-  type: ss
-  server: 109.104.152.33
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_64.31.55.124:12345
-  type: ss
-  server: 64.31.55.124
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_111.243.98.243:12345
-  type: ss
-  server: 111.243.98.243
-  port: 12345
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: vmess_www.darkroom.lol:8080
+- name: vmess_172.67.221.183:8080
   type: vmess
-  server: www.darkroom.lol
+  server: 172.67.221.183
   port: 8080
   cipher: auto
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -394,28 +465,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      host: www.darkroom.lol
-- name: vmess_data-us-v1.shwjfkw.cn:20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  cipher: auto
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /debian
-    headers:
-      host: data-us-v1.shwjfkw.cn
-- name: ss_service.ouluyun9803.com:20003
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20003
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
+      host: www.blueberrywindow.online
 - name: vmess_104.21.82.183:8880
   type: vmess
   server: 104.21.82.183
@@ -431,35 +481,35 @@ proxies:
     path: /
     headers:
       host: server26.beheshtbaneh.com
-- name: ss_service.ouluyun9803.com:20005
+- name: ss_foshan.chiguayun.shop:27105
   type: ss
-  server: service.ouluyun9803.com
-  port: 20005
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  server: foshan.chiguayun.shop
+  port: 27105
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.161:12345
+- name: ss_foshan.chiguayun.shop:27108
   type: ss
-  server: 109.104.152.161
-  port: 12345
-  password: dongtaiwang.com
+  server: foshan.chiguayun.shop
+  port: 27108
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.33:12345
+- name: ss_yd.qianggewangluo.buzz:10808
   type: ss
-  server: 109.104.152.33
-  port: 12345
-  password: dongtaiwang.com
+  server: yd.qianggewangluo.buzz
+  port: 10808
+  password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: ss_64.31.55.124:12345
+- name: ss_foshan.chiguayun.shop:27104
   type: ss
-  server: 64.31.55.124
-  port: 12345
-  password: dongtaiwang.com
+  server: foshan.chiguayun.shop
+  port: 27104
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_111.243.98.243:12345
+- name: ss_foshan.chiguayun.shop:27102
   type: ss
-  server: 111.243.98.243
-  port: 12345
-  password: dongtaiwang.com
+  server: foshan.chiguayun.shop
+  port: 27102
+  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
 - name: vless_198.41.193.226:443
   type: vless
@@ -2234,16 +2284,36 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_162.159.137.28_8080
+- name: vmess_US_104.21.82.183_8880
   type: vmess
-  server: 162.159.137.28
-  port: 8080
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   network: ws
   tls: none
   flow: ''
-  host: eu4.openxai.link
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess_US_104.22.51.162_80
+  type: vmess
+  server: 104.22.51.162
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
   path: /?ed=2048
+- name: vmess_US_108.186.196.170_37000
+  type: vmess
+  server: 108.186.196.170
+  port: 37000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.86222404.xyz
+  path: /path/1707385668735
 - name: vmess_GB_202.78.162.5_443
   type: vmess
   server: 202.78.162.5
@@ -2254,65 +2324,125 @@ proxies:
   flow: ''
   host: pendar.onthewifi.com
   path: /@forwardv2ray
-- name: vmess__gov.uk_443
+- name: vmess_NL_91.242.229.69_2086
   type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  server: 91.242.229.69
+  port: 2086
+  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
   network: ws
-  tls: tls
-  flow: ''
-  host: zheshiscp.com
-  path: /77848824
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  network: ws
-  tls: none
-  flow: ''
-  host: eu2.openxai.link
-  path: /?ed=2048
-- name: vmess_CN_183.232.170.22_30128
-  type: vmess
-  server: 183.232.170.22
-  port: 30128
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: ''
-- name: vmess__fastly.alipay.ovh_80
+  path: /vmess
+- name: vmess_US_108.186.164.74_37000
   type: vmess
-  server: fastly.alipay.ovh
+  server: 108.186.164.74
+  port: 37000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.98382183.xyz
+  path: /path/1707385668735
+- name: vmess__yhnsb3.shabijichang.com_80
+  type: vmess
+  server: yhnsb3.shabijichang.com
   port: 80
-  uuid: 97d5d17f-1a55-4074-8207-192873e362ed
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   network: ws
   tls: none
   flow: ''
-  host: beeline.ru
-  path: /aries?ed=2048
-- name: vmess_US_104.17.123.55_8080
+  host: ''
+  path: /
+- name: vmess__server32.beheshtbaneh.com_8880
   type: vmess
-  server: 104.17.123.55
-  port: 8080
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
-  network: ws
-  tls: none
-  flow: ''
-  host: pq.kmoljklj.top
-  path: /qZTtpya?ed=2048
-- name: vmess__server31.beheshtbaneh.com_8880
-  type: vmess
-  server: server31.beheshtbaneh.com
+  server: server32.beheshtbaneh.com
   port: 8880
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   network: ws
   tls: none
   flow: ''
-  host: server31.beheshtbaneh.com
+  host: server32.beheshtbaneh.com
+  path: /
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__38.12.82.100_37000
+  type: vmess
+  server: 38.12.82.100
+  port: 37000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.65825524.xyz
+  path: /path/1707212417349
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
+- name: vmess__au-melbourne-oracle-abfdf2.ip1.shop_63503
+  type: vmess
+  server: au-melbourne-oracle-abfdf2.ip1.shop
+  port: 63503
+  uuid: ed4d8827-4d5a-4c05-a577-c66d6a2fc1e6
+  network: ws
+  tls: none
+  flow: ''
+  host: au-melbourne-oracle-abfdf2.ip1.shop
+  path: /
+- name: vmess__ip.sb_80
+  type: vmess
+  server: ip.sb
+  port: 80
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  network: ws
+  tls: none
+  flow: ''
+  host: kr1.ljyyds.top
+  path: /
+- name: vmess__188.114.96.11_80
+  type: vmess
+  server: 188.114.96.11
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__104.19.249.22_80
+  type: vmess
+  server: 104.19.249.22
+  port: 80
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  network: ws
+  tls: none
+  flow: ''
+  host: GWYp69Yujp2.yofnhkfc.xyz
+  path: /video/VDXcaM7r
+- name: vmess__server28.beheshtbaneh.com_8880
+  type: vmess
+  server: server28.beheshtbaneh.com
+  port: 8880
+  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
   path: /
 - name: vmess__hytron.io_8080
   type: vmess
@@ -2334,146 +2464,6 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__172.67.217.144_80
-  type: vmess
-  server: 172.67.217.144
-  port: 80
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  network: ws
-  tls: none
-  flow: ''
-  host: lv1.xv2ray.net
-  path: /
-- name: vmess__rl1.269999.xyz_27102
-  type: vmess
-  server: rl1.269999.xyz
-  port: 27102
-  uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65
-  network: ws
-  tls: tls
-  flow: ''
-  host: rl1.269999.xyz
-  path: /
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__au-melbourne-oracle-abfdf2.ip1.shop_63503
-  type: vmess
-  server: au-melbourne-oracle-abfdf2.ip1.shop
-  port: 63503
-  uuid: ed4d8827-4d5a-4c05-a577-c66d6a2fc1e6
-  network: ws
-  tls: none
-  flow: ''
-  host: au-melbourne-oracle-abfdf2.ip1.shop
-  path: /
-- name: vmess__91.242.229.69_2086
-  type: vmess
-  server: 91.242.229.69
-  port: 2086
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
-  network: ws
-  tls: none
-  flow: ''
-  host: nl1.xv2ray.net
-  path: /vmess
-- name: vmess__151.101.131.10_80
-  type: vmess
-  server: 151.101.131.10
-  port: 80
-  uuid: 97d5d17f-1a55-4074-8207-192873e362ed
-  network: ws
-  tls: none
-  flow: ''
-  host: beeline.ru
-  path: /aries?ed=2048
-- name: vmess__193.104.57.136_80
-  type: vmess
-  server: 193.104.57.136
-  port: 80
-  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__103.214.68.57_10001
-  type: vmess
-  server: 103.214.68.57
-  port: 10001
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__www.greendam.site_80
-  type: vmess
-  server: www.greendam.site
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__104.24.208.37_80
-  type: vmess
-  server: 104.24.208.37
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__104.17.25.1_80
-  type: vmess
-  server: 104.17.25.1
-  port: 80
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
-  network: ws
-  tls: none
-  flow: ''
-  host: kr1.ljyyds.top
-  path: /
-- name: vmess__server26.beheshtbaneh.com_8880
-  type: vmess
-  server: server26.beheshtbaneh.com
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2495,52 +2485,60 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - vmess_www.darkroom.lol:8080
-  - vmess_172.67.221.183:8080
-  - ss_fast_2ray_telchannelll.fast2rayy.eu.org:443
-  - vmess_104.21.82.183:8880
-  - tuic_US_dongtaiwang.com_5
-  - ss_jseyu.arvancode.eu.org:443
-  - ss_yd.qianggewangluo.buzz:10818
-  - ss_foshan.chiguayun.shop:27105
-  - ss_foshan.chiguayun.shop:27108
-  - vmess_www.darkroom.lol:8080
+  - ss_foshan.chiguayun.shop:27103
+  - ss_yd.qianggewangluo.buzz:10809
+  - ss_yd.qianggewangluo.buzz:10813
+  - ss_yd.qianggewangluo.buzz:10815
+  - ss_yd.qianggewangluo.buzz:10803
+  - ss_hefei.chiguayun.shop:27101
+  - ss_yd.qianggewangluo.buzz:10817
+  - ss_hefei.chiguayun.shop:27105
+  - ss_uydyfkghjrtcsdx.youcansee.cyou:20167
+  - ss_zhejiang.52vpn.top:32143
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
-  - ss_series-a2.samanehha.co:443
-  - ss_foshan.chiguayun.shop:27103
-  - vmess_www.darkroom.lol:8080
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -2690,79 +2688,81 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess_US_162.159.137.28_8080
+  - vmess_US_104.21.82.183_8880
+  - vmess_US_104.22.51.162_80
+  - vmess_US_108.186.196.170_37000
   - vmess_GB_202.78.162.5_443
-  - vmess__gov.uk_443
-  - vmess__cf.openxai.link_8080
-  - vmess_CN_183.232.170.22_30128
-  - vmess__fastly.alipay.ovh_80
-  - vmess_US_104.17.123.55_8080
-  - vmess__server31.beheshtbaneh.com_8880
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__104.21.82.183_8880
-  - vmess__172.67.217.144_80
-  - vmess__rl1.269999.xyz_27102
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_108.186.164.74_37000
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__38.12.82.100_37000
   - vmess__www.darkroom.lol_8080
   - vmess__au-melbourne-oracle-abfdf2.ip1.shop_63503
-  - vmess__91.242.229.69_2086
-  - vmess__151.101.131.10_80
-  - vmess__193.104.57.136_80
-  - vmess__103.214.68.57_10001
-  - vmess__www.greendam.site_80
-  - vmess__104.24.208.37_80
-  - vmess__104.17.25.1_80
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__ip.sb_80
+  - vmess__188.114.96.11_80
+  - vmess__104.19.249.22_80
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
 - name: 手动选择
   type: select
   proxies:
-  - vmess_www.darkroom.lol:8080
-  - vmess_172.67.221.183:8080
-  - ss_fast_2ray_telchannelll.fast2rayy.eu.org:443
-  - vmess_104.21.82.183:8880
-  - tuic_US_dongtaiwang.com_5
-  - ss_jseyu.arvancode.eu.org:443
-  - ss_yd.qianggewangluo.buzz:10818
-  - ss_foshan.chiguayun.shop:27105
-  - ss_foshan.chiguayun.shop:27108
-  - vmess_www.darkroom.lol:8080
+  - ss_foshan.chiguayun.shop:27103
+  - ss_yd.qianggewangluo.buzz:10809
+  - ss_yd.qianggewangluo.buzz:10813
+  - ss_yd.qianggewangluo.buzz:10815
+  - ss_yd.qianggewangluo.buzz:10803
+  - ss_hefei.chiguayun.shop:27101
+  - ss_yd.qianggewangluo.buzz:10817
+  - ss_hefei.chiguayun.shop:27105
+  - ss_uydyfkghjrtcsdx.youcansee.cyou:20167
+  - ss_zhejiang.52vpn.top:32143
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
-  - ss_series-a2.samanehha.co:443
-  - ss_foshan.chiguayun.shop:27103
-  - vmess_www.darkroom.lol:8080
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -2912,79 +2912,81 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess_US_162.159.137.28_8080
+  - vmess_US_104.21.82.183_8880
+  - vmess_US_104.22.51.162_80
+  - vmess_US_108.186.196.170_37000
   - vmess_GB_202.78.162.5_443
-  - vmess__gov.uk_443
-  - vmess__cf.openxai.link_8080
-  - vmess_CN_183.232.170.22_30128
-  - vmess__fastly.alipay.ovh_80
-  - vmess_US_104.17.123.55_8080
-  - vmess__server31.beheshtbaneh.com_8880
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__104.21.82.183_8880
-  - vmess__172.67.217.144_80
-  - vmess__rl1.269999.xyz_27102
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_108.186.164.74_37000
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__38.12.82.100_37000
   - vmess__www.darkroom.lol_8080
   - vmess__au-melbourne-oracle-abfdf2.ip1.shop_63503
-  - vmess__91.242.229.69_2086
-  - vmess__151.101.131.10_80
-  - vmess__193.104.57.136_80
-  - vmess__103.214.68.57_10001
-  - vmess__www.greendam.site_80
-  - vmess__104.24.208.37_80
-  - vmess__104.17.25.1_80
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__ip.sb_80
+  - vmess__188.114.96.11_80
+  - vmess__104.19.249.22_80
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
 - name: 负载均衡
   type: load-balance
   proxies:
-  - vmess_www.darkroom.lol:8080
-  - vmess_172.67.221.183:8080
-  - ss_fast_2ray_telchannelll.fast2rayy.eu.org:443
-  - vmess_104.21.82.183:8880
-  - tuic_US_dongtaiwang.com_5
-  - ss_jseyu.arvancode.eu.org:443
-  - ss_yd.qianggewangluo.buzz:10818
-  - ss_foshan.chiguayun.shop:27105
-  - ss_foshan.chiguayun.shop:27108
-  - vmess_www.darkroom.lol:8080
+  - ss_foshan.chiguayun.shop:27103
+  - ss_yd.qianggewangluo.buzz:10809
+  - ss_yd.qianggewangluo.buzz:10813
+  - ss_yd.qianggewangluo.buzz:10815
+  - ss_yd.qianggewangluo.buzz:10803
+  - ss_hefei.chiguayun.shop:27101
+  - ss_yd.qianggewangluo.buzz:10817
+  - ss_hefei.chiguayun.shop:27105
+  - ss_uydyfkghjrtcsdx.youcansee.cyou:20167
+  - ss_zhejiang.52vpn.top:32143
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
-  - ss_series-a2.samanehha.co:443
-  - ss_foshan.chiguayun.shop:27103
-  - vmess_www.darkroom.lol:8080
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
-  - vmess_www.darkroom.lol:8080
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vmess_data-us-v1.shwjfkw.cn:20401
   - ss_service.ouluyun9803.com:20003
   - vmess_104.21.82.183:8880
   - ss_service.ouluyun9803.com:20005
-  - ss_109.104.152.161:12345
-  - ss_109.104.152.33:12345
-  - ss_64.31.55.124:12345
-  - ss_111.243.98.243:12345
+  - vmess_172.67.221.183:8080
+  - vmess_104.21.82.183:8880
+  - ss_foshan.chiguayun.shop:27105
+  - ss_foshan.chiguayun.shop:27108
+  - ss_yd.qianggewangluo.buzz:10808
+  - ss_foshan.chiguayun.shop:27104
+  - ss_foshan.chiguayun.shop:27102
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -3134,30 +3136,24 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_US_108.181.24.77:43656
-  - vmess_US_162.159.137.28_8080
+  - vmess_US_104.21.82.183_8880
+  - vmess_US_104.22.51.162_80
+  - vmess_US_108.186.196.170_37000
   - vmess_GB_202.78.162.5_443
-  - vmess__gov.uk_443
-  - vmess__cf.openxai.link_8080
-  - vmess_CN_183.232.170.22_30128
-  - vmess__fastly.alipay.ovh_80
-  - vmess_US_104.17.123.55_8080
-  - vmess__server31.beheshtbaneh.com_8880
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__104.21.82.183_8880
-  - vmess__172.67.217.144_80
-  - vmess__rl1.269999.xyz_27102
+  - vmess_NL_91.242.229.69_2086
+  - vmess_US_108.186.164.74_37000
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__38.12.82.100_37000
   - vmess__www.darkroom.lol_8080
   - vmess__au-melbourne-oracle-abfdf2.ip1.shop_63503
-  - vmess__91.242.229.69_2086
-  - vmess__151.101.131.10_80
-  - vmess__193.104.57.136_80
-  - vmess__103.214.68.57_10001
-  - vmess__www.greendam.site_80
-  - vmess__104.24.208.37_80
-  - vmess__104.17.25.1_80
-  - vmess__server26.beheshtbaneh.com_8880
-  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__ip.sb_80
+  - vmess__188.114.96.11_80
+  - vmess__104.19.249.22_80
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
