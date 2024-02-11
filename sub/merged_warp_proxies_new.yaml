@@ -43,17 +43,18 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
+- name: vless_108.181.5.18:22222
+  type: vless
+  server: 108.181.5.18
+  port: 22222
+  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
+  tls: false
+  network: tcp
 - name: ss_109.104.152.144:111
   type: ss
   server: 109.104.152.144
   port: 111
   password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
-- name: ss_foshan.chiguayun.shop:27103
-  type: ss
-  server: foshan.chiguayun.shop
-  port: 27103
-  password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
 - name: ss_yd.qianggewangluo.buzz:10809
   type: ss
@@ -217,10 +218,10 @@ proxies:
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.144:111
+- name: ss_www.dtku40.xyz:22222
   type: ss
-  server: 109.104.152.144
-  port: 111
+  server: www.dtku40.xyz
+  port: 22222
   password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
 - name: ss_109.104.152.144:111
@@ -229,12 +230,20 @@ proxies:
   port: 111
   password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
-- name: ss_109.104.152.144:111
-  type: ss
-  server: 109.104.152.144
-  port: 111
-  password: dongtaiwang.com
-  cipher: chacha20-ietf-poly1305
+- name: vless_109.104.152.101:11111
+  type: vless
+  server: 109.104.152.101
+  port: 11111
+  udp: true
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  tls: true
+  servername: m.media-amazon.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: vless_198.41.193.226:443
   type: vless
   server: 198.41.193.226
@@ -2067,7 +2076,7 @@ proxies:
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__38.11.206.253_37000
+- name: vmess_US_38.11.206.253_37000
   type: vmess
   server: 38.11.206.253
   port: 37000
@@ -2077,7 +2086,7 @@ proxies:
   flow: ''
   host: www.43444988.xyz
   path: /path/1707385668735
-- name: vmess__104.20.231.30_80
+- name: vmess_US_104.20.231.30_80
   type: vmess
   server: 104.20.231.30
   port: 80
@@ -2167,46 +2176,26 @@ proxies:
   flow: ''
   host: my1.tooters.ir
   path: /?ed=2048
-- name: vmess__2h4u04.abzoones.xyz_36864
+- name: vmess__104.19.249.22_80
   type: vmess
-  server: 2h4u04.abzoones.xyz
-  port: 36864
-  uuid: 6d08a9a6-aab3-4794-958e-58b0edd5bcfd
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__mci--join.outline-vpn.cloud_80
-  type: vmess
-  server: mci--join.outline-vpn.cloud
+  server: 104.19.249.22
   port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__8u9a04.abzoones.xyz_36871
-  type: vmess
-  server: 8u9a04.abzoones.xyz
-  port: 36871
-  uuid: 6d08a9a6-aab3-4794-958e-58b0edd5bcfd
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.16.57.82_2086
-  type: vmess
-  server: 104.16.57.82
-  port: 2086
   uuid: 851278d6-8c0b-4147-8939-89cface46627
   network: ws
   tls: none
   flow: ''
-  host: us77SmSk86j.fzbqfrse.xyz
-  path: /video/Z7qdcrAGRw
+  host: GWYp69Yujp2.yofnhkfc.xyz
+  path: /video/VDXcaM7r
+- name: vmess__rl1.269999.xyz_27102
+  type: vmess
+  server: rl1.269999.xyz
+  port: 27102
+  uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65
+  network: ws
+  tls: tls
+  flow: ''
+  host: rl1.269999.xyz
+  path: /
 - name: vmess__188.114.96.11_80
   type: vmess
   server: 188.114.96.11
@@ -2217,56 +2206,96 @@ proxies:
   flow: ''
   host: a.prapt5.ir
   path: /?ed=2048
-- name: vmess__2u3k04.abzoones.xyz_36811
+- name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
-  server: 2u3k04.abzoones.xyz
-  port: 36811
-  uuid: 6d08a9a6-aab3-4794-958e-58b0edd5bcfd
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__8r5u04.abzoones.xyz_36851
-  type: vmess
-  server: 8r5u04.abzoones.xyz
-  port: 36851
-  uuid: 6d08a9a6-aab3-4794-958e-58b0edd5bcfd
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__172.67.171.177_8080
-  type: vmess
-  server: 172.67.171.177
-  port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   network: ws
   tls: none
   flow: ''
-  host: eu3.openxai.link
-  path: /?ed=2048
-- name: vmess__ru01.333210.xyz_80
+  host: ''
+  path: /debian
+- name: vmess__162.159.5.6_80
   type: vmess
-  server: ru01.333210.xyz
+  server: 162.159.5.6
   port: 80
-  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
-  network: tcp
-  tls: tls
+  uuid: 845d3e81-1f2c-4d21-c1ce-21d48dcb6e50
+  network: ws
+  tls: none
+  flow: ''
+  host: newtest.alipay.ovh
+  path: /test?ed=2048
+- name: vmess__104.18.202.250_2082
+  type: vmess
+  server: 104.18.202.250
+  port: 2082
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: none
+  flow: ''
+  host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  path: /nina.bond/linkvws
+- name: vmess__server28.beheshtbaneh.com_8880
+  type: vmess
+  server: server28.beheshtbaneh.com
+  port: 8880
+  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
+  network: ws
+  tls: none
   flow: ''
   host: ''
-  path: ''
-- name: vmess__108.186.196.170_37000
+  path: /
+- name: vmess__cf.openxai.link_8080
   type: vmess
-  server: 108.186.196.170
-  port: 37000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   network: ws
-  tls: tls
+  tls: none
   flow: ''
-  host: www.86222404.xyz
-  path: /path/1707385668735
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__36.139.239.162_12001
+  type: vmess
+  server: 36.139.239.162
+  port: 12001
+  uuid: a7c50999-a3f9-3f98-b767-1de7572f27be
+  network: ws
+  tls: none
+  flow: ''
+  host: dnspsdhaitun.ncsuwei.top
+  path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
+- name: vmess__for-irancell.outline-vpn.cloud_80
+  type: vmess
+  server: for-irancell.outline-vpn.cloud
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__104.18.15.150_80
+  type: vmess
+  server: 104.18.15.150
+  port: 80
+  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.889611.com
+  path: /
+- name: vmess__104.16.57.82_2086
+  type: vmess
+  server: 104.16.57.82
+  port: 2086
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  network: ws
+  tls: none
+  flow: ''
+  host: us77SmSk86j.fzbqfrse.xyz
+  path: /video/Z7qdcrAGRw
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2288,8 +2317,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - vless_108.181.5.18:22222
   - ss_109.104.152.144:111
-  - ss_foshan.chiguayun.shop:27103
   - ss_yd.qianggewangluo.buzz:10809
   - ss_yd.qianggewangluo.buzz:10813
   - ss_yd.qianggewangluo.buzz:10815
@@ -2311,9 +2340,9 @@ proxy-groups:
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
+  - ss_www.dtku40.xyz:22222
   - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
+  - vless_109.104.152.101:11111
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -2469,8 +2498,8 @@ proxy-groups:
   - vmess_NL_46.182.107.16_41001
   - vmess__server32.beheshtbaneh.com_8880
   - vmess_NL_91.242.229.69_2086
-  - vmess__38.11.206.253_37000
-  - vmess__104.20.231.30_80
+  - vmess_US_38.11.206.253_37000
+  - vmess_US_104.20.231.30_80
   - vmess__154.85.0.5_41000
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__108.162.198.252_80
@@ -2479,21 +2508,23 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.22.51.162_80
-  - vmess__2h4u04.abzoones.xyz_36864
-  - vmess__mci--join.outline-vpn.cloud_80
-  - vmess__8u9a04.abzoones.xyz_36871
-  - vmess__104.16.57.82_2086
+  - vmess__104.19.249.22_80
+  - vmess__rl1.269999.xyz_27102
   - vmess__188.114.96.11_80
-  - vmess__2u3k04.abzoones.xyz_36811
-  - vmess__8r5u04.abzoones.xyz_36851
-  - vmess__172.67.171.177_8080
-  - vmess__ru01.333210.xyz_80
-  - vmess__108.186.196.170_37000
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__162.159.5.6_80
+  - vmess__104.18.202.250_2082
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__36.139.239.162_12001
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__104.18.15.150_80
+  - vmess__104.16.57.82_2086
 - name: 手动选择
   type: select
   proxies:
+  - vless_108.181.5.18:22222
   - ss_109.104.152.144:111
-  - ss_foshan.chiguayun.shop:27103
   - ss_yd.qianggewangluo.buzz:10809
   - ss_yd.qianggewangluo.buzz:10813
   - ss_yd.qianggewangluo.buzz:10815
@@ -2515,9 +2546,9 @@ proxy-groups:
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
+  - ss_www.dtku40.xyz:22222
   - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
+  - vless_109.104.152.101:11111
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -2673,8 +2704,8 @@ proxy-groups:
   - vmess_NL_46.182.107.16_41001
   - vmess__server32.beheshtbaneh.com_8880
   - vmess_NL_91.242.229.69_2086
-  - vmess__38.11.206.253_37000
-  - vmess__104.20.231.30_80
+  - vmess_US_38.11.206.253_37000
+  - vmess_US_104.20.231.30_80
   - vmess__154.85.0.5_41000
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__108.162.198.252_80
@@ -2683,21 +2714,23 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.22.51.162_80
-  - vmess__2h4u04.abzoones.xyz_36864
-  - vmess__mci--join.outline-vpn.cloud_80
-  - vmess__8u9a04.abzoones.xyz_36871
-  - vmess__104.16.57.82_2086
+  - vmess__104.19.249.22_80
+  - vmess__rl1.269999.xyz_27102
   - vmess__188.114.96.11_80
-  - vmess__2u3k04.abzoones.xyz_36811
-  - vmess__8r5u04.abzoones.xyz_36851
-  - vmess__172.67.171.177_8080
-  - vmess__ru01.333210.xyz_80
-  - vmess__108.186.196.170_37000
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__162.159.5.6_80
+  - vmess__104.18.202.250_2082
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__36.139.239.162_12001
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__104.18.15.150_80
+  - vmess__104.16.57.82_2086
 - name: 负载均衡
   type: load-balance
   proxies:
+  - vless_108.181.5.18:22222
   - ss_109.104.152.144:111
-  - ss_foshan.chiguayun.shop:27103
   - ss_yd.qianggewangluo.buzz:10809
   - ss_yd.qianggewangluo.buzz:10813
   - ss_yd.qianggewangluo.buzz:10815
@@ -2719,9 +2752,9 @@ proxy-groups:
   - ss_yd.qianggewangluo.buzz:10808
   - ss_foshan.chiguayun.shop:27104
   - ss_foshan.chiguayun.shop:27102
+  - ss_www.dtku40.xyz:22222
   - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
-  - ss_109.104.152.144:111
+  - vless_109.104.152.101:11111
   - vless_198.41.193.226:443
   - vless_104.27.97.91:443
   - vless_108.162.196.107:443
@@ -2877,8 +2910,8 @@ proxy-groups:
   - vmess_NL_46.182.107.16_41001
   - vmess__server32.beheshtbaneh.com_8880
   - vmess_NL_91.242.229.69_2086
-  - vmess__38.11.206.253_37000
-  - vmess__104.20.231.30_80
+  - vmess_US_38.11.206.253_37000
+  - vmess_US_104.20.231.30_80
   - vmess__154.85.0.5_41000
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__108.162.198.252_80
@@ -2887,16 +2920,18 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.22.51.162_80
-  - vmess__2h4u04.abzoones.xyz_36864
-  - vmess__mci--join.outline-vpn.cloud_80
-  - vmess__8u9a04.abzoones.xyz_36871
-  - vmess__104.16.57.82_2086
+  - vmess__104.19.249.22_80
+  - vmess__rl1.269999.xyz_27102
   - vmess__188.114.96.11_80
-  - vmess__2u3k04.abzoones.xyz_36811
-  - vmess__8r5u04.abzoones.xyz_36851
-  - vmess__172.67.171.177_8080
-  - vmess__ru01.333210.xyz_80
-  - vmess__108.186.196.170_37000
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__162.159.5.6_80
+  - vmess__104.18.202.250_2082
+  - vmess__server28.beheshtbaneh.com_8880
+  - vmess__cf.openxai.link_8080
+  - vmess__36.139.239.162_12001
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__104.18.15.150_80
+  - vmess__104.16.57.82_2086
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
