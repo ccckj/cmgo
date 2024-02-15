@@ -2099,6 +2099,166 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
+- name: vmess__server32.beheshtbaneh.com_8880
+  type: vmess
+  server: server32.beheshtbaneh.com
+  port: 8880
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  network: ws
+  tls: none
+  flow: ''
+  host: server32.beheshtbaneh.com
+  path: /
+- name: vmess__104.18.15.150_80
+  type: vmess
+  server: 104.18.15.150
+  port: 80
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.889611.com
+  path: /
+- name: vmess__for-irancell.outline-vpn.cloud_80
+  type: vmess
+  server: for-irancell.outline-vpn.cloud
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__144.126.145.219_80
+  type: vmess
+  server: 144.126.145.219
+  port: 80
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  network: ws
+  tls: none
+  flow: ''
+  host: internet.life.com.by
+  path: /v118-fccxmxm35
+- name: vmess__104.18.15.149_80
+  type: vmess
+  server: 104.18.15.149
+  port: 80
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  network: ws
+  tls: none
+  flow: ''
+  host: tr3.889611.com
+  path: /
+- name: vmess__162.159.200.7_80
+  type: vmess
+  server: 162.159.200.7
+  port: 80
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  network: ws
+  tls: none
+  flow: ''
+  host: er3.visaapp.top
+  path: /
+- name: vmess__206.238.236.36_2086
+  type: vmess
+  server: 206.238.236.36
+  port: 2086
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  network: ws
+  tls: none
+  flow: ''
+  host: mysan2.jaquay22.workers.dev
+  path: /adenc35.fixedlfoat.top/linkws
+- name: vmess__47.245.40.161_80
+  type: vmess
+  server: 47.245.40.161
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__104.233.161.235_443
+  type: vmess
+  server: 104.233.161.235
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.18049067.xyz
+  path: /path/340323081726
+- name: vmess__94.131.8.32_8880
+  type: vmess
+  server: 94.131.8.32
+  port: 8880
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__188.114.96.11_80
+  type: vmess
+  server: 188.114.96.11
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__162.159.200.3_80
+  type: vmess
+  server: 162.159.200.3
+  port: 80
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  network: ws
+  tls: none
+  flow: ''
+  host: ca3.visaapp.top
+  path: /
+- name: vmess__131.186.63.127_80
+  type: vmess
+  server: 131.186.63.127
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  network: ws
+  tls: tls
+  flow: ''
+  host: pendar.onthewifi.com
+  path: /@forwardv2ray
+- name: vmess__104.21.73.14_8880
+  type: vmess
+  server: 104.21.73.14
+  port: 8880
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  network: ws
+  tls: none
+  flow: ''
+  host: yaghoob55freenodes.repaco69437403.workers.dev
+  path: /adenc35.fixedlfoat.top/linkws
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2296,6 +2456,22 @@ proxy-groups:
   - vmess__ip.sb_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__www.darkroom.lol_8080
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__104.18.15.150_80
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__144.126.145.219_80
+  - vmess__104.18.15.149_80
+  - vmess__162.159.200.7_80
+  - vmess__206.238.236.36_2086
+  - vmess__47.245.40.161_80
+  - vmess__104.233.161.235_443
+  - vmess__94.131.8.32_8880
+  - vmess__104.21.82.183_8880
+  - vmess__188.114.96.11_80
+  - vmess__162.159.200.3_80
+  - vmess__131.186.63.127_80
+  - vmess__202.78.162.5_443
+  - vmess__104.21.73.14_8880
 - name: 手动选择
   type: select
   proxies:
@@ -2475,6 +2651,22 @@ proxy-groups:
   - vmess__ip.sb_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__www.darkroom.lol_8080
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__104.18.15.150_80
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__144.126.145.219_80
+  - vmess__104.18.15.149_80
+  - vmess__162.159.200.7_80
+  - vmess__206.238.236.36_2086
+  - vmess__47.245.40.161_80
+  - vmess__104.233.161.235_443
+  - vmess__94.131.8.32_8880
+  - vmess__104.21.82.183_8880
+  - vmess__188.114.96.11_80
+  - vmess__162.159.200.3_80
+  - vmess__131.186.63.127_80
+  - vmess__202.78.162.5_443
+  - vmess__104.21.73.14_8880
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2654,6 +2846,22 @@ proxy-groups:
   - vmess__ip.sb_80
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__www.darkroom.lol_8080
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__104.18.15.150_80
+  - vmess__for-irancell.outline-vpn.cloud_80
+  - vmess__144.126.145.219_80
+  - vmess__104.18.15.149_80
+  - vmess__162.159.200.7_80
+  - vmess__206.238.236.36_2086
+  - vmess__47.245.40.161_80
+  - vmess__104.233.161.235_443
+  - vmess__94.131.8.32_8880
+  - vmess__104.21.82.183_8880
+  - vmess__188.114.96.11_80
+  - vmess__162.159.200.3_80
+  - vmess__131.186.63.127_80
+  - vmess__202.78.162.5_443
+  - vmess__104.21.73.14_8880
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
