@@ -1901,69 +1901,49 @@ proxies:
   flow: ''
   host: ''
   path: /S0eMfLns/
-- name: vmess_JP_47.91.31.231_80
+- name: vmess_VN_103.252.94.224_80
   type: vmess
-  server: 47.91.31.231
+  server: 103.252.94.224
   port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
   network: ws
   tls: none
   flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess_JP_43.153.181.217_80
+  host: bs2.loadingip.com
+  path: /bs
+- name: vmess_US_104.21.1.28_8880
   type: vmess
-  server: 43.153.181.217
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  server: 104.21.1.28
+  port: 8880
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   network: ws
   tls: none
   flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess_JP_150.230.201.63_80
+  host: us-ccs.yuji2022.eu.org
+  path: /XSjeg73o6ZdsheahCb5JG
+- name: vmess__fastly.alipay.ovh_80
   type: vmess
-  server: 150.230.201.63
+  server: fastly.alipay.ovh
   port: 80
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   network: ws
   tls: none
   flow: ''
-  host: kr03.36routes.online
-  path: /
-- name: vmess_JP_47.245.7.212_80
+  host: nmsl.kp
+  path: /aries?ed=2048
+- name: vmess__5.181.23.58_80
   type: vmess
-  server: 47.245.7.212
+  server: 5.181.23.58
   port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__yhnsb3.shabijichang.com_80
-  type: vmess
-  server: yhnsb3.shabijichang.com
-  port: 80
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  network: ws
-  tls: none
-  flow: ''
-  host: yhnsb3.shabijichang.com
-  path: /
-- name: vmess__94.131.10.135_2095
-  type: vmess
-  server: 94.131.10.135
-  port: 2095
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  uuid: 6eff4314-ad4c-4ebc-b1d0-d3b79656f43d
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /vmess
-- name: vmess__104.20.231.30_80
+- name: vmess__47.91.19.249_80
   type: vmess
-  server: 104.20.231.30
+  server: 47.91.19.249
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1971,15 +1951,25 @@ proxies:
   flow: ''
   host: my1.tooters.ir
   path: /
-- name: vmess__150.230.205.56_80
+- name: vmess__tg-dns68.shift.cloudns.org_80
   type: vmess
-  server: 150.230.205.56
+  server: tg-dns68.shift.cloudns.org
   port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 54133fe6-4578-48bc-ffb0-183ad760bd85
   network: ws
   tls: none
   flow: ''
-  host: my1.tooters.ir
+  host: tg-dns68.shift.cloudns.org
+  path: /TG@dns68
+- name: vmess__de01.hajimihajimihajimi.online_80
+  type: vmess
+  server: de01.hajimihajimihajimi.online
+  port: 80
+  uuid: 22b502a4-0886-4c97-9538-49faa23d2912
+  network: ws
+  tls: none
+  flow: ''
+  host: de01.hajimihajimihajimi.online
   path: /
 - name: vmess__94.131.97.127_80
   type: vmess
@@ -1991,56 +1981,16 @@ proxies:
   flow: ''
   host: cz2-vmess.sshmax.xyz
   path: /vmess
-- name: vmess__47.245.26.167_80
+- name: vmess__cf.openxai.link_8080
   type: vmess
-  server: 47.245.26.167
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
+  server: cf.openxai.link
   port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   network: ws
   tls: none
   flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__47.74.40.13_80
-  type: vmess
-  server: 47.74.40.13
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__104.21.1.28_8880
-  type: vmess
-  server: 104.21.1.28
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  network: ws
-  tls: none
-  flow: ''
-  host: us-ccs.yuji2022.eu.org
-  path: /XSjeg73o6ZdsheahCb5JG
-- name: vmess__47.245.58.250_80
-  type: vmess
-  server: 47.245.58.250
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
+  host: eu3.openxai.link
+  path: /?ed=2048
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -2061,45 +2011,25 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__198.41.202.5_80
+- name: vmess__150.230.205.56_80
   type: vmess
-  server: 198.41.202.5
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__104.16.77.74_80
-  type: vmess
-  server: 104.16.77.74
+  server: 150.230.205.56
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
   host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__188.114.96.113_80
+  path: /
+- name: vmess__www.darkroom.lol_8080
   type: vmess
-  server: 188.114.96.113
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__162.159.200.4_80
-  type: vmess
-  server: 162.159.200.4
-  port: 80
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  network: ws
-  tls: none
-  flow: ''
-  host: hk3.visaapp.top
+  host: www.darkroom.lol
   path: /
 - name: vmess__sg03.hajimihajimihajimi.online_80
   type: vmess
@@ -2111,6 +2041,36 @@ proxies:
   flow: ''
   host: sg03.hajimihajimihajimi.online
   path: /
+- name: vmess__yhnsb3.shabijichang.com_80
+  type: vmess
+  server: yhnsb3.shabijichang.com
+  port: 80
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  network: ws
+  tls: none
+  flow: ''
+  host: yhnsb3.shabijichang.com
+  path: /
+- name: vmess__47.245.58.250_80
+  type: vmess
+  server: 47.245.58.250
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__188.114.96.113_80
+  type: vmess
+  server: 188.114.96.113
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
 - name: vmess__fastly.com_80
   type: vmess
   server: fastly.com
@@ -2121,6 +2081,16 @@ proxies:
   flow: ''
   host: nmsl.kp
   path: /aries?ed=2048
+- name: vmess__47.245.26.167_80
+  type: vmess
+  server: 47.245.26.167
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
 - name: vmess__gov.uk_443
   type: vmess
   server: gov.uk
@@ -2131,29 +2101,9 @@ proxies:
   flow: ''
   host: zheshiscp.com
   path: /77848824
-- name: vmess__141.147.178.135_80
+- name: vmess__141.147.181.148_80
   type: vmess
-  server: 141.147.178.135
-  port: 80
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  network: ws
-  tls: none
-  flow: ''
-  host: kr03.36routes.online
-  path: /
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__47.245.54.58_80
-  type: vmess
-  server: 47.245.54.58
+  server: 141.147.181.148
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -2161,36 +2111,76 @@ proxies:
   flow: ''
   host: my1.tooters.ir
   path: /
-- name: vmess__158.101.146.160_80
+- name: vmess__104.17.123.55_8080
   type: vmess
-  server: 158.101.146.160
-  port: 80
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
+  server: 104.17.123.55
+  port: 8080
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
   network: ws
   tls: none
   flow: ''
-  host: kr01.travisdependable.online
-  path: /
-- name: vmess__kr01.travisdependable.online_80
+  host: pq.kmoljklj.top
+  path: /qZTtpya?ed=2048
+- name: vmess__94.131.10.135_2082
   type: vmess
-  server: kr01.travisdependable.online
-  port: 80
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
+  server: 94.131.10.135
+  port: 2082
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
   network: ws
   tls: none
   flow: ''
-  host: kr01.travisdependable.online
-  path: /
-- name: vmess__162.159.200.5_80
+  host: ''
+  path: /vmess
+- name: vmess__47.91.31.231_80
   type: vmess
-  server: 162.159.200.5
+  server: 47.91.31.231
   port: 80
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: ca3.889611.com
+  host: my1.tooters.ir
   path: /
+- name: vmess__jp04.36routes.online_80
+  type: vmess
+  server: jp04.36routes.online
+  port: 80
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  network: ws
+  tls: none
+  flow: ''
+  host: jp04.36routes.online
+  path: /
+- name: vmess__104.21.30.249_2052
+  type: vmess
+  server: 104.21.30.249
+  port: 2052
+  uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5
+  network: ws
+  tls: none
+  flow: ''
+  host: 237f1c11e3e9e373.Tiderace.gately.info
+  path: /
+- name: vmess__162.159.136.253_8080
+  type: vmess
+  server: 162.159.136.253
+  port: 8080
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  network: ws
+  tls: none
+  flow: ''
+  host: xentain.kmoljklj.top
+  path: /7bFcoRZS?ed=2048
+- name: vmess__154.17.25.123_49735
+  type: vmess
+  server: 154.17.25.123
+  port: 49735
+  uuid: a1f7a885-1387-45b7-d011-422084e1affa
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /dhdh
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2368,35 +2358,34 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_FR_51.159.77.153_32200
-  - vmess_JP_47.91.31.231_80
-  - vmess_JP_43.153.181.217_80
-  - vmess_JP_150.230.201.63_80
-  - vmess_JP_47.245.7.212_80
-  - vmess__yhnsb3.shabijichang.com_80
-  - vmess__94.131.10.135_2095
-  - vmess__104.20.231.30_80
-  - vmess__150.230.205.56_80
+  - vmess_VN_103.252.94.224_80
+  - vmess_US_104.21.1.28_8880
+  - vmess__fastly.alipay.ovh_80
+  - vmess__5.181.23.58_80
+  - vmess__47.91.19.249_80
+  - vmess__tg-dns68.shift.cloudns.org_80
+  - vmess__de01.hajimihajimihajimi.online_80
   - vmess__94.131.97.127_80
-  - vmess__47.245.26.167_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__47.74.40.13_80
-  - vmess__104.21.1.28_8880
-  - vmess__47.245.58.250_80
+  - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__198.41.202.5_80
-  - vmess__104.16.77.74_80
-  - vmess__188.114.96.113_80
-  - vmess__162.159.200.4_80
+  - vmess__150.230.205.56_80
+  - vmess__www.darkroom.lol_8080
   - vmess__sg03.hajimihajimihajimi.online_80
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__47.245.58.250_80
+  - vmess__188.114.96.113_80
   - vmess__fastly.com_80
+  - vmess__47.245.26.167_80
   - vmess__gov.uk_443
-  - vmess__141.147.178.135_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__47.245.54.58_80
-  - vmess__158.101.146.160_80
-  - vmess__kr01.travisdependable.online_80
-  - vmess__162.159.200.5_80
+  - vmess__141.147.181.148_80
+  - vmess__104.17.123.55_8080
+  - vmess__94.131.10.135_2082
+  - vmess__47.91.31.231_80
+  - vmess__jp04.36routes.online_80
+  - vmess__104.21.30.249_2052
+  - vmess__162.159.136.253_8080
+  - vmess__154.17.25.123_49735
 - name: 手动选择
   type: select
   proxies:
@@ -2556,35 +2545,34 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_FR_51.159.77.153_32200
-  - vmess_JP_47.91.31.231_80
-  - vmess_JP_43.153.181.217_80
-  - vmess_JP_150.230.201.63_80
-  - vmess_JP_47.245.7.212_80
-  - vmess__yhnsb3.shabijichang.com_80
-  - vmess__94.131.10.135_2095
-  - vmess__104.20.231.30_80
-  - vmess__150.230.205.56_80
+  - vmess_VN_103.252.94.224_80
+  - vmess_US_104.21.1.28_8880
+  - vmess__fastly.alipay.ovh_80
+  - vmess__5.181.23.58_80
+  - vmess__47.91.19.249_80
+  - vmess__tg-dns68.shift.cloudns.org_80
+  - vmess__de01.hajimihajimihajimi.online_80
   - vmess__94.131.97.127_80
-  - vmess__47.245.26.167_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__47.74.40.13_80
-  - vmess__104.21.1.28_8880
-  - vmess__47.245.58.250_80
+  - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__198.41.202.5_80
-  - vmess__104.16.77.74_80
-  - vmess__188.114.96.113_80
-  - vmess__162.159.200.4_80
+  - vmess__150.230.205.56_80
+  - vmess__www.darkroom.lol_8080
   - vmess__sg03.hajimihajimihajimi.online_80
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__47.245.58.250_80
+  - vmess__188.114.96.113_80
   - vmess__fastly.com_80
+  - vmess__47.245.26.167_80
   - vmess__gov.uk_443
-  - vmess__141.147.178.135_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__47.245.54.58_80
-  - vmess__158.101.146.160_80
-  - vmess__kr01.travisdependable.online_80
-  - vmess__162.159.200.5_80
+  - vmess__141.147.181.148_80
+  - vmess__104.17.123.55_8080
+  - vmess__94.131.10.135_2082
+  - vmess__47.91.31.231_80
+  - vmess__jp04.36routes.online_80
+  - vmess__104.21.30.249_2052
+  - vmess__162.159.136.253_8080
+  - vmess__154.17.25.123_49735
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2744,35 +2732,34 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_FR_51.159.77.153_32200
-  - vmess_JP_47.91.31.231_80
-  - vmess_JP_43.153.181.217_80
-  - vmess_JP_150.230.201.63_80
-  - vmess_JP_47.245.7.212_80
-  - vmess__yhnsb3.shabijichang.com_80
-  - vmess__94.131.10.135_2095
-  - vmess__104.20.231.30_80
-  - vmess__150.230.205.56_80
+  - vmess_VN_103.252.94.224_80
+  - vmess_US_104.21.1.28_8880
+  - vmess__fastly.alipay.ovh_80
+  - vmess__5.181.23.58_80
+  - vmess__47.91.19.249_80
+  - vmess__tg-dns68.shift.cloudns.org_80
+  - vmess__de01.hajimihajimihajimi.online_80
   - vmess__94.131.97.127_80
-  - vmess__47.245.26.167_80
-  - vmess__www.darkroom.lol_8080
-  - vmess__47.74.40.13_80
-  - vmess__104.21.1.28_8880
-  - vmess__47.245.58.250_80
+  - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__198.41.202.5_80
-  - vmess__104.16.77.74_80
-  - vmess__188.114.96.113_80
-  - vmess__162.159.200.4_80
+  - vmess__150.230.205.56_80
+  - vmess__www.darkroom.lol_8080
   - vmess__sg03.hajimihajimihajimi.online_80
+  - vmess__yhnsb3.shabijichang.com_80
+  - vmess__47.245.58.250_80
+  - vmess__188.114.96.113_80
   - vmess__fastly.com_80
+  - vmess__47.245.26.167_80
   - vmess__gov.uk_443
-  - vmess__141.147.178.135_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__47.245.54.58_80
-  - vmess__158.101.146.160_80
-  - vmess__kr01.travisdependable.online_80
-  - vmess__162.159.200.5_80
+  - vmess__141.147.181.148_80
+  - vmess__104.17.123.55_8080
+  - vmess__94.131.10.135_2082
+  - vmess__47.91.31.231_80
+  - vmess__jp04.36routes.online_80
+  - vmess__104.21.30.249_2052
+  - vmess__162.159.136.253_8080
+  - vmess__154.17.25.123_49735
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
