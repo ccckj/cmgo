@@ -25,39 +25,10 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: vless_64.31.55.30:33220
-  type: vless
-  server: 64.31.55.30
-  port: 33220
-  udp: true
-  uuid: fb706a82-ec58-44d9-8f7a-39b8494e3a6d
-  tls: true
-  servername: www.lovelive-anime.jp
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-  reality-opts:
-    public-key: fgV5xXgT53rlP82phUB6BpbKwvH8cqvomdEnrqlErko
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: vless_108.181.5.130:19910
-  type: vless
-  server: 108.181.5.130
-  port: 19910
-  udp: true
-  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
-  tls: true
-  servername: m.media-amazon.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
-- name: hysteria2_109.104.152.242:1022
+- name: hysteria2_208.115.243.45:30010
   type: hysteria2
-  server: 109.104.152.242
-  port: 1022
+  server: 208.115.243.45
+  port: 30010
   password: dongtaiwang.com
   alpn:
   - h3
@@ -65,10 +36,43 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria2_109.104.152.242:1022
+- name: hysteria2_109.104.152.171:20011
   type: hysteria2
-  server: 109.104.152.242
-  port: 1022
+  server: 109.104.152.171
+  port: 20011
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: hysteria2_109.104.152.171:20011
+  type: hysteria2
+  server: 109.104.152.171
+  port: 20011
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: hysteria2_208.115.243.45:30010
+  type: hysteria2
+  server: 208.115.243.45
+  port: 30010
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: hysteria2_109.104.152.171:20011
+  type: hysteria2
+  server: 109.104.152.171
+  port: 20011
   password: dongtaiwang.com
   alpn:
   - h3
@@ -1940,7 +1944,7 @@ proxies:
   flow: ''
   host: server31.beheshtbaneh.com
   path: /
-- name: vmess__104.21.82.183_8880
+- name: vmess_US_104.21.82.183_8880
   type: vmess
   server: 104.21.82.183
   port: 8880
@@ -1950,7 +1954,7 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
-- name: vmess__43.153.181.217_80
+- name: vmess_JP_43.153.181.217_80
   type: vmess
   server: 43.153.181.217
   port: 80
@@ -2080,6 +2084,96 @@ proxies:
   flow: ''
   host: cz2-vmess.sshmax.xyz
   path: /vmess
+- name: vmess__101.89.154.94_19979
+  type: vmess
+  server: 101.89.154.94
+  port: 19979
+  uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
+  network: ws
+  tls: none
+  flow: ''
+  host: cache-hk-2.cn-db.top
+  path: /db00
+- name: vmess__154.85.0.5_41000
+  type: vmess
+  server: 154.85.0.5
+  port: 41000
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.72281149.xyz
+  path: /path/1707385668735
+- name: vmess__144.126.145.219_80
+  type: vmess
+  server: 144.126.145.219
+  port: 80
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  network: ws
+  tls: none
+  flow: ''
+  host: internet.life.com.by
+  path: /v118-fccxmxm35
+- name: vmess__104.21.231.56_80
+  type: vmess
+  server: 104.21.231.56
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__1.162.150.61_21353
+  type: vmess
+  server: 1.162.150.61
+  port: 21353
+  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.21.232.44_80
+  type: vmess
+  server: 104.21.232.44
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__104.21.239.97_80
+  type: vmess
+  server: 104.21.239.97
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__45.76.179.201_80
+  type: vmess
+  server: 45.76.179.201
+  port: 80
+  uuid: ab8c009c-3ff5-40f0-83c4-43fae2d66639
+  network: ws
+  tls: none
+  flow: ''
+  host: group.vpnking.online
+  path: /SACHI
+- name: vmess__162.159.136.253_8080
+  type: vmess
+  server: 162.159.136.253
+  port: 8080
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  network: ws
+  tls: none
+  flow: ''
+  host: xentain.kmoljklj.top
+  path: /7bFcoRZS?ed=2048
 - name: vmess__172.67.171.177_8080
   type: vmess
   server: 172.67.171.177
@@ -2090,6 +2184,36 @@ proxies:
   flow: ''
   host: eu3.openxai.link
   path: /?ed=2048
+- name: vmess__104.18.107.163_80
+  type: vmess
+  server: 104.18.107.163
+  port: 80
+  uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
+  network: ws
+  tls: none
+  flow: ''
+  host: GWYp69Yujp2.yofnhkfc.xyz
+  path: /video/VDXcaM7r
+- name: vmess__188.244.117.31_28320
+  type: vmess
+  server: 188.244.117.31
+  port: 28320
+  uuid: 236fa6e3-683b-4c3f-a07c-56061ee393c2
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__94.131.97.127_80
+  type: vmess
+  server: 94.131.97.127
+  port: 80
+  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
+  network: ws
+  tls: none
+  flow: ''
+  host: cz2-vmess.sshmax.xyz
+  path: /vmess
 - name: vmess__104.21.234.51_80
   type: vmess
   server: 104.21.234.51
@@ -2120,86 +2244,17 @@ proxies:
   flow: ''
   host: server32.beheshtbaneh.com
   path: /
-- name: vmess__138.2.6.15_80
-  type: vmess
-  server: 138.2.6.15
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__www.ywnouvbale.biz_8080
-  type: vmess
-  server: www.ywnouvbale.biz
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.ywnouvbale.biz
-  path: /
-- name: vmess__104.24.208.37_80
-  type: vmess
-  server: 104.24.208.37
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__94.131.97.127_80
-  type: vmess
-  server: 94.131.97.127
-  port: 80
-  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
-  network: ws
-  tls: none
-  flow: ''
-  host: cz2-vmess.sshmax.xyz
-  path: /vmess
-- name: vmess__162.159.136.253_8080
-  type: vmess
-  server: 162.159.136.253
-  port: 8080
-  uuid: ade73e62-7554-40a8-9314-195a372bae28
-  network: ws
-  tls: none
-  flow: ''
-  host: xentain.kmoljklj.top
-  path: /7bFcoRZS?ed=2048
-- name: vmess__144.126.145.219_80
-  type: vmess
-  server: 144.126.145.219
-  port: 80
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  network: ws
-  tls: none
-  flow: ''
-  host: internet.life.com.by
-  path: /v118-fccxmxm35
-- name: vmess__104.21.226.33_80
-  type: vmess
-  server: 104.21.226.33
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - vless_64.31.55.30:33220
-  - vless_108.181.5.130:19910
-  - hysteria2_109.104.152.242:1022
-  - hysteria2_109.104.152.242:1022
+  - hysteria2_208.115.243.45:30010
+  - hysteria2_109.104.152.171:20011
+  - hysteria2_109.104.152.171:20011
+  - hysteria2_208.115.243.45:30010
+  - hysteria2_109.104.152.171:20011
   - vless_108.181.5.130:19910
   - vless_108.181.5.130:19910
   - vless_198.41.193.226:443
@@ -2357,8 +2412,8 @@ proxy-groups:
   - vmess_US_209.141.37.89_80
   - vmess_JP_150.230.205.56_80
   - vmess__server31.beheshtbaneh.com_8880
-  - vmess__104.21.82.183_8880
-  - vmess__43.153.181.217_80
+  - vmess_US_104.21.82.183_8880
+  - vmess_JP_43.153.181.217_80
   - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__162.159.200.7_80
   - vmess__202.78.162.5_443
@@ -2371,27 +2426,33 @@ proxy-groups:
   - vmess__nb22.ntbq.dynu.net_12002
   - vmess__gov.uk_443
   - vmess__cz2-vmess.sshmax.xyz_80
+  - vmess__101.89.154.94_19979
+  - vmess__154.85.0.5_41000
+  - vmess__144.126.145.219_80
+  - vmess__104.21.231.56_80
+  - vmess__1.162.150.61_21353
+  - vmess__104.21.232.44_80
+  - vmess__104.21.239.97_80
+  - vmess__45.76.179.201_80
+  - vmess__162.159.136.253_8080
   - vmess__172.67.171.177_8080
+  - vmess__104.18.107.163_80
+  - vmess__188.244.117.31_28320
+  - vmess__94.131.97.127_80
   - vmess__104.21.234.51_80
   - vmess__141.147.181.148_80
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__138.2.6.15_80
-  - vmess__www.ywnouvbale.biz_8080
-  - vmess__104.24.208.37_80
-  - vmess__94.131.97.127_80
-  - vmess__162.159.136.253_8080
-  - vmess__144.126.145.219_80
-  - vmess__104.21.226.33_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - vless_64.31.55.30:33220
-  - vless_108.181.5.130:19910
-  - hysteria2_109.104.152.242:1022
-  - hysteria2_109.104.152.242:1022
+  - hysteria2_208.115.243.45:30010
+  - hysteria2_109.104.152.171:20011
+  - hysteria2_109.104.152.171:20011
+  - hysteria2_208.115.243.45:30010
+  - hysteria2_109.104.152.171:20011
   - vless_108.181.5.130:19910
   - vless_108.181.5.130:19910
   - vless_198.41.193.226:443
@@ -2549,8 +2610,8 @@ proxy-groups:
   - vmess_US_209.141.37.89_80
   - vmess_JP_150.230.205.56_80
   - vmess__server31.beheshtbaneh.com_8880
-  - vmess__104.21.82.183_8880
-  - vmess__43.153.181.217_80
+  - vmess_US_104.21.82.183_8880
+  - vmess_JP_43.153.181.217_80
   - vmess__cfcdn3.sanfencdn9.com_80
   - vmess__162.159.200.7_80
   - vmess__202.78.162.5_443
@@ -2563,17 +2624,22 @@ proxy-groups:
   - vmess__nb22.ntbq.dynu.net_12002
   - vmess__gov.uk_443
   - vmess__cz2-vmess.sshmax.xyz_80
+  - vmess__101.89.154.94_19979
+  - vmess__154.85.0.5_41000
+  - vmess__144.126.145.219_80
+  - vmess__104.21.231.56_80
+  - vmess__1.162.150.61_21353
+  - vmess__104.21.232.44_80
+  - vmess__104.21.239.97_80
+  - vmess__45.76.179.201_80
+  - vmess__162.159.136.253_8080
   - vmess__172.67.171.177_8080
+  - vmess__104.18.107.163_80
+  - vmess__188.244.117.31_28320
+  - vmess__94.131.97.127_80
   - vmess__104.21.234.51_80
   - vmess__141.147.181.148_80
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__138.2.6.15_80
-  - vmess__www.ywnouvbale.biz_8080
-  - vmess__104.24.208.37_80
-  - vmess__94.131.97.127_80
-  - vmess__162.159.136.253_8080
-  - vmess__144.126.145.219_80
-  - vmess__104.21.226.33_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
