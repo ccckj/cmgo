@@ -54,6 +54,58 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: vmess_23.227.38.220:2053
+  type: vmess
+  server: 23.227.38.220
+  port: 2053
+  cipher: auto
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: vmess_23.227.39.210:2053
+  type: vmess
+  server: 23.227.39.210
+  port: 2053
+  cipher: auto
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: sequence-worse-councils-nest.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      host: sequence-worse-councils-nest.trycloudflare.com
+- name: hysteria2_109.104.152.214:11111
+  type: hysteria2
+  server: 109.104.152.214
+  port: 11111
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: hysteria2_109.104.152.214:11111
+  type: hysteria2
+  server: 109.104.152.214
+  port: 11111
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: vmess_23.227.38.220:443
   type: vmess
   server: 23.227.38.220
@@ -63,12 +115,12 @@ proxies:
   alterId: 0
   tls: true
   skip-cert-verify: true
-  servername: photographs-encouraged-orientation-do.trycloudflare.com
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
   network: ws
   ws-opts:
     path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
     headers:
-      host: photographs-encouraged-orientation-do.trycloudflare.com
+      host: pcs-referenced-camera-concerns.trycloudflare.com
 - name: vmess_23.227.39.210:443
   type: vmess
   server: 23.227.39.210
@@ -78,52 +130,16 @@ proxies:
   alterId: 0
   tls: true
   skip-cert-verify: true
-  servername: phoenix-readers-contrary-vertex.trycloudflare.com
+  servername: sequence-worse-councils-nest.trycloudflare.com
   network: ws
   ws-opts:
     path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
     headers:
-      host: phoenix-readers-contrary-vertex.trycloudflare.com
-- name: hysteria2_109.104.152.214:11111
-  type: hysteria2
-  server: 109.104.152.214
-  port: 11111
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria2_109.104.152.214:11111
-  type: hysteria2
-  server: 109.104.152.214
-  port: 11111
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: tuic_US_dongtaiwang.com_1
-  server: 108.181.5.131
-  port: 21167
-  type: tuic
-  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-  password: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: vmess_104.25.29.54:443
+      host: sequence-worse-councils-nest.trycloudflare.com
+- name: vmess_23.227.38.12:2096
   type: vmess
-  server: 104.25.29.54
-  port: 443
+  server: 23.227.38.12
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -135,40 +151,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.232.13:443
-  type: vmess
-  server: 104.24.232.13
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_108.162.196.20:443
-  type: vmess
-  server: 108.162.196.20
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.83:443
+- name: vmess_103.21.244.83:2096
   type: vmess
   server: 103.21.244.83
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -180,10 +166,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.97.196:443
+- name: vmess_188.114.97.196:2096
   type: vmess
   server: 188.114.97.196
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -195,25 +181,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.87.25:443
-  type: vmess
-  server: 104.24.87.25
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.247.214:443
+- name: vmess_190.93.247.214:2096
   type: vmess
   server: 190.93.247.214
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -225,10 +196,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_173.245.58.51:443
+- name: vmess_173.245.58.51:2096
   type: vmess
   server: 173.245.58.51
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -240,25 +211,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.235.156:443
-  type: vmess
-  server: 104.24.235.156
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_141.101.123.221:443
+- name: vmess_141.101.123.221:2096
   type: vmess
   server: 141.101.123.221
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -270,10 +226,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.209.240:443
+- name: vmess_198.41.209.240:2096
   type: vmess
   server: 198.41.209.240
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -285,25 +241,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.208.57:443
-  type: vmess
-  server: 104.24.208.57
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_141.101.121.91:443
+- name: vmess_141.101.121.91:2096
   type: vmess
   server: 141.101.121.91
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -315,40 +256,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.169.142:443
-  type: vmess
-  server: 104.19.169.142
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.174.112:443
-  type: vmess
-  server: 104.25.174.112
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.136:443
+- name: vmess_103.21.244.136:2096
   type: vmess
   server: 103.21.244.136
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -360,10 +271,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.245.141:443
+- name: vmess_190.93.245.141:2096
   type: vmess
   server: 190.93.245.141
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -375,10 +286,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.245.232:443
+- name: vmess_190.93.245.232:2096
   type: vmess
   server: 190.93.245.232
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -390,10 +301,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.96.25:443
+- name: vmess_188.114.96.25:2096
   type: vmess
   server: 188.114.96.25
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -405,10 +316,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_172.67.229.73:443
+- name: vmess_172.67.229.73:2096
   type: vmess
   server: 172.67.229.73
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -420,10 +331,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.245.223:443
+- name: vmess_190.93.245.223:2096
   type: vmess
   server: 190.93.245.223
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -435,25 +346,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.21.47.212:443
-  type: vmess
-  server: 104.21.47.212
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.96:443
+- name: vmess_103.21.244.96:2096
   type: vmess
   server: 103.21.244.96
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -465,25 +361,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.81.171:443
-  type: vmess
-  server: 104.24.81.171
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_172.64.142.35:443
+- name: vmess_172.64.142.35:2096
   type: vmess
   server: 172.64.142.35
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -495,25 +376,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.154.11:443
-  type: vmess
-  server: 104.19.154.11
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_173.245.58.185:443
+- name: vmess_173.245.58.185:2096
   type: vmess
   server: 173.245.58.185
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -525,25 +391,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.70.31:443
-  type: vmess
-  server: 104.17.70.31
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.43.135:443
+- name: vmess_162.159.43.135:2096
   type: vmess
   server: 162.159.43.135
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -555,70 +406,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.131.34:443
-  type: vmess
-  server: 104.24.131.34
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.208.129:443
-  type: vmess
-  server: 104.25.208.129
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.237.206:443
-  type: vmess
-  server: 104.18.237.206
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.23.114.35:443
-  type: vmess
-  server: 104.23.114.35
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.214.178:443
+- name: vmess_198.41.214.178:2096
   type: vmess
   server: 198.41.214.178
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -630,10 +421,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.97.109:443
+- name: vmess_188.114.97.109:2096
   type: vmess
   server: 188.114.97.109
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -645,40 +436,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.196.119:443
-  type: vmess
-  server: 104.18.196.119
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.11.105:443
-  type: vmess
-  server: 104.24.11.105
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.217.124:443
+- name: vmess_198.41.217.124:2096
   type: vmess
   server: 198.41.217.124
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -690,25 +451,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.21.22.149:443
-  type: vmess
-  server: 104.21.22.149
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.136.86:443
+- name: vmess_162.159.136.86:2096
   type: vmess
   server: 162.159.136.86
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -720,10 +466,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.99.212:443
+- name: vmess_188.114.99.212:2096
   type: vmess
   server: 188.114.99.212
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -735,55 +481,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.66.180:443
-  type: vmess
-  server: 104.17.66.180
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.179.54:443
-  type: vmess
-  server: 104.17.179.54
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.53.197:443
-  type: vmess
-  server: 104.18.53.197
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.199.127:443
+- name: vmess_198.41.199.127:2096
   type: vmess
   server: 198.41.199.127
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -795,10 +496,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.219.235:443
+- name: vmess_198.41.219.235:2096
   type: vmess
   server: 198.41.219.235
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -810,40 +511,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.24.104:443
-  type: vmess
-  server: 104.17.24.104
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.44.98:443
-  type: vmess
-  server: 104.20.44.98
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.204.209:443
+- name: vmess_198.41.204.209:2096
   type: vmess
   server: 198.41.204.209
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -855,10 +526,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.212.118:443
+- name: vmess_198.41.212.118:2096
   type: vmess
   server: 198.41.212.118
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -870,55 +541,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.131.93:443
-  type: vmess
-  server: 104.24.131.93
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.210.95:443
-  type: vmess
-  server: 104.19.210.95
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.146.152:443
-  type: vmess
-  server: 104.19.146.152
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.58.126:443
+- name: vmess_162.159.58.126:2096
   type: vmess
   server: 162.159.58.126
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -930,10 +556,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_173.245.59.149:443
+- name: vmess_173.245.59.149:2096
   type: vmess
   server: 173.245.59.149
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -945,10 +571,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.97.52:443
+- name: vmess_188.114.97.52:2096
   type: vmess
   server: 188.114.97.52
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -960,55 +586,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.220.123:443
-  type: vmess
-  server: 104.18.220.123
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.5.20:443
-  type: vmess
-  server: 104.24.5.20
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.103.32:443
-  type: vmess
-  server: 104.25.103.32
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.247.120:443
+- name: vmess_190.93.247.120:2096
   type: vmess
   server: 190.93.247.120
-  port: 443
+  port: 2096
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1020,25 +601,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.191.127:443
-  type: vmess
-  server: 104.17.191.127
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.97.4:443
+- name: vmess_188.114.97.4:8443
   type: vmess
   server: 188.114.97.4
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1050,10 +616,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.35.180:443
+- name: vmess_162.159.35.180:8443
   type: vmess
   server: 162.159.35.180
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1065,70 +631,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.206.164:443
-  type: vmess
-  server: 104.18.206.164
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.27.74.198:443
-  type: vmess
-  server: 104.27.74.198
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.144.68:443
-  type: vmess
-  server: 104.18.144.68
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.41.36:443
-  type: vmess
-  server: 104.25.41.36
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_172.67.144.123:443
+- name: vmess_172.67.144.123:8443
   type: vmess
   server: 172.67.144.123
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1140,10 +646,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.152.92:443
+- name: vmess_162.159.152.92:8443
   type: vmess
   server: 162.159.152.92
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1155,10 +661,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.215.80:443
+- name: vmess_198.41.215.80:8443
   type: vmess
   server: 198.41.215.80
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1170,25 +676,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.27.23.141:443
-  type: vmess
-  server: 104.27.23.141
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_172.66.154.44:443
+- name: vmess_172.66.154.44:8443
   type: vmess
   server: 172.66.154.44
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1200,10 +691,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.12.58:443
+- name: vmess_162.159.12.58:8443
   type: vmess
   server: 162.159.12.58
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1215,10 +706,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.98.60:443
+- name: vmess_188.114.98.60:8443
   type: vmess
   server: 188.114.98.60
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1230,25 +721,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.10.92:443
-  type: vmess
-  server: 104.18.10.92
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_162.159.10.152:443
+- name: vmess_162.159.10.152:8443
   type: vmess
   server: 162.159.10.152
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1260,10 +736,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.196.136:443
+- name: vmess_198.41.196.136:8443
   type: vmess
   server: 198.41.196.136
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1275,10 +751,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.99.147:443
+- name: vmess_188.114.99.147:8443
   type: vmess
   server: 188.114.99.147
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1290,10 +766,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.237:443
+- name: vmess_103.21.244.237:8443
   type: vmess
   server: 103.21.244.237
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1305,40 +781,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.85.36:443
-  type: vmess
-  server: 104.19.85.36
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.72.172:443
-  type: vmess
-  server: 104.24.72.172
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_108.162.193.176:443
+- name: vmess_108.162.193.176:8443
   type: vmess
   server: 108.162.193.176
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1350,10 +796,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_198.41.221.193:443
+- name: vmess_198.41.221.193:8443
   type: vmess
   server: 198.41.221.193
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1365,10 +811,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.98.96:443
+- name: vmess_188.114.98.96:8443
   type: vmess
   server: 188.114.98.96
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1380,10 +826,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_173.245.59.190:443
+- name: vmess_173.245.59.190:8443
   type: vmess
   server: 173.245.59.190
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1395,25 +841,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.114.8:443
-  type: vmess
-  server: 104.17.114.8
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.247.33:443
+- name: vmess_190.93.247.33:8443
   type: vmess
   server: 190.93.247.33
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1425,10 +856,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_172.66.151.45:443
+- name: vmess_172.66.151.45:8443
   type: vmess
   server: 172.66.151.45
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1440,10 +871,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.246.223:443
+- name: vmess_190.93.246.223:8443
   type: vmess
   server: 190.93.246.223
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1455,25 +886,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.21.83.203:443
-  type: vmess
-  server: 104.21.83.203
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.98.224:443
+- name: vmess_188.114.98.224:8443
   type: vmess
   server: 188.114.98.224
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1485,25 +901,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.161.238:443
-  type: vmess
-  server: 104.20.161.238
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_108.162.196.207:443
+- name: vmess_108.162.196.207:8443
   type: vmess
   server: 108.162.196.207
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1515,55 +916,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.242.174:443
-  type: vmess
-  server: 104.17.242.174
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.16.97.17:443
-  type: vmess
-  server: 104.16.97.17
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.25.20:443
-  type: vmess
-  server: 104.19.25.20
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_190.93.244.15:443
+- name: vmess_190.93.244.15:8443
   type: vmess
   server: 190.93.244.15
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1575,10 +931,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_141.101.120.144:443
+- name: vmess_141.101.120.144:8443
   type: vmess
   server: 141.101.120.144
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1590,25 +946,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.253.25:443
-  type: vmess
-  server: 104.24.253.25
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_188.114.96.75:443
+- name: vmess_188.114.96.75:8443
   type: vmess
   server: 188.114.96.75
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1620,10 +961,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.245:443
+- name: vmess_103.21.244.245:8443
   type: vmess
   server: 103.21.244.245
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1635,25 +976,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.145.60:443
-  type: vmess
-  server: 104.25.145.60
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_141.101.122.10:443
+- name: vmess_141.101.122.10:8443
   type: vmess
   server: 141.101.122.10
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1665,55 +991,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.94.188:443
-  type: vmess
-  server: 104.19.94.188
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.193.136:443
-  type: vmess
-  server: 104.20.193.136
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.16.100.97:443
-  type: vmess
-  server: 104.16.100.97
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_173.245.58.123:443
+- name: vmess_173.245.58.123:8443
   type: vmess
   server: 173.245.58.123
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1725,10 +1006,10 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_103.21.244.112:443
+- name: vmess_103.21.244.112:8443
   type: vmess
   server: 103.21.244.112
-  port: 443
+  port: 8443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
   alterId: 0
@@ -1758,21 +1039,6 @@ proxies:
 - name: vmess_173.245.49.132:443
   type: vmess
   server: 173.245.49.132
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.149.142:443
-  type: vmess
-  server: 104.25.149.142
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -1830,84 +1096,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.175.253:443
-  type: vmess
-  server: 104.20.175.253
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_190.93.244.67:443
   type: vmess
   server: 190.93.244.67
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.207.111:443
-  type: vmess
-  server: 104.19.207.111
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.33.104:443
-  type: vmess
-  server: 104.17.33.104
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.49.112:443
-  type: vmess
-  server: 104.20.49.112
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.113.127:443
-  type: vmess
-  server: 104.17.113.127
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -1965,54 +1156,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.101.168:443
-  type: vmess
-  server: 104.25.101.168
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.92.137:443
-  type: vmess
-  server: 104.19.92.137
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_162.159.141.10:443
   type: vmess
   server: 162.159.141.10
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.163.142:443
-  type: vmess
-  server: 104.18.163.142
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2070,21 +1216,6 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.129.171:443
-  type: vmess
-  server: 104.18.129.171
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_173.245.59.189:443
   type: vmess
   server: 173.245.59.189
@@ -2100,39 +1231,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.16.89.204:443
-  type: vmess
-  server: 104.16.89.204
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_103.21.244.23:443
   type: vmess
   server: 103.21.244.23
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.21.21.2:443
-  type: vmess
-  server: 104.21.21.2
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2280,39 +1381,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.157.58:443
-  type: vmess
-  server: 104.24.157.58
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_141.101.115.216:443
   type: vmess
   server: 141.101.115.216
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.27.7.219:443
-  type: vmess
-  server: 104.27.7.219
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2355,84 +1426,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.118.149:443
-  type: vmess
-  server: 104.20.118.149
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.76.190:443
-  type: vmess
-  server: 104.18.76.190
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.210.221:443
-  type: vmess
-  server: 104.24.210.221
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.12.80:443
-  type: vmess
-  server: 104.25.12.80
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_198.41.192.100:443
   type: vmess
   server: 198.41.192.100
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.150.10:443
-  type: vmess
-  server: 104.20.150.10
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2490,36 +1486,6 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.27.97.174:443
-  type: vmess
-  server: 104.27.97.174
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.27.84.44:443
-  type: vmess
-  server: 104.27.84.44
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_190.93.246.122:443
   type: vmess
   server: 190.93.246.122
@@ -2535,114 +1501,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.180.49:443
-  type: vmess
-  server: 104.19.180.49
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.26.11.62:443
-  type: vmess
-  server: 104.26.11.62
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_108.162.193.38:443
   type: vmess
   server: 108.162.193.38
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.19.185.86:443
-  type: vmess
-  server: 104.19.185.86
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.229.11:443
-  type: vmess
-  server: 104.18.229.11
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.23.141.57:443
-  type: vmess
-  server: 104.23.141.57
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.202.10:443
-  type: vmess
-  server: 104.18.202.10
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.174.138:443
-  type: vmess
-  server: 104.17.174.138
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2673,36 +1534,6 @@ proxies:
 - name: vmess_198.41.212.54:443
   type: vmess
   server: 198.41.212.54
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.106.63:443
-  type: vmess
-  server: 104.20.106.63
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.25.53.45:443
-  type: vmess
-  server: 104.25.53.45
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -2835,36 +1666,6 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.23.121.209:443
-  type: vmess
-  server: 104.23.121.209
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.17.59.5:443
-  type: vmess
-  server: 104.17.59.5
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_190.93.246.47:443
   type: vmess
   server: 190.93.246.47
@@ -2910,21 +1711,6 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.20.43.145:443
-  type: vmess
-  server: 104.20.43.145
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_173.245.58.81:443
   type: vmess
   server: 173.245.58.81
@@ -2955,21 +1741,6 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.24.222.135:443
-  type: vmess
-  server: 104.24.222.135
-  port: 443
-  cipher: auto
-  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
 - name: vmess_103.21.244.141:443
   type: vmess
   server: 103.21.244.141
@@ -2985,9 +1756,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_104.18.36.215:443
+- name: vmess_108.162.196.31:443
   type: vmess
-  server: 104.18.36.215
+  server: 108.162.196.31
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -3000,9 +1771,9 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_108.162.196.31:443
+- name: vmess_23.227.38.11:443
   type: vmess
-  server: 108.162.196.31
+  server: 23.227.38.11
   port: 443
   cipher: auto
   uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
@@ -3157,146 +1928,96 @@ proxies:
   flow: ''
   host: proprietary-arc-durham-motorcycle.trycloudflare.com
   path: 6dca5aed-9206-4496-9d1f-65c31c92f50b-vm
-- name: vmess_CN_101.89.154.94_19979
+- name: vmess_DE_95.164.89.225_38153
   type: vmess
-  server: 101.89.154.94
-  port: 19979
-  uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
+  server: 95.164.89.225
+  port: 38153
+  uuid: 70a694c8-ba65-4d1d-942d-4fc489da1b5f
   network: ws
-  tls: none
-  flow: ''
-  host: cache-hk-2.cn-db.top
-  path: /db00
-- name: vmess_NL_154.85.0.5_41000
-  type: vmess
-  server: 154.85.0.5
-  port: 41000
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  network: ws
-  tls: tls
-  flow: ''
-  host: www.72281149.xyz
-  path: /path/1707385668735
-- name: vmess_US_144.126.145.219_80
-  type: vmess
-  server: 144.126.145.219
-  port: 80
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  network: ws
-  tls: none
-  flow: ''
-  host: internet.life.com.by
-  path: /v118-fccxmxm35
-- name: vmess_US_104.21.231.56_80
-  type: vmess
-  server: 104.21.231.56
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess_TW_1.162.150.61_21353
-  type: vmess
-  server: 1.162.150.61
-  port: 21353
-  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
-  network: tcp
   tls: none
   flow: ''
   host: ''
-  path: ''
-- name: vmess_US_104.21.232.44_80
-  type: vmess
-  server: 104.21.232.44
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__104.21.239.97_80
-  type: vmess
-  server: 104.21.239.97
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__131.186.63.127_80
-  type: vmess
-  server: 131.186.63.127
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
   path: /
-- name: vmess__45.76.179.201_80
+- name: vmess__www.velvetmountain.shop_8080
   type: vmess
-  server: 45.76.179.201
+  server: www.velvetmountain.shop
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess_US_104.21.230.30_80
+  type: vmess
+  server: 104.21.230.30
   port: 80
-  uuid: ab8c009c-3ff5-40f0-83c4-43fae2d66639
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: group.vpnking.online
-  path: /SACHI
-- name: vmess__162.159.136.253_8080
-  type: vmess
-  server: 162.159.136.253
-  port: 8080
-  uuid: ade73e62-7554-40a8-9314-195a372bae28
-  network: ws
-  tls: none
-  flow: ''
-  host: xentain.kmoljklj.top
-  path: /7bFcoRZS?ed=2048
-- name: vmess__172.67.171.177_8080
-  type: vmess
-  server: 172.67.171.177
-  port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  network: ws
-  tls: none
-  flow: ''
-  host: eu3.openxai.link
+  host: a.prapt5.ir
   path: /?ed=2048
-- name: vmess__104.18.107.163_80
+- name: vmess__cfcdn1.sanfencdn9.com_2052
   type: vmess
-  server: 104.18.107.163
-  port: 80
+  server: cfcdn1.sanfencdn9.com
+  port: 2052
   uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
   network: ws
   tls: none
   flow: ''
-  host: GWYp69Yujp2.yofnhkfc.xyz
-  path: /video/VDXcaM7r
-- name: vmess__188.244.117.31_28320
+  host: us1cPZiz8nb.fzbqfrse.xyz
+  path: /video/6VBhAkCtV4/
+- name: vmess_RU_193.104.57.136_80
   type: vmess
-  server: 188.244.117.31
-  port: 28320
-  uuid: 236fa6e3-683b-4c3f-a07c-56061ee393c2
+  server: 193.104.57.136
+  port: 80
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
   network: tcp
-  tls: none
+  tls: tls
   flow: ''
   host: ''
   path: ''
-- name: vmess__94.131.97.127_80
+- name: vmess_US_104.21.234.71_80
   type: vmess
-  server: 94.131.97.127
+  server: 104.21.234.71
   port: 80
-  uuid: 3669d547-ee0c-477d-8e47-c4400965db74
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: cz2-vmess.sshmax.xyz
-  path: /vmess
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  network: ws
+  tls: none
+  flow: ''
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess__fastly.alipay.ovh_80
+  type: vmess
+  server: fastly.alipay.ovh
+  port: 80
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  network: ws
+  tls: none
+  flow: ''
+  host: nmsl.kp
+  path: /aries?ed=2048
+- name: vmess__fastly.com_80
+  type: vmess
+  server: fastly.com
+  port: 80
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  network: ws
+  tls: none
+  flow: ''
+  host: nmsl.kp
+  path: /aries?ed=2048
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -3317,56 +2038,6 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__104.21.234.51_80
-  type: vmess
-  server: 104.21.234.51
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
-- name: vmess__141.147.181.148_80
-  type: vmess
-  server: 141.147.181.148
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
 - name: vmess__104.21.232.63_80
   type: vmess
   server: 104.21.232.63
@@ -3427,26 +2098,16 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess__www.velvetmountain.shop_8080
+- name: vmess__104.21.239.97_80
   type: vmess
-  server: www.velvetmountain.shop
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__fastly.com_80
-  type: vmess
-  server: fastly.com
+  server: 104.21.239.97
   port: 80
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: nmsl.kp
-  path: /aries?ed=2048
+  host: a.prapt5.ir
+  path: /?ed=2048
 - name: vmess__104.21.225.67_80
   type: vmess
   server: 104.21.225.67
@@ -3477,16 +2138,56 @@ proxies:
   flow: ''
   host: a.prapt5.ir
   path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- name: vmess__104.21.1.28_8880
+- name: vmess__141.147.181.148_80
   type: vmess
-  server: 104.21.1.28
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  server: 141.147.181.148
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: pl-a.yuji2022.eu.org
-  path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL
+  host: my1.tooters.ir
+  path: /
+- name: vmess__104.21.227.38_80
+  type: vmess
+  server: 104.21.227.38
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
+- name: vmess__172.67.171.177_8080
+  type: vmess
+  server: 172.67.171.177
+  port: 8080
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  network: ws
+  tls: none
+  flow: ''
+  host: eu3.openxai.link
+  path: /?ed=2048
+- name: vmess__95.164.8.106_80
+  type: vmess
+  server: 95.164.8.106
+  port: 80
+  uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__162.159.136.253_8080
+  type: vmess
+  server: 162.159.136.253
+  port: 8080
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  network: ws
+  tls: none
+  flow: ''
+  host: xentain.kmoljklj.top
+  path: /7bFcoRZS?ed=2048
 - name: vmess__104.21.231.35_80
   type: vmess
   server: 104.21.231.35
@@ -3497,46 +2198,16 @@ proxies:
   flow: ''
   host: a.prapt5.ir
   path: /?ed=2048
-- name: vmess__104.21.233.45_80
+- name: vmess__172.67.188.193_8080
   type: vmess
-  server: 104.21.233.45
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  server: 172.67.188.193
+  port: 8080
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   network: ws
   tls: none
   flow: ''
-  host: a.prapt5.ir
+  host: eu3.openxai.link
   path: /?ed=2048
-- name: vmess__104.21.73.14_8880
-  type: vmess
-  server: 104.21.73.14
-  port: 8880
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  network: ws
-  tls: none
-  flow: ''
-  host: yaghoob55freenodes.repaco69437403.workers.dev
-  path: /adenc35.fixedlfoat.top/linkws
-- name: vmess__103.252.94.224_80
-  type: vmess
-  server: 103.252.94.224
-  port: 80
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
-  network: ws
-  tls: none
-  flow: ''
-  host: bs2.loadingip.com
-  path: /bs
-- name: vmess__gov.uk_443
-  type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  network: ws
-  tls: tls
-  flow: ''
-  host: zheshiscp.com
-  path: /77848824
 proxy-groups:
 - name: 节点选择
   type: select
@@ -3559,146 +2230,86 @@ proxy-groups:
   tolerance: 50
   proxies:
   - hysteria2_64.31.55.42:31100
+  - vmess_23.227.38.220:2053
+  - vmess_23.227.39.210:2053
+  - hysteria2_109.104.152.214:11111
+  - hysteria2_109.104.152.214:11111
   - vmess_23.227.38.220:443
   - vmess_23.227.39.210:443
-  - hysteria2_109.104.152.214:11111
-  - hysteria2_109.104.152.214:11111
-  - tuic_US_dongtaiwang.com_1
-  - vmess_104.25.29.54:443
-  - vmess_104.24.232.13:443
-  - vmess_108.162.196.20:443
-  - vmess_103.21.244.83:443
-  - vmess_188.114.97.196:443
-  - vmess_104.24.87.25:443
-  - vmess_190.93.247.214:443
-  - vmess_173.245.58.51:443
-  - vmess_104.24.235.156:443
-  - vmess_141.101.123.221:443
-  - vmess_198.41.209.240:443
-  - vmess_104.24.208.57:443
-  - vmess_141.101.121.91:443
-  - vmess_104.19.169.142:443
-  - vmess_104.25.174.112:443
-  - vmess_103.21.244.136:443
-  - vmess_190.93.245.141:443
-  - vmess_190.93.245.232:443
-  - vmess_188.114.96.25:443
-  - vmess_172.67.229.73:443
-  - vmess_190.93.245.223:443
-  - vmess_104.21.47.212:443
-  - vmess_103.21.244.96:443
-  - vmess_104.24.81.171:443
-  - vmess_172.64.142.35:443
-  - vmess_104.19.154.11:443
-  - vmess_173.245.58.185:443
-  - vmess_104.17.70.31:443
-  - vmess_162.159.43.135:443
-  - vmess_104.24.131.34:443
-  - vmess_104.25.208.129:443
-  - vmess_104.18.237.206:443
-  - vmess_104.23.114.35:443
-  - vmess_198.41.214.178:443
-  - vmess_188.114.97.109:443
-  - vmess_104.18.196.119:443
-  - vmess_104.24.11.105:443
-  - vmess_198.41.217.124:443
-  - vmess_104.21.22.149:443
-  - vmess_162.159.136.86:443
-  - vmess_188.114.99.212:443
-  - vmess_104.17.66.180:443
-  - vmess_104.17.179.54:443
-  - vmess_104.18.53.197:443
-  - vmess_198.41.199.127:443
-  - vmess_198.41.219.235:443
-  - vmess_104.17.24.104:443
-  - vmess_104.20.44.98:443
-  - vmess_198.41.204.209:443
-  - vmess_198.41.212.118:443
-  - vmess_104.24.131.93:443
-  - vmess_104.19.210.95:443
-  - vmess_104.19.146.152:443
-  - vmess_162.159.58.126:443
-  - vmess_173.245.59.149:443
-  - vmess_188.114.97.52:443
-  - vmess_104.18.220.123:443
-  - vmess_104.24.5.20:443
-  - vmess_104.25.103.32:443
-  - vmess_190.93.247.120:443
-  - vmess_104.17.191.127:443
-  - vmess_188.114.97.4:443
-  - vmess_162.159.35.180:443
-  - vmess_104.18.206.164:443
-  - vmess_104.27.74.198:443
-  - vmess_104.18.144.68:443
-  - vmess_104.25.41.36:443
-  - vmess_172.67.144.123:443
-  - vmess_162.159.152.92:443
-  - vmess_198.41.215.80:443
-  - vmess_104.27.23.141:443
-  - vmess_172.66.154.44:443
-  - vmess_162.159.12.58:443
-  - vmess_188.114.98.60:443
-  - vmess_104.18.10.92:443
-  - vmess_162.159.10.152:443
-  - vmess_198.41.196.136:443
-  - vmess_188.114.99.147:443
-  - vmess_103.21.244.237:443
-  - vmess_104.19.85.36:443
-  - vmess_104.24.72.172:443
-  - vmess_108.162.193.176:443
-  - vmess_198.41.221.193:443
-  - vmess_188.114.98.96:443
-  - vmess_173.245.59.190:443
-  - vmess_104.17.114.8:443
-  - vmess_190.93.247.33:443
-  - vmess_172.66.151.45:443
-  - vmess_190.93.246.223:443
-  - vmess_104.21.83.203:443
-  - vmess_188.114.98.224:443
-  - vmess_104.20.161.238:443
-  - vmess_108.162.196.207:443
-  - vmess_104.17.242.174:443
-  - vmess_104.16.97.17:443
-  - vmess_104.19.25.20:443
-  - vmess_190.93.244.15:443
-  - vmess_141.101.120.144:443
-  - vmess_104.24.253.25:443
-  - vmess_188.114.96.75:443
-  - vmess_103.21.244.245:443
-  - vmess_104.25.145.60:443
-  - vmess_141.101.122.10:443
-  - vmess_104.19.94.188:443
-  - vmess_104.20.193.136:443
-  - vmess_104.16.100.97:443
-  - vmess_173.245.58.123:443
-  - vmess_103.21.244.112:443
+  - vmess_23.227.38.12:2096
+  - vmess_103.21.244.83:2096
+  - vmess_188.114.97.196:2096
+  - vmess_190.93.247.214:2096
+  - vmess_173.245.58.51:2096
+  - vmess_141.101.123.221:2096
+  - vmess_198.41.209.240:2096
+  - vmess_141.101.121.91:2096
+  - vmess_103.21.244.136:2096
+  - vmess_190.93.245.141:2096
+  - vmess_190.93.245.232:2096
+  - vmess_188.114.96.25:2096
+  - vmess_172.67.229.73:2096
+  - vmess_190.93.245.223:2096
+  - vmess_103.21.244.96:2096
+  - vmess_172.64.142.35:2096
+  - vmess_173.245.58.185:2096
+  - vmess_162.159.43.135:2096
+  - vmess_198.41.214.178:2096
+  - vmess_188.114.97.109:2096
+  - vmess_198.41.217.124:2096
+  - vmess_162.159.136.86:2096
+  - vmess_188.114.99.212:2096
+  - vmess_198.41.199.127:2096
+  - vmess_198.41.219.235:2096
+  - vmess_198.41.204.209:2096
+  - vmess_198.41.212.118:2096
+  - vmess_162.159.58.126:2096
+  - vmess_173.245.59.149:2096
+  - vmess_188.114.97.52:2096
+  - vmess_190.93.247.120:2096
+  - vmess_188.114.97.4:8443
+  - vmess_162.159.35.180:8443
+  - vmess_172.67.144.123:8443
+  - vmess_162.159.152.92:8443
+  - vmess_198.41.215.80:8443
+  - vmess_172.66.154.44:8443
+  - vmess_162.159.12.58:8443
+  - vmess_188.114.98.60:8443
+  - vmess_162.159.10.152:8443
+  - vmess_198.41.196.136:8443
+  - vmess_188.114.99.147:8443
+  - vmess_103.21.244.237:8443
+  - vmess_108.162.193.176:8443
+  - vmess_198.41.221.193:8443
+  - vmess_188.114.98.96:8443
+  - vmess_173.245.59.190:8443
+  - vmess_190.93.247.33:8443
+  - vmess_172.66.151.45:8443
+  - vmess_190.93.246.223:8443
+  - vmess_188.114.98.224:8443
+  - vmess_108.162.196.207:8443
+  - vmess_190.93.244.15:8443
+  - vmess_141.101.120.144:8443
+  - vmess_188.114.96.75:8443
+  - vmess_103.21.244.245:8443
+  - vmess_141.101.122.10:8443
+  - vmess_173.245.58.123:8443
+  - vmess_103.21.244.112:8443
   - vmess_190.93.247.242:443
   - vmess_173.245.49.132:443
-  - vmess_104.25.149.142:443
   - vmess_173.245.59.29:443
   - vmess_103.21.244.192:443
   - vmess_103.21.244.241:443
-  - vmess_104.20.175.253:443
   - vmess_190.93.244.67:443
-  - vmess_104.19.207.111:443
-  - vmess_104.17.33.104:443
-  - vmess_104.20.49.112:443
-  - vmess_104.17.113.127:443
   - vmess_103.21.244.90:443
   - vmess_188.114.98.112:443
   - vmess_172.67.144.231:443
-  - vmess_104.25.101.168:443
-  - vmess_104.19.92.137:443
   - vmess_162.159.141.10:443
-  - vmess_104.18.163.142:443
   - vmess_103.21.244.142:443
   - vmess_198.41.207.116:443
   - vmess_198.41.214.1:443
-  - vmess_104.18.129.171:443
   - vmess_173.245.59.189:443
-  - vmess_104.16.89.204:443
   - vmess_103.21.244.23:443
-  - vmess_104.21.21.2:443
   - vmess_141.101.115.194:443
   - vmess_188.114.96.81:443
   - vmess_190.93.245.25:443
@@ -3708,35 +2319,17 @@ proxy-groups:
   - vmess_108.162.194.82:443
   - vmess_172.64.81.37:443
   - vmess_172.67.82.251:443
-  - vmess_104.24.157.58:443
   - vmess_141.101.115.216:443
-  - vmess_104.27.7.219:443
   - vmess_103.21.244.151:443
   - vmess_103.21.244.156:443
-  - vmess_104.20.118.149:443
-  - vmess_104.18.76.190:443
-  - vmess_104.24.210.221:443
-  - vmess_104.25.12.80:443
   - vmess_198.41.192.100:443
-  - vmess_104.20.150.10:443
   - vmess_103.21.244.81:443
   - vmess_190.93.246.12:443
   - vmess_162.159.245.75:443
-  - vmess_104.27.97.174:443
-  - vmess_104.27.84.44:443
   - vmess_190.93.246.122:443
-  - vmess_104.19.180.49:443
-  - vmess_104.26.11.62:443
   - vmess_108.162.193.38:443
-  - vmess_104.19.185.86:443
-  - vmess_104.18.229.11:443
-  - vmess_104.23.141.57:443
-  - vmess_104.18.202.10:443
-  - vmess_104.17.174.138:443
   - vmess_173.245.58.253:443
   - vmess_198.41.212.54:443
-  - vmess_104.20.106.63:443
-  - vmess_104.25.53.45:443
   - vmess_190.93.246.147:443
   - vmess_198.41.204.95:443
   - vmess_173.245.49.54:443
@@ -3745,18 +2338,14 @@ proxy-groups:
   - vmess_188.114.98.242:443
   - vmess_141.101.90.100:443
   - vmess_188.114.99.6:443
-  - vmess_104.23.121.209:443
-  - vmess_104.17.59.5:443
   - vmess_190.93.246.47:443
   - vmess_188.114.97.48:443
   - vmess_108.162.196.15:443
-  - vmess_104.20.43.145:443
   - vmess_173.245.58.81:443
   - vmess_103.21.244.78:443
-  - vmess_104.24.222.135:443
   - vmess_103.21.244.141:443
-  - vmess_104.18.36.215:443
   - vmess_108.162.196.31:443
+  - vmess_23.227.38.11:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.159.77.153:33390
   - hysteria2_45.150.165.84:8881
@@ -3770,188 +2359,118 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_CA_23.227.39.88_443
-  - vmess_CN_101.89.154.94_19979
-  - vmess_NL_154.85.0.5_41000
-  - vmess_US_144.126.145.219_80
-  - vmess_US_104.21.231.56_80
-  - vmess_TW_1.162.150.61_21353
-  - vmess_US_104.21.232.44_80
-  - vmess__104.21.239.97_80
-  - vmess__131.186.63.127_80
-  - vmess__45.76.179.201_80
-  - vmess__162.159.136.253_8080
-  - vmess__172.67.171.177_8080
-  - vmess__104.18.107.163_80
-  - vmess__188.244.117.31_28320
-  - vmess__94.131.97.127_80
+  - vmess_DE_95.164.89.225_38153
+  - vmess__www.velvetmountain.shop_8080
+  - vmess_US_104.21.230.30_80
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess_RU_193.104.57.136_80
+  - vmess_US_104.21.234.71_80
+  - vmess__cf.openxai.link_8080
+  - vmess__fastly.alipay.ovh_80
+  - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.234.51_80
-  - vmess__141.147.181.148_80
-  - vmess__104.21.82.183_8880
-  - vmess__server32.beheshtbaneh.com_8880
   - vmess__104.21.232.63_80
   - vmess__104.21.231.39_80
   - vmess__104.21.226.13_80
   - vmess__104.21.227.39_80
   - vmess__104.21.231.38_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__fastly.com_80
+  - vmess__104.21.239.97_80
   - vmess__104.21.225.67_80
   - vmess__104.21.226.34_80
   - vmess__104.21.225.54_80
-  - vmess__104.21.1.28_8880
+  - vmess__141.147.181.148_80
+  - vmess__104.21.227.38_80
+  - vmess__172.67.171.177_8080
+  - vmess__95.164.8.106_80
+  - vmess__162.159.136.253_8080
   - vmess__104.21.231.35_80
-  - vmess__104.21.233.45_80
-  - vmess__104.21.73.14_8880
-  - vmess__103.252.94.224_80
-  - vmess__gov.uk_443
+  - vmess__172.67.188.193_8080
 - name: 手动选择
   type: select
   proxies:
   - hysteria2_64.31.55.42:31100
+  - vmess_23.227.38.220:2053
+  - vmess_23.227.39.210:2053
+  - hysteria2_109.104.152.214:11111
+  - hysteria2_109.104.152.214:11111
   - vmess_23.227.38.220:443
   - vmess_23.227.39.210:443
-  - hysteria2_109.104.152.214:11111
-  - hysteria2_109.104.152.214:11111
-  - tuic_US_dongtaiwang.com_1
-  - vmess_104.25.29.54:443
-  - vmess_104.24.232.13:443
-  - vmess_108.162.196.20:443
-  - vmess_103.21.244.83:443
-  - vmess_188.114.97.196:443
-  - vmess_104.24.87.25:443
-  - vmess_190.93.247.214:443
-  - vmess_173.245.58.51:443
-  - vmess_104.24.235.156:443
-  - vmess_141.101.123.221:443
-  - vmess_198.41.209.240:443
-  - vmess_104.24.208.57:443
-  - vmess_141.101.121.91:443
-  - vmess_104.19.169.142:443
-  - vmess_104.25.174.112:443
-  - vmess_103.21.244.136:443
-  - vmess_190.93.245.141:443
-  - vmess_190.93.245.232:443
-  - vmess_188.114.96.25:443
-  - vmess_172.67.229.73:443
-  - vmess_190.93.245.223:443
-  - vmess_104.21.47.212:443
-  - vmess_103.21.244.96:443
-  - vmess_104.24.81.171:443
-  - vmess_172.64.142.35:443
-  - vmess_104.19.154.11:443
-  - vmess_173.245.58.185:443
-  - vmess_104.17.70.31:443
-  - vmess_162.159.43.135:443
-  - vmess_104.24.131.34:443
-  - vmess_104.25.208.129:443
-  - vmess_104.18.237.206:443
-  - vmess_104.23.114.35:443
-  - vmess_198.41.214.178:443
-  - vmess_188.114.97.109:443
-  - vmess_104.18.196.119:443
-  - vmess_104.24.11.105:443
-  - vmess_198.41.217.124:443
-  - vmess_104.21.22.149:443
-  - vmess_162.159.136.86:443
-  - vmess_188.114.99.212:443
-  - vmess_104.17.66.180:443
-  - vmess_104.17.179.54:443
-  - vmess_104.18.53.197:443
-  - vmess_198.41.199.127:443
-  - vmess_198.41.219.235:443
-  - vmess_104.17.24.104:443
-  - vmess_104.20.44.98:443
-  - vmess_198.41.204.209:443
-  - vmess_198.41.212.118:443
-  - vmess_104.24.131.93:443
-  - vmess_104.19.210.95:443
-  - vmess_104.19.146.152:443
-  - vmess_162.159.58.126:443
-  - vmess_173.245.59.149:443
-  - vmess_188.114.97.52:443
-  - vmess_104.18.220.123:443
-  - vmess_104.24.5.20:443
-  - vmess_104.25.103.32:443
-  - vmess_190.93.247.120:443
-  - vmess_104.17.191.127:443
-  - vmess_188.114.97.4:443
-  - vmess_162.159.35.180:443
-  - vmess_104.18.206.164:443
-  - vmess_104.27.74.198:443
-  - vmess_104.18.144.68:443
-  - vmess_104.25.41.36:443
-  - vmess_172.67.144.123:443
-  - vmess_162.159.152.92:443
-  - vmess_198.41.215.80:443
-  - vmess_104.27.23.141:443
-  - vmess_172.66.154.44:443
-  - vmess_162.159.12.58:443
-  - vmess_188.114.98.60:443
-  - vmess_104.18.10.92:443
-  - vmess_162.159.10.152:443
-  - vmess_198.41.196.136:443
-  - vmess_188.114.99.147:443
-  - vmess_103.21.244.237:443
-  - vmess_104.19.85.36:443
-  - vmess_104.24.72.172:443
-  - vmess_108.162.193.176:443
-  - vmess_198.41.221.193:443
-  - vmess_188.114.98.96:443
-  - vmess_173.245.59.190:443
-  - vmess_104.17.114.8:443
-  - vmess_190.93.247.33:443
-  - vmess_172.66.151.45:443
-  - vmess_190.93.246.223:443
-  - vmess_104.21.83.203:443
-  - vmess_188.114.98.224:443
-  - vmess_104.20.161.238:443
-  - vmess_108.162.196.207:443
-  - vmess_104.17.242.174:443
-  - vmess_104.16.97.17:443
-  - vmess_104.19.25.20:443
-  - vmess_190.93.244.15:443
-  - vmess_141.101.120.144:443
-  - vmess_104.24.253.25:443
-  - vmess_188.114.96.75:443
-  - vmess_103.21.244.245:443
-  - vmess_104.25.145.60:443
-  - vmess_141.101.122.10:443
-  - vmess_104.19.94.188:443
-  - vmess_104.20.193.136:443
-  - vmess_104.16.100.97:443
-  - vmess_173.245.58.123:443
-  - vmess_103.21.244.112:443
+  - vmess_23.227.38.12:2096
+  - vmess_103.21.244.83:2096
+  - vmess_188.114.97.196:2096
+  - vmess_190.93.247.214:2096
+  - vmess_173.245.58.51:2096
+  - vmess_141.101.123.221:2096
+  - vmess_198.41.209.240:2096
+  - vmess_141.101.121.91:2096
+  - vmess_103.21.244.136:2096
+  - vmess_190.93.245.141:2096
+  - vmess_190.93.245.232:2096
+  - vmess_188.114.96.25:2096
+  - vmess_172.67.229.73:2096
+  - vmess_190.93.245.223:2096
+  - vmess_103.21.244.96:2096
+  - vmess_172.64.142.35:2096
+  - vmess_173.245.58.185:2096
+  - vmess_162.159.43.135:2096
+  - vmess_198.41.214.178:2096
+  - vmess_188.114.97.109:2096
+  - vmess_198.41.217.124:2096
+  - vmess_162.159.136.86:2096
+  - vmess_188.114.99.212:2096
+  - vmess_198.41.199.127:2096
+  - vmess_198.41.219.235:2096
+  - vmess_198.41.204.209:2096
+  - vmess_198.41.212.118:2096
+  - vmess_162.159.58.126:2096
+  - vmess_173.245.59.149:2096
+  - vmess_188.114.97.52:2096
+  - vmess_190.93.247.120:2096
+  - vmess_188.114.97.4:8443
+  - vmess_162.159.35.180:8443
+  - vmess_172.67.144.123:8443
+  - vmess_162.159.152.92:8443
+  - vmess_198.41.215.80:8443
+  - vmess_172.66.154.44:8443
+  - vmess_162.159.12.58:8443
+  - vmess_188.114.98.60:8443
+  - vmess_162.159.10.152:8443
+  - vmess_198.41.196.136:8443
+  - vmess_188.114.99.147:8443
+  - vmess_103.21.244.237:8443
+  - vmess_108.162.193.176:8443
+  - vmess_198.41.221.193:8443
+  - vmess_188.114.98.96:8443
+  - vmess_173.245.59.190:8443
+  - vmess_190.93.247.33:8443
+  - vmess_172.66.151.45:8443
+  - vmess_190.93.246.223:8443
+  - vmess_188.114.98.224:8443
+  - vmess_108.162.196.207:8443
+  - vmess_190.93.244.15:8443
+  - vmess_141.101.120.144:8443
+  - vmess_188.114.96.75:8443
+  - vmess_103.21.244.245:8443
+  - vmess_141.101.122.10:8443
+  - vmess_173.245.58.123:8443
+  - vmess_103.21.244.112:8443
   - vmess_190.93.247.242:443
   - vmess_173.245.49.132:443
-  - vmess_104.25.149.142:443
   - vmess_173.245.59.29:443
   - vmess_103.21.244.192:443
   - vmess_103.21.244.241:443
-  - vmess_104.20.175.253:443
   - vmess_190.93.244.67:443
-  - vmess_104.19.207.111:443
-  - vmess_104.17.33.104:443
-  - vmess_104.20.49.112:443
-  - vmess_104.17.113.127:443
   - vmess_103.21.244.90:443
   - vmess_188.114.98.112:443
   - vmess_172.67.144.231:443
-  - vmess_104.25.101.168:443
-  - vmess_104.19.92.137:443
   - vmess_162.159.141.10:443
-  - vmess_104.18.163.142:443
   - vmess_103.21.244.142:443
   - vmess_198.41.207.116:443
   - vmess_198.41.214.1:443
-  - vmess_104.18.129.171:443
   - vmess_173.245.59.189:443
-  - vmess_104.16.89.204:443
   - vmess_103.21.244.23:443
-  - vmess_104.21.21.2:443
   - vmess_141.101.115.194:443
   - vmess_188.114.96.81:443
   - vmess_190.93.245.25:443
@@ -3961,35 +2480,17 @@ proxy-groups:
   - vmess_108.162.194.82:443
   - vmess_172.64.81.37:443
   - vmess_172.67.82.251:443
-  - vmess_104.24.157.58:443
   - vmess_141.101.115.216:443
-  - vmess_104.27.7.219:443
   - vmess_103.21.244.151:443
   - vmess_103.21.244.156:443
-  - vmess_104.20.118.149:443
-  - vmess_104.18.76.190:443
-  - vmess_104.24.210.221:443
-  - vmess_104.25.12.80:443
   - vmess_198.41.192.100:443
-  - vmess_104.20.150.10:443
   - vmess_103.21.244.81:443
   - vmess_190.93.246.12:443
   - vmess_162.159.245.75:443
-  - vmess_104.27.97.174:443
-  - vmess_104.27.84.44:443
   - vmess_190.93.246.122:443
-  - vmess_104.19.180.49:443
-  - vmess_104.26.11.62:443
   - vmess_108.162.193.38:443
-  - vmess_104.19.185.86:443
-  - vmess_104.18.229.11:443
-  - vmess_104.23.141.57:443
-  - vmess_104.18.202.10:443
-  - vmess_104.17.174.138:443
   - vmess_173.245.58.253:443
   - vmess_198.41.212.54:443
-  - vmess_104.20.106.63:443
-  - vmess_104.25.53.45:443
   - vmess_190.93.246.147:443
   - vmess_198.41.204.95:443
   - vmess_173.245.49.54:443
@@ -3998,18 +2499,14 @@ proxy-groups:
   - vmess_188.114.98.242:443
   - vmess_141.101.90.100:443
   - vmess_188.114.99.6:443
-  - vmess_104.23.121.209:443
-  - vmess_104.17.59.5:443
   - vmess_190.93.246.47:443
   - vmess_188.114.97.48:443
   - vmess_108.162.196.15:443
-  - vmess_104.20.43.145:443
   - vmess_173.245.58.81:443
   - vmess_103.21.244.78:443
-  - vmess_104.24.222.135:443
   - vmess_103.21.244.141:443
-  - vmess_104.18.36.215:443
   - vmess_108.162.196.31:443
+  - vmess_23.227.38.11:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.159.77.153:33390
   - hysteria2_45.150.165.84:8881
@@ -4023,188 +2520,118 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_CA_23.227.39.88_443
-  - vmess_CN_101.89.154.94_19979
-  - vmess_NL_154.85.0.5_41000
-  - vmess_US_144.126.145.219_80
-  - vmess_US_104.21.231.56_80
-  - vmess_TW_1.162.150.61_21353
-  - vmess_US_104.21.232.44_80
-  - vmess__104.21.239.97_80
-  - vmess__131.186.63.127_80
-  - vmess__45.76.179.201_80
-  - vmess__162.159.136.253_8080
-  - vmess__172.67.171.177_8080
-  - vmess__104.18.107.163_80
-  - vmess__188.244.117.31_28320
-  - vmess__94.131.97.127_80
+  - vmess_DE_95.164.89.225_38153
+  - vmess__www.velvetmountain.shop_8080
+  - vmess_US_104.21.230.30_80
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess_RU_193.104.57.136_80
+  - vmess_US_104.21.234.71_80
+  - vmess__cf.openxai.link_8080
+  - vmess__fastly.alipay.ovh_80
+  - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.234.51_80
-  - vmess__141.147.181.148_80
-  - vmess__104.21.82.183_8880
-  - vmess__server32.beheshtbaneh.com_8880
   - vmess__104.21.232.63_80
   - vmess__104.21.231.39_80
   - vmess__104.21.226.13_80
   - vmess__104.21.227.39_80
   - vmess__104.21.231.38_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__fastly.com_80
+  - vmess__104.21.239.97_80
   - vmess__104.21.225.67_80
   - vmess__104.21.226.34_80
   - vmess__104.21.225.54_80
-  - vmess__104.21.1.28_8880
+  - vmess__141.147.181.148_80
+  - vmess__104.21.227.38_80
+  - vmess__172.67.171.177_8080
+  - vmess__95.164.8.106_80
+  - vmess__162.159.136.253_8080
   - vmess__104.21.231.35_80
-  - vmess__104.21.233.45_80
-  - vmess__104.21.73.14_8880
-  - vmess__103.252.94.224_80
-  - vmess__gov.uk_443
+  - vmess__172.67.188.193_8080
 - name: 负载均衡
   type: load-balance
   proxies:
   - hysteria2_64.31.55.42:31100
+  - vmess_23.227.38.220:2053
+  - vmess_23.227.39.210:2053
+  - hysteria2_109.104.152.214:11111
+  - hysteria2_109.104.152.214:11111
   - vmess_23.227.38.220:443
   - vmess_23.227.39.210:443
-  - hysteria2_109.104.152.214:11111
-  - hysteria2_109.104.152.214:11111
-  - tuic_US_dongtaiwang.com_1
-  - vmess_104.25.29.54:443
-  - vmess_104.24.232.13:443
-  - vmess_108.162.196.20:443
-  - vmess_103.21.244.83:443
-  - vmess_188.114.97.196:443
-  - vmess_104.24.87.25:443
-  - vmess_190.93.247.214:443
-  - vmess_173.245.58.51:443
-  - vmess_104.24.235.156:443
-  - vmess_141.101.123.221:443
-  - vmess_198.41.209.240:443
-  - vmess_104.24.208.57:443
-  - vmess_141.101.121.91:443
-  - vmess_104.19.169.142:443
-  - vmess_104.25.174.112:443
-  - vmess_103.21.244.136:443
-  - vmess_190.93.245.141:443
-  - vmess_190.93.245.232:443
-  - vmess_188.114.96.25:443
-  - vmess_172.67.229.73:443
-  - vmess_190.93.245.223:443
-  - vmess_104.21.47.212:443
-  - vmess_103.21.244.96:443
-  - vmess_104.24.81.171:443
-  - vmess_172.64.142.35:443
-  - vmess_104.19.154.11:443
-  - vmess_173.245.58.185:443
-  - vmess_104.17.70.31:443
-  - vmess_162.159.43.135:443
-  - vmess_104.24.131.34:443
-  - vmess_104.25.208.129:443
-  - vmess_104.18.237.206:443
-  - vmess_104.23.114.35:443
-  - vmess_198.41.214.178:443
-  - vmess_188.114.97.109:443
-  - vmess_104.18.196.119:443
-  - vmess_104.24.11.105:443
-  - vmess_198.41.217.124:443
-  - vmess_104.21.22.149:443
-  - vmess_162.159.136.86:443
-  - vmess_188.114.99.212:443
-  - vmess_104.17.66.180:443
-  - vmess_104.17.179.54:443
-  - vmess_104.18.53.197:443
-  - vmess_198.41.199.127:443
-  - vmess_198.41.219.235:443
-  - vmess_104.17.24.104:443
-  - vmess_104.20.44.98:443
-  - vmess_198.41.204.209:443
-  - vmess_198.41.212.118:443
-  - vmess_104.24.131.93:443
-  - vmess_104.19.210.95:443
-  - vmess_104.19.146.152:443
-  - vmess_162.159.58.126:443
-  - vmess_173.245.59.149:443
-  - vmess_188.114.97.52:443
-  - vmess_104.18.220.123:443
-  - vmess_104.24.5.20:443
-  - vmess_104.25.103.32:443
-  - vmess_190.93.247.120:443
-  - vmess_104.17.191.127:443
-  - vmess_188.114.97.4:443
-  - vmess_162.159.35.180:443
-  - vmess_104.18.206.164:443
-  - vmess_104.27.74.198:443
-  - vmess_104.18.144.68:443
-  - vmess_104.25.41.36:443
-  - vmess_172.67.144.123:443
-  - vmess_162.159.152.92:443
-  - vmess_198.41.215.80:443
-  - vmess_104.27.23.141:443
-  - vmess_172.66.154.44:443
-  - vmess_162.159.12.58:443
-  - vmess_188.114.98.60:443
-  - vmess_104.18.10.92:443
-  - vmess_162.159.10.152:443
-  - vmess_198.41.196.136:443
-  - vmess_188.114.99.147:443
-  - vmess_103.21.244.237:443
-  - vmess_104.19.85.36:443
-  - vmess_104.24.72.172:443
-  - vmess_108.162.193.176:443
-  - vmess_198.41.221.193:443
-  - vmess_188.114.98.96:443
-  - vmess_173.245.59.190:443
-  - vmess_104.17.114.8:443
-  - vmess_190.93.247.33:443
-  - vmess_172.66.151.45:443
-  - vmess_190.93.246.223:443
-  - vmess_104.21.83.203:443
-  - vmess_188.114.98.224:443
-  - vmess_104.20.161.238:443
-  - vmess_108.162.196.207:443
-  - vmess_104.17.242.174:443
-  - vmess_104.16.97.17:443
-  - vmess_104.19.25.20:443
-  - vmess_190.93.244.15:443
-  - vmess_141.101.120.144:443
-  - vmess_104.24.253.25:443
-  - vmess_188.114.96.75:443
-  - vmess_103.21.244.245:443
-  - vmess_104.25.145.60:443
-  - vmess_141.101.122.10:443
-  - vmess_104.19.94.188:443
-  - vmess_104.20.193.136:443
-  - vmess_104.16.100.97:443
-  - vmess_173.245.58.123:443
-  - vmess_103.21.244.112:443
+  - vmess_23.227.38.12:2096
+  - vmess_103.21.244.83:2096
+  - vmess_188.114.97.196:2096
+  - vmess_190.93.247.214:2096
+  - vmess_173.245.58.51:2096
+  - vmess_141.101.123.221:2096
+  - vmess_198.41.209.240:2096
+  - vmess_141.101.121.91:2096
+  - vmess_103.21.244.136:2096
+  - vmess_190.93.245.141:2096
+  - vmess_190.93.245.232:2096
+  - vmess_188.114.96.25:2096
+  - vmess_172.67.229.73:2096
+  - vmess_190.93.245.223:2096
+  - vmess_103.21.244.96:2096
+  - vmess_172.64.142.35:2096
+  - vmess_173.245.58.185:2096
+  - vmess_162.159.43.135:2096
+  - vmess_198.41.214.178:2096
+  - vmess_188.114.97.109:2096
+  - vmess_198.41.217.124:2096
+  - vmess_162.159.136.86:2096
+  - vmess_188.114.99.212:2096
+  - vmess_198.41.199.127:2096
+  - vmess_198.41.219.235:2096
+  - vmess_198.41.204.209:2096
+  - vmess_198.41.212.118:2096
+  - vmess_162.159.58.126:2096
+  - vmess_173.245.59.149:2096
+  - vmess_188.114.97.52:2096
+  - vmess_190.93.247.120:2096
+  - vmess_188.114.97.4:8443
+  - vmess_162.159.35.180:8443
+  - vmess_172.67.144.123:8443
+  - vmess_162.159.152.92:8443
+  - vmess_198.41.215.80:8443
+  - vmess_172.66.154.44:8443
+  - vmess_162.159.12.58:8443
+  - vmess_188.114.98.60:8443
+  - vmess_162.159.10.152:8443
+  - vmess_198.41.196.136:8443
+  - vmess_188.114.99.147:8443
+  - vmess_103.21.244.237:8443
+  - vmess_108.162.193.176:8443
+  - vmess_198.41.221.193:8443
+  - vmess_188.114.98.96:8443
+  - vmess_173.245.59.190:8443
+  - vmess_190.93.247.33:8443
+  - vmess_172.66.151.45:8443
+  - vmess_190.93.246.223:8443
+  - vmess_188.114.98.224:8443
+  - vmess_108.162.196.207:8443
+  - vmess_190.93.244.15:8443
+  - vmess_141.101.120.144:8443
+  - vmess_188.114.96.75:8443
+  - vmess_103.21.244.245:8443
+  - vmess_141.101.122.10:8443
+  - vmess_173.245.58.123:8443
+  - vmess_103.21.244.112:8443
   - vmess_190.93.247.242:443
   - vmess_173.245.49.132:443
-  - vmess_104.25.149.142:443
   - vmess_173.245.59.29:443
   - vmess_103.21.244.192:443
   - vmess_103.21.244.241:443
-  - vmess_104.20.175.253:443
   - vmess_190.93.244.67:443
-  - vmess_104.19.207.111:443
-  - vmess_104.17.33.104:443
-  - vmess_104.20.49.112:443
-  - vmess_104.17.113.127:443
   - vmess_103.21.244.90:443
   - vmess_188.114.98.112:443
   - vmess_172.67.144.231:443
-  - vmess_104.25.101.168:443
-  - vmess_104.19.92.137:443
   - vmess_162.159.141.10:443
-  - vmess_104.18.163.142:443
   - vmess_103.21.244.142:443
   - vmess_198.41.207.116:443
   - vmess_198.41.214.1:443
-  - vmess_104.18.129.171:443
   - vmess_173.245.59.189:443
-  - vmess_104.16.89.204:443
   - vmess_103.21.244.23:443
-  - vmess_104.21.21.2:443
   - vmess_141.101.115.194:443
   - vmess_188.114.96.81:443
   - vmess_190.93.245.25:443
@@ -4214,35 +2641,17 @@ proxy-groups:
   - vmess_108.162.194.82:443
   - vmess_172.64.81.37:443
   - vmess_172.67.82.251:443
-  - vmess_104.24.157.58:443
   - vmess_141.101.115.216:443
-  - vmess_104.27.7.219:443
   - vmess_103.21.244.151:443
   - vmess_103.21.244.156:443
-  - vmess_104.20.118.149:443
-  - vmess_104.18.76.190:443
-  - vmess_104.24.210.221:443
-  - vmess_104.25.12.80:443
   - vmess_198.41.192.100:443
-  - vmess_104.20.150.10:443
   - vmess_103.21.244.81:443
   - vmess_190.93.246.12:443
   - vmess_162.159.245.75:443
-  - vmess_104.27.97.174:443
-  - vmess_104.27.84.44:443
   - vmess_190.93.246.122:443
-  - vmess_104.19.180.49:443
-  - vmess_104.26.11.62:443
   - vmess_108.162.193.38:443
-  - vmess_104.19.185.86:443
-  - vmess_104.18.229.11:443
-  - vmess_104.23.141.57:443
-  - vmess_104.18.202.10:443
-  - vmess_104.17.174.138:443
   - vmess_173.245.58.253:443
   - vmess_198.41.212.54:443
-  - vmess_104.20.106.63:443
-  - vmess_104.25.53.45:443
   - vmess_190.93.246.147:443
   - vmess_198.41.204.95:443
   - vmess_173.245.49.54:443
@@ -4251,18 +2660,14 @@ proxy-groups:
   - vmess_188.114.98.242:443
   - vmess_141.101.90.100:443
   - vmess_188.114.99.6:443
-  - vmess_104.23.121.209:443
-  - vmess_104.17.59.5:443
   - vmess_190.93.246.47:443
   - vmess_188.114.97.48:443
   - vmess_108.162.196.15:443
-  - vmess_104.20.43.145:443
   - vmess_173.245.58.81:443
   - vmess_103.21.244.78:443
-  - vmess_104.24.222.135:443
   - vmess_103.21.244.141:443
-  - vmess_104.18.36.215:443
   - vmess_108.162.196.31:443
+  - vmess_23.227.38.11:443
   - hysteria_www2.dtku48.xyz:22334
   - hysteria2_51.159.77.153:33390
   - hysteria2_45.150.165.84:8881
@@ -4276,44 +2681,34 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:29277
   - vmess_CA_23.227.39.88_443
-  - vmess_CN_101.89.154.94_19979
-  - vmess_NL_154.85.0.5_41000
-  - vmess_US_144.126.145.219_80
-  - vmess_US_104.21.231.56_80
-  - vmess_TW_1.162.150.61_21353
-  - vmess_US_104.21.232.44_80
-  - vmess__104.21.239.97_80
-  - vmess__131.186.63.127_80
-  - vmess__45.76.179.201_80
-  - vmess__162.159.136.253_8080
-  - vmess__172.67.171.177_8080
-  - vmess__104.18.107.163_80
-  - vmess__188.244.117.31_28320
-  - vmess__94.131.97.127_80
+  - vmess_DE_95.164.89.225_38153
+  - vmess__www.velvetmountain.shop_8080
+  - vmess_US_104.21.230.30_80
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess_RU_193.104.57.136_80
+  - vmess_US_104.21.234.71_80
+  - vmess__cf.openxai.link_8080
+  - vmess__fastly.alipay.ovh_80
+  - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.234.51_80
-  - vmess__141.147.181.148_80
-  - vmess__104.21.82.183_8880
-  - vmess__server32.beheshtbaneh.com_8880
   - vmess__104.21.232.63_80
   - vmess__104.21.231.39_80
   - vmess__104.21.226.13_80
   - vmess__104.21.227.39_80
   - vmess__104.21.231.38_80
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__fastly.com_80
+  - vmess__104.21.239.97_80
   - vmess__104.21.225.67_80
   - vmess__104.21.226.34_80
   - vmess__104.21.225.54_80
-  - vmess__104.21.1.28_8880
+  - vmess__141.147.181.148_80
+  - vmess__104.21.227.38_80
+  - vmess__172.67.171.177_8080
+  - vmess__95.164.8.106_80
+  - vmess__162.159.136.253_8080
   - vmess__104.21.231.35_80
-  - vmess__104.21.233.45_80
-  - vmess__104.21.73.14_8880
-  - vmess__103.252.94.224_80
-  - vmess__gov.uk_443
+  - vmess__172.67.188.193_8080
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
