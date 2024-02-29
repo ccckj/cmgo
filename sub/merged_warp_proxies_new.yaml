@@ -63,14 +63,14 @@ proxies:
   server: 23.227.38.44
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_23.227.38.22:8080
@@ -168,14 +168,14 @@ proxies:
   server: 162.159.130.208
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_yh1.dtku41.xyz:8080
@@ -228,14 +228,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_yh2.dtku41.xyz:8080
@@ -288,14 +288,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_fbi.gov:8080
@@ -588,14 +588,14 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_23.227.39.24:8080
@@ -648,14 +648,14 @@ proxies:
   server: 23.227.39.45
   port: 8080
   cipher: auto
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: widescreen-instruction-breakdown-postage.trycloudflare.com
   network: ws
   ws-opts:
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
     headers:
       host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: vmess_fbi.gov:8080
@@ -1025,10 +1025,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_51.159.77.198:29277
+- name: hy2_FR_51.159.77.198:53967
   type: hysteria2
   server: 51.159.77.198
-  port: 29277
+  port: 53967
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -1203,6 +1203,116 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess__104.21.224.2_80
+  type: vmess
+  server: 104.21.224.2
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /
+- name: vmess__cfcdn3.sanfencdn9.com_80
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: 80
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  network: ws
+  tls: none
+  flow: ''
+  host: agzbjszujp4.yofnhkfc.xyz
+  path: /video/ibCT6z55
+- name: vmess__38.14.107.227_38100
+  type: vmess
+  server: 38.14.107.227
+  port: 38100
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.23179753.xyz
+  path: /path/271624282113
+- name: vmess__104.21.54.252_8080
+  type: vmess
+  server: 104.21.54.252
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.velvetmountain.shop
+  path: /
+- name: vmess__188.114.96.113_80
+  type: vmess
+  server: 188.114.96.113
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt4.ir
+  path: /
+- name: vmess__118.167.70.36_5681
+  type: vmess
+  server: 118.167.70.36
+  port: 5681
+  uuid: c0aeab85-0e75-48bb-98a5-65092b120e64
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__165.232.78.169_80
+  type: vmess
+  server: 165.232.78.169
+  port: 80
+  uuid: 22b502a4-0886-4c97-9538-49faa23d2912
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__104.16.77.74_80
+  type: vmess
+  server: 104.16.77.74
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
+- name: vmess__172.67.130.140_2082
+  type: vmess
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
+  tls: none
+  flow: ''
+  host: s1c.v2.v001sss.xyz
+  path: /
+- name: vmess__104.16.35.48_2086
+  type: vmess
+  server: 104.16.35.48
+  port: 2086
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  network: ws
+  tls: none
+  flow: ''
+  host: us77SmSk86j.fzbqfrse.xyz
+  path: /video/Z7qdcrAGRw
+- name: vmess__94.140.0.110_8880
+  type: vmess
+  server: 94.140.0.110
+  port: 8880
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  network: ws
+  tls: none
+  flow: ''
+  host: food.zhaal.ir
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1292,7 +1402,7 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
-  - hy2_FR_51.159.77.198:29277
+  - hy2_FR_51.159.77.198:53967
   - vmess_GB_202.78.162.5_443
   - vmess_CN_183.232.170.22_30118
   - vmess__www.darkroom.lol_8080
@@ -1310,6 +1420,17 @@ proxy-groups:
   - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__104.21.224.2_80
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__38.14.107.227_38100
+  - vmess__104.21.54.252_8080
+  - vmess__188.114.96.113_80
+  - vmess__118.167.70.36_5681
+  - vmess__165.232.78.169_80
+  - vmess__104.16.77.74_80
+  - vmess__172.67.130.140_2082
+  - vmess__104.16.35.48_2086
+  - vmess__94.140.0.110_8880
 - name: 手动选择
   type: select
   proxies:
@@ -1381,7 +1502,7 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
-  - hy2_FR_51.159.77.198:29277
+  - hy2_FR_51.159.77.198:53967
   - vmess_GB_202.78.162.5_443
   - vmess_CN_183.232.170.22_30118
   - vmess__www.darkroom.lol_8080
@@ -1399,6 +1520,17 @@ proxy-groups:
   - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__104.21.224.2_80
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__38.14.107.227_38100
+  - vmess__104.21.54.252_8080
+  - vmess__188.114.96.113_80
+  - vmess__118.167.70.36_5681
+  - vmess__165.232.78.169_80
+  - vmess__104.16.77.74_80
+  - vmess__172.67.130.140_2082
+  - vmess__104.16.35.48_2086
+  - vmess__94.140.0.110_8880
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1470,7 +1602,7 @@ proxy-groups:
   - hy2_FR_62.210.103.0:22483
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
-  - hy2_FR_51.159.77.198:29277
+  - hy2_FR_51.159.77.198:53967
   - vmess_GB_202.78.162.5_443
   - vmess_CN_183.232.170.22_30118
   - vmess__www.darkroom.lol_8080
@@ -1488,6 +1620,17 @@ proxy-groups:
   - vmess__fastly.com_80
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__104.21.224.2_80
+  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__38.14.107.227_38100
+  - vmess__104.21.54.252_8080
+  - vmess__188.114.96.113_80
+  - vmess__118.167.70.36_5681
+  - vmess__165.232.78.169_80
+  - vmess__104.16.77.74_80
+  - vmess__172.67.130.140_2082
+  - vmess__104.16.35.48_2086
+  - vmess__94.140.0.110_8880
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
