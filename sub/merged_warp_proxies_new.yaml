@@ -1034,46 +1034,6 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__us65.netfilx.live_80
-  type: vmess
-  server: us65.netfilx.live
-  port: 80
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__104.16.77.74_80
-  type: vmess
-  server: 104.16.77.74
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__104.17.123.55_8080
-  type: vmess
-  server: 104.17.123.55
-  port: 8080
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
-  network: ws
-  tls: none
-  flow: ''
-  host: pq.kmoljklj.top
-  path: /qZTtpya?ed=2048
-- name: vmess__94.131.10.135_8880
-  type: vmess
-  server: 94.131.10.135
-  port: 8880
-  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /vmess
 - name: vmess__fastly.com_80
   type: vmess
   server: fastly.com
@@ -1084,19 +1044,9 @@ proxies:
   flow: ''
   host: nmsl.kp
   path: /aries?ed=2048
-- name: vmess__104.21.69.44_80
+- name: vmess__104.20.231.30_80
   type: vmess
-  server: 104.21.69.44
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt4.ir
-  path: /
-- name: vmess__172.67.253.230_80
-  type: vmess
-  server: 172.67.253.230
+  server: 104.20.231.30
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1104,26 +1054,16 @@ proxies:
   flow: ''
   host: my1.tooters.ir
   path: /
-- name: vmess__172.67.253.239_80
+- name: vmess__202.78.162.5_443
   type: vmess
-  server: 172.67.253.239
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
-- name: vmess__172.67.253.190_80
-  type: vmess
-  server: 172.67.253.190
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: my1.tooters.ir
-  path: /?ed=2048
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 - name: vmess__104.21.54.252_8080
   type: vmess
   server: 104.21.54.252
@@ -1134,16 +1074,66 @@ proxies:
   flow: ''
   host: www.velvetmountain.shop
   path: /
-- name: vmess__cfcdn3.sanfencdn9.com_80
+- name: vmess__188.114.96.113_80
   type: vmess
-  server: cfcdn3.sanfencdn9.com
+  server: 188.114.96.113
   port: 80
-  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: agzbjszujp4.yofnhkfc.xyz
-  path: /video/ibCT6z55
+  host: a.prapt4.ir
+  path: /
+- name: vmess__94.131.8.32_80
+  type: vmess
+  server: 94.131.8.32
+  port: 80
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__94.131.10.135_8080
+  type: vmess
+  server: 94.131.10.135
+  port: 8080
+  uuid: e2021c91-6e29-49d6-9641-14a8f2600e05
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /vmess
+- name: vmess__us65.netfilx.live_80
+  type: vmess
+  server: us65.netfilx.live
+  port: 80
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__104.21.225.73_80
+  type: vmess
+  server: 104.21.225.73
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /
+- name: vmess__104.22.51.162_80
+  type: vmess
+  server: 104.22.51.162
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: my1.tooters.ir
+  path: /
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -1154,26 +1144,6 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: linkvws
-- name: vmess__38.14.107.227_38100
-  type: vmess
-  server: 38.14.107.227
-  port: 38100
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: www.23179753.xyz
-  path: /path/271624282113
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1270,20 +1240,17 @@ proxy-groups:
   - vmess__172.67.253.105_80
   - vmess__172.67.217.144_80
   - vmess__120.238.122.149_42055
-  - vmess__us65.netfilx.live_80
-  - vmess__104.16.77.74_80
-  - vmess__104.17.123.55_8080
-  - vmess__94.131.10.135_8880
   - vmess__fastly.com_80
-  - vmess__104.21.69.44_80
-  - vmess__172.67.253.230_80
-  - vmess__172.67.253.239_80
-  - vmess__172.67.253.190_80
+  - vmess__104.20.231.30_80
+  - vmess__202.78.162.5_443
   - vmess__104.21.54.252_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__188.114.96.113_80
+  - vmess__94.131.8.32_80
+  - vmess__94.131.10.135_8080
+  - vmess__us65.netfilx.live_80
+  - vmess__104.21.225.73_80
+  - vmess__104.22.51.162_80
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__38.14.107.227_38100
 - name: 手动选择
   type: select
   proxies:
@@ -1362,20 +1329,17 @@ proxy-groups:
   - vmess__172.67.253.105_80
   - vmess__172.67.217.144_80
   - vmess__120.238.122.149_42055
-  - vmess__us65.netfilx.live_80
-  - vmess__104.16.77.74_80
-  - vmess__104.17.123.55_8080
-  - vmess__94.131.10.135_8880
   - vmess__fastly.com_80
-  - vmess__104.21.69.44_80
-  - vmess__172.67.253.230_80
-  - vmess__172.67.253.239_80
-  - vmess__172.67.253.190_80
+  - vmess__104.20.231.30_80
+  - vmess__202.78.162.5_443
   - vmess__104.21.54.252_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__188.114.96.113_80
+  - vmess__94.131.8.32_80
+  - vmess__94.131.10.135_8080
+  - vmess__us65.netfilx.live_80
+  - vmess__104.21.225.73_80
+  - vmess__104.22.51.162_80
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__38.14.107.227_38100
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1454,20 +1418,17 @@ proxy-groups:
   - vmess__172.67.253.105_80
   - vmess__172.67.217.144_80
   - vmess__120.238.122.149_42055
-  - vmess__us65.netfilx.live_80
-  - vmess__104.16.77.74_80
-  - vmess__104.17.123.55_8080
-  - vmess__94.131.10.135_8880
   - vmess__fastly.com_80
-  - vmess__104.21.69.44_80
-  - vmess__172.67.253.230_80
-  - vmess__172.67.253.239_80
-  - vmess__172.67.253.190_80
+  - vmess__104.20.231.30_80
+  - vmess__202.78.162.5_443
   - vmess__104.21.54.252_8080
-  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__188.114.96.113_80
+  - vmess__94.131.8.32_80
+  - vmess__94.131.10.135_8080
+  - vmess__us65.netfilx.live_80
+  - vmess__104.21.225.73_80
+  - vmess__104.22.51.162_80
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__38.14.107.227_38100
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
