@@ -1181,26 +1181,6 @@ proxies:
   flow: ''
   host: www.23179753.xyz
   path: /path/271624282113
-- name: vmess__172.67.232.144_8080
-  type: vmess
-  server: 172.67.232.144
-  port: 8080
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  network: ws
-  tls: none
-  flow: ''
-  host: eu3.openxai.link
-  path: /?ed=2048
-- name: vmess__cdn.yifenjichang.top_2086
-  type: vmess
-  server: cdn.yifenjichang.top
-  port: 2086
-  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
-  network: ws
-  tls: none
-  flow: ''
-  host: kr1.mianfenyun012.eu.org
-  path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
 - name: vmess__188.114.96.113_80
   type: vmess
   server: 188.114.96.113
@@ -1211,6 +1191,26 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  network: ws
+  tls: tls
+  flow: ''
+  host: sahand.serveminecraft.net
+  path: /@forwardv2ray
 - name: vmess__185.214.103.156_34601
   type: vmess
   server: 185.214.103.156
@@ -1221,26 +1221,46 @@ proxies:
   flow: ''
   host: cache-hk-2.cn-db.top
   path: /db00
-- name: vmess__fastly.com_80
+- name: vmess__172.67.131.246_8080
   type: vmess
-  server: fastly.com
-  port: 80
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-  network: ws
-  tls: none
-  flow: ''
-  host: nmsl.kp
-  path: /aries?ed=2048
-- name: vmess__23.227.39.45_8080
-  type: vmess
-  server: 23.227.39.45
+  server: 172.67.131.246
   port: 8080
-  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   network: ws
   tls: none
   flow: ''
-  host: widescreen-instruction-breakdown-postage.trycloudflare.com
-  path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
+  host: eu3.openxai.link
+  path: /?ed=2048
+- name: vmess__speed.cloudflare.com_80
+  type: vmess
+  server: speed.cloudflare.com
+  port: 80
+  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
+  network: ws
+  tls: none
+  flow: ''
+  host: aq.daozhang.link
+  path: f8c92b3b
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  network: ws
+  tls: none
+  flow: ''
+  host: eu2.openxai.link
+  path: /?ed=2048
 - name: vmess__172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
@@ -1356,12 +1376,14 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__38.14.107.229_38100
-  - vmess__172.67.232.144_8080
-  - vmess__cdn.yifenjichang.top_2086
   - vmess__188.114.96.113_80
+  - vmess__www.darkroom.lol_8080
+  - vmess__202.78.162.5_443
   - vmess__185.214.103.156_34601
-  - vmess__fastly.com_80
-  - vmess__23.227.39.45_8080
+  - vmess__172.67.131.246_8080
+  - vmess__speed.cloudflare.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__cf.openxai.link_8080
   - vmess__172.67.130.140_2082
 - name: 手动选择
   type: select
@@ -1450,12 +1472,14 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__38.14.107.229_38100
-  - vmess__172.67.232.144_8080
-  - vmess__cdn.yifenjichang.top_2086
   - vmess__188.114.96.113_80
+  - vmess__www.darkroom.lol_8080
+  - vmess__202.78.162.5_443
   - vmess__185.214.103.156_34601
-  - vmess__fastly.com_80
-  - vmess__23.227.39.45_8080
+  - vmess__172.67.131.246_8080
+  - vmess__speed.cloudflare.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__cf.openxai.link_8080
   - vmess__172.67.130.140_2082
 - name: 负载均衡
   type: load-balance
@@ -1544,12 +1568,14 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__38.14.107.229_38100
-  - vmess__172.67.232.144_8080
-  - vmess__cdn.yifenjichang.top_2086
   - vmess__188.114.96.113_80
+  - vmess__www.darkroom.lol_8080
+  - vmess__202.78.162.5_443
   - vmess__185.214.103.156_34601
-  - vmess__fastly.com_80
-  - vmess__23.227.39.45_8080
+  - vmess__172.67.131.246_8080
+  - vmess__speed.cloudflare.com_80
+  - vmess__104.21.82.183_8880
+  - vmess__cf.openxai.link_8080
   - vmess__172.67.130.140_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
