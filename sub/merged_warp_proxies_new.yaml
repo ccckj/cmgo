@@ -1028,69 +1028,19 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_CA_23.227.38.23_8080
+- name: vmess_US_172.67.130.140_2082
   type: vmess
-  server: 23.227.38.23
-  port: 8080
-  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   network: ws
   tls: none
   flow: ''
-  host: uh-lawyers-instruments-kernel.trycloudflare.com
-  path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
-- name: vmess_US_104.21.46.66_8080
-  type: vmess
-  server: 104.21.46.66
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.ywnouvbale.biz
+  host: s1c.v2.v001sss.xyz
   path: /
-- name: vmess__yh1.dtku41.xyz_8080
+- name: vmess_US_172.67.143.192_8080
   type: vmess
-  server: yh1.dtku41.xyz
-  port: 8080
-  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
-  network: ws
-  tls: none
-  flow: ''
-  host: widescreen-instruction-breakdown-postage.trycloudflare.com
-  path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
-- name: vmess__cold-dawn-9246.fly.dev_443
-  type: vmess
-  server: cold-dawn-9246.fly.dev
-  port: 443
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- name: vmess_KR_64.110.91.178_28902
-  type: vmess
-  server: 64.110.91.178
-  port: 28902
-  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
-  network: ws
-  tls: none
-  flow: ''
-  host: kr.pxiz.site
-  path: /?ed=2048
-- name: vmess__yh2.dtku41.xyz_8080
-  type: vmess
-  server: yh2.dtku41.xyz
-  port: 8080
-  uuid: 8df7d5fa-cecb-4816-a943-be94929543f9
-  network: ws
-  tls: none
-  flow: ''
-  host: widescreen-instruction-breakdown-postage.trycloudflare.com
-  path: 8df7d5fa-cecb-4816-a943-be94929543f9-vm
-- name: vmess__www.velvetmountain.shop_8080
-  type: vmess
-  server: www.velvetmountain.shop
+  server: 172.67.143.192
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
@@ -1098,6 +1048,46 @@ proxies:
   flow: ''
   host: www.velvetmountain.shop
   path: /
+- name: vmess__cf.openxai.link_8080
+  type: vmess
+  server: cf.openxai.link
+  port: 8080
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  network: ws
+  tls: none
+  flow: ''
+  host: eu3.openxai.link
+  path: /?ed=2048
+- name: vmess_US_148.135.12.172_443
+  type: vmess
+  server: 148.135.12.172
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.15986187.xyz
+  path: /path/153428133302
+- name: vmess_CA_23.227.38.44_8080
+  type: vmess
+  server: 23.227.38.44
+  port: 8080
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  network: ws
+  tls: none
+  flow: ''
+  host: widescreen-instruction-breakdown-postage.trycloudflare.com
+  path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- name: vmess_CA_23.227.38.11_8080
+  type: vmess
+  server: 23.227.38.11
+  port: 8080
+  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
+  network: ws
+  tls: none
+  flow: ''
+  host: championship-bidding-oxygen-brochure.trycloudflare.com
+  path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -1108,7 +1098,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess_GB_172.99.190.109_443
+- name: vmess__172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -1118,96 +1108,6 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__172.67.130.140_2082
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  network: ws
-  tls: none
-  flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__cf.openxai.link_8080
-  type: vmess
-  server: cf.openxai.link
-  port: 8080
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  network: ws
-  tls: none
-  flow: ''
-  host: eu1.openxai.link
-  path: /?ed=2048
-- name: vmess__yh1.freeh1.xyz_8080
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
-  network: ws
-  tls: none
-  flow: ''
-  host: larger-marketing-amounts-skin.trycloudflare.com
-  path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
-- name: vmess__54.217.45.184_10681
-  type: vmess
-  server: 54.217.45.184
-  port: 10681
-  uuid: 5c799848-322d-42db-ab8b-a489ab3cba1c
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__us65.netfilx.live_80
-  type: vmess
-  server: us65.netfilx.live
-  port: 80
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  network: ws
-  tls: none
-  flow: ''
-  host: us65.netfilx.live
-  path: /
-- name: vmess__104.21.94.251_80
-  type: vmess
-  server: 104.21.94.251
-  port: 80
-  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
-  network: ws
-  tls: none
-  flow: ''
-  host: de2.xv2ray.net
-  path: /vmess
-- name: vmess__104.21.63.52_80
-  type: vmess
-  server: 104.21.63.52
-  port: 80
-  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
-  network: ws
-  tls: none
-  flow: ''
-  host: us65.netfilx.live
-  path: /
-- name: vmess__202.78.162.5_443
-  type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  network: ws
-  tls: tls
-  flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
 - name: vmess__120.233.43.4_16110
   type: vmess
   server: 120.233.43.4
@@ -1238,16 +1138,26 @@ proxies:
   flow: ''
   host: www.ywnouvbale.biz
   path: /
-- name: vmess__104.21.226.78_80
+- name: vmess__104.21.46.66_8080
   type: vmess
-  server: 104.21.226.78
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  server: 104.21.46.66
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: a.prapt5.ir
+  host: www.ywnouvbale.biz
   path: /
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -1258,26 +1168,56 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
-- name: vmess__fastly.com_80
+- name: vmess__server31.beheshtbaneh.com_8880
   type: vmess
-  server: fastly.com
-  port: 80
-  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   network: ws
   tls: none
   flow: ''
-  host: nmsl.kp
-  path: /aries?ed=2048
-- name: vmess__jp01.beitai.online_80
-  type: vmess
-  server: jp01.beitai.online
-  port: 80
-  uuid: 6be9b3a4-3e67-4cf5-98dc-c643e3fa8626
-  network: ws
-  tls: none
-  flow: ''
-  host: jp01.beitai.online
+  host: server31.beheshtbaneh.com
   path: /
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__www.velvetmountain.shop_8080
+  type: vmess
+  server: www.velvetmountain.shop
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.velvetmountain.shop
+  path: /
+- name: vmess__onea.flha.ru_2052
+  type: vmess
+  server: onea.flha.ru
+  port: 2052
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  network: ws
+  tls: none
+  flow: ''
+  host: onea.flha.ru
+  path: /
+- name: vmess__104.17.123.55_8080
+  type: vmess
+  server: 104.17.123.55
+  port: 8080
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  network: ws
+  tls: none
+  flow: ''
+  host: pq.kmoljklj.top
+  path: /qZTtpya?ed=2048
 - name: vmess__188.114.96.113_80
   type: vmess
   server: 188.114.96.113
@@ -1288,26 +1228,26 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /
-- name: vmess__172.67.143.192_8080
+- name: vmess__162.159.136.253_8080
   type: vmess
-  server: 172.67.143.192
+  server: 162.159.136.253
   port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
   network: ws
   tls: none
   flow: ''
-  host: www.velvetmountain.shop
-  path: /
-- name: vmess__pitcairn.ednovas.org_443
+  host: xentain.kmoljklj.top
+  path: /7bFcoRZS?ed=2048
+- name: vmess__151.101.3.10_80
   type: vmess
-  server: pitcairn.ednovas.org
-  port: 443
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-  network: tcp
+  server: 151.101.3.10
+  port: 80
+  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
+  host: mihoyo.gov.kp
+  path: /aries?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1398,34 +1338,28 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_CA_23.227.38.23_8080
-  - vmess_US_104.21.46.66_8080
-  - vmess__yh1.dtku41.xyz_8080
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess_KR_64.110.91.178_28902
-  - vmess__yh2.dtku41.xyz_8080
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess__172.67.130.140_2082
+  - vmess_US_172.67.130.140_2082
+  - vmess_US_172.67.143.192_8080
   - vmess__cf.openxai.link_8080
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__54.217.45.184_10681
-  - vmess__104.21.82.183_8880
-  - vmess__us65.netfilx.live_80
-  - vmess__104.21.94.251_80
-  - vmess__104.21.63.52_80
-  - vmess__202.78.162.5_443
+  - vmess_US_148.135.12.172_443
+  - vmess_CA_23.227.38.44_8080
+  - vmess_CA_23.227.38.11_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   - vmess__120.233.43.4_16110
   - vmess__185.221.160.163_443
   - vmess__www.ywnouvbale.biz_8080
-  - vmess__104.21.226.78_80
+  - vmess__104.21.46.66_8080
+  - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
-  - vmess__fastly.com_80
-  - vmess__jp01.beitai.online_80
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__www.velvetmountain.shop_8080
+  - vmess__onea.flha.ru_2052
+  - vmess__104.17.123.55_8080
   - vmess__188.114.96.113_80
-  - vmess__172.67.143.192_8080
-  - vmess__pitcairn.ednovas.org_443
+  - vmess__162.159.136.253_8080
+  - vmess__151.101.3.10_80
 - name: 手动选择
   type: select
   proxies:
@@ -1498,34 +1432,28 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_CA_23.227.38.23_8080
-  - vmess_US_104.21.46.66_8080
-  - vmess__yh1.dtku41.xyz_8080
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess_KR_64.110.91.178_28902
-  - vmess__yh2.dtku41.xyz_8080
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess__172.67.130.140_2082
+  - vmess_US_172.67.130.140_2082
+  - vmess_US_172.67.143.192_8080
   - vmess__cf.openxai.link_8080
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__54.217.45.184_10681
-  - vmess__104.21.82.183_8880
-  - vmess__us65.netfilx.live_80
-  - vmess__104.21.94.251_80
-  - vmess__104.21.63.52_80
-  - vmess__202.78.162.5_443
+  - vmess_US_148.135.12.172_443
+  - vmess_CA_23.227.38.44_8080
+  - vmess_CA_23.227.38.11_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   - vmess__120.233.43.4_16110
   - vmess__185.221.160.163_443
   - vmess__www.ywnouvbale.biz_8080
-  - vmess__104.21.226.78_80
+  - vmess__104.21.46.66_8080
+  - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
-  - vmess__fastly.com_80
-  - vmess__jp01.beitai.online_80
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__www.velvetmountain.shop_8080
+  - vmess__onea.flha.ru_2052
+  - vmess__104.17.123.55_8080
   - vmess__188.114.96.113_80
-  - vmess__172.67.143.192_8080
-  - vmess__pitcairn.ednovas.org_443
+  - vmess__162.159.136.253_8080
+  - vmess__151.101.3.10_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1598,34 +1526,28 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_CA_23.227.38.23_8080
-  - vmess_US_104.21.46.66_8080
-  - vmess__yh1.dtku41.xyz_8080
-  - vmess__cold-dawn-9246.fly.dev_443
-  - vmess_KR_64.110.91.178_28902
-  - vmess__yh2.dtku41.xyz_8080
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess__172.67.130.140_2082
+  - vmess_US_172.67.130.140_2082
+  - vmess_US_172.67.143.192_8080
   - vmess__cf.openxai.link_8080
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__54.217.45.184_10681
-  - vmess__104.21.82.183_8880
-  - vmess__us65.netfilx.live_80
-  - vmess__104.21.94.251_80
-  - vmess__104.21.63.52_80
-  - vmess__202.78.162.5_443
+  - vmess_US_148.135.12.172_443
+  - vmess_CA_23.227.38.44_8080
+  - vmess_CA_23.227.38.11_8080
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
   - vmess__120.233.43.4_16110
   - vmess__185.221.160.163_443
   - vmess__www.ywnouvbale.biz_8080
-  - vmess__104.21.226.78_80
+  - vmess__104.21.46.66_8080
+  - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
-  - vmess__fastly.com_80
-  - vmess__jp01.beitai.online_80
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__www.velvetmountain.shop_8080
+  - vmess__onea.flha.ru_2052
+  - vmess__104.17.123.55_8080
   - vmess__188.114.96.113_80
-  - vmess__172.67.143.192_8080
-  - vmess__pitcairn.ednovas.org_443
+  - vmess__162.159.136.253_8080
+  - vmess__151.101.3.10_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
