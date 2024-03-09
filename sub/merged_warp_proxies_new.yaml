@@ -978,59 +978,29 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess__172.67.130.140_2082
+- name: vmess__jader.fun_443
   type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: jader.fun
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: jader.fun
+  path: /linkvws
+- name: vmess__yh2.dtku41.xyz_8080
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
   network: ws
   tls: none
   flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__server32.beheshtbaneh.com_8880
+  host: championship-bidding-oxygen-brochure.trycloudflare.com
+  path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- name: vmess__104.21.234.54_80
   type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__94.140.0.110_8880
-  type: vmess
-  server: 94.140.0.110
-  port: 8880
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  network: ws
-  tls: none
-  flow: ''
-  host: food.zhaal.ir
-  path: /
-- name: vmess__172.67.214.33_2052
-  type: vmess
-  server: 172.67.214.33
-  port: 2052
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  network: ws
-  tls: none
-  flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__104.21.225.8_80
-  type: vmess
-  server: 104.21.225.8
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.229.46_80
-  type: vmess
-  server: 104.21.229.46
+  server: 104.21.234.54
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1038,49 +1008,49 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess__s1c.v2.v001sss.xyz_2082
+- name: vmess__162.159.136.253_8080
   type: vmess
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: 162.159.136.253
+  port: 8080
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
   network: ws
   tls: none
   flow: ''
-  host: ''
-  path: /
-- name: vmess__www.velvetmountain.shop_8080
+  host: xentain.kmoljklj.top
+  path: /7bFcoRZS?ed=2048
+- name: vmess__172.67.143.192_8080
   type: vmess
-  server: www.velvetmountain.shop
+  server: 172.67.143.192
   port: 8080
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: ''
+  host: www.velvetmountain.shop
   path: /
-- name: vmess__202.78.162.5_443
+- name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  network: ws
-  tls: tls
-  flow: ''
-  host: pendar.onthewifi.com
-  path: /@forwardv2ray
-- name: vmess__www.visa.com.hk_80
-  type: vmess
-  server: www.visa.com.hk
-  port: 80
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   network: ws
   tls: none
   flow: ''
-  host: ydmmamd2.mac2win.top
-  path: /
-- name: vmess__104.21.238.93_80
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.21.231.58_80
   type: vmess
-  server: 104.21.238.93
+  server: 104.21.231.58
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt4.ir
+  path: /?ed=2048&Telegram🇨🇳
+- name: vmess__104.21.225.7_80
+  type: vmess
+  server: 104.21.225.7
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1179,17 +1149,14 @@ proxy-groups:
   - vmess__104.21.230.30_80
   - vmess__104.16.67.38_80
   - vmess__104.21.228.44_80
-  - vmess__172.67.130.140_2082
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__94.140.0.110_8880
-  - vmess__172.67.214.33_2052
-  - vmess__104.21.225.8_80
-  - vmess__104.21.229.46_80
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__202.78.162.5_443
-  - vmess__www.visa.com.hk_80
-  - vmess__104.21.238.93_80
+  - vmess__jader.fun_443
+  - vmess__yh2.dtku41.xyz_8080
+  - vmess__104.21.234.54_80
+  - vmess__162.159.136.253_8080
+  - vmess__172.67.143.192_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.231.58_80
+  - vmess__104.21.225.7_80
 - name: 手动选择
   type: select
   proxies:
@@ -1263,17 +1230,14 @@ proxy-groups:
   - vmess__104.21.230.30_80
   - vmess__104.16.67.38_80
   - vmess__104.21.228.44_80
-  - vmess__172.67.130.140_2082
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__94.140.0.110_8880
-  - vmess__172.67.214.33_2052
-  - vmess__104.21.225.8_80
-  - vmess__104.21.229.46_80
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__202.78.162.5_443
-  - vmess__www.visa.com.hk_80
-  - vmess__104.21.238.93_80
+  - vmess__jader.fun_443
+  - vmess__yh2.dtku41.xyz_8080
+  - vmess__104.21.234.54_80
+  - vmess__162.159.136.253_8080
+  - vmess__172.67.143.192_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.231.58_80
+  - vmess__104.21.225.7_80
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1347,17 +1311,14 @@ proxy-groups:
   - vmess__104.21.230.30_80
   - vmess__104.16.67.38_80
   - vmess__104.21.228.44_80
-  - vmess__172.67.130.140_2082
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__94.140.0.110_8880
-  - vmess__172.67.214.33_2052
-  - vmess__104.21.225.8_80
-  - vmess__104.21.229.46_80
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__www.velvetmountain.shop_8080
-  - vmess__202.78.162.5_443
-  - vmess__www.visa.com.hk_80
-  - vmess__104.21.238.93_80
+  - vmess__jader.fun_443
+  - vmess__yh2.dtku41.xyz_8080
+  - vmess__104.21.234.54_80
+  - vmess__162.159.136.253_8080
+  - vmess__172.67.143.192_8080
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.231.58_80
+  - vmess__104.21.225.7_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
