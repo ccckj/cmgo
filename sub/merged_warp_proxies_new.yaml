@@ -1076,7 +1076,7 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳@WangCai_8
-- name: vmess__104.21.229.48_80
+- name: vmess_US_104.21.229.48_80
   type: vmess
   server: 104.21.229.48
   port: 80
@@ -1086,7 +1086,7 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /?ed=2048&Telegram🇨🇳@WangCai_8
-- name: vmess__104.21.54.252_8080
+- name: vmess_US_104.21.54.252_8080
   type: vmess
   server: 104.21.54.252
   port: 8080
@@ -1311,8 +1311,8 @@ proxy-groups:
   - vmess_US_104.21.224.245_80
   - vmess_US_104.21.221.240_80
   - vmess_US_104.21.224.58_80
-  - vmess__104.21.229.48_80
-  - vmess__104.21.54.252_8080
+  - vmess_US_104.21.229.48_80
+  - vmess_US_104.21.54.252_8080
   - vmess__104.21.234.52_80
   - vmess__188.114.96.113_80
   - vmess__104.21.226.12_80
@@ -1402,8 +1402,8 @@ proxy-groups:
   - vmess_US_104.21.224.245_80
   - vmess_US_104.21.221.240_80
   - vmess_US_104.21.224.58_80
-  - vmess__104.21.229.48_80
-  - vmess__104.21.54.252_8080
+  - vmess_US_104.21.229.48_80
+  - vmess_US_104.21.54.252_8080
   - vmess__104.21.234.52_80
   - vmess__188.114.96.113_80
   - vmess__104.21.226.12_80
@@ -1493,8 +1493,8 @@ proxy-groups:
   - vmess_US_104.21.224.245_80
   - vmess_US_104.21.221.240_80
   - vmess_US_104.21.224.58_80
-  - vmess__104.21.229.48_80
-  - vmess__104.21.54.252_8080
+  - vmess_US_104.21.229.48_80
+  - vmess_US_104.21.54.252_8080
   - vmess__104.21.234.52_80
   - vmess__188.114.96.113_80
   - vmess__104.21.226.12_80
