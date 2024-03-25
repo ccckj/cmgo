@@ -1058,7 +1058,7 @@ proxies:
   flow: ''
   host: hDIgP.cnbete.life
   path: /?ed=2048
-- name: vmess_US_104.21.231.55_80
+- name: vmess__104.21.231.55_80
   type: vmess
   server: 104.21.231.55
   port: 80
@@ -1288,7 +1288,7 @@ proxy-groups:
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess_US_104.21.224.106_80
   - vmess_US_104.21.237.160_80
-  - vmess_US_104.21.231.55_80
+  - vmess__104.21.231.55_80
   - vmess__104.21.237.148_80
   - vmess__172.67.49.214_80
   - vmess__104.21.224.22_80
@@ -1383,7 +1383,7 @@ proxy-groups:
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess_US_104.21.224.106_80
   - vmess_US_104.21.237.160_80
-  - vmess_US_104.21.231.55_80
+  - vmess__104.21.231.55_80
   - vmess__104.21.237.148_80
   - vmess__172.67.49.214_80
   - vmess__104.21.224.22_80
