@@ -998,9 +998,29 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_104.21.224.129_80
+- name: vmess__gov.uk_443
   type: vmess
-  server: 104.21.224.129
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  network: ws
+  tls: tls
+  flow: ''
+  host: zheshiscp.com
+  path: /77848824
+- name: vmess_US_104.21.224.202_80
+  type: vmess
+  server: 104.21.224.202
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /
+- name: vmess_US_104.21.230.31_80
+  type: vmess
+  server: 104.21.230.31
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1008,139 +1028,29 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess_US_104.21.238.93_80
+- name: vmess_US_172.67.170.25_8080
   type: vmess
-  server: 104.21.238.93
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳 @WangCai08
-- name: vmess_US_104.21.224.1_80
-  type: vmess
-  server: 104.21.224.1
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- name: vmess_US_104.21.233.45_80
-  type: vmess
-  server: 104.21.233.45
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt4.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess_US_162.159.137.249_8080
-  type: vmess
-  server: 162.159.137.249
+  server: 172.67.170.25
   port: 8080
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   network: ws
   tls: none
   flow: ''
-  host: nest-emily-healing-h.trycloudflare.com
-  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- name: vmess_US_104.21.225.26_80
+  host: eu2.openxai.link
+  path: /?ed=2048
+- name: vmess_US_104.21.235.58_80
   type: vmess
-  server: 104.21.225.26
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳 @WangCai08
-- name: vmess__russia.com_80
-  type: vmess
-  server: russia.com
-  port: 80
-  uuid: bd8c41a8-7598-4c28-9965-522545e14892
-  network: ws
-  tls: none
-  flow: ''
-  host: ssrsub.v03.ssrsub.com
-  path: /api/v3/download.getFile
-- name: vmess__104.21.236.62_80
-  type: vmess
-  server: 104.21.236.62
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /
-- name: vmess__104.21.220.172_80
-  type: vmess
-  server: 104.21.220.172
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.219.6_80
-  type: vmess
-  server: 104.21.219.6
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.236.84_80
-  type: vmess
-  server: 104.21.236.84
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.224.23_80
-  type: vmess
-  server: 104.21.224.23
+  server: 104.21.235.58
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
   host: a.prapt4.ir
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.227.15_80
-  type: vmess
-  server: 104.21.227.15
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt4.ir
-  path: /
-- name: vmess__104.21.224.240_80
-  type: vmess
-  server: 104.21.224.240
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳 @WangCai08
-- name: vmess__104.21.220.157_80
+- name: vmess_US_104.21.220.5_80
   type: vmess
-  server: 104.21.220.157
+  server: 104.21.220.5
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1148,16 +1058,16 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.230.51_80
+- name: vmess__104.21.224.186_80
   type: vmess
-  server: 104.21.230.51
+  server: 104.21.224.186
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
   host: a.prapt1.ir
-  path: /
+  path: /?ed=2048&Telegram🇨🇳
 - name: vmess__104.21.223.121_80
   type: vmess
   server: 104.21.223.121
@@ -1168,9 +1078,9 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳 @WangCai08
-- name: vmess__104.21.236.81_80
+- name: vmess__104.21.220.104_80
   type: vmess
-  server: 104.21.236.81
+  server: 104.21.220.104
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1178,9 +1088,119 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.232.40_80
+- name: vmess__104.21.228.22_80
   type: vmess
-  server: 104.21.232.40
+  server: 104.21.228.22
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- name: vmess__104.21.231.58_80
+  type: vmess
+  server: 104.21.231.58
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- name: vmess__104.21.226.14_80
+  type: vmess
+  server: 104.21.226.14
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt4.ir
+  path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- name: vmess__104.21.224.245_80
+  type: vmess
+  server: 104.21.224.245
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /
+- name: vmess__104.21.221.109_80
+  type: vmess
+  server: 104.21.221.109
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳
+- name: vmess__94.140.0.110_8880
+  type: vmess
+  server: 94.140.0.110
+  port: 8880
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  network: ws
+  tls: none
+  flow: ''
+  host: food.zhaal.ir
+  path: /
+- name: vmess__8.222.174.108_2082
+  type: vmess
+  server: 8.222.174.108
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
+  tls: none
+  flow: ''
+  host: s1c.v2.v001sss.xyz
+  path: /
+- name: vmess__104.21.224.194_80
+  type: vmess
+  server: 104.21.224.194
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳 @WangCai08
+- name: vmess__104.21.226.10_80
+  type: vmess
+  server: 104.21.226.10
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt4.ir
+  path: /
+- name: vmess__104.21.221.207_80
+  type: vmess
+  server: 104.21.221.207
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048
+- name: vmess__104.21.220.172_80
+  type: vmess
+  server: 104.21.220.172
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳
+- name: vmess__104.21.233.47_80
+  type: vmess
+  server: 104.21.233.47
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
@@ -1188,26 +1208,6 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /?ed=2048&Telegram🇨🇳
-- name: vmess__yh1.freeh1.xyz_8080
-  type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  network: ws
-  tls: none
-  flow: ''
-  host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- name: vmess__yh2.dtku41.xyz_8080
-  type: vmess
-  server: yh2.dtku41.xyz
-  port: 8080
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  network: ws
-  tls: none
-  flow: ''
-  host: per-essex-patterns-bowling.trycloudflare.com
-  path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1282,27 +1282,27 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_US_104.21.224.129_80
-  - vmess_US_104.21.238.93_80
-  - vmess_US_104.21.224.1_80
-  - vmess_US_104.21.233.45_80
-  - vmess_US_162.159.137.249_8080
-  - vmess_US_104.21.225.26_80
-  - vmess__russia.com_80
-  - vmess__104.21.236.62_80
-  - vmess__104.21.220.172_80
-  - vmess__104.21.219.6_80
-  - vmess__104.21.236.84_80
-  - vmess__104.21.224.23_80
-  - vmess__104.21.227.15_80
-  - vmess__104.21.224.240_80
-  - vmess__104.21.220.157_80
-  - vmess__104.21.230.51_80
+  - vmess__gov.uk_443
+  - vmess_US_104.21.224.202_80
+  - vmess_US_104.21.230.31_80
+  - vmess_US_172.67.170.25_8080
+  - vmess_US_104.21.235.58_80
+  - vmess_US_104.21.220.5_80
+  - vmess__104.21.224.186_80
   - vmess__104.21.223.121_80
-  - vmess__104.21.236.81_80
-  - vmess__104.21.232.40_80
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__yh2.dtku41.xyz_8080
+  - vmess__104.21.220.104_80
+  - vmess__104.21.228.22_80
+  - vmess__104.21.231.58_80
+  - vmess__104.21.226.14_80
+  - vmess__104.21.224.245_80
+  - vmess__104.21.221.109_80
+  - vmess__94.140.0.110_8880
+  - vmess__8.222.174.108_2082
+  - vmess__104.21.224.194_80
+  - vmess__104.21.226.10_80
+  - vmess__104.21.221.207_80
+  - vmess__104.21.220.172_80
+  - vmess__104.21.233.47_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1377,27 +1377,27 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_US_104.21.224.129_80
-  - vmess_US_104.21.238.93_80
-  - vmess_US_104.21.224.1_80
-  - vmess_US_104.21.233.45_80
-  - vmess_US_162.159.137.249_8080
-  - vmess_US_104.21.225.26_80
-  - vmess__russia.com_80
-  - vmess__104.21.236.62_80
-  - vmess__104.21.220.172_80
-  - vmess__104.21.219.6_80
-  - vmess__104.21.236.84_80
-  - vmess__104.21.224.23_80
-  - vmess__104.21.227.15_80
-  - vmess__104.21.224.240_80
-  - vmess__104.21.220.157_80
-  - vmess__104.21.230.51_80
+  - vmess__gov.uk_443
+  - vmess_US_104.21.224.202_80
+  - vmess_US_104.21.230.31_80
+  - vmess_US_172.67.170.25_8080
+  - vmess_US_104.21.235.58_80
+  - vmess_US_104.21.220.5_80
+  - vmess__104.21.224.186_80
   - vmess__104.21.223.121_80
-  - vmess__104.21.236.81_80
-  - vmess__104.21.232.40_80
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__yh2.dtku41.xyz_8080
+  - vmess__104.21.220.104_80
+  - vmess__104.21.228.22_80
+  - vmess__104.21.231.58_80
+  - vmess__104.21.226.14_80
+  - vmess__104.21.224.245_80
+  - vmess__104.21.221.109_80
+  - vmess__94.140.0.110_8880
+  - vmess__8.222.174.108_2082
+  - vmess__104.21.224.194_80
+  - vmess__104.21.226.10_80
+  - vmess__104.21.221.207_80
+  - vmess__104.21.220.172_80
+  - vmess__104.21.233.47_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
