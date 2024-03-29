@@ -1088,7 +1088,7 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /
-- name: vmess__104.21.232.64_80
+- name: vmess_US_104.21.232.64_80
   type: vmess
   server: 104.21.232.64
   port: 80
@@ -1118,7 +1118,7 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /
-- name: vmess__151.101.65.57_80
+- name: vmess_US_151.101.65.57_80
   type: vmess
   server: 151.101.65.57
   port: 80
@@ -1291,10 +1291,10 @@ proxy-groups:
   - vmess_US_104.21.227.17_80
   - vmess_US_104.21.224.152_80
   - vmess__104.21.224.40_80
-  - vmess__104.21.232.64_80
+  - vmess_US_104.21.232.64_80
   - vmess__104.21.224.137_80
   - vmess__104.21.224.46_80
-  - vmess__151.101.65.57_80
+  - vmess_US_151.101.65.57_80
   - vmess__104.21.221.240_80
   - vmess__yh1.dtku41.xyz_8080
   - vmess__8.222.174.108_2082
@@ -1386,10 +1386,10 @@ proxy-groups:
   - vmess_US_104.21.227.17_80
   - vmess_US_104.21.224.152_80
   - vmess__104.21.224.40_80
-  - vmess__104.21.232.64_80
+  - vmess_US_104.21.232.64_80
   - vmess__104.21.224.137_80
   - vmess__104.21.224.46_80
-  - vmess__151.101.65.57_80
+  - vmess_US_151.101.65.57_80
   - vmess__104.21.221.240_80
   - vmess__yh1.dtku41.xyz_8080
   - vmess__8.222.174.108_2082
