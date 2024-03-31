@@ -1076,7 +1076,7 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /
-- name: vmess__104.21.231.55_80
+- name: vmess_US_104.21.231.55_80
   type: vmess
   server: 104.21.231.55
   port: 80
@@ -1086,7 +1086,7 @@ proxies:
   flow: ''
   host: a.prapt4.ir
   path: /
-- name: vmess__104.21.220.34_80
+- name: vmess_US_104.21.220.34_80
   type: vmess
   server: 104.21.220.34
   port: 80
@@ -1096,7 +1096,7 @@ proxies:
   flow: ''
   host: a.prapt1.ir
   path: /?ed=2048
-- name: vmess__104.21.229.46_80
+- name: vmess_US_104.21.229.46_80
   type: vmess
   server: 104.21.229.46
   port: 80
@@ -1311,9 +1311,9 @@ proxy-groups:
   - vmess_FR_213.32.63.176_3586
   - vmess_US_104.21.25.8_2096
   - vmess_US_104.21.224.221_80
-  - vmess__104.21.231.55_80
-  - vmess__104.21.220.34_80
-  - vmess__104.21.229.46_80
+  - vmess_US_104.21.231.55_80
+  - vmess_US_104.21.220.34_80
+  - vmess_US_104.21.229.46_80
   - vmess__104.21.232.63_80
   - vmess__104.21.8.157_2082
   - vmess__104.21.226.10_80
@@ -1402,9 +1402,9 @@ proxy-groups:
   - vmess_FR_213.32.63.176_3586
   - vmess_US_104.21.25.8_2096
   - vmess_US_104.21.224.221_80
-  - vmess__104.21.231.55_80
-  - vmess__104.21.220.34_80
-  - vmess__104.21.229.46_80
+  - vmess_US_104.21.231.55_80
+  - vmess_US_104.21.220.34_80
+  - vmess_US_104.21.229.46_80
   - vmess__104.21.232.63_80
   - vmess__104.21.8.157_2082
   - vmess__104.21.226.10_80
@@ -1493,9 +1493,9 @@ proxy-groups:
   - vmess_FR_213.32.63.176_3586
   - vmess_US_104.21.25.8_2096
   - vmess_US_104.21.224.221_80
-  - vmess__104.21.231.55_80
-  - vmess__104.21.220.34_80
-  - vmess__104.21.229.46_80
+  - vmess_US_104.21.231.55_80
+  - vmess_US_104.21.220.34_80
+  - vmess_US_104.21.229.46_80
   - vmess__104.21.232.63_80
   - vmess__104.21.8.157_2082
   - vmess__104.21.226.10_80
