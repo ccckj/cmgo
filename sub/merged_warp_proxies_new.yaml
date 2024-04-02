@@ -1076,7 +1076,7 @@ proxies:
   flow: ''
   host: bibliographic-sword-sequence-advertisers.trycloudflare.com
   path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- name: vmess_US_104.21.229.49_80
+- name: vmess__104.21.229.49_80
   type: vmess
   server: 104.21.229.49
   port: 80
@@ -1311,7 +1311,7 @@ proxy-groups:
   - vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
   - vmess_US_173.245.58.100_8080
   - vmess_US_162.159.1.33_8080
-  - vmess_US_104.21.229.49_80
+  - vmess__104.21.229.49_80
   - vmess__104.21.4.14_2086
   - vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
   - vmess__23.227.38.23_8080
@@ -1402,7 +1402,7 @@ proxy-groups:
   - vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
   - vmess_US_173.245.58.100_8080
   - vmess_US_162.159.1.33_8080
-  - vmess_US_104.21.229.49_80
+  - vmess__104.21.229.49_80
   - vmess__104.21.4.14_2086
   - vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
   - vmess__23.227.38.23_8080
@@ -1493,7 +1493,7 @@ proxy-groups:
   - vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
   - vmess_US_173.245.58.100_8080
   - vmess_US_162.159.1.33_8080
-  - vmess_US_104.21.229.49_80
+  - vmess__104.21.229.49_80
   - vmess__104.21.4.14_2086
   - vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
   - vmess__23.227.38.23_8080
