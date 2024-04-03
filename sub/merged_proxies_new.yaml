@@ -998,117 +998,17 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_104.21.227.36_80
-  type: vmess
-  server: 104.21.227.36
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /
-- name: vmess__onea.flha.ru_2095
-  type: vmess
-  server: onea.flha.ru
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  network: ws
-  tls: none
-  flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__racknerd.gorgorchicken.one_8443
-  type: vmess
-  server: racknerd.gorgorchicken.one
-  port: 8443
-  uuid: 1df0a6ca-5812-4bce-ddb1-9cd5548f4919
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /racknerd
-- name: vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
-  type: vmess
-  server: sg5g.xn--vhq70hxyat50h6wk.com
-  port: 80
-  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess_US_173.245.58.100_8080
-  type: vmess
-  server: 173.245.58.100
-  port: 8080
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
-  network: ws
-  tls: none
-  flow: ''
-  host: technological-mel-fill-decide.trycloudflare.com
-  path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
-- name: vmess_US_162.159.1.33_8080
-  type: vmess
-  server: 162.159.1.33
-  port: 8080
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  network: ws
-  tls: none
-  flow: ''
-  host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- name: vmess__104.21.229.49_80
-  type: vmess
-  server: 104.21.229.49
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt4.ir
-  path: /?ed=2048&Telegram🇨🇳@WangCai08
-- name: vmess__104.21.4.14_2086
-  type: vmess
-  server: 104.21.4.14
-  port: 2086
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  network: ws
-  tls: none
-  flow: ''
-  host: admin.arzonhost.ir
-  path: /
-- name: vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
+- name: vmess__tw1g.xn--vhq70hxyat50h6wk.com_443
   type: vmess
   server: tw1g.xn--vhq70hxyat50h6wk.com
-  port: 80
+  port: 443
   uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
   network: ws
   tls: none
   flow: ''
   host: ''
   path: /
-- name: vmess__23.227.38.23_8080
-  type: vmess
-  server: 23.227.38.23
-  port: 8080
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  network: ws
-  tls: none
-  flow: ''
-  host: uh-lawyers-instruments-kernel.trycloudflare.com
-  path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- name: vmess__104.21.225.55_80
-  type: vmess
-  server: 104.21.225.55
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /
-- name: vmess__172.64.107.100_2082
+- name: vmess_ES_172.64.107.100_2082
   type: vmess
   server: 172.64.107.100
   port: 2082
@@ -1118,16 +1018,86 @@ proxies:
   flow: ''
   host: us4Bb5oSgJA.fzbqfrse.xyz
   path: /video/CuTy87zAzV/
-- name: vmess__104.21.8.157_2082
+- name: vmess_US_172.67.214.33_2052
   type: vmess
-  server: 104.21.8.157
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: 172.67.214.33
+  port: 2052
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
   network: ws
   tls: none
   flow: ''
-  host: s1c.v2.v001sss.xyz
+  host: onea.flha.ru
   path: /
+- name: vmess_US_104.21.220.168_80
+  type: vmess
+  server: 104.21.220.168
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt1.ir
+  path: /?ed=2048&Telegram🇨🇳
+- name: vmess__m07.tk4433.com_2053
+  type: vmess
+  server: m07.tk4433.com
+  port: 2053
+  uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /m07.tk4433.com
+- name: vmess__hms04.xmivideo.cfd_443
+  type: vmess
+  server: hms04.xmivideo.cfd
+  port: 443
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  network: ws
+  tls: tls
+  flow: ''
+  host: xmivideo.cfd
+  path: /linkws
+- name: vmess__data-jp-v1.usabooks.com.cn_20301
+  type: vmess
+  server: data-jp-v1.usabooks.com.cn
+  port: 20301
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-jp-v1.usabooks.com.cn
+  path: /debian
+- name: vmess__server31.beheshtbaneh.com_8880
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  network: ws
+  tls: none
+  flow: ''
+  host: server31.beheshtbaneh.com
+  path: /
+- name: vmess__188.114.99.150_443
+  type: vmess
+  server: 188.114.99.150
+  port: 443
+  uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864
+  network: ws
+  tls: tls
+  flow: ''
+  host: fi1.xv2ray.net
+  path: /vmess
+- name: vmess__173.245.58.100_8080
+  type: vmess
+  server: 173.245.58.100
+  port: 8080
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  network: ws
+  tls: none
+  flow: ''
+  host: technological-mel-fill-decide.trycloudflare.com
+  path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - name: vmess__87.120.204.200_8080
   type: vmess
   server: 87.120.204.200
@@ -1136,68 +1106,98 @@ proxies:
   network: ws
   tls: tls
   flow: ''
-  host: 87.120.204.200
-  path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__91.199.82.78_8080
-  type: vmess
-  server: 91.199.82.78
-  port: 8080
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  network: ws
-  tls: tls
-  flow: ''
   host: ''
   path: /
-- name: vmess__172.67.66.46_8080
+- name: vmess__188.114.96.113_80
   type: vmess
-  server: 172.67.66.46
-  port: 8080
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  server: 188.114.96.113
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   network: ws
   tls: none
   flow: ''
-  host: eu2.openxai.link
+  host: a.prapt4.ir
   path: /
-- name: vmess__yh1.freeh1.xyz_8080
+- name: vmess__npmjs.com_443
   type: vmess
-  server: yh1.freeh1.xyz
-  port: 8080
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  network: ws
-  tls: none
-  flow: ''
-  host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- name: vmess__hytron.io_8080
-  type: vmess
-  server: hytron.io
-  port: 8080
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  network: ws
-  tls: none
-  flow: ''
-  host: hytron.io
-  path: /
-- name: vmess__172.99.190.109_443
-  type: vmess
-  server: 172.99.190.109
+  server: npmjs.com
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
   network: ws
   tls: tls
   flow: ''
+  host: csub6.CPiFORPERsiA.UK
+  path: /hdfyc5.achaemenidempireofpersia.uk/sNpuhb8v1rEIIa5hne1e
+- name: vmess__admin.arzonhost.ir_2086
+  type: vmess
+  server: admin.arzonhost.ir
+  port: 2086
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  network: ws
+  tls: none
+  flow: ''
+  host: admin.arzonhost.ir
+  path: /
+- name: vmess__mf838f.micloud.buzz_46038
+  type: vmess
+  server: mf838f.micloud.buzz
+  port: 46038
+  uuid: 4a7929d8-f59e-4f37-9708-22027f210a07
+  network: ws
+  tls: none
+  flow: ''
+  host: mf838f.micloud.buzz
+  path: /zh-cn
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  network: ws
+  tls: tls
+  flow: ''
+  host: pendar.onthewifi.com
+  path: /@forwardv2ray
+- name: vmess__0:0:0:0:0:ffff:b2d0:5790_45015
+  type: vmess
+  server: 0:0:0:0:0:ffff:b2d0:5790
+  port: 45015
+  uuid: 21f54c15-c624-460a-d6f3-95bb2041ea4a
+  network: ws
+  tls: none
+  flow: ''
   host: ''
-  path: linkvws
+  path: /
+- name: vmess__209.73.143.254_14247
+  type: vmess
+  server: 209.73.143.254
+  port: 14247
+  uuid: 177e6a15-ca79-4688-fd04-142b9a1e968b
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /ainyj23244
+- name: vmess__94.140.0.110_8880
+  type: vmess
+  server: 94.140.0.110
+  port: 8880
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  network: ws
+  tls: none
+  flow: ''
+  host: food.zhaal.ir
+  path: /
+- name: vmess__104.21.238.93_80
+  type: vmess
+  server: 104.21.238.93
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  network: ws
+  tls: none
+  flow: ''
+  host: a.prapt5.ir
+  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1272,26 +1272,26 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_US_104.21.227.36_80
-  - vmess__onea.flha.ru_2095
-  - vmess__racknerd.gorgorchicken.one_8443
-  - vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
-  - vmess_US_173.245.58.100_8080
-  - vmess_US_162.159.1.33_8080
-  - vmess__104.21.229.49_80
-  - vmess__104.21.4.14_2086
-  - vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
-  - vmess__23.227.38.23_8080
-  - vmess__104.21.225.55_80
-  - vmess__172.64.107.100_2082
-  - vmess__104.21.8.157_2082
+  - vmess__tw1g.xn--vhq70hxyat50h6wk.com_443
+  - vmess_ES_172.64.107.100_2082
+  - vmess_US_172.67.214.33_2052
+  - vmess_US_104.21.220.168_80
+  - vmess__m07.tk4433.com_2053
+  - vmess__hms04.xmivideo.cfd_443
+  - vmess__data-jp-v1.usabooks.com.cn_20301
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__188.114.99.150_443
+  - vmess__173.245.58.100_8080
   - vmess__87.120.204.200_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__91.199.82.78_8080
-  - vmess__172.67.66.46_8080
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess__188.114.96.113_80
+  - vmess__npmjs.com_443
+  - vmess__admin.arzonhost.ir_2086
+  - vmess__mf838f.micloud.buzz_46038
+  - vmess__202.78.162.5_443
+  - vmess__0:0:0:0:0:ffff:b2d0:5790_45015
+  - vmess__209.73.143.254_14247
+  - vmess__94.140.0.110_8880
+  - vmess__104.21.238.93_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1366,26 +1366,26 @@ proxy-groups:
   - hy2_US_64.110.25.11:33337
   - hy2_FR_62.210.103.0:22483
   - hy2_FR_51.159.77.198:53967
-  - vmess_US_104.21.227.36_80
-  - vmess__onea.flha.ru_2095
-  - vmess__racknerd.gorgorchicken.one_8443
-  - vmess__sg5g.xn--vhq70hxyat50h6wk.com_80
-  - vmess_US_173.245.58.100_8080
-  - vmess_US_162.159.1.33_8080
-  - vmess__104.21.229.49_80
-  - vmess__104.21.4.14_2086
-  - vmess__tw1g.xn--vhq70hxyat50h6wk.com_80
-  - vmess__23.227.38.23_8080
-  - vmess__104.21.225.55_80
-  - vmess__172.64.107.100_2082
-  - vmess__104.21.8.157_2082
+  - vmess__tw1g.xn--vhq70hxyat50h6wk.com_443
+  - vmess_ES_172.64.107.100_2082
+  - vmess_US_172.67.214.33_2052
+  - vmess_US_104.21.220.168_80
+  - vmess__m07.tk4433.com_2053
+  - vmess__hms04.xmivideo.cfd_443
+  - vmess__data-jp-v1.usabooks.com.cn_20301
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__188.114.99.150_443
+  - vmess__173.245.58.100_8080
   - vmess__87.120.204.200_8080
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__91.199.82.78_8080
-  - vmess__172.67.66.46_8080
-  - vmess__yh1.freeh1.xyz_8080
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess__188.114.96.113_80
+  - vmess__npmjs.com_443
+  - vmess__admin.arzonhost.ir_2086
+  - vmess__mf838f.micloud.buzz_46038
+  - vmess__202.78.162.5_443
+  - vmess__0:0:0:0:0:ffff:b2d0:5790_45015
+  - vmess__209.73.143.254_14247
+  - vmess__94.140.0.110_8880
+  - vmess__104.21.238.93_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
