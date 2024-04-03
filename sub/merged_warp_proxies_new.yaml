@@ -894,10 +894,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: hysteria2_51.159.77.153:33390
+- name: hysteria2_51.159.77.153:44190
   type: hysteria2
   server: 51.159.77.153
-  port: 33390
+  port: 44190
   password: dongtaiwang.com
   alpn:
   - h3
@@ -1304,7 +1304,7 @@ proxy-groups:
   - vmess_yh3.freeh1.xyz:8080
   - vmess_yh3.freeh1.xyz:8080
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_51.159.77.153:33390
+  - hysteria2_51.159.77.153:44190
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
@@ -1396,7 +1396,7 @@ proxy-groups:
   - vmess_yh3.freeh1.xyz:8080
   - vmess_yh3.freeh1.xyz:8080
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_51.159.77.153:33390
+  - hysteria2_51.159.77.153:44190
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
@@ -1488,7 +1488,7 @@ proxy-groups:
   - vmess_yh3.freeh1.xyz:8080
   - vmess_yh3.freeh1.xyz:8080
   - hysteria_www2.dtku48.xyz:22334
-  - hysteria2_51.159.77.153:33390
+  - hysteria2_51.159.77.153:44190
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
   - hysteria_0
