@@ -1076,7 +1076,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess_FR_213.32.63.176_3586
+- name: vmess__213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -1086,7 +1086,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_172.67.130.140_2082
+- name: vmess__172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -1186,46 +1186,16 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__8.222.174.108_2082
+- name: vmess__202.78.162.5_443
   type: vmess
-  server: 8.222.174.108
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   network: ws
-  tls: none
+  tls: tls
   flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__149.28.232.195_43231
-  type: vmess
-  server: 149.28.232.195
-  port: 43231
-  uuid: 2c4e4cf0-e671-4c0c-ebe8-45e1d1e02bd3
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__data-us-v1.shwjfkw.cn_20401
-  type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: 20401
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  network: ws
-  tls: none
-  flow: ''
-  host: data-us-v1.shwjfkw.cn
-  path: /debian
-- name: vmess__104.21.235.58_80
-  type: vmess
-  server: 104.21.235.58
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  network: ws
-  tls: none
-  flow: ''
-  host: a.prapt5.ir
-  path: /?ed=2048
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1321,8 +1291,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1332,10 +1302,7 @@ proxy-groups:
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__8.222.174.108_2082
-  - vmess__149.28.232.195_43231
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.235.58_80
+  - vmess__202.78.162.5_443
 - name: 手动选择
   type: select
   proxies:
@@ -1413,8 +1380,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1424,10 +1391,7 @@ proxy-groups:
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__8.222.174.108_2082
-  - vmess__149.28.232.195_43231
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.235.58_80
+  - vmess__202.78.162.5_443
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1505,8 +1469,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1516,10 +1480,7 @@ proxy-groups:
   - vmess__cf.openxai.link_8080
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__8.222.174.108_2082
-  - vmess__149.28.232.195_43231
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.235.58_80
+  - vmess__202.78.162.5_443
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
