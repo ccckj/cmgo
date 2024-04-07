@@ -25,66 +25,17 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: vmess_fbi.gov:8080
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  alterId: 0
-  tls: false
+- name: hysteria2_74.63.233.74:33445
+  type: hysteria2
+  server: 74.63.233.74
+  port: 33445
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
   skip-cert-verify: true
-  servername: pcs-referenced-camera-concerns.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-- name: vmess_fbi.gov:8080
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: bibliographic-sword-sequence-advertisers.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: vmess_fbi.gov:8080
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: nest-emily-healing-h.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-- name: vmess_fbi.gov:8080
-  type: vmess
-  server: fbi.gov
-  port: 8080
-  cipher: auto
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: larger-marketing-amounts-skin.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-    headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
+  up: 5 Mbps
+  down: 20 Mbps
 - name: vmess_fbi.gov:8080
   type: vmess
   server: fbi.gov
@@ -878,7 +829,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess__213.32.63.176_3586
+- name: vmess_FR_213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -888,7 +839,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__172.67.130.140_2082
+- name: vmess_US_172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -1004,10 +955,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
+  - hysteria2_74.63.233.74:33445
   - vmess_fbi.gov:8080
   - vmess_fbi.gov:8080
   - vmess_fbi.gov:8080
@@ -1066,8 +1014,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1084,10 +1032,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
+  - hysteria2_74.63.233.74:33445
   - vmess_fbi.gov:8080
   - vmess_fbi.gov:8080
   - vmess_fbi.gov:8080
@@ -1146,8 +1091,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
