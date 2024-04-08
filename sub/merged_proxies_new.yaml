@@ -51,9 +51,9 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
     headers:
       host: concentrations-taxi-about-recognised.trycloudflare.com
-- name: vmess_fbi.gov:8080
+- name: vmess_yh1.dtku41.xyz:8080
   type: vmess
-  server: fbi.gov
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -66,9 +66,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: vmess_fbi.gov:8080
+- name: vmess_yh4.dtku41.xyz:8080
   type: vmess
-  server: fbi.gov
+  server: yh4.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -81,9 +81,9 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
       host: booty-pensions-scheduling-blogging.trycloudflare.com
-- name: vmess_fbi.gov:8080
+- name: vmess_yh5.dtku41.xyz:8080
   type: vmess
-  server: fbi.gov
+  server: yh5.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
@@ -829,7 +829,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess_FR_213.32.63.176_3586
+- name: vmess__213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -839,7 +839,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_172.67.130.140_2082
+- name: vmess__172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -957,9 +957,9 @@ proxy-groups:
   - DIRECT
   - hysteria2_74.63.233.74:33445
   - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
+  - vmess_yh1.dtku41.xyz:8080
+  - vmess_yh4.dtku41.xyz:8080
+  - vmess_yh5.dtku41.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
@@ -1014,8 +1014,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1034,9 +1034,9 @@ proxy-groups:
   proxies:
   - hysteria2_74.63.233.74:33445
   - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
-  - vmess_fbi.gov:8080
+  - vmess_yh1.dtku41.xyz:8080
+  - vmess_yh4.dtku41.xyz:8080
+  - vmess_yh5.dtku41.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
   - vmess_yh1.freeh1.xyz:8080
@@ -1091,8 +1091,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
