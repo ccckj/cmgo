@@ -829,7 +829,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess_FR_213.32.63.176_3586
+- name: vmess__213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -839,7 +839,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_172.67.130.140_2082
+- name: vmess__172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -1014,8 +1014,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -1091,8 +1091,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
-  - vmess_US_172.67.130.140_2082
+  - vmess__213.32.63.176_3586
+  - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
