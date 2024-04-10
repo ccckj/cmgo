@@ -699,6 +699,18 @@ proxies:
   auth_str: dongtaiwang.com
   up: 2
   down: 10
+- name: shadowtls_1
+  type: ss
+  server: 109.104.152.186
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 2mLw+aTguEUrvK/Jamxr4CY/RbLCL/MmfWJQ7c6bXe8=
+  plugin: shadow-tls
+  client-fingerprint: chrome
+  plugin-opts:
+    host: nijigen-works.jp
+    password: UcMMbVQBzIUAcdC12ju6lV9j3rjK3cAQiZoYCDk1h/g=
+    version: 3
 - name: hysteria_0
   type: hysteria
   server: 108.181.5.133
@@ -847,7 +859,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess_FR_213.32.63.176_3586
+- name: vmess__213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -1033,6 +1045,7 @@ proxy-groups:
   - hysteria2_109.104.152.89:22441
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
+  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1047,7 +1060,7 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
+  - vmess__213.32.63.176_3586
   - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
@@ -1107,6 +1120,7 @@ proxy-groups:
   - hysteria2_109.104.152.89:22441
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
+  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1121,7 +1135,7 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
+  - vmess__213.32.63.176_3586
   - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
@@ -1181,6 +1195,7 @@ proxy-groups:
   - hysteria2_109.104.152.89:22441
   - ss_62.204.54.81:44550
   - hysteria_www.dtku50.xyz:18470
+  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1195,7 +1210,7 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess_FR_213.32.63.176_3586
+  - vmess__213.32.63.176_3586
   - vmess__172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
