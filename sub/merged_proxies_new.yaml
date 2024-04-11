@@ -291,9 +291,9 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -320,8 +320,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 109.104.152.194
-  port: 25304
-  ports: 47000-48000
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -423,7 +423,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess__213.32.63.176_3586
+- name: vmess_FR_213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -433,7 +433,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__172.67.130.140_2082
+- name: vmess_US_172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -577,8 +577,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -623,8 +623,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
