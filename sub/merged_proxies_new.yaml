@@ -423,7 +423,7 @@ proxies:
   flow: ''
   host: admin.arzonhost.ir
   path: /
-- name: vmess__213.32.63.176_3586
+- name: vmess_FR_213.32.63.176_3586
   type: vmess
   server: 213.32.63.176
   port: 3586
@@ -433,7 +433,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__172.67.130.140_2082
+- name: vmess_US_172.67.130.140_2082
   type: vmess
   server: 172.67.130.140
   port: 2082
@@ -543,6 +543,96 @@ proxies:
   flow: ''
   host: irsoft.sytes.net
   path: /@forwardv2ray
+- name: vmess__104.249.173.159_40118
+  type: vmess
+  server: 104.249.173.159
+  port: 40118
+  uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.21.23.231_2095
+  type: vmess
+  server: 104.21.23.231
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  network: ws
+  tls: none
+  flow: ''
+  host: fcdn.flha.ru
+  path: /
+- name: vmess__183.236.51.59_54437
+  type: vmess
+  server: 183.236.51.59
+  port: 54437
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__23.154.136.2_443
+  type: vmess
+  server: 23.154.136.2
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__88.135.42.222_23516
+  type: vmess
+  server: 88.135.42.222
+  port: 23516
+  uuid: 816c5db2-a1c2-4935-a596-6c5652ffb9fd
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__158.51.121.36_443
+  type: vmess
+  server: 158.51.121.36
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__kkyx.yydsii.com_8080
+  type: vmess
+  server: kkyx.yydsii.com
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__us219.netfilx.live_80
+  type: vmess
+  server: us219.netfilx.live
+  port: 80
+  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
+  network: ws
+  tls: none
+  flow: ''
+  host: us219.netfilx.live
+  path: /
+- name: vmess__4.namesilo123.top_80
+  type: vmess
+  server: 4.namesilo123.top
+  port: 80
+  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
+  network: ws
+  tls: none
+  flow: ''
+  host: de.sanfen002.top
+  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -577,8 +667,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -589,6 +679,15 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__202.78.162.5_443
+  - vmess__104.249.173.159_40118
+  - vmess__104.21.23.231_2095
+  - vmess__183.236.51.59_54437
+  - vmess__23.154.136.2_443
+  - vmess__88.135.42.222_23516
+  - vmess__158.51.121.36_443
+  - vmess__kkyx.yydsii.com_8080
+  - vmess__us219.netfilx.live_80
+  - vmess__4.namesilo123.top_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -623,8 +722,8 @@ proxy-groups:
   - vmess__s1c.v2.v001sss.xyz_2082
   - vmess__tu.mahilu.site_2095
   - vmess__admin.arzonhost.ir_2086
-  - vmess__213.32.63.176_3586
-  - vmess__172.67.130.140_2082
+  - vmess_FR_213.32.63.176_3586
+  - vmess_US_172.67.130.140_2082
   - vmess__172.67.116.48_80
   - vmess__104.21.225.104_80
   - vmess__94.140.0.110_8880
@@ -635,6 +734,15 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__202.78.162.5_443
+  - vmess__104.249.173.159_40118
+  - vmess__104.21.23.231_2095
+  - vmess__183.236.51.59_54437
+  - vmess__23.154.136.2_443
+  - vmess__88.135.42.222_23516
+  - vmess__158.51.121.36_443
+  - vmess__kkyx.yydsii.com_8080
+  - vmess__us219.netfilx.live_80
+  - vmess__4.namesilo123.top_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
