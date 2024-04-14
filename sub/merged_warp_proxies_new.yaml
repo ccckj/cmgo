@@ -571,125 +571,45 @@ proxies:
   flow: ''
   host: us219.netfilx.live
   path: /
-- name: vmess__108.61.158.122_80
+- name: vmess__75.102.51.45_58701
   type: vmess
-  server: 108.61.158.122
-  port: 80
-  uuid: 06efd46e-25f1-4ff9-b6f0-e459ad2354d1
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /link
-- name: vmess__104.18.25.92_2052
-  type: vmess
-  server: 104.18.25.92
-  port: 2052
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  network: ws
-  tls: none
-  flow: ''
-  host: mysan2.jaquay22.workers.dev
-  path: /afrhms16v.bestxray.buzz/linkws
-- name: vmess__cfcdn2.sanfencdn9.com_2052
-  type: vmess
-  server: cfcdn2.sanfencdn9.com
-  port: 2052
-  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
-  network: ws
-  tls: none
-  flow: ''
-  host: 7nAi74jJsg1.yofnhkfc.xyz
-  path: /video/c9efxRCi
-- name: vmess__cfcdn3.sanfencdn9.com_80
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
-  network: ws
-  tls: none
-  flow: ''
-  host: oA5FSz9Tjp1.yofnhkfc.xyz
-  path: /video/P7EExoE2
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__23.162.200.227_443
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /linkvws
-- name: vmess__172.67.76.35_2052
-  type: vmess
-  server: 172.67.76.35
-  port: 2052
-  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
-  network: ws
-  tls: none
-  flow: ''
-  host: wtywwcrzjp5.yofnhkfc.xyz
-  path: /video/9TfVEyku
-- name: vmess__1.namesilo123.top_80
-  type: vmess
-  server: 1.namesilo123.top
-  port: 80
-  uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04
-  network: ws
-  tls: none
-  flow: ''
-  host: de.sanfen002.top
-  path: /?ed=2048
-- name: vmess__lol.ps_2052
-  type: vmess
-  server: lol.ps
-  port: 2052
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  network: ws
-  tls: none
-  flow: ''
-  host: mysan2.jaquay22.workers.dev
-  path: /afrhms16v.bestxray.buzz/linkws
-- name: vmess__7569erzy.of08zo0-et55lpt-uk01.my777999.top_41999
-  type: vmess
-  server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top
-  port: 41999
-  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
+  server: 75.102.51.45
+  port: 58701
+  uuid: b72eda2c-7b68-4813-ef86-086c8afc8e57
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__183.240.179.207_30055
+- name: vmess__183.240.179.207_30127
   type: vmess
   server: 183.240.179.207
-  port: 30055
+  port: 30127
   uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.21.82.183_8880
+- name: vmess__23.94.100.187_12723
   type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  server: 23.94.100.187
+  port: 12723
+  uuid: 74a3f3c7-c973-4049-a448-7ac1b22de2f7
   network: ws
   tls: none
   flow: ''
-  host: server26.beheshtbaneh.com
+  host: ''
+  path: /adw
+- name: vmess__tu.mahilu.site_2095
+  type: vmess
+  server: tu.mahilu.site
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  network: ws
+  tls: none
+  flow: ''
+  host: tu.mahilu.site
   path: /
 proxy-groups:
 - name: 节点选择
@@ -753,18 +673,10 @@ proxy-groups:
   - vmess__158.51.121.36_443
   - vmess__kkyx.yydsii.com_8080
   - vmess__us219.netfilx.live_80
-  - vmess__108.61.158.122_80
-  - vmess__104.18.25.92_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__23.162.200.227_443
-  - vmess__172.67.76.35_2052
-  - vmess__1.namesilo123.top_80
-  - vmess__lol.ps_2052
-  - vmess__7569erzy.of08zo0-et55lpt-uk01.my777999.top_41999
-  - vmess__183.240.179.207_30055
-  - vmess__104.21.82.183_8880
+  - vmess__75.102.51.45_58701
+  - vmess__183.240.179.207_30127
+  - vmess__23.94.100.187_12723
+  - vmess__tu.mahilu.site_2095
 - name: 手动选择
   type: select
   proxies:
@@ -809,18 +721,10 @@ proxy-groups:
   - vmess__158.51.121.36_443
   - vmess__kkyx.yydsii.com_8080
   - vmess__us219.netfilx.live_80
-  - vmess__108.61.158.122_80
-  - vmess__104.18.25.92_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__23.162.200.227_443
-  - vmess__172.67.76.35_2052
-  - vmess__1.namesilo123.top_80
-  - vmess__lol.ps_2052
-  - vmess__7569erzy.of08zo0-et55lpt-uk01.my777999.top_41999
-  - vmess__183.240.179.207_30055
-  - vmess__104.21.82.183_8880
+  - vmess__75.102.51.45_58701
+  - vmess__183.240.179.207_30127
+  - vmess__23.94.100.187_12723
+  - vmess__tu.mahilu.site_2095
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -865,18 +769,10 @@ proxy-groups:
   - vmess__158.51.121.36_443
   - vmess__kkyx.yydsii.com_8080
   - vmess__us219.netfilx.live_80
-  - vmess__108.61.158.122_80
-  - vmess__104.18.25.92_2052
-  - vmess__cfcdn2.sanfencdn9.com_2052
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__23.162.200.227_443
-  - vmess__172.67.76.35_2052
-  - vmess__1.namesilo123.top_80
-  - vmess__lol.ps_2052
-  - vmess__7569erzy.of08zo0-et55lpt-uk01.my777999.top_41999
-  - vmess__183.240.179.207_30055
-  - vmess__104.21.82.183_8880
+  - vmess__75.102.51.45_58701
+  - vmess__183.240.179.207_30127
+  - vmess__23.94.100.187_12723
+  - vmess__tu.mahilu.site_2095
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
