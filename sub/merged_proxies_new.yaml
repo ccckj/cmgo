@@ -563,36 +563,36 @@ proxies:
   flow: ''
   host: t2.610710.xyz
   path: /?ed=2048
-- name: vmess__94.140.0.110_8880
+- name: vmess__Zula.ir_8880
   type: vmess
-  server: 94.140.0.110
+  server: Zula.ir
   port: 8880
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: f9416b3e-e0d5-4876-fe97-46aac208211a
   network: ws
   tls: none
   flow: ''
-  host: food.zhaal.ir
+  host: github.com.steampowered.com.xn--bbah433bma7by3cshc.beastmodsekala.cfd.
   path: /
-- name: vmess__172.67.214.33_2095
+- name: vmess__104.21.82.183_8880
   type: vmess
-  server: 172.67.214.33
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   network: ws
   tls: none
   flow: ''
-  host: fcdn.flha.ru
+  host: server26.beheshtbaneh.com
   path: /
-- name: vmess__c2.v2raybrasil.cloud_2082
+- name: vmess__kr01.appleid.bf_2086
   type: vmess
-  server: c2.v2raybrasil.cloud
-  port: 2082
-  uuid: 009d320a-5960-49e6-99c3-301966ff6fea
+  server: kr01.appleid.bf
+  port: 2086
+  uuid: 1fbcc8a4-1f4d-49e8-9087-945cedee1072
   network: ws
   tls: none
   flow: ''
-  host: bbh.redbullplus.xyz
-  path: /
+  host: kr01.appleid.bf
+  path: /ws?ed=2048
 - name: vmess__23.158.56.229_443
   type: vmess
   server: 23.158.56.229
@@ -603,46 +603,46 @@ proxies:
   flow: ''
   host: ''
   path: /linkvws
-- name: vmess__104.21.23.231_2095
+- name: vmess__104.21.4.14_2086
   type: vmess
-  server: 104.21.23.231
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  server: 104.21.4.14
+  port: 2086
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
   network: ws
   tls: none
   flow: ''
-  host: fcdn.flha.ru
+  host: mizban.arzonhost.ir
   path: /
-- name: vmess__c1.v2raybrasil.cloud_2082
+- name: vmess__50.114.243.61_43834
   type: vmess
-  server: c1.v2raybrasil.cloud
-  port: 2082
-  uuid: 009d320a-5960-49e6-99c3-301966ff6fea
-  network: ws
-  tls: none
-  flow: ''
-  host: bbh.redbullplus.xyz
-  path: /
-- name: vmess__beijing.mfa.ee_80
-  type: vmess
-  server: beijing.mfa.ee
-  port: 80
-  uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8
-  network: ws
-  tls: none
-  flow: ''
-  host: open.alipay.ovh
-  path: /aries?ed=2048
-- name: vmess__183.232.170.21_30063
-  type: vmess
-  server: 183.232.170.21
-  port: 30063
-  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
+  server: 50.114.243.61
+  port: 43834
+  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__23.158.56.50_443
+  type: vmess
+  server: 23.158.56.50
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__104.18.25.92_2052
+  type: vmess
+  server: 104.18.25.92
+  port: 2052
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  network: ws
+  tls: none
+  flow: ''
+  host: mysan2.jaquay22.workers.dev
+  path: /afrhms16v.bestxray.buzz/linkws
 - name: vmess__au01.appleid.bf_2086
   type: vmess
   server: au01.appleid.bf
@@ -653,15 +653,45 @@ proxies:
   flow: ''
   host: au01.appleid.bf
   path: /ws?ed=2048
-- name: vmess__Zula.ir_8880
+- name: vmess__beijing.mfa.ee_80
   type: vmess
-  server: Zula.ir
-  port: 8880
-  uuid: f9416b3e-e0d5-4876-fe97-46aac208211a
+  server: beijing.mfa.ee
+  port: 80
+  uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8
   network: ws
   tls: none
   flow: ''
-  host: github.com.steampowered.com.xn--bbah433bma7by3cshc.beastmodsekala.cfd.
+  host: open.alipay.ovh
+  path: /aries?ed=2048
+- name: vmess__admin.arzonhost.ir_2086
+  type: vmess
+  server: admin.arzonhost.ir
+  port: 2086
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__206.238.236.36_2052
+  type: vmess
+  server: 206.238.236.36
+  port: 2052
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  network: ws
+  tls: none
+  flow: ''
+  host: mysan2.jaquay22.workers.dev
+  path: /afrhms16v.bestxray.buzz/linkws
+- name: vmess__mizban.arzonhost.ir_2086
+  type: vmess
+  server: mizban.arzonhost.ir
+  port: 2086
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  network: ws
+  tls: none
+  flow: ''
+  host: mizban.arzonhost.ir
   path: /
 proxy-groups:
 - name: 节点选择
@@ -711,16 +741,19 @@ proxy-groups:
   - vmess__sy2.610710.xyz_443
   - vmess__202.78.162.5_443
   - vmess__t2.610710.xyz_8443
-  - vmess__94.140.0.110_8880
-  - vmess__172.67.214.33_2095
-  - vmess__c2.v2raybrasil.cloud_2082
-  - vmess__23.158.56.229_443
-  - vmess__104.21.23.231_2095
-  - vmess__c1.v2raybrasil.cloud_2082
-  - vmess__beijing.mfa.ee_80
-  - vmess__183.232.170.21_30063
-  - vmess__au01.appleid.bf_2086
   - vmess__Zula.ir_8880
+  - vmess__104.21.82.183_8880
+  - vmess__kr01.appleid.bf_2086
+  - vmess__23.158.56.229_443
+  - vmess__104.21.4.14_2086
+  - vmess__50.114.243.61_43834
+  - vmess__23.158.56.50_443
+  - vmess__104.18.25.92_2052
+  - vmess__au01.appleid.bf_2086
+  - vmess__beijing.mfa.ee_80
+  - vmess__admin.arzonhost.ir_2086
+  - vmess__206.238.236.36_2052
+  - vmess__mizban.arzonhost.ir_2086
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -769,16 +802,19 @@ proxy-groups:
   - vmess__sy2.610710.xyz_443
   - vmess__202.78.162.5_443
   - vmess__t2.610710.xyz_8443
-  - vmess__94.140.0.110_8880
-  - vmess__172.67.214.33_2095
-  - vmess__c2.v2raybrasil.cloud_2082
-  - vmess__23.158.56.229_443
-  - vmess__104.21.23.231_2095
-  - vmess__c1.v2raybrasil.cloud_2082
-  - vmess__beijing.mfa.ee_80
-  - vmess__183.232.170.21_30063
-  - vmess__au01.appleid.bf_2086
   - vmess__Zula.ir_8880
+  - vmess__104.21.82.183_8880
+  - vmess__kr01.appleid.bf_2086
+  - vmess__23.158.56.229_443
+  - vmess__104.21.4.14_2086
+  - vmess__50.114.243.61_43834
+  - vmess__23.158.56.50_443
+  - vmess__104.18.25.92_2052
+  - vmess__au01.appleid.bf_2086
+  - vmess__beijing.mfa.ee_80
+  - vmess__admin.arzonhost.ir_2086
+  - vmess__206.238.236.36_2052
+  - vmess__mizban.arzonhost.ir_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
