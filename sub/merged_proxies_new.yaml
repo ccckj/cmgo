@@ -423,7 +423,7 @@ proxies:
   flow: ''
   host: uk.moss.network
   path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- name: vmess_US_162.159.136.220_2082
+- name: vmess__162.159.136.220_2082
   type: vmess
   server: 162.159.136.220
   port: 2082
@@ -433,7 +433,7 @@ proxies:
   flow: ''
   host: sgv8.gas51qwrhmzz8.top
   path: /
-- name: vmess_AE_94.140.0.110_8880
+- name: vmess__94.140.0.110_8880
   type: vmess
   server: 94.140.0.110
   port: 8880
@@ -543,75 +543,35 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
-- name: vmess__104.21.4.14_2086
+- name: vmess__183.236.51.59_54437
   type: vmess
-  server: 104.21.4.14
-  port: 2086
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  network: ws
-  tls: none
-  flow: ''
-  host: admin.arzonhost.ir
-  path: /
-- name: vmess__23.158.56.60_443
-  type: vmess
-  server: 23.158.56.60
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /linkvws
-- name: vmess__104.19.40.211_8880
-  type: vmess
-  server: 104.19.40.211
-  port: 8880
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  network: ws
-  tls: none
-  flow: ''
-  host: uk.moss.network
-  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- name: vmess__cfcdn1.sanfencdn9.com_8880
-  type: vmess
-  server: cfcdn1.sanfencdn9.com
-  port: 8880
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
-  network: ws
-  tls: none
-  flow: ''
-  host: us6gzxQRrE4.fzbqfrse.xyz
-  path: /video/bYdJ7Vc2We
-- name: vmess__183.237.20.158_41242
-  type: vmess
-  server: 183.237.20.158
-  port: 41242
+  server: 183.236.51.59
+  port: 54437
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.17.17.103_8080
+- name: vmess__server32.beheshtbaneh.com_8880
   type: vmess
-  server: 104.17.17.103
-  port: 8080
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  server: server32.beheshtbaneh.com
+  port: 8880
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   network: ws
   tls: none
   flow: ''
-  host: booty-pensions-scheduling-blogging.trycloudflare.com
-  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- name: vmess__172.67.172.67_8080
+  host: server32.beheshtbaneh.com
+  path: /
+- name: vmess__172.67.223.242_2086
   type: vmess
-  server: 172.67.172.67
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  server: 172.67.223.242
+  port: 2086
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   network: ws
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
+  host: admin.arzonhost.ir
   path: /
 - name: vmess__172.67.199.211_8080
   type: vmess
@@ -623,26 +583,26 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /
-- name: vmess__120.232.242.117_41492
+- name: vmess__104.17.17.103_8080
   type: vmess
-  server: 120.232.242.117
-  port: 41492
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cfcdn3.sanfencdn9.com_80
-  type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
+  server: 104.17.17.103
+  port: 8080
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
   network: ws
   tls: none
   flow: ''
-  host: agzbjszujp4.yofnhkfc.xyz
-  path: /video/ibCT6z55
+  host: booty-pensions-scheduling-blogging.trycloudflare.com
+  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- name: vmess__104.19.40.84_8880
+  type: vmess
+  server: 104.19.40.84
+  port: 8880
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  network: ws
+  tls: none
+  flow: ''
+  host: uk.moss.network
+  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - name: vmess__104.20.26.40_8080
   type: vmess
   server: 104.20.26.40
@@ -653,6 +613,106 @@ proxies:
   flow: ''
   host: fantastic-doe-bids-ended.trycloudflare.com
   path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- name: vmess__104.19.58.60_8080
+  type: vmess
+  server: 104.19.58.60
+  port: 8080
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  network: ws
+  tls: none
+  flow: ''
+  host: concentrations-taxi-about-recognised.trycloudflare.com
+  path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- name: vmess__beijing.mfa.ee_80
+  type: vmess
+  server: beijing.mfa.ee
+  port: 80
+  uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8
+  network: ws
+  tls: none
+  flow: ''
+  host: open.alipay.ovh
+  path: /aries?ed=2048
+- name: vmess__zf.lalayun.cyou_10163
+  type: vmess
+  server: zf.lalayun.cyou
+  port: 10163
+  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
+  network: ws
+  tls: none
+  flow: ''
+  host: hk.lalayunssl.xyz
+  path: /v2ray
+- name: vmess__server31.beheshtbaneh.com_8880
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  network: ws
+  tls: none
+  flow: ''
+  host: server31.beheshtbaneh.com
+  path: /
+- name: vmess__kkyx.yydsii.com_8080
+  type: vmess
+  server: kkyx.yydsii.com
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__104.19.40.48_8880
+  type: vmess
+  server: 104.19.40.48
+  port: 8880
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  network: ws
+  tls: none
+  flow: ''
+  host: uk.moss.network
+  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- name: vmess__lol.ps_2052
+  type: vmess
+  server: lol.ps
+  port: 2052
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  network: ws
+  tls: none
+  flow: ''
+  host: mysan2.jaquay22.workers.dev
+  path: /afrhms16v.bestxray.buzz/linkws
+- name: vmess__23.154.136.2_443
+  type: vmess
+  server: 23.154.136.2
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__23.158.56.60_443
+  type: vmess
+  server: 23.158.56.60
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__cfcdn1.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 2052
+  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  network: ws
+  tls: none
+  flow: ''
+  host: tw1bQiWSE4x.fzbqfrse.xyz
+  path: /video/GQ2qE5Us9g
 proxy-groups:
 - name: 节点选择
   type: select
@@ -687,8 +747,8 @@ proxy-groups:
   - vmess_DE_23.158.56.229_443
   - vmess_GB_202.78.162.5_443
   - vmess_US_104.19.40.228_8880
-  - vmess_US_162.159.136.220_2082
-  - vmess_AE_94.140.0.110_8880
+  - vmess__162.159.136.220_2082
+  - vmess__94.140.0.110_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__data-jp-v1.usabooks.com.cn_20301
   - vmess__158.51.123.111_443
@@ -699,17 +759,23 @@ proxy-groups:
   - vmess__104.19.40.222_8880
   - vmess__tu.mahilu.site_2095
   - vmess__www.darkroom.lol_8080
-  - vmess__104.21.4.14_2086
-  - vmess__23.158.56.60_443
-  - vmess__104.19.40.211_8880
-  - vmess__cfcdn1.sanfencdn9.com_8880
-  - vmess__183.237.20.158_41242
-  - vmess__104.17.17.103_8080
-  - vmess__172.67.172.67_8080
+  - vmess__183.236.51.59_54437
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__172.67.223.242_2086
   - vmess__172.67.199.211_8080
-  - vmess__120.232.242.117_41492
-  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.17.17.103_8080
+  - vmess__104.19.40.84_8880
   - vmess__104.20.26.40_8080
+  - vmess__104.19.58.60_8080
+  - vmess__beijing.mfa.ee_80
+  - vmess__zf.lalayun.cyou_10163
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__kkyx.yydsii.com_8080
+  - vmess__104.19.40.48_8880
+  - vmess__lol.ps_2052
+  - vmess__23.154.136.2_443
+  - vmess__23.158.56.60_443
+  - vmess__cfcdn1.sanfencdn9.com_2052
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -744,8 +810,8 @@ proxy-groups:
   - vmess_DE_23.158.56.229_443
   - vmess_GB_202.78.162.5_443
   - vmess_US_104.19.40.228_8880
-  - vmess_US_162.159.136.220_2082
-  - vmess_AE_94.140.0.110_8880
+  - vmess__162.159.136.220_2082
+  - vmess__94.140.0.110_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__data-jp-v1.usabooks.com.cn_20301
   - vmess__158.51.123.111_443
@@ -756,17 +822,23 @@ proxy-groups:
   - vmess__104.19.40.222_8880
   - vmess__tu.mahilu.site_2095
   - vmess__www.darkroom.lol_8080
-  - vmess__104.21.4.14_2086
-  - vmess__23.158.56.60_443
-  - vmess__104.19.40.211_8880
-  - vmess__cfcdn1.sanfencdn9.com_8880
-  - vmess__183.237.20.158_41242
-  - vmess__104.17.17.103_8080
-  - vmess__172.67.172.67_8080
+  - vmess__183.236.51.59_54437
+  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__172.67.223.242_2086
   - vmess__172.67.199.211_8080
-  - vmess__120.232.242.117_41492
-  - vmess__cfcdn3.sanfencdn9.com_80
+  - vmess__104.17.17.103_8080
+  - vmess__104.19.40.84_8880
   - vmess__104.20.26.40_8080
+  - vmess__104.19.58.60_8080
+  - vmess__beijing.mfa.ee_80
+  - vmess__zf.lalayun.cyou_10163
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__kkyx.yydsii.com_8080
+  - vmess__104.19.40.48_8880
+  - vmess__lol.ps_2052
+  - vmess__23.154.136.2_443
+  - vmess__23.158.56.60_443
+  - vmess__cfcdn1.sanfencdn9.com_2052
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
