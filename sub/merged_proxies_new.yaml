@@ -365,39 +365,89 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_192.142.105.41_800
+- name: vmess_US_104.19.40.48_8880
   type: vmess
-  server: 192.142.105.41
-  port: 800
-  uuid: 5fba25c0-f349-4c57-a5c0-9848d6a34fb0
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_172.67.172.67_8080
-  type: vmess
-  server: 172.67.172.67
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  server: 104.19.40.48
+  port: 8880
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   network: ws
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
-  path: /
-- name: vmess_CN_183.236.51.59_54437
+  host: uk.moss.network
+  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- name: vmess_US_104.19.40.211_8880
   type: vmess
-  server: 183.236.51.59
-  port: 54437
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
+  server: 104.19.40.211
+  port: 8880
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
-- name: vmess_US_104.21.23.231_2095
+  host: uk.moss.network
+  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- name: vmess_US_104.21.82.183_8880
   type: vmess
-  server: 104.21.23.231
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess_US_104.19.40.237_8880
+  type: vmess
+  server: 104.19.40.237
+  port: 8880
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  network: ws
+  tls: none
+  flow: ''
+  host: uk.moss.network
+  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- name: vmess_US_108.162.193.100_8080
+  type: vmess
+  server: 108.162.193.100
+  port: 8080
+  uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1
+  network: ws
+  tls: none
+  flow: ''
+  host: do-au.alipay.ovh
+  path: /aries?ed=2048
+- name: vmess__speed.cloudflare.com_80
+  type: vmess
+  server: speed.cloudflare.com
+  port: 80
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  network: ws
+  tls: none
+  flow: ''
+  host: throbbing-shape-90d7.hite-nomade.workers.dev
+  path: /glweidf.sbs/linkws
+- name: vmess__gov.uk_443
+  type: vmess
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  network: ws
+  tls: tls
+  flow: ''
+  host: zheshiscp.com
+  path: /77848824
+- name: vmess__go.alipay.ovh_8080
+  type: vmess
+  server: go.alipay.ovh
+  port: 8080
+  uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1
+  network: ws
+  tls: none
+  flow: ''
+  host: do-au.alipay.ovh
+  path: /aries?ed=2048
+- name: vmess__fcdn.flha.ru_2095
+  type: vmess
+  server: fcdn.flha.ru
   port: 2095
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   network: ws
@@ -405,15 +455,25 @@ proxies:
   flow: ''
   host: fcdn.flha.ru
   path: /
-- name: vmess_US_172.67.130.140_2082
+- name: vmess__202.78.162.5_443
   type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: 202.78.162.5
+  port: 443
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  network: ws
+  tls: tls
+  flow: ''
+  host: sahand.serveminecraft.net
+  path: /@forwardv2ray
+- name: vmess__yes.cnmjcn.net_16632
+  type: vmess
+  server: yes.cnmjcn.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   network: ws
   tls: none
   flow: ''
-  host: s1c.v2.v001sss.xyz
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
 - name: vmess__172.67.199.185_8080
   type: vmess
@@ -425,46 +485,6 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /
-- name: vmess__183.240.179.195_61002
-  type: vmess
-  server: 183.240.179.195
-  port: 61002
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__183.232.142.179_61002
-  type: vmess
-  server: 183.232.142.179
-  port: 61002
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__138.201.100.212_47070
-  type: vmess
-  server: 138.201.100.212
-  port: 47070
-  uuid: c44c6a0f-676f-461c-87d2-3f0c7a47eaf0
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__45.136.245.240_12910
-  type: vmess
-  server: 45.136.245.240
-  port: 12910
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
 - name: vmess__data-hk-v1.usabooks.com.cn_20206
   type: vmess
   server: data-hk-v1.usabooks.com.cn
@@ -475,36 +495,6 @@ proxies:
   flow: ''
   host: data-hk-v1.usabooks.com.cn
   path: /debian
-- name: vmess__s1c.v2.v001sss.xyz_2082
-  type: vmess
-  server: s1c.v2.v001sss.xyz
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
-- name: vmess__104.18.19.191_2052
-  type: vmess
-  server: 104.18.19.191
-  port: 2052
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  network: ws
-  tls: none
-  flow: ''
-  host: helanv6cf.inekokkk.top
-  path: /
-- name: vmess__104.19.40.222_8880
-  type: vmess
-  server: 104.19.40.222
-  port: 8880
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  network: ws
-  tls: none
-  flow: ''
-  host: uk.moss.network
-  path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - name: vmess__183.232.199.61_15603
   type: vmess
   server: 183.232.199.61
@@ -515,9 +505,29 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.19.40.99_8880
+- name: vmess__cfcdn1.sanfencdn9.com_2052
   type: vmess
-  server: 104.19.40.99
+  server: cfcdn1.sanfencdn9.com
+  port: 2052
+  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
+  network: ws
+  tls: none
+  flow: ''
+  host: tw1bQiWSE4x.fzbqfrse.xyz
+  path: /video/GQ2qE5Us9g
+- name: vmess__108.162.192.100_8080
+  type: vmess
+  server: 108.162.192.100
+  port: 8080
+  uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1
+  network: ws
+  tls: none
+  flow: ''
+  host: do-au.alipay.ovh
+  path: /aries?ed=2048
+- name: vmess__104.19.40.58_8880
+  type: vmess
+  server: 104.19.40.58
   port: 8880
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   network: ws
@@ -525,6 +535,16 @@ proxies:
   flow: ''
   host: uk.moss.network
   path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- name: vmess__138.201.100.212_47070
+  type: vmess
+  server: 138.201.100.212
+  port: 47070
+  uuid: c44c6a0f-676f-461c-87d2-3f0c7a47eaf0
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -545,16 +565,16 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__202.78.162.5_443
+- name: vmess__104.18.36.119_2052
   type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  server: 104.18.36.119
+  port: 2052
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
   network: ws
-  tls: tls
+  tls: none
   flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
+  host: helanv6cf.inekokkk.top
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -586,25 +606,27 @@ proxy-groups:
   - hy2_US_104.192.224.140:40391
   - hy2_US_104.192.224.141:40391
   - hy2_US_104.192.224.141:40391
-  - vmess_US_192.142.105.41_800
-  - vmess_US_172.67.172.67_8080
-  - vmess_CN_183.236.51.59_54437
-  - vmess_US_104.21.23.231_2095
-  - vmess_US_172.67.130.140_2082
+  - vmess_US_104.19.40.48_8880
+  - vmess_US_104.19.40.211_8880
+  - vmess_US_104.21.82.183_8880
+  - vmess_US_104.19.40.237_8880
+  - vmess_US_108.162.193.100_8080
+  - vmess__speed.cloudflare.com_80
+  - vmess__gov.uk_443
+  - vmess__go.alipay.ovh_8080
+  - vmess__fcdn.flha.ru_2095
+  - vmess__202.78.162.5_443
+  - vmess__yes.cnmjcn.net_16632
   - vmess__172.67.199.185_8080
-  - vmess__183.240.179.195_61002
-  - vmess__183.232.142.179_61002
-  - vmess__138.201.100.212_47070
-  - vmess__45.136.245.240_12910
   - vmess__data-hk-v1.usabooks.com.cn_20206
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.18.19.191_2052
-  - vmess__104.19.40.222_8880
   - vmess__183.232.199.61_15603
-  - vmess__104.19.40.99_8880
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess__108.162.192.100_8080
+  - vmess__104.19.40.58_8880
+  - vmess__138.201.100.212_47070
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
+  - vmess__104.18.36.119_2052
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -636,25 +658,27 @@ proxy-groups:
   - hy2_US_104.192.224.140:40391
   - hy2_US_104.192.224.141:40391
   - hy2_US_104.192.224.141:40391
-  - vmess_US_192.142.105.41_800
-  - vmess_US_172.67.172.67_8080
-  - vmess_CN_183.236.51.59_54437
-  - vmess_US_104.21.23.231_2095
-  - vmess_US_172.67.130.140_2082
+  - vmess_US_104.19.40.48_8880
+  - vmess_US_104.19.40.211_8880
+  - vmess_US_104.21.82.183_8880
+  - vmess_US_104.19.40.237_8880
+  - vmess_US_108.162.193.100_8080
+  - vmess__speed.cloudflare.com_80
+  - vmess__gov.uk_443
+  - vmess__go.alipay.ovh_8080
+  - vmess__fcdn.flha.ru_2095
+  - vmess__202.78.162.5_443
+  - vmess__yes.cnmjcn.net_16632
   - vmess__172.67.199.185_8080
-  - vmess__183.240.179.195_61002
-  - vmess__183.232.142.179_61002
-  - vmess__138.201.100.212_47070
-  - vmess__45.136.245.240_12910
   - vmess__data-hk-v1.usabooks.com.cn_20206
-  - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess__104.18.19.191_2052
-  - vmess__104.19.40.222_8880
   - vmess__183.232.199.61_15603
-  - vmess__104.19.40.99_8880
+  - vmess__cfcdn1.sanfencdn9.com_2052
+  - vmess__108.162.192.100_8080
+  - vmess__104.19.40.58_8880
+  - vmess__138.201.100.212_47070
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
+  - vmess__104.18.36.119_2052
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
