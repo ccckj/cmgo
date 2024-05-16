@@ -415,7 +415,7 @@ proxies:
   flow: ''
   host: tw1bQiWSE4x.fzbqfrse.xyz
   path: /video/GQ2qE5Us9g
-- name: vmess_US_162.159.3.11_8080
+- name: vmess__162.159.3.11_8080
   type: vmess
   server: 162.159.3.11
   port: 8080
@@ -425,7 +425,7 @@ proxies:
   flow: ''
   host: do-au.alipay.ovh
   path: /aries?ed=2048
-- name: vmess_US_104.18.36.119_2052
+- name: vmess__104.18.36.119_2052
   type: vmess
   server: 104.18.36.119
   port: 2052
@@ -611,8 +611,8 @@ proxy-groups:
   - vmess_US_104.21.44.106_443
   - vmess_CN_183.236.51.59_54100
   - vmess__cfcdn1.sanfencdn9.com_2052
-  - vmess_US_162.159.3.11_8080
-  - vmess_US_104.18.36.119_2052
+  - vmess__162.159.3.11_8080
+  - vmess__104.18.36.119_2052
   - vmess__go.alipay.ovh_8080
   - vmess__172.67.172.67_8080
   - vmess__104.19.40.48_8880
@@ -663,8 +663,8 @@ proxy-groups:
   - vmess_US_104.21.44.106_443
   - vmess_CN_183.236.51.59_54100
   - vmess__cfcdn1.sanfencdn9.com_2052
-  - vmess_US_162.159.3.11_8080
-  - vmess_US_104.18.36.119_2052
+  - vmess__162.159.3.11_8080
+  - vmess__104.18.36.119_2052
   - vmess__go.alipay.ovh_8080
   - vmess__172.67.172.67_8080
   - vmess__104.19.40.48_8880
