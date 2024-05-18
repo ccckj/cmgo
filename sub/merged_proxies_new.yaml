@@ -405,7 +405,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -435,7 +435,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess_US_104.19.52.111_80
+- name: vmess__104.19.52.111_80
   type: vmess
   server: 104.19.52.111
   port: 80
@@ -590,10 +590,10 @@ proxy-groups:
   - vmess_CN_183.240.179.195_15601
   - vmess_US_172.67.172.67_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__data-jp-v1.usabooks.com.cn_20301
   - vmess__103.159.206.35_31945
-  - vmess_US_104.19.52.111_80
+  - vmess__104.19.52.111_80
   - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
   - vmess__104.21.8.157_2082
   - vmess__172.67.185.79_8080
@@ -640,10 +640,10 @@ proxy-groups:
   - vmess_CN_183.240.179.195_15601
   - vmess_US_172.67.172.67_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__data-jp-v1.usabooks.com.cn_20301
   - vmess__103.159.206.35_31945
-  - vmess_US_104.19.52.111_80
+  - vmess__104.19.52.111_80
   - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
   - vmess__104.21.8.157_2082
   - vmess__172.67.185.79_8080
