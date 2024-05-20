@@ -423,7 +423,7 @@ proxies:
   flow: ''
   host: sssub.v2.001.ssrsub.com
   path: /api/v3/download.getFile
-- name: vmess_US_141.98.168.113_8081
+- name: vmess__141.98.168.113_8081
   type: vmess
   server: 141.98.168.113
   port: 8081
@@ -433,7 +433,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_172.67.172.67_8080
+- name: vmess__172.67.172.67_8080
   type: vmess
   server: 172.67.172.67
   port: 8080
@@ -643,8 +643,8 @@ proxy-groups:
   - vmess__hk.wish.ml_2052
   - vmess_SG_31.192.234.7_12954
   - vmess__russia.com_2095
-  - vmess_US_141.98.168.113_8081
-  - vmess_US_172.67.172.67_8080
+  - vmess__141.98.168.113_8081
+  - vmess__172.67.172.67_8080
   - vmess__183.232.199.28_21006
   - vmess__tw1g.forlive.live_443
   - vmess__103.214.68.57_10001
@@ -692,8 +692,8 @@ proxy-groups:
   - vmess__hk.wish.ml_2052
   - vmess_SG_31.192.234.7_12954
   - vmess__russia.com_2095
-  - vmess_US_141.98.168.113_8081
-  - vmess_US_172.67.172.67_8080
+  - vmess__141.98.168.113_8081
+  - vmess__172.67.172.67_8080
   - vmess__183.232.199.28_21006
   - vmess__tw1g.forlive.live_443
   - vmess__103.214.68.57_10001
@@ -741,8 +741,8 @@ proxy-groups:
   - vmess__hk.wish.ml_2052
   - vmess_SG_31.192.234.7_12954
   - vmess__russia.com_2095
-  - vmess_US_141.98.168.113_8081
-  - vmess_US_172.67.172.67_8080
+  - vmess__141.98.168.113_8081
+  - vmess__172.67.172.67_8080
   - vmess__183.232.199.28_21006
   - vmess__tw1g.forlive.live_443
   - vmess__103.214.68.57_10001
