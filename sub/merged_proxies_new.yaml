@@ -405,7 +405,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_104.19.40.222_8880
+- name: vmess__104.19.40.222_8880
   type: vmess
   server: 104.19.40.222
   port: 8880
@@ -415,7 +415,7 @@ proxies:
   flow: ''
   host: uk.moss.network
   path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- name: vmess_CN_183.240.179.207_30038
+- name: vmess__183.240.179.207_30038
   type: vmess
   server: 183.240.179.207
   port: 30038
@@ -600,8 +600,8 @@ proxy-groups:
   - vmess_CN_183.232.199.28_21006
   - vmess_US_172.67.172.219_8080
   - vmess_CN_183.232.199.61_15603
-  - vmess_US_104.19.40.222_8880
-  - vmess_CN_183.240.179.207_30038
+  - vmess__104.19.40.222_8880
+  - vmess__183.240.179.207_30038
   - vmess__onea.flha.ru_2095
   - vmess__172.67.172.67_8080
   - vmess__172.67.204.84_80
@@ -651,8 +651,8 @@ proxy-groups:
   - vmess_CN_183.232.199.28_21006
   - vmess_US_172.67.172.219_8080
   - vmess_CN_183.232.199.61_15603
-  - vmess_US_104.19.40.222_8880
-  - vmess_CN_183.240.179.207_30038
+  - vmess__104.19.40.222_8880
+  - vmess__183.240.179.207_30038
   - vmess__onea.flha.ru_2095
   - vmess__172.67.172.67_8080
   - vmess__172.67.204.84_80
