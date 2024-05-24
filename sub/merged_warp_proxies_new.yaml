@@ -423,7 +423,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__210.3.159.224_12909
+- name: vmess_HK_210.3.159.224_12909
   type: vmess
   server: 210.3.159.224
   port: 12909
@@ -623,7 +623,7 @@ proxy-groups:
   - vmess_US_172.67.204.84_2096
   - vmess_US_104.16.45.79_80
   - vmess_CN_183.240.179.207_30013
-  - vmess__210.3.159.224_12909
+  - vmess_HK_210.3.159.224_12909
   - vmess__data-hk-v1.usabooks.com.cn_20206
   - vmess__172.67.164.78_2052
   - vmess__fcdn.flha.ru_2095
@@ -670,7 +670,7 @@ proxy-groups:
   - vmess_US_172.67.204.84_2096
   - vmess_US_104.16.45.79_80
   - vmess_CN_183.240.179.207_30013
-  - vmess__210.3.159.224_12909
+  - vmess_HK_210.3.159.224_12909
   - vmess__data-hk-v1.usabooks.com.cn_20206
   - vmess__172.67.164.78_2052
   - vmess__fcdn.flha.ru_2095
@@ -717,7 +717,7 @@ proxy-groups:
   - vmess_US_172.67.204.84_2096
   - vmess_US_104.16.45.79_80
   - vmess_CN_183.240.179.207_30013
-  - vmess__210.3.159.224_12909
+  - vmess_HK_210.3.159.224_12909
   - vmess__data-hk-v1.usabooks.com.cn_20206
   - vmess__172.67.164.78_2052
   - vmess__fcdn.flha.ru_2095
