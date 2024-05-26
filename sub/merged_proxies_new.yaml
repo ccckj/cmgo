@@ -333,39 +333,39 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_104.192.224.141:40391
+- name: hy2_US_104.192.224.141:62894
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_104.192.224.140:40391
+- name: hy2_US_104.192.224.140:62894
   type: hysteria2
   server: 104.192.224.140
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_104.192.224.141:40391
+- name: hy2_US_104.192.224.141:62894
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_104.192.224.141:40391
+- name: hy2_US_104.192.224.141:62894
   type: hysteria2
   server: 104.192.224.141
-  port: 40391
+  port: 62894
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_CN_120.238.122.243_40259
+- name: vmess_US_120.238.122.243_40259
   type: vmess
   server: 120.238.122.243
   port: 40259
@@ -375,7 +375,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__fcdn.flha.ru_2095
+- name: vmess_US_fcdn.flha.ru_2095
   type: vmess
   server: fcdn.flha.ru
   port: 2095
@@ -385,7 +385,7 @@ proxies:
   flow: ''
   host: fcdn.flha.ru
   path: /
-- name: vmess_CN_183.232.199.61_15603
+- name: vmess_US_183.232.199.61_15603
   type: vmess
   server: 183.232.199.61
   port: 15603
@@ -405,7 +405,7 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /
-- name: vmess__yes.cnmjcn.net_16632
+- name: vmess_US_yes.cnmjcn.net_16632
   type: vmess
   server: yes.cnmjcn.net
   port: 16632
@@ -425,7 +425,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__m.cnmjin.net_16632
+- name: vmess_US_m.cnmjin.net_16632
   type: vmess
   server: m.cnmjin.net
   port: 16632
@@ -435,7 +435,7 @@ proxies:
   flow: ''
   host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__russia.com_8880
+- name: vmess_US_russia.com_8880
   type: vmess
   server: russia.com
   port: 8880
@@ -445,7 +445,7 @@ proxies:
   flow: ''
   host: sssub.v2.001.ssrsub.com
   path: /api/v3/download.getFile
-- name: vmess__183.232.199.28_21006
+- name: vmess_US_183.232.199.28_21006
   type: vmess
   server: 183.232.199.28
   port: 21006
@@ -455,7 +455,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__183.240.179.207_30127
+- name: vmess_US_183.240.179.207_30127
   type: vmess
   server: 183.240.179.207
   port: 30127
@@ -465,7 +465,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__210.3.159.224_12909
+- name: vmess_US_210.3.159.224_12909
   type: vmess
   server: 210.3.159.224
   port: 12909
@@ -475,7 +475,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess__data-us-v1.shwjfkw.cn_20401
+- name: vmess_US_data-us-v1.shwjfkw.cn_20401
   type: vmess
   server: data-us-v1.shwjfkw.cn
   port: 20401
@@ -485,7 +485,7 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__45.136.245.240_12910
+- name: vmess_US_45.136.245.240_12910
   type: vmess
   server: 45.136.245.240
   port: 12910
@@ -495,7 +495,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess__172.67.164.78_2052
+- name: vmess_US_172.67.164.78_2052
   type: vmess
   server: 172.67.164.78
   port: 2052
@@ -505,7 +505,7 @@ proxies:
   flow: ''
   host: in3.wish.ml
   path: /
-- name: vmess__cfcdn1.sanfencdn9.com_2095
+- name: vmess_US_cfcdn1.sanfencdn9.com_2095
   type: vmess
   server: cfcdn1.sanfencdn9.com
   port: 2095
@@ -515,7 +515,7 @@ proxies:
   flow: ''
   host: us82pRzxDMb.fzbqfrse.xyz
   path: /video/qYZue4zaWS
-- name: vmess__104.19.40.211_8880
+- name: vmess_US_104.19.40.211_8880
   type: vmess
   server: 104.19.40.211
   port: 8880
@@ -525,7 +525,7 @@ proxies:
   flow: ''
   host: uk.moss.network
   path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- name: vmess__183.232.142.47_16632
+- name: vmess_US_183.232.142.47_16632
   type: vmess
   server: 183.232.142.47
   port: 16632
@@ -535,7 +535,7 @@ proxies:
   flow: ''
   host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__www.hkbu.edu.hk_80
+- name: vmess_US_www.hkbu.edu.hk_80
   type: vmess
   server: www.hkbu.edu.hk
   port: 80
@@ -545,7 +545,7 @@ proxies:
   flow: ''
   host: nmsl.kp
   path: /aries?ed=2048
-- name: vmess__hytron.io_8080
+- name: vmess_US_hytron.io_8080
   type: vmess
   server: hytron.io
   port: 8080
@@ -555,7 +555,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_US_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -592,30 +592,30 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_104.192.224.141:40391
-  - hy2_US_104.192.224.140:40391
-  - hy2_US_104.192.224.141:40391
-  - hy2_US_104.192.224.141:40391
-  - vmess_CN_120.238.122.243_40259
-  - vmess__fcdn.flha.ru_2095
-  - vmess_CN_183.232.199.61_15603
+  - hy2_US_104.192.224.141:62894
+  - hy2_US_104.192.224.140:62894
+  - hy2_US_104.192.224.141:62894
+  - hy2_US_104.192.224.141:62894
+  - vmess_US_120.238.122.243_40259
+  - vmess_US_fcdn.flha.ru_2095
+  - vmess_US_183.232.199.61_15603
   - vmess_US_172.67.185.79_8080
-  - vmess__yes.cnmjcn.net_16632
+  - vmess_US_yes.cnmjcn.net_16632
   - vmess_US_104.19.45.88_2095
-  - vmess__m.cnmjin.net_16632
-  - vmess__russia.com_8880
-  - vmess__183.232.199.28_21006
-  - vmess__183.240.179.207_30127
-  - vmess__210.3.159.224_12909
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__45.136.245.240_12910
-  - vmess__172.67.164.78_2052
-  - vmess__cfcdn1.sanfencdn9.com_2095
-  - vmess__104.19.40.211_8880
-  - vmess__183.232.142.47_16632
-  - vmess__www.hkbu.edu.hk_80
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_US_m.cnmjin.net_16632
+  - vmess_US_russia.com_8880
+  - vmess_US_183.232.199.28_21006
+  - vmess_US_183.240.179.207_30127
+  - vmess_US_210.3.159.224_12909
+  - vmess_US_data-us-v1.shwjfkw.cn_20401
+  - vmess_US_45.136.245.240_12910
+  - vmess_US_172.67.164.78_2052
+  - vmess_US_cfcdn1.sanfencdn9.com_2095
+  - vmess_US_104.19.40.211_8880
+  - vmess_US_183.232.142.47_16632
+  - vmess_US_www.hkbu.edu.hk_80
+  - vmess_US_hytron.io_8080
+  - vmess_US_172.99.190.109_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -643,30 +643,30 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_104.192.224.141:40391
-  - hy2_US_104.192.224.140:40391
-  - hy2_US_104.192.224.141:40391
-  - hy2_US_104.192.224.141:40391
-  - vmess_CN_120.238.122.243_40259
-  - vmess__fcdn.flha.ru_2095
-  - vmess_CN_183.232.199.61_15603
+  - hy2_US_104.192.224.141:62894
+  - hy2_US_104.192.224.140:62894
+  - hy2_US_104.192.224.141:62894
+  - hy2_US_104.192.224.141:62894
+  - vmess_US_120.238.122.243_40259
+  - vmess_US_fcdn.flha.ru_2095
+  - vmess_US_183.232.199.61_15603
   - vmess_US_172.67.185.79_8080
-  - vmess__yes.cnmjcn.net_16632
+  - vmess_US_yes.cnmjcn.net_16632
   - vmess_US_104.19.45.88_2095
-  - vmess__m.cnmjin.net_16632
-  - vmess__russia.com_8880
-  - vmess__183.232.199.28_21006
-  - vmess__183.240.179.207_30127
-  - vmess__210.3.159.224_12909
-  - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__45.136.245.240_12910
-  - vmess__172.67.164.78_2052
-  - vmess__cfcdn1.sanfencdn9.com_2095
-  - vmess__104.19.40.211_8880
-  - vmess__183.232.142.47_16632
-  - vmess__www.hkbu.edu.hk_80
-  - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_US_m.cnmjin.net_16632
+  - vmess_US_russia.com_8880
+  - vmess_US_183.232.199.28_21006
+  - vmess_US_183.240.179.207_30127
+  - vmess_US_210.3.159.224_12909
+  - vmess_US_data-us-v1.shwjfkw.cn_20401
+  - vmess_US_45.136.245.240_12910
+  - vmess_US_172.67.164.78_2052
+  - vmess_US_cfcdn1.sanfencdn9.com_2095
+  - vmess_US_104.19.40.211_8880
+  - vmess_US_183.232.142.47_16632
+  - vmess_US_www.hkbu.edu.hk_80
+  - vmess_US_hytron.io_8080
+  - vmess_US_172.99.190.109_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
