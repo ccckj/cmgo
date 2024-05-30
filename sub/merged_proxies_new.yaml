@@ -405,7 +405,7 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /
-- name: vmess_US_23.154.136.2_443
+- name: vmess__23.154.136.2_443
   type: vmess
   server: 23.154.136.2
   port: 443
@@ -565,6 +565,146 @@ proxies:
   flow: ''
   host: ''
   path: /
+- name: vmess__cold-dawn-9246.fly.dev_443
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: vmess__31.192.234.7_12954
+  type: vmess
+  server: 31.192.234.7
+  port: 12954
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__onea.flha.ru_2095
+  type: vmess
+  server: onea.flha.ru
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  network: ws
+  tls: none
+  flow: ''
+  host: onea.flha.ru
+  path: /
+- name: vmess__6cc36ab3-sb9ts0-sdlngq-1n7jq.uk.tcpbbr.net_80
+  type: vmess
+  server: 6cc36ab3-sb9ts0-sdlngq-1n7jq.uk.tcpbbr.net
+  port: 80
+  uuid: 85bce006-4885-11ee-8792-f23c9164ca5d
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__kr01.appleid.bf_2086
+  type: vmess
+  server: kr01.appleid.bf
+  port: 2086
+  uuid: 05a68409-eaf3-4682-8cdd-020480cd27f7
+  network: ws
+  tls: none
+  flow: ''
+  host: kr01.appleid.bf
+  path: /ws?ed=2048
+- name: vmess__104.19.45.88_2095
+  type: vmess
+  server: 104.19.45.88
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  network: ws
+  tls: none
+  flow: ''
+  host: onea.flha.ru
+  path: /
+- name: vmess__85.159.229.8_8443
+  type: vmess
+  server: 85.159.229.8
+  port: 8443
+  uuid: afe57557-df24-43e5-9cea-5d2acc2cad08
+  network: grpc
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__120.233.204.126_16632
+  type: vmess
+  server: 120.233.204.126
+  port: 16632
+  uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93
+  network: ws
+  tls: none
+  flow: ''
+  host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
+  path: /
+- name: vmess__223.113.54.245_37997
+  type: vmess
+  server: 223.113.54.245
+  port: 37997
+  uuid: 6f81fa0c-2ee2-43f0-adce-5d14a6643ed4
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__45.136.245.240_12910
+  type: vmess
+  server: 45.136.245.240
+  port: 12910
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__hytron.io_8080
+  type: vmess
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  network: ws
+  tls: none
+  flow: ''
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: linkvws
+- name: vmess__103.214.68.57_10001
+  type: vmess
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -600,7 +740,7 @@ proxy-groups:
   - vmess_VN_103.238.235.207_80
   - vmess_US_172.67.164.78_2052
   - vmess_US_104.19.172.136_8080
-  - vmess_US_23.154.136.2_443
+  - vmess__23.154.136.2_443
   - vmess__gov.uk_443
   - vmess__172.67.140.251_2086
   - vmess__162.159.9.55_80
@@ -616,6 +756,20 @@ proxy-groups:
   - vmess__103.184.45.191_2095
   - vmess__64.110.89.119_46515
   - vmess__210.3.159.224_12909
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__31.192.234.7_12954
+  - vmess__onea.flha.ru_2095
+  - vmess__6cc36ab3-sb9ts0-sdlngq-1n7jq.uk.tcpbbr.net_80
+  - vmess__kr01.appleid.bf_2086
+  - vmess__104.19.45.88_2095
+  - vmess__85.159.229.8_8443
+  - vmess__120.233.204.126_16632
+  - vmess__223.113.54.245_37997
+  - vmess__45.136.245.240_12910
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__103.214.68.57_10001
+  - vmess__www.darkroom.lol_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -651,7 +805,7 @@ proxy-groups:
   - vmess_VN_103.238.235.207_80
   - vmess_US_172.67.164.78_2052
   - vmess_US_104.19.172.136_8080
-  - vmess_US_23.154.136.2_443
+  - vmess__23.154.136.2_443
   - vmess__gov.uk_443
   - vmess__172.67.140.251_2086
   - vmess__162.159.9.55_80
@@ -667,6 +821,20 @@ proxy-groups:
   - vmess__103.184.45.191_2095
   - vmess__64.110.89.119_46515
   - vmess__210.3.159.224_12909
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__31.192.234.7_12954
+  - vmess__onea.flha.ru_2095
+  - vmess__6cc36ab3-sb9ts0-sdlngq-1n7jq.uk.tcpbbr.net_80
+  - vmess__kr01.appleid.bf_2086
+  - vmess__104.19.45.88_2095
+  - vmess__85.159.229.8_8443
+  - vmess__120.233.204.126_16632
+  - vmess__223.113.54.245_37997
+  - vmess__45.136.245.240_12910
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__103.214.68.57_10001
+  - vmess__www.darkroom.lol_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
