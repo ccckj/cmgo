@@ -465,86 +465,6 @@ proxies:
   flow: ''
   host: ''
   path: /v2ray
-- name: vmess__172.67.71.122_2095
-  type: vmess
-  server: 172.67.71.122
-  port: 2095
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  network: ws
-  tls: none
-  flow: ''
-  host: sssub.v2.001.ssrsub.com
-  path: /api/v3/download.getFile
-- name: vmess__183.232.170.47_15606
-  type: vmess
-  server: 183.232.170.47
-  port: 15606
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__cfcdn1.sanfencdn9.com_2082
-  type: vmess
-  server: cfcdn1.sanfencdn9.com
-  port: 2082
-  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
-  network: ws
-  tls: none
-  flow: ''
-  host: us4Bb5oSgJA.fzbqfrse.xyz
-  path: /video/CuTy87zAzV/
-- name: vmess__183.236.51.59_51707
-  type: vmess
-  server: 183.236.51.59
-  port: 51707
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__183.232.142.47_16632
-  type: vmess
-  server: 183.232.142.47
-  port: 16632
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  network: ws
-  tls: none
-  flow: ''
-  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-  path: /
-- name: vmess__104.19.45.88_2095
-  type: vmess
-  server: 104.19.45.88
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  network: ws
-  tls: none
-  flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__183.232.199.28_42001
-  type: vmess
-  server: 183.232.199.28
-  port: 42001
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__103.214.68.57_10001
-  type: vmess
-  server: 103.214.68.57
-  port: 10001
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
 - name: vmess__45.136.245.240_12910
   type: vmess
   server: 45.136.245.240
@@ -555,9 +475,29 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess__104.19.40.237_8880
+- name: vmess__Tgju.org_2095
   type: vmess
-  server: 104.19.40.237
+  server: Tgju.org
+  port: 2095
+  uuid: c8c1e652-fe34-4e04-879f-fea8940d7980
+  network: ws
+  tls: none
+  flow: ''
+  host: Asdfghjkl10.unique69.com
+  path: /
+- name: vmess__183.232.170.47_15606
+  type: vmess
+  server: 183.232.170.47
+  port: 15606
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.19.40.84_8880
+  type: vmess
+  server: 104.19.40.84
   port: 8880
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   network: ws
@@ -565,26 +505,76 @@ proxies:
   flow: ''
   host: uk.moss.network
   path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- name: vmess__172.67.185.79_8080
+- name: vmess__23.154.136.2_443
   type: vmess
-  server: 172.67.185.79
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  server: 23.154.136.2
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
+  type: vmess
+  server: 879xhl1.hsspr5bu1-tw02.my777999.top
+  port: 34998
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__183.232.199.28_21006
+  type: vmess
+  server: 183.232.199.28
+  port: 21006
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__107.173.146.129_80
+  type: vmess
+  server: 107.173.146.129
+  port: 80
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
   network: ws
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
+  host: 107.173.146.129
   path: /
-- name: vmess__hk.wish.ml_2052
+- name: vmess__103.214.68.57_10001
   type: vmess
-  server: hk.wish.ml
-  port: 2052
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__210.3.159.224_12909
+  type: vmess
+  server: 210.3.159.224
+  port: 12909
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__213.142.149.116_41858
+  type: vmess
+  server: 213.142.149.116
+  port: 41858
+  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
+  network: tcp
   tls: none
   flow: ''
-  host: hk2.wish.ml
-  path: /
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -626,18 +616,17 @@ proxy-groups:
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
   - vmess__vip3.niuniupremium.xyz_16928
-  - vmess__172.67.71.122_2095
-  - vmess__183.232.170.47_15606
-  - vmess__cfcdn1.sanfencdn9.com_2082
-  - vmess__183.236.51.59_51707
-  - vmess__183.232.142.47_16632
-  - vmess__104.19.45.88_2095
-  - vmess__183.232.199.28_42001
-  - vmess__103.214.68.57_10001
   - vmess__45.136.245.240_12910
-  - vmess__104.19.40.237_8880
-  - vmess__172.67.185.79_8080
-  - vmess__hk.wish.ml_2052
+  - vmess__Tgju.org_2095
+  - vmess__183.232.170.47_15606
+  - vmess__104.19.40.84_8880
+  - vmess__23.154.136.2_443
+  - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
+  - vmess__183.232.199.28_21006
+  - vmess__107.173.146.129_80
+  - vmess__103.214.68.57_10001
+  - vmess__210.3.159.224_12909
+  - vmess__213.142.149.116_41858
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -679,18 +668,17 @@ proxy-groups:
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
   - vmess__vip3.niuniupremium.xyz_16928
-  - vmess__172.67.71.122_2095
-  - vmess__183.232.170.47_15606
-  - vmess__cfcdn1.sanfencdn9.com_2082
-  - vmess__183.236.51.59_51707
-  - vmess__183.232.142.47_16632
-  - vmess__104.19.45.88_2095
-  - vmess__183.232.199.28_42001
-  - vmess__103.214.68.57_10001
   - vmess__45.136.245.240_12910
-  - vmess__104.19.40.237_8880
-  - vmess__172.67.185.79_8080
-  - vmess__hk.wish.ml_2052
+  - vmess__Tgju.org_2095
+  - vmess__183.232.170.47_15606
+  - vmess__104.19.40.84_8880
+  - vmess__23.154.136.2_443
+  - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
+  - vmess__183.232.199.28_21006
+  - vmess__107.173.146.129_80
+  - vmess__103.214.68.57_10001
+  - vmess__210.3.159.224_12909
+  - vmess__213.142.149.116_41858
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
