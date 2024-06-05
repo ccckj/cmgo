@@ -365,16 +365,36 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_104.21.8.157_2082
+- name: vmess__server31.beheshtbaneh.com_8880
   type: vmess
-  server: 104.21.8.157
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   network: ws
   tls: none
   flow: ''
-  host: s1c.v2.v001sss.xyz
+  host: server31.beheshtbaneh.com
   path: /
+- name: vmess__kz-v2ray.ipracevpn.com_2083
+  type: vmess
+  server: kz-v2ray.ipracevpn.com
+  port: 2083
+  uuid: 2595193e-3b5e-437e-8998-7be6dbfbed71
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_LU_202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -395,15 +415,15 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__server31.beheshtbaneh.com_8880
+- name: vmess__www.darkroom.lol_8080
   type: vmess
-  server: server31.beheshtbaneh.com
-  port: 8880
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   network: ws
   tls: none
   flow: ''
-  host: server31.beheshtbaneh.com
+  host: www.darkroom.lol
   path: /
 - name: vmess__data-us-v1.shwjfkw.cn_20401
   type: vmess
@@ -425,26 +445,6 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
-- name: vmess__202.78.162.5_443
-  type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  network: ws
-  tls: tls
-  flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.darkroom.lol
-  path: /
 - name: vmess__gov.uk_443
   type: vmess
   server: gov.uk
@@ -465,29 +465,19 @@ proxies:
   flow: ''
   host: server32.beheshtbaneh.com
   path: /
-- name: vmess__kz-v2ray.ipracevpn.com_2083
+- name: vmess__172.67.130.140_2082
   type: vmess
-  server: kz-v2ray.ipracevpn.com
-  port: 2083
-  uuid: 2595193e-3b5e-437e-8998-7be6dbfbed71
-  network: tcp
-  tls: tls
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__172.67.171.49_80
-  type: vmess
-  server: 172.67.171.49
-  port: 80
-  uuid: 10c580e4-f83b-42f1-8e6a-25fc8add4da7
+  server: 172.67.130.140
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   network: ws
   tls: none
   flow: ''
-  host: No1.vmess.site.
-  path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
-- name: vmess__172.67.185.64_8080
+  host: s1c.v2.v001sss.xyz
+  path: /
+- name: vmess__172.67.185.79_8080
   type: vmess
-  server: 172.67.185.64
+  server: 172.67.185.79
   port: 8080
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   network: ws
@@ -495,46 +485,36 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /
-- name: vmess__188.114.97.3_80
+- name: vmess__31.192.234.7_12954
   type: vmess
-  server: 188.114.97.3
-  port: 80
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-  network: ws
-  tls: none
+  server: 31.192.234.7
+  port: 12954
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  network: tcp
+  tls: tls
   flow: ''
-  host: De1.vmess.site.
-  path: /
-- name: vmess__cf3.ftclashcloud.site_80
+  host: ''
+  path: ''
+- name: vmess__183.232.199.28_30002
   type: vmess
-  server: cf3.ftclashcloud.site
-  port: 80
-  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
-  network: ws
-  tls: none
-  flow: ''
-  host: mhyusa01.ftclashcloud.online
-  path: /ws?ed=2560
-- name: vmess__108.181.23.161_8080
-  type: vmess
-  server: 108.181.23.161
-  port: 8080
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  network: ws
-  tls: none
-  flow: ''
-  host: internet.life.com.by
-  path: /1IKYjV0r/
-- name: vmess__152.42.208.82_54185
-  type: vmess
-  server: 152.42.208.82
-  port: 54185
-  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
+  server: 183.232.199.28
+  port: 30002
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
+- name: vmess__zula.ir_2082
+  type: vmess
+  server: zula.ir
+  port: 2082
+  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
+  network: ws
+  tls: none
+  flow: ''
+  host: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
+  path: /dashboard?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -566,23 +546,21 @@ proxy-groups:
   - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
-  - vmess_US_104.21.8.157_2082
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess_LU_202.78.162.5_443
   - vmess__hytron.io_8080
   - vmess_GB_172.99.190.109_443
-  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__www.darkroom.lol_8080
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
-  - vmess__202.78.162.5_443
-  - vmess__www.darkroom.lol_8080
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__kz-v2ray.ipracevpn.com_2083
-  - vmess__172.67.171.49_80
-  - vmess__172.67.185.64_8080
-  - vmess__188.114.97.3_80
-  - vmess__cf3.ftclashcloud.site_80
-  - vmess__108.181.23.161_8080
-  - vmess__152.42.208.82_54185
+  - vmess__172.67.130.140_2082
+  - vmess__172.67.185.79_8080
+  - vmess__31.192.234.7_12954
+  - vmess__183.232.199.28_30002
+  - vmess__zula.ir_2082
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -614,23 +592,21 @@ proxy-groups:
   - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
-  - vmess_US_104.21.8.157_2082
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess_LU_202.78.162.5_443
   - vmess__hytron.io_8080
   - vmess_GB_172.99.190.109_443
-  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__www.darkroom.lol_8080
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
-  - vmess__202.78.162.5_443
-  - vmess__www.darkroom.lol_8080
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__kz-v2ray.ipracevpn.com_2083
-  - vmess__172.67.171.49_80
-  - vmess__172.67.185.64_8080
-  - vmess__188.114.97.3_80
-  - vmess__cf3.ftclashcloud.site_80
-  - vmess__108.181.23.161_8080
-  - vmess__152.42.208.82_54185
+  - vmess__172.67.130.140_2082
+  - vmess__172.67.185.79_8080
+  - vmess__31.192.234.7_12954
+  - vmess__183.232.199.28_30002
+  - vmess__zula.ir_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
