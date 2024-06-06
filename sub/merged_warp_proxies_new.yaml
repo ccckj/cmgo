@@ -563,6 +563,86 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
+- name: vmess__158.51.121.36_443
+  type: vmess
+  server: 158.51.121.36
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /linkvws
+- name: vmess__104.19.45.88_2095
+  type: vmess
+  server: 104.19.45.88
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  network: ws
+  tls: none
+  flow: ''
+  host: onea.flha.ru
+  path: /
+- name: vmess__31.192.234.7_12954
+  type: vmess
+  server: 31.192.234.7
+  port: 12954
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__s1c.v2.v001sss.xyz_2082
+  type: vmess
+  server: s1c.v2.v001sss.xyz
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  network: ws
+  tls: none
+  flow: ''
+  host: s1c.v2.v001sss.xyz
+  path: /
+- name: vmess__8987-3i640t6rlj4n.zpveerb-jp03.my777999.top_38997
+  type: vmess
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
+  port: 38997
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__server31.beheshtbaneh.com_8880
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  network: ws
+  tls: none
+  flow: ''
+  host: server31.beheshtbaneh.com
+  path: /
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -627,6 +707,14 @@ proxy-groups:
   - vmess__172.67.204.84_2095
   - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
+  - vmess__158.51.121.36_443
+  - vmess__104.19.45.88_2095
+  - vmess__31.192.234.7_12954
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__8987-3i640t6rlj4n.zpveerb-jp03.my777999.top_38997
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.82.183_8880
 - name: 手动选择
   type: select
   proxies:
@@ -673,6 +761,14 @@ proxy-groups:
   - vmess__172.67.204.84_2095
   - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
+  - vmess__158.51.121.36_443
+  - vmess__104.19.45.88_2095
+  - vmess__31.192.234.7_12954
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__8987-3i640t6rlj4n.zpveerb-jp03.my777999.top_38997
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.82.183_8880
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -719,6 +815,14 @@ proxy-groups:
   - vmess__172.67.204.84_2095
   - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
+  - vmess__158.51.121.36_443
+  - vmess__104.19.45.88_2095
+  - vmess__31.192.234.7_12954
+  - vmess__s1c.v2.v001sss.xyz_2082
+  - vmess__8987-3i640t6rlj4n.zpveerb-jp03.my777999.top_38997
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.82.183_8880
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
