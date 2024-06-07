@@ -455,7 +455,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__31.192.234.7_12954
+- name: vmess_SG_31.192.234.7_12954
   type: vmess
   server: 31.192.234.7
   port: 12954
@@ -575,6 +575,16 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
+- name: vmess__x.y49t1kh1.5ebf71z0-tro1.my777999.top_21991
+  type: vmess
+  server: x.y49t1kh1.5ebf71z0-tro1.my777999.top
+  port: 21991
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__m.cnmjin.net_16632
   type: vmess
   server: m.cnmjin.net
@@ -585,16 +595,16 @@ proxies:
   flow: ''
   host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__135.181.109.197_80
+- name: vmess__104.21.8.157_2082
   type: vmess
-  server: 135.181.109.197
-  port: 80
-  uuid: 1b457053-80cc-4391-b2bf-badfd71ad8cd
+  server: 104.21.8.157
+  port: 2082
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   network: ws
   tls: none
   flow: ''
-  host: ''
-  path: /ZXzpLGLXPrYffqWUhE
+  host: s1c.v2.v001sss.xyz
+  path: /
 - name: vmess__gov.uk_443
   type: vmess
   server: gov.uk
@@ -605,16 +615,106 @@ proxies:
   flow: ''
   host: zheshiscp.com
   path: /77848824
-- name: vmess__server32.beheshtbaneh.com_8880
+- name: vmess__103.214.68.57_10001
   type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  server: 103.214.68.57
+  port: 10001
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__www.hkbu.edu.hk_80
+  type: vmess
+  server: www.hkbu.edu.hk
+  port: 80
+  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
   network: ws
   tls: none
   flow: ''
-  host: server32.beheshtbaneh.com
+  host: nmsl.kp
+  path: /aries?ed=2048
+- name: vmess__64.176.15.74_3389
+  type: vmess
+  server: 64.176.15.74
+  port: 3389
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__172.67.172.67_8080
+  type: vmess
+  server: 172.67.172.67
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
   path: /
+- name: vmess__www.speedtest.net_80
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
+  network: ws
+  tls: none
+  flow: ''
+  host: Se2.vmess.site.
+  path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+- name: vmess__91.107.247.152_2222
+  type: vmess
+  server: 91.107.247.152
+  port: 2222
+  uuid: 154a3a61-4813-4e7d-b9d7-b5e98ef9d419
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.18.14.19_80
+  type: vmess
+  server: 104.18.14.19
+  port: 80
+  uuid: 4e63f0da-80ff-4b1e-8f68-80158ad0ff2a
+  network: ws
+  tls: none
+  flow: ''
+  host: thus-appliance-passenger-shoes.trycloudflare.com
+  path: 4e63f0da
+- name: vmess__172.67.144.2_2052
+  type: vmess
+  server: 172.67.144.2
+  port: 2052
+  uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509
+  network: ws
+  tls: none
+  flow: ''
+  host: ptdny.xyyjc.top
+  path: /?ed=2048
+- name: vmess__151.101.67.10_80
+  type: vmess
+  server: 151.101.67.10
+  port: 80
+  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
+  network: ws
+  tls: none
+  flow: ''
+  host: nmsl.kp
+  path: /aries?ed=2048
+- name: vmess__chaoji2.chaozhijc.xyz_2082
+  type: vmess
+  server: chaoji2.chaozhijc.xyz
+  port: 2082
+  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
+  network: ws
+  tls: none
+  flow: ''
+  host: dny.chaozhijc.xyz
+  path: /?ed=2048
 proxy-groups:
 - name: 节点选择
   type: select
@@ -667,7 +767,7 @@ proxy-groups:
   - vmess__geili.mulanwevictory.top_8443
   - vmess__zula.ir_80
   - vmess__786huix-ee.dc-zix4ssc1-hk03.my777999.top_35996
-  - vmess__31.192.234.7_12954
+  - vmess_SG_31.192.234.7_12954
   - vmess__chaoji1.chaozhijc.xyz_2082
   - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
   - vmess__hytron.io_8080
@@ -679,10 +779,20 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
+  - vmess__x.y49t1kh1.5ebf71z0-tro1.my777999.top_21991
   - vmess__m.cnmjin.net_16632
-  - vmess__135.181.109.197_80
+  - vmess__104.21.8.157_2082
   - vmess__gov.uk_443
-  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__103.214.68.57_10001
+  - vmess__www.hkbu.edu.hk_80
+  - vmess__64.176.15.74_3389
+  - vmess__172.67.172.67_8080
+  - vmess__www.speedtest.net_80
+  - vmess__91.107.247.152_2222
+  - vmess__104.18.14.19_80
+  - vmess__172.67.144.2_2052
+  - vmess__151.101.67.10_80
+  - vmess__chaoji2.chaozhijc.xyz_2082
 - name: 手动选择
   type: select
   proxies:
@@ -717,7 +827,7 @@ proxy-groups:
   - vmess__geili.mulanwevictory.top_8443
   - vmess__zula.ir_80
   - vmess__786huix-ee.dc-zix4ssc1-hk03.my777999.top_35996
-  - vmess__31.192.234.7_12954
+  - vmess_SG_31.192.234.7_12954
   - vmess__chaoji1.chaozhijc.xyz_2082
   - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
   - vmess__hytron.io_8080
@@ -729,10 +839,20 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
+  - vmess__x.y49t1kh1.5ebf71z0-tro1.my777999.top_21991
   - vmess__m.cnmjin.net_16632
-  - vmess__135.181.109.197_80
+  - vmess__104.21.8.157_2082
   - vmess__gov.uk_443
-  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__103.214.68.57_10001
+  - vmess__www.hkbu.edu.hk_80
+  - vmess__64.176.15.74_3389
+  - vmess__172.67.172.67_8080
+  - vmess__www.speedtest.net_80
+  - vmess__91.107.247.152_2222
+  - vmess__104.18.14.19_80
+  - vmess__172.67.144.2_2052
+  - vmess__151.101.67.10_80
+  - vmess__chaoji2.chaozhijc.xyz_2082
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -767,7 +887,7 @@ proxy-groups:
   - vmess__geili.mulanwevictory.top_8443
   - vmess__zula.ir_80
   - vmess__786huix-ee.dc-zix4ssc1-hk03.my777999.top_35996
-  - vmess__31.192.234.7_12954
+  - vmess_SG_31.192.234.7_12954
   - vmess__chaoji1.chaozhijc.xyz_2082
   - vmess__879xhl1.hsspr5bu1-tw02.my777999.top_34998
   - vmess__hytron.io_8080
@@ -779,10 +899,20 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
+  - vmess__x.y49t1kh1.5ebf71z0-tro1.my777999.top_21991
   - vmess__m.cnmjin.net_16632
-  - vmess__135.181.109.197_80
+  - vmess__104.21.8.157_2082
   - vmess__gov.uk_443
-  - vmess__server32.beheshtbaneh.com_8880
+  - vmess__103.214.68.57_10001
+  - vmess__www.hkbu.edu.hk_80
+  - vmess__64.176.15.74_3389
+  - vmess__172.67.172.67_8080
+  - vmess__www.speedtest.net_80
+  - vmess__91.107.247.152_2222
+  - vmess__104.18.14.19_80
+  - vmess__172.67.144.2_2052
+  - vmess__151.101.67.10_80
+  - vmess__chaoji2.chaozhijc.xyz_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
