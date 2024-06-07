@@ -50,54 +50,66 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: vless_104.26.9.12:80
-  type: vless
+- name: vmess_104.26.9.12:8443
+  type: vmess
   server: 104.26.9.12
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
+  port: 8443
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
   network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: /argox-vl?ed=2048
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: vless_104.19.21.24:80
-  type: vless
+      Host: funk-england-indirect-gospel.trycloudflare.com
+- name: vmess_104.19.21.24:8880
+  type: vmess
   server: 104.19.21.24
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
+  port: 8880
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  cipher: auto
+  udp: true
   tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: /argox-vl?ed=2048
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: vless_104.26.9.54:80
-  type: vless
+      Host: funk-england-indirect-gospel.trycloudflare.com
+- name: vmess_104.26.9.54:8443
+  type: vmess
   server: 104.26.9.54
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
+  port: 8443
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
   network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: /argox-vl?ed=2048
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: vless_104.19.38.28:80
-  type: vless
+      Host: funk-england-indirect-gospel.trycloudflare.com
+- name: vmess_104.19.38.28:8880
+  type: vmess
   server: 104.19.38.28
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
+  port: 8880
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  alterId: 0
+  cipher: auto
+  udp: true
   tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
+  servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: /argox-vl?ed=2048
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
     headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
+      Host: funk-england-indirect-gospel.trycloudflare.com
 - name: vmess_104.26.9.22:8080
   type: vmess
   server: 104.26.9.22
@@ -545,46 +557,26 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
-- name: vmess__onea.flha.ru_2095
+- name: vmess__m.cnmjin.net_16632
   type: vmess
-  server: onea.flha.ru
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  server: m.cnmjin.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   network: ws
   tls: none
   flow: ''
-  host: onea.flha.ru
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__104.17.16.37_2052
+- name: vmess__135.181.109.197_80
   type: vmess
-  server: 104.17.16.37
-  port: 2052
-  uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509
-  network: ws
-  tls: none
-  flow: ''
-  host: ptddg.xyyjc.top
-  path: /?ed=2048
-- name: vmess__172.67.144.201_2052
-  type: vmess
-  server: 172.67.144.201
-  port: 2052
-  uuid: 1d95edba-c8c7-4f0e-be25-5503fa31b509
-  network: ws
-  tls: none
-  flow: ''
-  host: ptdny.xyyjc.top
-  path: /?ed=2048
-- name: vmess__188.114.97.3_80
-  type: vmess
-  server: 188.114.97.3
+  server: 135.181.109.197
   port: 80
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
+  uuid: 1b457053-80cc-4391-b2bf-badfd71ad8cd
   network: ws
   tls: none
   flow: ''
-  host: De1.vmess.site.
-  path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+  host: ''
+  path: /ZXzpLGLXPrYffqWUhE
 - name: vmess__gov.uk_443
   type: vmess
   server: gov.uk
@@ -613,10 +605,10 @@ proxy-groups:
   - DIRECT
   - tuic_US_dongtaiwang.com_0
   - hysteria_108.181.5.22:44557
-  - vless_104.26.9.12:80
-  - vless_104.19.21.24:80
-  - vless_104.26.9.54:80
-  - vless_104.19.38.28:80
+  - vmess_104.26.9.12:8443
+  - vmess_104.19.21.24:8880
+  - vmess_104.26.9.54:8443
+  - vmess_104.19.38.28:8880
   - vmess_104.26.9.22:8080
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
@@ -654,10 +646,8 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
-  - vmess__onea.flha.ru_2095
-  - vmess__104.17.16.37_2052
-  - vmess__172.67.144.201_2052
-  - vmess__188.114.97.3_80
+  - vmess__m.cnmjin.net_16632
+  - vmess__135.181.109.197_80
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
 - name: 自动选择
@@ -668,10 +658,10 @@ proxy-groups:
   proxies:
   - tuic_US_dongtaiwang.com_0
   - hysteria_108.181.5.22:44557
-  - vless_104.26.9.12:80
-  - vless_104.19.21.24:80
-  - vless_104.26.9.54:80
-  - vless_104.19.38.28:80
+  - vmess_104.26.9.12:8443
+  - vmess_104.19.21.24:8880
+  - vmess_104.26.9.54:8443
+  - vmess_104.19.38.28:8880
   - vmess_104.26.9.22:8080
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
@@ -709,10 +699,8 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__104.21.82.183_8880
-  - vmess__onea.flha.ru_2095
-  - vmess__104.17.16.37_2052
-  - vmess__172.67.144.201_2052
-  - vmess__188.114.97.3_80
+  - vmess__m.cnmjin.net_16632
+  - vmess__135.181.109.197_80
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
 rules:
