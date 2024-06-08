@@ -547,6 +547,96 @@ proxies:
   flow: ''
   host: server32.beheshtbaneh.com
   path: /
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  network: ws
+  tls: none
+  flow: ''
+  host: 7nAi74jJsg1.yofnhkfc.xyz
+  path: /video/c9efxRCi
+- name: vmess__35.229.236.201_12345
+  type: vmess
+  server: 35.229.236.201
+  port: 12345
+  uuid: 957c0034-9066-48a8-b824-5f6203298746
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /957c0034
+- name: vmess__104.26.3.120_80
+  type: vmess
+  server: 104.26.3.120
+  port: 80
+  uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
+  network: ws
+  tls: none
+  flow: ''
+  host: dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.
+  path: /etc
+- name: vmess__m.cnmjin.net_16632
+  type: vmess
+  server: m.cnmjin.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  network: ws
+  tls: none
+  flow: ''
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+  path: /
+- name: vmess__web.com_2052
+  type: vmess
+  server: web.com
+  port: 2052
+  uuid: a1ec3211-b1ff-4e53-a729-e5b7b55567eb
+  network: ws
+  tls: none
+  flow: ''
+  host: aliyun_hk1.cn2.free.hr
+  path: /
+- name: vmess__188.114.97.3_80
+  type: vmess
+  server: 188.114.97.3
+  port: 80
+  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
+  network: ws
+  tls: none
+  flow: ''
+  host: De1.vmess.site.
+  path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+- name: vmess__172.67.172.168_8080
+  type: vmess
+  server: 172.67.172.168
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__russia.com_2095
+  type: vmess
+  server: russia.com
+  port: 2095
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  network: ws
+  tls: none
+  flow: ''
+  host: sssub.v2.001.ssrsub.com
+  path: /api/v3/download.getFile
+- name: vmess__yes.cnmjcn.net_16632
+  type: vmess
+  server: yes.cnmjcn.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  network: ws
+  tls: none
+  flow: ''
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -595,6 +685,15 @@ proxy-groups:
   - vmess__104.21.82.183_8880
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__35.229.236.201_12345
+  - vmess__104.26.3.120_80
+  - vmess__m.cnmjin.net_16632
+  - vmess__web.com_2052
+  - vmess__188.114.97.3_80
+  - vmess__172.67.172.168_8080
+  - vmess__russia.com_2095
+  - vmess__yes.cnmjcn.net_16632
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -643,6 +742,15 @@ proxy-groups:
   - vmess__104.21.82.183_8880
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__35.229.236.201_12345
+  - vmess__104.26.3.120_80
+  - vmess__m.cnmjin.net_16632
+  - vmess__web.com_2052
+  - vmess__188.114.97.3_80
+  - vmess__172.67.172.168_8080
+  - vmess__russia.com_2095
+  - vmess__yes.cnmjcn.net_16632
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
