@@ -437,7 +437,7 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- name: vmess__46.17.41.161_54321
+- name: vmess_RU_46.17.41.161_54321
   type: vmess
   server: 46.17.41.161
   port: 54321
@@ -567,6 +567,106 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- name: vmess__www.darkroom.lol_8080
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
+  tls: none
+  flow: ''
+  host: www.darkroom.lol
+  path: /
+- name: vmess__104.16.61.8_8080
+  type: vmess
+  server: 104.16.61.8
+  port: 8080
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  network: ws
+  tls: none
+  flow: ''
+  host: hyfhhg.jadovah977.workers.dev
+  path: /jahfkjha.cfd/linkws
+- name: vmess__m.cnmjin.net_16632
+  type: vmess
+  server: m.cnmjin.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  network: ws
+  tls: none
+  flow: ''
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+  path: /
+- name: vmess__185.201.252.139_57859
+  type: vmess
+  server: 185.201.252.139
+  port: 57859
+  uuid: b5fd2c7d-5cdc-4ab3-9ec6-5c04fc809d8e
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__de04.willfree.online_80
+  type: vmess
+  server: de04.willfree.online
+  port: 80
+  uuid: 878596e1-ebfe-47e7-9e65-53e28ceffb6f
+  network: ws
+  tls: none
+  flow: ''
+  host: de04.willfree.online
+  path: /
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__eedp257bubu2wefy3.lovebaipiao.net_54321
+  type: vmess
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  port: 54321
+  uuid: ae840eaa-21a3-462c-8dc8-f5eded625799
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /iphone
+- name: vmess__de04.patrioticprincess.online_80
+  type: vmess
+  server: de04.patrioticprincess.online
+  port: 80
+  uuid: 878596e1-ebfe-47e7-9e65-53e28ceffb6f
+  network: ws
+  tls: none
+  flow: ''
+  host: de04.patrioticprincess.online
+  path: /
+- name: vmess__104.16.55.139_2052
+  type: vmess
+  server: 104.16.55.139
+  port: 2052
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  network: ws
+  tls: none
+  flow: ''
+  host: wtywwcrzjp5.yofnhkfc.xyz
+  path: /video/9TfVEyku
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 proxy-groups:
 - name: 节点选择
   type: select
@@ -604,7 +704,7 @@ proxy-groups:
   - vmess__eedp257bubu2wefy.lovebaipiao.net_54321
   - vmess_US_172.67.171.49_80
   - vmess_US_104.19.47.98_8080
-  - vmess__46.17.41.161_54321
+  - vmess_RU_46.17.41.161_54321
   - vmess__in06.dns2024.org_61017
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
@@ -617,6 +717,16 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__104.19.47.145_8080
   - vmess__104.19.47.207_8080
+  - vmess__www.darkroom.lol_8080
+  - vmess__104.16.61.8_8080
+  - vmess__m.cnmjin.net_16632
+  - vmess__185.201.252.139_57859
+  - vmess__de04.willfree.online_80
+  - vmess__104.21.82.183_8880
+  - vmess__eedp257bubu2wefy3.lovebaipiao.net_54321
+  - vmess__de04.patrioticprincess.online_80
+  - vmess__104.16.55.139_2052
+  - vmess__202.78.162.5_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -654,7 +764,7 @@ proxy-groups:
   - vmess__eedp257bubu2wefy.lovebaipiao.net_54321
   - vmess_US_172.67.171.49_80
   - vmess_US_104.19.47.98_8080
-  - vmess__46.17.41.161_54321
+  - vmess_RU_46.17.41.161_54321
   - vmess__in06.dns2024.org_61017
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
@@ -667,6 +777,16 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__104.19.47.145_8080
   - vmess__104.19.47.207_8080
+  - vmess__www.darkroom.lol_8080
+  - vmess__104.16.61.8_8080
+  - vmess__m.cnmjin.net_16632
+  - vmess__185.201.252.139_57859
+  - vmess__de04.willfree.online_80
+  - vmess__104.21.82.183_8880
+  - vmess__eedp257bubu2wefy3.lovebaipiao.net_54321
+  - vmess__de04.patrioticprincess.online_80
+  - vmess__104.16.55.139_2052
+  - vmess__202.78.162.5_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
