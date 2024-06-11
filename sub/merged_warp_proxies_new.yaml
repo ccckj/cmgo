@@ -445,7 +445,7 @@ proxies:
   flow: ''
   host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__85.206.165.39_443
+- name: vmess_LT_85.206.165.39_443
   type: vmess
   server: 85.206.165.39
   port: 443
@@ -555,6 +555,96 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
+- name: vmess__23.108.100.110_443
+  type: vmess
+  server: 23.108.100.110
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.40587333.xyz
+  path: /path/191019072927
+- name: vmess__46.29.219.44_443
+  type: vmess
+  server: 46.29.219.44
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /path/191019072927
+- name: vmess__185.133.42.144_30000
+  type: vmess
+  server: 185.133.42.144
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.33189064.xyz
+  path: /path/191019072927
+- name: vmess__46.249.58.5_80
+  type: vmess
+  server: 46.249.58.5
+  port: 80
+  uuid: d18c7f2d-f696-4961-a12c-111fb5808654
+  network: ws
+  tls: none
+  flow: ''
+  host: 46.249.58.5
+  path: /google
+- name: vmess__183.240.235.162_39041
+  type: vmess
+  server: 183.240.235.162
+  port: 39041
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__84.32.230.50_54522
+  type: vmess
+  server: 84.32.230.50
+  port: 54522
+  uuid: 8643b971-6a1f-4590-95aa-6830ebfbc83c
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__hk.wish.ml_2052
+  type: vmess
+  server: hk.wish.ml
+  port: 2052
+  uuid: cf8d5979-31a2-47a1-9075-f64ae5abea6e
+  network: ws
+  tls: none
+  flow: ''
+  host: us7.wish.ml
+  path: /
+- name: vmess__34.80.125.236_57257
+  type: vmess
+  server: 34.80.125.236
+  port: 57257
+  uuid: 3a368036-ff57-4141-827b-0156487add85
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /
+- name: vmess__russia.com_8080
+  type: vmess
+  server: russia.com
+  port: 8080
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  network: ws
+  tls: none
+  flow: ''
+  host: sssub.v2.001.ssrsub.com
+  path: /api/v3/download.getFile
 proxy-groups:
 - name: 节点选择
   type: select
@@ -606,7 +696,7 @@ proxy-groups:
   - vmess_US_148.135.40.190_8080
   - vmess_US_107.167.21.154_443
   - vmess__m.cnmjin.net_16632
-  - vmess__85.206.165.39_443
+  - vmess_LT_85.206.165.39_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.25.240.181_8443
@@ -617,6 +707,15 @@ proxy-groups:
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__23.108.100.110_443
+  - vmess__46.29.219.44_443
+  - vmess__185.133.42.144_30000
+  - vmess__46.249.58.5_80
+  - vmess__183.240.235.162_39041
+  - vmess__84.32.230.50_54522
+  - vmess__hk.wish.ml_2052
+  - vmess__34.80.125.236_57257
+  - vmess__russia.com_8080
 - name: 手动选择
   type: select
   proxies:
@@ -650,7 +749,7 @@ proxy-groups:
   - vmess_US_148.135.40.190_8080
   - vmess_US_107.167.21.154_443
   - vmess__m.cnmjin.net_16632
-  - vmess__85.206.165.39_443
+  - vmess_LT_85.206.165.39_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.25.240.181_8443
@@ -661,6 +760,15 @@ proxy-groups:
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__23.108.100.110_443
+  - vmess__46.29.219.44_443
+  - vmess__185.133.42.144_30000
+  - vmess__46.249.58.5_80
+  - vmess__183.240.235.162_39041
+  - vmess__84.32.230.50_54522
+  - vmess__hk.wish.ml_2052
+  - vmess__34.80.125.236_57257
+  - vmess__russia.com_8080
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -694,7 +802,7 @@ proxy-groups:
   - vmess_US_148.135.40.190_8080
   - vmess_US_107.167.21.154_443
   - vmess__m.cnmjin.net_16632
-  - vmess__85.206.165.39_443
+  - vmess_LT_85.206.165.39_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__104.25.240.181_8443
@@ -705,6 +813,15 @@ proxy-groups:
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__23.108.100.110_443
+  - vmess__46.29.219.44_443
+  - vmess__185.133.42.144_30000
+  - vmess__46.249.58.5_80
+  - vmess__183.240.235.162_39041
+  - vmess__84.32.230.50_54522
+  - vmess__hk.wish.ml_2052
+  - vmess__34.80.125.236_57257
+  - vmess__russia.com_8080
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
