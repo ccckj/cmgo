@@ -377,56 +377,66 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess__104.25.240.181_8443
+- name: vmess__zula.ir_80
   type: vmess
-  server: 104.25.240.181
-  port: 8443
-  uuid: 3b873394-0165-4825-dd8f-3fb78b2b036d
-  network: ws
-  tls: tls
-  flow: ''
-  host: ukv4.7070777.xyz
-  path: /
-- name: vmess_US_104.19.47.150_8080
-  type: vmess
-  server: 104.19.47.150
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  server: zula.ir
+  port: 80
+  uuid: 9b485f57-c54b-40d0-bee7-13cee16f1e42
   network: ws
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
-  path: /?ed=2048
-- name: vmess_US_104.19.38.28_8880
+  host: De2.vmess.site.
+  path: /vmess
+- name: vmess_US_148.135.47.53_443
   type: vmess
-  server: 104.19.38.28
-  port: 8880
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  network: ws
-  tls: none
-  flow: ''
-  host: funk-england-indirect-gospel.trycloudflare.com
-  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- name: vmess_LU_202.78.162.5_443
-  type: vmess
-  server: 202.78.162.5
+  server: 148.135.47.53
   port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: ws
   tls: tls
   flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
-- name: vmess_US_104.21.82.183_8880
+  host: www.56394545.xyz
+  path: /path/191019072927
+- name: vmess_US_148.135.40.190_8080
   type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  server: 148.135.40.190
+  port: 8080
+  uuid: f9808413-8b12-42ea-86ff-a0af6727a0e8
   network: ws
   tls: none
   flow: ''
-  host: server26.beheshtbaneh.com
+  host: 148.135.40.190
+  path: /index?ed=2560
+- name: vmess_US_107.167.21.154_443
+  type: vmess
+  server: 107.167.21.154
+  port: 443
+  uuid: fabb30e8-3a2c-4149-9651-2758f7712481
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /path/191019072927
+- name: vmess__m.cnmjin.net_16632
+  type: vmess
+  server: m.cnmjin.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  network: ws
+  tls: none
+  flow: ''
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
+- name: vmess__85.206.165.39_443
+  type: vmess
+  server: 85.206.165.39
+  port: 443
+  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.83322971.xyz
+  path: /path/191019072927
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -447,6 +457,56 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess__104.25.240.181_8443
+  type: vmess
+  server: 104.25.240.181
+  port: 8443
+  uuid: 3b873394-0165-4825-dd8f-3fb78b2b036d
+  network: ws
+  tls: tls
+  flow: ''
+  host: ukv4.7070777.xyz
+  path: /
+- name: vmess__104.19.47.150_8080
+  type: vmess
+  server: 104.19.47.150
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /?ed=2048
+- name: vmess__104.19.38.28_8880
+  type: vmess
+  server: 104.19.38.28
+  port: 8880
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  network: ws
+  tls: none
+  flow: ''
+  host: funk-england-indirect-gospel.trycloudflare.com
+  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -477,56 +537,6 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__gov.uk_443
-  type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  network: ws
-  tls: tls
-  flow: ''
-  host: zheshiscp.com
-  path: /77848824
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
-- name: vmess__46.17.41.197_55983
-  type: vmess
-  server: 46.17.41.197
-  port: 55983
-  uuid: 034449ce-f7ad-4a51-8044-d677e80b2613
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__46.29.219.44_443
-  type: vmess
-  server: 46.29.219.44
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  network: ws
-  tls: tls
-  flow: ''
-  host: ''
-  path: /path/191019072927
-- name: vmess__104.26.3.120_80
-  type: vmess
-  server: 104.26.3.120
-  port: 80
-  uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
-  network: ws
-  tls: none
-  flow: ''
-  host: dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.
-  path: /etc
 proxy-groups:
 - name: 节点选择
   type: select
@@ -558,21 +568,22 @@ proxy-groups:
   - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
-  - vmess__104.25.240.181_8443
-  - vmess_US_104.19.47.150_8080
-  - vmess_US_104.19.38.28_8880
-  - vmess_LU_202.78.162.5_443
-  - vmess_US_104.21.82.183_8880
+  - vmess__zula.ir_80
+  - vmess_US_148.135.47.53_443
+  - vmess_US_148.135.40.190_8080
+  - vmess_US_107.167.21.154_443
+  - vmess__m.cnmjin.net_16632
+  - vmess__85.206.165.39_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__104.25.240.181_8443
+  - vmess__104.19.47.150_8080
+  - vmess__104.19.38.28_8880
+  - vmess__202.78.162.5_443
+  - vmess__104.21.82.183_8880
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__gov.uk_443
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__46.17.41.197_55983
-  - vmess__46.29.219.44_443
-  - vmess__104.26.3.120_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -604,21 +615,22 @@ proxy-groups:
   - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
-  - vmess__104.25.240.181_8443
-  - vmess_US_104.19.47.150_8080
-  - vmess_US_104.19.38.28_8880
-  - vmess_LU_202.78.162.5_443
-  - vmess_US_104.21.82.183_8880
+  - vmess__zula.ir_80
+  - vmess_US_148.135.47.53_443
+  - vmess_US_148.135.40.190_8080
+  - vmess_US_107.167.21.154_443
+  - vmess__m.cnmjin.net_16632
+  - vmess__85.206.165.39_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__104.25.240.181_8443
+  - vmess__104.19.47.150_8080
+  - vmess__104.19.38.28_8880
+  - vmess__202.78.162.5_443
+  - vmess__104.21.82.183_8880
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__gov.uk_443
-  - vmess__server32.beheshtbaneh.com_8880
-  - vmess__46.17.41.197_55983
-  - vmess__46.29.219.44_443
-  - vmess__104.26.3.120_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
