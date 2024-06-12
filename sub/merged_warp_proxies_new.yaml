@@ -43,7 +43,7 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
-- name: tuic_US_dongtaiwang.com_0
+- name: tuic_JP_dongtaiwang.com_0
   server: 74.63.233.74
   port: 33441
   type: tuic
@@ -371,7 +371,7 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_JP_104.192.224.140:62894
+- name: hy2_US_104.192.224.140:62894
   type: hysteria2
   server: 104.192.224.140
   port: 62894
@@ -435,7 +435,7 @@ proxies:
   flow: ''
   host: nmsl.kp
   path: /aries?ed=2048
-- name: vmess__104.19.47.149_8080
+- name: vmess_US_104.19.47.149_8080
   type: vmess
   server: 104.19.47.149
   port: 8080
@@ -445,7 +445,7 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /?ed=2048
-- name: vmess__46.249.58.5_80
+- name: vmess_NL_46.249.58.5_80
   type: vmess
   server: 46.249.58.5
   port: 80
@@ -585,6 +585,86 @@ proxies:
   flow: ''
   host: sssub.v2.001.ssrsub.com
   path: /api/v3/download.getFile
+- name: vmess__107.148.255.229_49997
+  type: vmess
+  server: 107.148.255.229
+  port: 49997
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: www.87077444.xyz
+  path: /path/191019072927
+- name: vmess__183.240.235.169_44602
+  type: vmess
+  server: 183.240.235.169
+  port: 44602
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__it-full.privateip.net_443
+  type: vmess
+  server: it-full.privateip.net
+  port: 443
+  uuid: d6a9427d-7274-4346-9d19-6c5713398305
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /RACEVPN
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  network: ws
+  tls: none
+  flow: ''
+  host: rpmlybgzsg2.yofnhkfc.xyz
+  path: /video/3YKfzGw4
+- name: vmess__128.199.161.230_99
+  type: vmess
+  server: 128.199.161.230
+  port: 99
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  network: ws
+  tls: none
+  flow: ''
+  host: ''
+  path: /v2ray
+- name: vmess__cfcdn1.sanfencdn9.com_8080
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 8080
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  network: ws
+  tls: none
+  flow: ''
+  host: us5PhAx6xsj.fzbqfrse.xyz
+  path: /video/f8ZKTGaGoC/
+- name: vmess__172.67.185.64_8080
+  type: vmess
+  server: 172.67.185.64
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__104.19.38.28_8880
+  type: vmess
+  server: 104.19.38.28
+  port: 8880
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  network: ws
+  tls: none
+  flow: ''
+  host: funk-england-indirect-gospel.trycloudflare.com
+  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - name: vmess__172.67.75.25_2052
   type: vmess
   server: 172.67.75.25
@@ -655,26 +735,6 @@ proxies:
   flow: ''
   host: dual-nothing-prep-exit.trycloudflare.com
   path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- name: vmess__104.19.33.224_80
-  type: vmess
-  server: 104.19.33.224
-  port: 80
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  network: ws
-  tls: none
-  flow: ''
-  host: sgv6.xlb8.eu.org
-  path: /?ed=2048&Telegram🇨🇳
-- name: vmess__104.21.69.44_80
-  type: vmess
-  server: 104.21.69.44
-  port: 80
-  uuid: 9b485f57-c54b-40d0-bee7-13cee16f1e42
-  network: ws
-  tls: none
-  flow: ''
-  host: De2.vmess.site.
-  path: /vmess
 proxy-groups:
 - name: 节点选择
   type: select
@@ -696,7 +756,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_108.181.5.22:44557
   - vmess_104.26.9.12:8443
   - vmess_104.19.21.24:8880
@@ -718,15 +778,15 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_104.192.224.141:62894
-  - hy2_JP_104.192.224.140:62894
+  - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
   - vmess__api2-t3.tiktok.com.static.hdpattv.hdpattv.io.vn_80
   - vmess__server31.beheshtbaneh.com_8880
   - vmess_US_172.67.185.242_8080
   - vmess__www.hkbu.edu.hk_80
-  - vmess__104.19.47.149_8080
-  - vmess__46.249.58.5_80
+  - vmess_US_104.19.47.149_8080
+  - vmess_NL_46.249.58.5_80
   - vmess__185.146.173.185_2052
   - vmess__202.78.162.5_443
   - vmess__104.25.224.48_2052
@@ -740,6 +800,14 @@ proxy-groups:
   - vmess__46.29.219.44_443
   - vmess__34.80.125.236_57257
   - vmess__russia.com_8080
+  - vmess__107.148.255.229_49997
+  - vmess__183.240.235.169_44602
+  - vmess__it-full.privateip.net_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__128.199.161.230_99
+  - vmess__cfcdn1.sanfencdn9.com_8080
+  - vmess__172.67.185.64_8080
+  - vmess__104.19.38.28_8880
   - vmess__172.67.75.25_2052
   - vmess__89.169.53.36_59985
   - vmess__104.21.200.220_2095
@@ -747,12 +815,10 @@ proxy-groups:
   - vmess__alm2.the-galgo.top_32012
   - vmess__m.cnmjin.net_16632
   - vmess__104.26.9.22_8080
-  - vmess__104.19.33.224_80
-  - vmess__104.21.69.44_80
 - name: 手动选择
   type: select
   proxies:
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_108.181.5.22:44557
   - vmess_104.26.9.12:8443
   - vmess_104.19.21.24:8880
@@ -774,15 +840,15 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_104.192.224.141:62894
-  - hy2_JP_104.192.224.140:62894
+  - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
   - vmess__api2-t3.tiktok.com.static.hdpattv.hdpattv.io.vn_80
   - vmess__server31.beheshtbaneh.com_8880
   - vmess_US_172.67.185.242_8080
   - vmess__www.hkbu.edu.hk_80
-  - vmess__104.19.47.149_8080
-  - vmess__46.249.58.5_80
+  - vmess_US_104.19.47.149_8080
+  - vmess_NL_46.249.58.5_80
   - vmess__185.146.173.185_2052
   - vmess__202.78.162.5_443
   - vmess__104.25.224.48_2052
@@ -796,6 +862,14 @@ proxy-groups:
   - vmess__46.29.219.44_443
   - vmess__34.80.125.236_57257
   - vmess__russia.com_8080
+  - vmess__107.148.255.229_49997
+  - vmess__183.240.235.169_44602
+  - vmess__it-full.privateip.net_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__128.199.161.230_99
+  - vmess__cfcdn1.sanfencdn9.com_8080
+  - vmess__172.67.185.64_8080
+  - vmess__104.19.38.28_8880
   - vmess__172.67.75.25_2052
   - vmess__89.169.53.36_59985
   - vmess__104.21.200.220_2095
@@ -803,12 +877,10 @@ proxy-groups:
   - vmess__alm2.the-galgo.top_32012
   - vmess__m.cnmjin.net_16632
   - vmess__104.26.9.22_8080
-  - vmess__104.19.33.224_80
-  - vmess__104.21.69.44_80
 - name: 负载均衡
   type: load-balance
   proxies:
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_108.181.5.22:44557
   - vmess_104.26.9.12:8443
   - vmess_104.19.21.24:8880
@@ -830,15 +902,15 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_104.192.224.141:62894
-  - hy2_JP_104.192.224.140:62894
+  - hy2_US_104.192.224.140:62894
   - hy2_US_104.192.224.141:62894
   - hy2_US_104.192.224.141:62894
   - vmess__api2-t3.tiktok.com.static.hdpattv.hdpattv.io.vn_80
   - vmess__server31.beheshtbaneh.com_8880
   - vmess_US_172.67.185.242_8080
   - vmess__www.hkbu.edu.hk_80
-  - vmess__104.19.47.149_8080
-  - vmess__46.249.58.5_80
+  - vmess_US_104.19.47.149_8080
+  - vmess_NL_46.249.58.5_80
   - vmess__185.146.173.185_2052
   - vmess__202.78.162.5_443
   - vmess__104.25.224.48_2052
@@ -852,6 +924,14 @@ proxy-groups:
   - vmess__46.29.219.44_443
   - vmess__34.80.125.236_57257
   - vmess__russia.com_8080
+  - vmess__107.148.255.229_49997
+  - vmess__183.240.235.169_44602
+  - vmess__it-full.privateip.net_443
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__128.199.161.230_99
+  - vmess__cfcdn1.sanfencdn9.com_8080
+  - vmess__172.67.185.64_8080
+  - vmess__104.19.38.28_8880
   - vmess__172.67.75.25_2052
   - vmess__89.169.53.36_59985
   - vmess__104.21.200.220_2095
@@ -859,8 +939,6 @@ proxy-groups:
   - vmess__alm2.the-galgo.top_32012
   - vmess__m.cnmjin.net_16632
   - vmess__104.26.9.22_8080
-  - vmess__104.19.33.224_80
-  - vmess__104.21.69.44_80
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
