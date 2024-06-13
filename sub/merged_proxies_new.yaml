@@ -577,6 +577,76 @@ proxies:
   flow: ''
   host: irsoft.sytes.net
   path: /@forwardv2ray
+- name: vmess__188.114.96.3_8880
+  type: vmess
+  server: 188.114.96.3
+  port: 8880
+  uuid: e8ef1f51-3985-4d9b-bf29-46d26da65a4b
+  network: ws
+  tls: none
+  flow: ''
+  host: SvnProBotV2rayNethOne6.9.6.9.ir.shop.com.xn--fhqpqv8rrth13sbaaac958pc94anf0d8gm.ayfadesigns.com.
+  path: /telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,telegram-Lookivpn,Mmdv2rayng-V2rayngmmd-telegram-mehran-v2ray?ed=2056
+- name: vmess__kz-v2ray.ipracevpn.com_2083
+  type: vmess
+  server: kz-v2ray.ipracevpn.com
+  port: 2083
+  uuid: b32504f9-c51c-4aa0-b1ff-1316ce82033b
+  network: tcp
+  tls: tls
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__212.50.254.55_56893
+  type: vmess
+  server: 212.50.254.55
+  port: 56893
+  uuid: 0a59a60b-526e-4378-f9cb-3485e688aa9a
+  network: ws
+  tls: none
+  flow: ''
+  host: a.189.cn
+  path: /
+- name: vmess__russia.com_8080
+  type: vmess
+  server: russia.com
+  port: 8080
+  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+  network: ws
+  tls: none
+  flow: ''
+  host: sssub.v2.001.ssrsub.com
+  path: /api/v3/download.getFile
+- name: vmess__172.67.185.64_8080
+  type: vmess
+  server: 172.67.185.64
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__zula.ir_80
+  type: vmess
+  server: zula.ir
+  port: 80
+  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  network: ws
+  tls: none
+  flow: ''
+  host: Uk2.vmess.site.
+  path: /vmess @hopev2ray
+- name: vmess__64.176.173.234_3389
+  type: vmess
+  server: 64.176.173.234
+  port: 3389
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 - name: vmess__cfcdn1.sanfencdn9.com_8080
   type: vmess
   server: cfcdn1.sanfencdn9.com
@@ -678,6 +748,13 @@ proxy-groups:
   - vmess__217.219.212.43_20169
   - vmess__172.67.130.140_2082
   - vmess__202.78.162.5_443
+  - vmess__188.114.96.3_8880
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess__212.50.254.55_56893
+  - vmess__russia.com_8080
+  - vmess__172.67.185.64_8080
+  - vmess__zula.ir_80
+  - vmess__64.176.173.234_3389
   - vmess__cfcdn1.sanfencdn9.com_8080
   - vmess__104.19.47.186_8080
   - vmess__104.19.47.153_8080
@@ -734,6 +811,13 @@ proxy-groups:
   - vmess__217.219.212.43_20169
   - vmess__172.67.130.140_2082
   - vmess__202.78.162.5_443
+  - vmess__188.114.96.3_8880
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess__212.50.254.55_56893
+  - vmess__russia.com_8080
+  - vmess__172.67.185.64_8080
+  - vmess__zula.ir_80
+  - vmess__64.176.173.234_3389
   - vmess__cfcdn1.sanfencdn9.com_8080
   - vmess__104.19.47.186_8080
   - vmess__104.19.47.153_8080
