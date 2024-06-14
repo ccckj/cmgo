@@ -170,7 +170,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: dual-nothing-prep-exit.trycloudflare.com
-- name: tuic_US_dongtaiwang.com_0
+- name: tuic_JP_dongtaiwang.com_0
   server: 108.181.5.132
   port: 9727
   type: tuic
@@ -427,7 +427,7 @@ proxies:
   flow: ''
   host: s1c.v2.v001sss.xyz
   path: /
-- name: vmess__104.19.44.174_8080
+- name: vmess_US_104.19.44.174_8080
   type: vmess
   server: 104.19.44.174
   port: 8080
@@ -557,6 +557,106 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__172.67.169.91_8080
+  type: vmess
+  server: 172.67.169.91
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__38.33.0.229_38001
+  type: vmess
+  server: 38.33.0.229
+  port: 38001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /path/191019072927
+- name: vmess__c3.v2raybrasil.cloud_2082
+  type: vmess
+  server: c3.v2raybrasil.cloud
+  port: 2082
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  network: ws
+  tls: none
+  flow: ''
+  host: ybr.redbullplus.xyz
+  path: /
+- name: vmess__cfcdn2.sanfencdn9.com_2052
+  type: vmess
+  server: cfcdn2.sanfencdn9.com
+  port: 2052
+  uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a
+  network: ws
+  tls: none
+  flow: ''
+  host: rpmlybgzsg2.yofnhkfc.xyz
+  path: /video/3YKfzGw4
+- name: vmess__Tgju.org_2095
+  type: vmess
+  server: Tgju.org
+  port: 2095
+  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  network: ws
+  tls: none
+  flow: ''
+  host: Yakuza.unique69.com
+  path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
+- name: vmess__cfcdn1.sanfencdn9.com_8080
+  type: vmess
+  server: cfcdn1.sanfencdn9.com
+  port: 8080
+  uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a
+  network: ws
+  tls: none
+  flow: ''
+  host: us5PhAx6xsj.fzbqfrse.xyz
+  path: /video/f8ZKTGaGoC/
+- name: vmess__104.26.14.85_2095
+  type: vmess
+  server: 104.26.14.85
+  port: 2095
+  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  network: ws
+  tls: none
+  flow: ''
+  host: Yakuza.unique69.com
+  path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
+- name: vmess__172.67.193.67_80
+  type: vmess
+  server: 172.67.193.67
+  port: 80
+  uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
+  network: ws
+  tls: none
+  flow: ''
+  host: gulasch.online
+  path: /
+- name: vmess__104.19.47.186_8080
+  type: vmess
+  server: 104.19.47.186
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__www.speedtest.net_80
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: 1e99893d-8046-4825-9d28-f6de91147337
+  network: ws
+  tls: none
+  flow: ''
+  host: De2.vmess.site.
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -573,7 +673,7 @@ proxy-groups:
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
   - vmess_104.19.38.48:8080
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - vless_109.104.152.101:13982
   - ss_109.104.152.186:11223
   - hysteria2_109.104.152.89:22441
@@ -593,7 +693,7 @@ proxy-groups:
   - vmess_US_104.19.38.28_8880
   - vmess_TR_202.78.162.5_443
   - vmess_US_172.67.130.140_2082
-  - vmess__104.19.44.174_8080
+  - vmess_US_104.19.44.174_8080
   - vmess__104.17.147.22_2052
   - vmess__108.186.31.116_37000
   - vmess__141.147.11.108_80
@@ -606,6 +706,16 @@ proxy-groups:
   - vmess__kz-v2ray.ipracevpn.com_2083
   - vmess__188.114.96.3_8880
   - vmess__183.238.202.173_51193
+  - vmess__172.67.169.91_8080
+  - vmess__38.33.0.229_38001
+  - vmess__c3.v2raybrasil.cloud_2082
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__Tgju.org_2095
+  - vmess__cfcdn1.sanfencdn9.com_8080
+  - vmess__104.26.14.85_2095
+  - vmess__172.67.193.67_80
+  - vmess__104.19.47.186_8080
+  - vmess__www.speedtest.net_80
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -622,7 +732,7 @@ proxy-groups:
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
   - vmess_104.19.38.48:8080
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - vless_109.104.152.101:13982
   - ss_109.104.152.186:11223
   - hysteria2_109.104.152.89:22441
@@ -642,7 +752,7 @@ proxy-groups:
   - vmess_US_104.19.38.28_8880
   - vmess_TR_202.78.162.5_443
   - vmess_US_172.67.130.140_2082
-  - vmess__104.19.44.174_8080
+  - vmess_US_104.19.44.174_8080
   - vmess__104.17.147.22_2052
   - vmess__108.186.31.116_37000
   - vmess__141.147.11.108_80
@@ -655,6 +765,16 @@ proxy-groups:
   - vmess__kz-v2ray.ipracevpn.com_2083
   - vmess__188.114.96.3_8880
   - vmess__183.238.202.173_51193
+  - vmess__172.67.169.91_8080
+  - vmess__38.33.0.229_38001
+  - vmess__c3.v2raybrasil.cloud_2082
+  - vmess__cfcdn2.sanfencdn9.com_2052
+  - vmess__Tgju.org_2095
+  - vmess__cfcdn1.sanfencdn9.com_8080
+  - vmess__104.26.14.85_2095
+  - vmess__172.67.193.67_80
+  - vmess__104.19.47.186_8080
+  - vmess__www.speedtest.net_80
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
