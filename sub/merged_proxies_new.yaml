@@ -25,36 +25,131 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: tuic_US_dongtaiwang.com_0
-  server: 74.63.233.74
-  port: 33441
-  type: tuic
-  uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: hysteria_108.181.5.22:44557
-  type: hysteria
-  server: 108.181.5.22
-  port: 44557
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
+- name: vmess_fbi.gov:8443
+  type: vmess
+  server: fbi.gov
+  port: 8443
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com
+  ws-opts:
+    path: 7c82741d-5510-4cfe-a022-8ee885b80d8a-vm
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+- name: vmess_162.159.136.11:8880
+  type: vmess
+  server: 162.159.136.11
+  port: 8880
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com
+  ws-opts:
+    path: 7c82741d-5510-4cfe-a022-8ee885b80d8a-vm
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+- name: vmess_172.64.144.200:8443
+  type: vmess
+  server: 172.64.144.200
+  port: 8443
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com
+  ws-opts:
+    path: 7c82741d-5510-4cfe-a022-8ee885b80d8a-vm
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+- name: vmess_104.19.38.12:8880
+  type: vmess
+  server: 104.19.38.12
+  port: 8880
+  uuid: 7c82741d-5510-4cfe-a022-8ee885b80d8a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: commitments-coin-acdbentity-organized.trycloudflare.com
+  ws-opts:
+    path: 7c82741d-5510-4cfe-a022-8ee885b80d8a-vm
+    headers:
+      Host: commitments-coin-acdbentity-organized.trycloudflare.com
+- name: vmess_162.159.129.179:443
+  type: vmess
+  server: 162.159.129.179
+  port: 443
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: vmess_162.159.136.23:8880
+  type: vmess
+  server: 162.159.136.23
+  port: 8880
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: vmess_172.64.144.55:8443
+  type: vmess
+  server: 172.64.144.55
+  port: 8443
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
+- name: vmess_104.19.38.112:8880
+  type: vmess
+  server: 104.19.38.112
+  port: 8880
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: division-rachel-sic-mileage.trycloudflare.com
+  ws-opts:
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+    headers:
+      Host: division-rachel-sic-mileage.trycloudflare.com
 - name: vmess_104.26.9.12:8443
   type: vmess
   server: 104.26.9.12
   port: 8443
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -62,14 +157,14 @@ proxies:
   network: ws
   servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: funk-england-indirect-gospel.trycloudflare.com
 - name: vmess_104.19.21.24:8880
   type: vmess
   server: 104.19.21.24
   port: 8880
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -77,14 +172,14 @@ proxies:
   network: ws
   servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: funk-england-indirect-gospel.trycloudflare.com
 - name: vmess_104.26.9.54:8443
   type: vmess
   server: 104.26.9.54
   port: 8443
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -92,14 +187,14 @@ proxies:
   network: ws
   servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: funk-england-indirect-gospel.trycloudflare.com
 - name: vmess_104.19.38.28:8880
   type: vmess
   server: 104.19.38.28
   port: 8880
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
   cipher: auto
   udp: true
@@ -107,7 +202,7 @@ proxies:
   network: ws
   servername: funk-england-indirect-gospel.trycloudflare.com
   ws-opts:
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm
     headers:
       Host: funk-england-indirect-gospel.trycloudflare.com
 - name: vmess_104.26.9.22:8080
@@ -170,18 +265,66 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: dual-nothing-prep-exit.trycloudflare.com
-- name: tuic_US_dongtaiwang.com_0
-  server: 108.181.5.132
-  port: 9727
-  type: tuic
-  uuid: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-  password: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+- name: vmess_104.19.55.52:443
+  type: vmess
+  server: 104.19.55.52
+  port: 443
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com
+  ws-opts:
+    path: 7f1ffa3d-105b-43b0-a458-425780fa9938-vm
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
+- name: vmess_162.159.136.22:8880
+  type: vmess
+  server: 162.159.136.22
+  port: 8880
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com
+  ws-opts:
+    path: 7f1ffa3d-105b-43b0-a458-425780fa9938-vm
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
+- name: vmess_172.64.144.114:8443
+  type: vmess
+  server: 172.64.144.114
+  port: 8443
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com
+  ws-opts:
+    path: 7f1ffa3d-105b-43b0-a458-425780fa9938-vm
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
+- name: vmess_104.19.38.66:8880
+  type: vmess
+  server: 104.19.38.66
+  port: 8880
+  uuid: 7f1ffa3d-105b-43b0-a458-425780fa9938
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: afternoon-friend-volkswagen-mentor.trycloudflare.com
+  ws-opts:
+    path: 7f1ffa3d-105b-43b0-a458-425780fa9938-vm
+    headers:
+      Host: afternoon-friend-volkswagen-mentor.trycloudflare.com
 - name: vless_109.104.152.101:13982
   type: vless
   server: 109.104.152.101
@@ -291,9 +434,9 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 108.181.5.133
-  port: 26022
-  ports: 26022
+  server: 109.104.152.194
+  port: 58510
+  ports: 58510
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -437,7 +580,7 @@ proxies:
   flow: ''
   host: th1.no-pro.online
   path: /vmess
-- name: vmess__172.67.193.67_80
+- name: vmess_US_172.67.193.67_80
   type: vmess
   server: 172.67.193.67
   port: 80
@@ -577,66 +720,36 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__202.78.162.5_443
+- name: vmess__23.224.166.58_443
   type: vmess
-  server: 202.78.162.5
+  server: 23.224.166.58
   port: 443
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  network: ws
-  tls: tls
-  flow: ''
-  host: irsoft.sytes.net
-  path: /@forwardv2ray
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__195.123.240.45_12947
-  type: vmess
-  server: 195.123.240.45
-  port: 12947
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   network: ws
   tls: tls
   flow: ''
   host: ''
+  path: /path/191019072927
+- name: vmess__172.67.169.91_8080
+  type: vmess
+  server: 172.67.169.91
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
   path: /
-- name: vmess__104.26.14.85_2095
+- name: vmess__cf4.ftclashcloud.site_80
   type: vmess
-  server: 104.26.14.85
-  port: 2095
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  server: cf4.ftclashcloud.site
+  port: 80
+  uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae
   network: ws
   tls: none
   flow: ''
-  host: Yakuza.unique69.com
-  path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- name: vmess__zula.ir_2095
-  type: vmess
-  server: zula.ir
-  port: 2095
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  network: ws
-  tls: none
-  flow: ''
-  host: Yakuza.unique69.com
-  path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- name: vmess__103.159.206.35_31945
-  type: vmess
-  server: 103.159.206.35
-  port: 31945
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  network: ws
-  tls: none
-  flow: ''
-  host: ''
-  path: /
+  host: mhyusa01.ftclashcloud.online
+  path: /ws?ed=2560
 - name: vmess__104.19.44.174_8080
   type: vmess
   server: 104.19.44.174
@@ -647,46 +760,76 @@ proxies:
   flow: ''
   host: amd2.720208.xyz
   path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- name: vmess__server31.beheshtbaneh.com_8880
+- name: vmess__yes.cnmjcn.net_16632
   type: vmess
-  server: server31.beheshtbaneh.com
-  port: 8880
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  server: yes.cnmjcn.net
+  port: 16632
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   network: ws
   tls: none
   flow: ''
-  host: server31.beheshtbaneh.com
+  host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
   path: /
-- name: vmess__alm2.the-galgo.top_32012
+- name: vmess__104.26.9.22_8080
   type: vmess
-  server: alm2.the-galgo.top
-  port: 32012
-  uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
+  server: 104.26.9.22
+  port: 8080
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  network: ws
+  tls: none
+  flow: ''
+  host: dual-nothing-prep-exit.trycloudflare.com
+  path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- name: vmess__uk-full.privateip.net_443
+  type: vmess
+  server: uk-full.privateip.net
+  port: 443
+  uuid: c0cb3c77-0674-4705-b8af-eba5c2b4ddd2
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /RACEVPN
+- name: vmess__94.182.150.230_80
+  type: vmess
+  server: 94.182.150.230
+  port: 80
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
   network: tcp
   tls: none
   flow: ''
   host: ''
   path: ''
-- name: vmess__104.19.38.28_8880
+- name: vmess__172.67.199.118_8080
   type: vmess
-  server: 104.19.38.28
-  port: 8880
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  server: 172.67.199.118
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   network: ws
   tls: none
   flow: ''
-  host: funk-england-indirect-gospel.trycloudflare.com
-  path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- name: vmess__gov.uk_443
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__172.67.172.67_8080
   type: vmess
-  server: gov.uk
+  server: 172.67.172.67
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
   port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   network: ws
   tls: tls
   flow: ''
-  host: zheshiscp.com
-  path: /77848824
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -697,14 +840,40 @@ proxies:
   flow: ''
   host: www.darkroom.lol
   path: /
+- name: vmess__server31.beheshtbaneh.com_8880
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  network: ws
+  tls: none
+  flow: ''
+  host: server31.beheshtbaneh.com
+  path: /
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - tuic_US_dongtaiwang.com_0
-  - hysteria_108.181.5.22:44557
+  - vmess_fbi.gov:8443
+  - vmess_162.159.136.11:8880
+  - vmess_172.64.144.200:8443
+  - vmess_104.19.38.12:8880
+  - vmess_162.159.129.179:443
+  - vmess_162.159.136.23:8880
+  - vmess_172.64.144.55:8443
+  - vmess_104.19.38.112:8880
   - vmess_104.26.9.12:8443
   - vmess_104.19.21.24:8880
   - vmess_104.26.9.54:8443
@@ -713,7 +882,10 @@ proxy-groups:
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
   - vmess_104.19.38.48:8080
-  - tuic_US_dongtaiwang.com_0
+  - vmess_104.19.55.52:443
+  - vmess_162.159.136.22:8880
+  - vmess_172.64.144.114:8443
+  - vmess_104.19.38.66:8880
   - vless_109.104.152.101:13982
   - ss_109.104.152.186:11223
   - hysteria2_109.104.152.89:22441
@@ -734,7 +906,7 @@ proxy-groups:
   - vmess_DE_91.107.144.77_35620
   - vmess_US_104.19.47.238_8080
   - vmess__th1.no-pro.online_80
-  - vmess__172.67.193.67_80
+  - vmess_US_172.67.193.67_80
   - vmess__c2.v2raybrasil.cloud_2082
   - vmess__russia.com_8080
   - vmess__www.speedtest.net_80
@@ -748,26 +920,34 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__202.78.162.5_443
-  - vmess__104.21.82.183_8880
-  - vmess__195.123.240.45_12947
-  - vmess__104.26.14.85_2095
-  - vmess__zula.ir_2095
-  - vmess__103.159.206.35_31945
+  - vmess__23.224.166.58_443
+  - vmess__172.67.169.91_8080
+  - vmess__cf4.ftclashcloud.site_80
   - vmess__104.19.44.174_8080
-  - vmess__server31.beheshtbaneh.com_8880
-  - vmess__alm2.the-galgo.top_32012
-  - vmess__104.19.38.28_8880
-  - vmess__gov.uk_443
+  - vmess__yes.cnmjcn.net_16632
+  - vmess__104.26.9.22_8080
+  - vmess__uk-full.privateip.net_443
+  - vmess__94.182.150.230_80
+  - vmess__172.67.199.118_8080
+  - vmess__172.67.172.67_8080
+  - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__104.21.82.183_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - tuic_US_dongtaiwang.com_0
-  - hysteria_108.181.5.22:44557
+  - vmess_fbi.gov:8443
+  - vmess_162.159.136.11:8880
+  - vmess_172.64.144.200:8443
+  - vmess_104.19.38.12:8880
+  - vmess_162.159.129.179:443
+  - vmess_162.159.136.23:8880
+  - vmess_172.64.144.55:8443
+  - vmess_104.19.38.112:8880
   - vmess_104.26.9.12:8443
   - vmess_104.19.21.24:8880
   - vmess_104.26.9.54:8443
@@ -776,7 +956,10 @@ proxy-groups:
   - vmess_172.64.97.235:8080
   - vmess_104.19.38.28:8080
   - vmess_104.19.38.48:8080
-  - tuic_US_dongtaiwang.com_0
+  - vmess_104.19.55.52:443
+  - vmess_162.159.136.22:8880
+  - vmess_172.64.144.114:8443
+  - vmess_104.19.38.66:8880
   - vless_109.104.152.101:13982
   - ss_109.104.152.186:11223
   - hysteria2_109.104.152.89:22441
@@ -797,7 +980,7 @@ proxy-groups:
   - vmess_DE_91.107.144.77_35620
   - vmess_US_104.19.47.238_8080
   - vmess__th1.no-pro.online_80
-  - vmess__172.67.193.67_80
+  - vmess_US_172.67.193.67_80
   - vmess__c2.v2raybrasil.cloud_2082
   - vmess__russia.com_8080
   - vmess__www.speedtest.net_80
@@ -811,18 +994,20 @@ proxy-groups:
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__202.78.162.5_443
-  - vmess__104.21.82.183_8880
-  - vmess__195.123.240.45_12947
-  - vmess__104.26.14.85_2095
-  - vmess__zula.ir_2095
-  - vmess__103.159.206.35_31945
+  - vmess__23.224.166.58_443
+  - vmess__172.67.169.91_8080
+  - vmess__cf4.ftclashcloud.site_80
   - vmess__104.19.44.174_8080
-  - vmess__server31.beheshtbaneh.com_8880
-  - vmess__alm2.the-galgo.top_32012
-  - vmess__104.19.38.28_8880
-  - vmess__gov.uk_443
+  - vmess__yes.cnmjcn.net_16632
+  - vmess__104.26.9.22_8080
+  - vmess__uk-full.privateip.net_443
+  - vmess__94.182.150.230_80
+  - vmess__172.67.199.118_8080
+  - vmess__172.67.172.67_8080
+  - vmess__202.78.162.5_443
   - vmess__www.darkroom.lol_8080
+  - vmess__server31.beheshtbaneh.com_8880
+  - vmess__104.21.82.183_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
