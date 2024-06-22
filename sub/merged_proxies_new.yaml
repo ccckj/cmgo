@@ -575,7 +575,7 @@ proxies:
   flow: ''
   host: ip2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.105.150.181_28953
+- name: vmess__172.105.150.181_28953
   type: vmess
   server: 172.105.150.181
   port: 28953
@@ -745,46 +745,56 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__108.162.192.154_2087
+- name: vmess__23.162.200.227_443
   type: vmess
-  server: 108.162.192.154
-  port: 2087
-  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
-  network: grpc
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
   tls: tls
   flow: ''
   host: ''
-  path: ''
-- name: vmess__fpaBua.gov.goldliond.top_20184
+  path: /linkvws
+- name: vmess__202.78.162.5_443
   type: vmess
-  server: fpaBua.gov.goldliond.top
-  port: 20184
-  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
-  network: tcp
-  tls: none
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
   flow: ''
-  host: ''
-  path: ''
-- name: vmess__23.227.38.5_2086
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
+- name: vmess__172.67.172.67_8080
   type: vmess
-  server: 23.227.38.5
-  port: 2086
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  server: 172.67.172.67
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   network: ws
   tls: none
   flow: ''
-  host: ip002.freegradely.xyz
-  path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- name: vmess__bni3Ze.gov.goldliond.top_20185
+  host: oiictw.yydsii.com
+  path: /
+- name: vmess__65.20.113.203_80
   type: vmess
-  server: bni3Ze.gov.goldliond.top
-  port: 20185
-  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
-  network: tcp
+  server: 65.20.113.203
+  port: 80
+  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
+  network: ws
   tls: none
   flow: ''
+  host: internet.life.com.by
+  path: /Nbs2DSTSkFW6MrrFQHeSDQ7
+- name: vmess__107.167.20.182_443
+  type: vmess
+  server: 107.167.20.182
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: ws
+  tls: tls
+  flow: ''
   host: ''
-  path: ''
+  path: /path/191019072927
 - name: vmess__kz-v2ray.ipracevpn.com_2083
   type: vmess
   server: kz-v2ray.ipracevpn.com
@@ -795,69 +805,9 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__152.42.190.204_31808
+- name: vmess__104.16.148.244_2086
   type: vmess
-  server: 152.42.190.204
-  port: 31808
-  uuid: 7de08a91-416d-4f0b-d81a-e802b012f5ba
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__RFN07a.gov.goldliond.top_20183
-  type: vmess
-  server: RFN07a.gov.goldliond.top
-  port: 20183
-  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.23.97.11_80
-  type: vmess
-  server: 104.23.97.11
-  port: 80
-  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
-  network: ws
-  tls: none
-  flow: ''
-  host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
-  path: /other
-- name: vmess__172.67.130.140_2082
-  type: vmess
-  server: 172.67.130.140
-  port: 2082
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  network: ws
-  tls: none
-  flow: ''
-  host: s1c.v2.v001sss.xyz
-  path: /
-- name: vmess__104.25.77.191_80
-  type: vmess
-  server: 104.25.77.191
-  port: 80
-  uuid: 0880c19f-f253-4298-8573-42fb83bf3006
-  network: ws
-  tls: none
-  flow: ''
-  host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
-  path: /other
-- name: vmess__104.19.44.174_8080
-  type: vmess
-  server: 104.19.44.174
-  port: 8080
-  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
-  network: ws
-  tls: none
-  flow: ''
-  host: amd2.720208.xyz
-  path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- name: vmess__104.19.38.62_2086
-  type: vmess
-  server: 104.19.38.62
+  server: 104.16.148.244
   port: 2086
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   network: ws
@@ -865,36 +815,26 @@ proxies:
   flow: ''
   host: ip002.dtku47.xyz
   path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- name: vmess__cfcdn3.sanfencdn9.com_80
+- name: vmess__fbi.gov_2086
   type: vmess
-  server: cfcdn3.sanfencdn9.com
-  port: 80
-  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
+  server: fbi.gov
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   network: ws
   tls: none
   flow: ''
-  host: oA5FSz9Tjp1.yofnhkfc.xyz
-  path: /video/P7EExoE2
-- name: vmess__F25nP5.gov.goldliond.top_20183
+  host: ip002.dtku47.xyz
+  path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- name: vmess__www.darkroom.lol_8080
   type: vmess
-  server: F25nP5.gov.goldliond.top
-  port: 20183
-  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
-  network: tcp
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  network: ws
   tls: none
   flow: ''
-  host: ''
-  path: ''
-- name: vmess__202.78.162.5_443
-  type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  network: ws
-  tls: tls
-  flow: ''
-  host: pendar.onthewifi.com
-  path: /@forwardv2ray
+  host: www.darkroom.lol
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -940,7 +880,7 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
-  - vmess_US_172.105.150.181_28953
+  - vmess__172.105.150.181_28953
   - vmess__104.16.149.244_2086
   - vmess__104.19.38.28_8080
   - vmess__104.19.42.49_8080
@@ -957,21 +897,15 @@ proxy-groups:
   - vmess__162.159.136.98_80
   - vmess__172.67.199.118_8080
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__108.162.192.154_2087
-  - vmess__fpaBua.gov.goldliond.top_20184
-  - vmess__23.227.38.5_2086
-  - vmess__bni3Ze.gov.goldliond.top_20185
-  - vmess__kz-v2ray.ipracevpn.com_2083
-  - vmess__152.42.190.204_31808
-  - vmess__RFN07a.gov.goldliond.top_20183
-  - vmess__104.23.97.11_80
-  - vmess__172.67.130.140_2082
-  - vmess__104.25.77.191_80
-  - vmess__104.19.44.174_8080
-  - vmess__104.19.38.62_2086
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__F25nP5.gov.goldliond.top_20183
+  - vmess__23.162.200.227_443
   - vmess__202.78.162.5_443
+  - vmess__172.67.172.67_8080
+  - vmess__65.20.113.203_80
+  - vmess__107.167.20.182_443
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess__104.16.148.244_2086
+  - vmess__fbi.gov_2086
+  - vmess__www.darkroom.lol_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1017,7 +951,7 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
-  - vmess_US_172.105.150.181_28953
+  - vmess__172.105.150.181_28953
   - vmess__104.16.149.244_2086
   - vmess__104.19.38.28_8080
   - vmess__104.19.42.49_8080
@@ -1034,21 +968,15 @@ proxy-groups:
   - vmess__162.159.136.98_80
   - vmess__172.67.199.118_8080
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__108.162.192.154_2087
-  - vmess__fpaBua.gov.goldliond.top_20184
-  - vmess__23.227.38.5_2086
-  - vmess__bni3Ze.gov.goldliond.top_20185
-  - vmess__kz-v2ray.ipracevpn.com_2083
-  - vmess__152.42.190.204_31808
-  - vmess__RFN07a.gov.goldliond.top_20183
-  - vmess__104.23.97.11_80
-  - vmess__172.67.130.140_2082
-  - vmess__104.25.77.191_80
-  - vmess__104.19.44.174_8080
-  - vmess__104.19.38.62_2086
-  - vmess__cfcdn3.sanfencdn9.com_80
-  - vmess__F25nP5.gov.goldliond.top_20183
+  - vmess__23.162.200.227_443
   - vmess__202.78.162.5_443
+  - vmess__172.67.172.67_8080
+  - vmess__65.20.113.203_80
+  - vmess__107.167.20.182_443
+  - vmess__kz-v2ray.ipracevpn.com_2083
+  - vmess__104.16.148.244_2086
+  - vmess__fbi.gov_2086
+  - vmess__www.darkroom.lol_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
