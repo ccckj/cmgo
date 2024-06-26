@@ -1403,6 +1403,86 @@ proxies:
   flow: ''
   host: ip2.freessr2.xyz
   path: github.com/Alvin9999
+- name: vmess__mmjp11.micloud.buzz_46011
+  type: vmess
+  server: mmjp11.micloud.buzz
+  port: 46011
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  network: ws
+  tls: none
+  flow: ''
+  host: mmjp11.micloud.buzz
+  path: /zh-cn
+- name: vmess_US_104.19.33.159_80
+  type: vmess
+  server: 104.19.33.159
+  port: 80
+  uuid: 596cf967-3824-4a7c-a008-d65b5f9b5382
+  network: ws
+  tls: none
+  flow: ''
+  host: m2-sg3.m2network.icu
+  path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
+- name: vmess_US_104.24.230.223_80
+  type: vmess
+  server: 104.24.230.223
+  port: 80
+  uuid: ac3a3e47-47d5-347c-a7c7-fc692a486a0c
+  network: ws
+  tls: none
+  flow: ''
+  host: 100-100-17-291.cn-db.top
+  path: /dabai.in104.24.230.223
+- name: vmess__uk-full.privateip.net_443
+  type: vmess
+  server: uk-full.privateip.net
+  port: 443
+  uuid: b8b1cad2-af20-4e44-9347-49af03908474
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /RACEVPN
+- name: vmess__120.232.153.71_35972
+  type: vmess
+  server: 120.232.153.71
+  port: 35972
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.19.34.202_80
+  type: vmess
+  server: 104.19.34.202
+  port: 80
+  uuid: d25f2826-129e-411b-ab3c-71152fa3df73
+  network: ws
+  tls: none
+  flow: ''
+  host: m2-sg3.m2network.icu
+  path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
+- name: vmess__120.232.153.40_35601
+  type: vmess
+  server: 120.232.153.40
+  port: 35601
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.16.67.38_8080
+  type: vmess
+  server: 104.16.67.38
+  port: 8080
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  network: ws
+  tls: none
+  flow: ''
+  host: square-snowflake-486a.beshir-beisel.workers.dev
+  path: /linde06.indiavideo.sbs/linkws
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1517,6 +1597,14 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess__mmjp11.micloud.buzz_46011
+  - vmess_US_104.19.33.159_80
+  - vmess_US_104.24.230.223_80
+  - vmess__uk-full.privateip.net_443
+  - vmess__120.232.153.71_35972
+  - vmess__104.19.34.202_80
+  - vmess__120.232.153.40_35601
+  - vmess__104.16.67.38_8080
 - name: 手动选择
   type: select
   proxies:
@@ -1613,6 +1701,14 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess__mmjp11.micloud.buzz_46011
+  - vmess_US_104.19.33.159_80
+  - vmess_US_104.24.230.223_80
+  - vmess__uk-full.privateip.net_443
+  - vmess__120.232.153.71_35972
+  - vmess__104.19.34.202_80
+  - vmess__120.232.153.40_35601
+  - vmess__104.16.67.38_8080
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1709,6 +1805,14 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess__mmjp11.micloud.buzz_46011
+  - vmess_US_104.19.33.159_80
+  - vmess_US_104.24.230.223_80
+  - vmess__uk-full.privateip.net_443
+  - vmess__120.232.153.71_35972
+  - vmess__104.19.34.202_80
+  - vmess__120.232.153.40_35601
+  - vmess__104.16.67.38_8080
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
