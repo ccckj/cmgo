@@ -1413,7 +1413,7 @@ proxies:
   flow: ''
   host: mmjp11.micloud.buzz
   path: /zh-cn
-- name: vmess_US_104.19.33.159_80
+- name: vmess__104.19.33.159_80
   type: vmess
   server: 104.19.33.159
   port: 80
@@ -1423,7 +1423,7 @@ proxies:
   flow: ''
   host: m2-sg3.m2network.icu
   path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
-- name: vmess_US_104.24.230.223_80
+- name: vmess__104.24.230.223_80
   type: vmess
   server: 104.24.230.223
   port: 80
@@ -1598,8 +1598,8 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess__mmjp11.micloud.buzz_46011
-  - vmess_US_104.19.33.159_80
-  - vmess_US_104.24.230.223_80
+  - vmess__104.19.33.159_80
+  - vmess__104.24.230.223_80
   - vmess__uk-full.privateip.net_443
   - vmess__120.232.153.71_35972
   - vmess__104.19.34.202_80
@@ -1702,8 +1702,8 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess__mmjp11.micloud.buzz_46011
-  - vmess_US_104.19.33.159_80
-  - vmess_US_104.24.230.223_80
+  - vmess__104.19.33.159_80
+  - vmess__104.24.230.223_80
   - vmess__uk-full.privateip.net_443
   - vmess__120.232.153.71_35972
   - vmess__104.19.34.202_80
@@ -1806,8 +1806,8 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess__mmjp11.micloud.buzz_46011
-  - vmess_US_104.19.33.159_80
-  - vmess_US_104.24.230.223_80
+  - vmess__104.19.33.159_80
+  - vmess__104.24.230.223_80
   - vmess__uk-full.privateip.net_443
   - vmess__120.232.153.71_35972
   - vmess__104.19.34.202_80
