@@ -1273,7 +1273,7 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: tuic_US_dongtaiwang.com_0
+- name: tuic_JP_dongtaiwang.com_0
   server: 109.104.152.186
   port: 44550
   type: tuic
@@ -1505,7 +1505,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - vless_109.104.152.101:13982
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1601,7 +1601,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - vless_109.104.152.101:13982
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1697,7 +1697,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - vless_109.104.152.101:13982
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria_0
   - hysteria_1
   - hysteria_2
