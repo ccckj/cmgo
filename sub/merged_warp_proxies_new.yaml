@@ -1246,17 +1246,19 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: ss_23.170.40.77:443
-  type: ss
+- name: hysteria_23.170.40.77:30009
+  type: hysteria
   server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+  port: 30009
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 10
 - name: hysteria_0
   type: hysteria
   server: 62.210.243.131
@@ -1375,6 +1377,66 @@ proxies:
   flow: ''
   host: ip2.freessr2.xyz
   path: github.com/Alvin9999
+- name: vmess_US_104.19.48.32_8443
+  type: vmess
+  server: 104.19.48.32
+  port: 8443
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  network: ws
+  tls: tls
+  flow: ''
+  host: hk01.linkitnow.net
+  path: /
+- name: vmess_CN_183.236.51.23_54437
+  type: vmess
+  server: 183.236.51.23
+  port: 54437
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess_US_104.16.60.8_2095
+  type: vmess
+  server: 104.16.60.8
+  port: 2095
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  network: ws
+  tls: none
+  flow: ''
+  host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
+  path: /obdii.cfd/linkws
+- name: vmess_US_104.18.57.111_2086
+  type: vmess
+  server: 104.18.57.111
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip11.freegradely.xyz
+  path: github.com/Alvin9999
+- name: vmess_CN_183.240.235.162_54882
+  type: vmess
+  server: 183.240.235.162
+  port: 54882
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__server31.beheshtbaneh.com_8880
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  network: ws
+  tls: none
+  flow: ''
+  host: server31.beheshtbaneh.com
+  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1477,7 +1539,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - ss_23.170.40.77:443
-  - ss_23.170.40.77:443
+  - hysteria_23.170.40.77:30009
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1489,6 +1551,12 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_104.19.48.32_8443
+  - vmess_CN_183.236.51.23_54437
+  - vmess_US_104.16.60.8_2095
+  - vmess_US_104.18.57.111_2086
+  - vmess_CN_183.240.235.162_54882
+  - vmess__server31.beheshtbaneh.com_8880
 - name: 手动选择
   type: select
   proxies:
@@ -1573,7 +1641,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - ss_23.170.40.77:443
-  - ss_23.170.40.77:443
+  - hysteria_23.170.40.77:30009
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1585,6 +1653,12 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_104.19.48.32_8443
+  - vmess_CN_183.236.51.23_54437
+  - vmess_US_104.16.60.8_2095
+  - vmess_US_104.18.57.111_2086
+  - vmess_CN_183.240.235.162_54882
+  - vmess__server31.beheshtbaneh.com_8880
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -1669,7 +1743,7 @@ proxy-groups:
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
   - ss_23.170.40.77:443
-  - ss_23.170.40.77:443
+  - hysteria_23.170.40.77:30009
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -1681,6 +1755,12 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_104.19.48.32_8443
+  - vmess_CN_183.236.51.23_54437
+  - vmess_US_104.16.60.8_2095
+  - vmess_US_104.18.57.111_2086
+  - vmess_CN_183.240.235.162_54882
+  - vmess__server31.beheshtbaneh.com_8880
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
