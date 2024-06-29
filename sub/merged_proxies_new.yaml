@@ -1809,6 +1809,16 @@ proxies:
   flow: ''
   host: ip2.freessr2.xyz
   path: github.com/Alvin9999
+- name: vmess_US_104.19.47.231_8080
+  type: vmess
+  server: 104.19.47.231
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  network: ws
+  tls: none
+  flow: ''
+  host: oiictw.yydsii.com
+  path: /?ed=2048&Telegram🇨🇳 @WangCai2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1938,6 +1948,7 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_104.19.47.231_8080
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2067,6 +2078,7 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_104.19.47.231_8080
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
