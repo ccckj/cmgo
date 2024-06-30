@@ -1837,16 +1837,16 @@ proxies:
   flow: ''
   host: oiictw.yydsii.com
   path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- name: vmess_US_172.67.185.218_8080
+- name: vmess_CN_183.240.235.166_41490
   type: vmess
-  server: 172.67.185.218
-  port: 8080
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  network: ws
+  server: 183.240.235.166
+  port: 41490
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
   tls: none
   flow: ''
-  host: oiictw.yydsii.com
-  path: /
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1992,7 +1992,7 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess_US_104.19.47.231_8080
-  - vmess_US_172.67.185.218_8080
+  - vmess_CN_183.240.235.166_41490
 - name: 手动选择
   type: select
   proxies:
@@ -2120,7 +2120,7 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess_US_104.19.47.231_8080
-  - vmess_US_172.67.185.218_8080
+  - vmess_CN_183.240.235.166_41490
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2248,7 +2248,7 @@ proxy-groups:
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   - vmess_US_104.19.47.231_8080
-  - vmess_US_172.67.185.218_8080
+  - vmess_CN_183.240.235.166_41490
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
