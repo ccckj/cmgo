@@ -1809,16 +1809,6 @@ proxies:
   flow: ''
   host: ip2-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__cfcdn2.sanfencdn9.com_2052
-  type: vmess
-  server: cfcdn2.sanfencdn9.com
-  port: 2052
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  network: ws
-  tls: none
-  flow: ''
-  host: jpafzyhfsg3.yofnhkfc.xyz
-  path: /video/u4eCZTxW
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1948,7 +1938,6 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
-  - vmess__cfcdn2.sanfencdn9.com_2052
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2078,7 +2067,6 @@ proxy-groups:
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh1.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
-  - vmess__cfcdn2.sanfencdn9.com_2052
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
