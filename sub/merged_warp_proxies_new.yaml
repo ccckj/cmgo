@@ -1807,9 +1807,9 @@ proxies:
   flow: ''
   host: ip4-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh1.dtku41.xyz_2082
+- name: vmess__yh14.dtku41.xyz_2082
   type: vmess
-  server: yh1.dtku41.xyz
+  server: yh14.dtku41.xyz
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -1969,7 +1969,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
-  - vmess__yh1.dtku41.xyz_2082
+  - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
 - name: 手动选择
   type: select
@@ -2095,7 +2095,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
-  - vmess__yh1.dtku41.xyz_2082
+  - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
 - name: 负载均衡
   type: load-balance
@@ -2221,7 +2221,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
-  - vmess__yh1.dtku41.xyz_2082
+  - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
