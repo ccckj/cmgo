@@ -1814,7 +1814,7 @@ proxies:
   flow: ''
   host: ip3-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh7.dtku41.xyz_2082
+- name: vmess_US_yh7.dtku41.xyz_2082
   type: vmess
   server: yh7.dtku41.xyz
   port: 2082
@@ -1967,7 +1967,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_yh7.dtku41.xyz_2082
 - name: 手动选择
   type: select
   proxies:
@@ -2093,7 +2093,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_yh7.dtku41.xyz_2082
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -2219,7 +2219,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_yh7.dtku41.xyz_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin

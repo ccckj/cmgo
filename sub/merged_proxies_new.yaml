@@ -1796,7 +1796,7 @@ proxies:
   flow: ''
   host: ip3-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh7.dtku41.xyz_2082
+- name: vmess_US_yh7.dtku41.xyz_2082
   type: vmess
   server: yh7.dtku41.xyz
   port: 2082
@@ -1934,7 +1934,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_yh7.dtku41.xyz_2082
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2063,7 +2063,7 @@ proxy-groups:
   - hy2_US_166.88.159.24:40931
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess_US_yh7.dtku41.xyz_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
