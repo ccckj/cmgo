@@ -2215,10 +2215,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_166.88.159.24:40931
+- name: hy2_FR_51.159.2.179:23499
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -2231,18 +2231,18 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_166.88.159.24:40931
+- name: hy2_FR_51.159.2.179:23499
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_166.88.159.24:40931
+- name: hy2_FR_51.159.2.179:23499
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -2444,10 +2444,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.88.159.24:40931
   - hy2_FR_51.159.2.179:23499
-  - hy2_US_166.88.159.24:40931
-  - hy2_US_166.88.159.24:40931
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
@@ -2600,10 +2600,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.88.159.24:40931
   - hy2_FR_51.159.2.179:23499
-  - hy2_US_166.88.159.24:40931
-  - hy2_US_166.88.159.24:40931
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
@@ -2756,10 +2756,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.88.159.24:40931
   - hy2_FR_51.159.2.179:23499
-  - hy2_US_166.88.159.24:40931
-  - hy2_US_166.88.159.24:40931
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
   - vmess__yh7.dtku41.xyz_2082
