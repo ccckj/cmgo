@@ -2348,23 +2348,23 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_FR_51.159.2.179:23499
-  type: hysteria2
-  server: 51.159.2.179
-  port: 23499
-  password: dongtaiwang.com
-  fast-open: false
-  sni: true
-  skip-cert-verify: true
-- name: hy2_FR_51.159.2.179:23499
-  type: hysteria2
-  server: 51.159.2.179
-  port: 23499
-  password: dongtaiwang.com
-  fast-open: false
-  sni: true
-  skip-cert-verify: true
 - name: hy2_JP_51.159.2.179:23499
+  type: hysteria2
+  server: 51.159.2.179
+  port: 23499
+  password: dongtaiwang.com
+  fast-open: false
+  sni: true
+  skip-cert-verify: true
+- name: hy2_FR_51.159.2.179:23499
+  type: hysteria2
+  server: 51.159.2.179
+  port: 23499
+  password: dongtaiwang.com
+  fast-open: false
+  sni: true
+  skip-cert-verify: true
+- name: hy2_FR_51.159.2.179:23499
   type: hysteria2
   server: 51.159.2.179
   port: 23499
@@ -2390,9 +2390,9 @@ proxies:
   flow: ''
   host: ip2-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh4.dtku41.xyz_2082
+- name: vmess_US_162.159.140.19_2082
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 162.159.140.19
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -2400,9 +2400,9 @@ proxies:
   flow: ''
   host: ip4-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh14.dtku41.xyz_2082
+- name: vmess_US_162.159.141.11_2082
   type: vmess
-  server: yh14.dtku41.xyz
+  server: 162.159.141.11
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -2582,13 +2582,13 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_51.159.2.179:23499
-  - hy2_FR_51.159.2.179:23499
   - hy2_JP_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
   - vmess_US_104.19.32.188_2082
-  - vmess__yh4.dtku41.xyz_2082
-  - vmess__yh14.dtku41.xyz_2082
+  - vmess_US_162.159.140.19_2082
+  - vmess_US_162.159.141.11_2082
   - vmess_US_162.159.143.73_2082
 - name: 自动选择
   type: url-test
@@ -2752,13 +2752,13 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_51.159.2.179:23499
-  - hy2_FR_51.159.2.179:23499
   - hy2_JP_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
+  - hy2_FR_51.159.2.179:23499
   - vmess_US_104.19.32.188_2082
-  - vmess__yh4.dtku41.xyz_2082
-  - vmess__yh14.dtku41.xyz_2082
+  - vmess_US_162.159.140.19_2082
+  - vmess_US_162.159.141.11_2082
   - vmess_US_162.159.143.73_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
