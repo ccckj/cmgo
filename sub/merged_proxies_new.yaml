@@ -2267,17 +2267,18 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: ss_23.170.40.77:443
-  type: ss
-  server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
+- name: tuic_TW_dongtaiwang.com_0
+  server: www2.dtku44.xyz
+  port: 11224
+  type: tuic
+  uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: hysteria_23.170.40.77:30009
   type: hysteria
   server: 23.170.40.77
@@ -2379,6 +2380,16 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
+- name: vmess_US_104.19.32.188_2082
+  type: vmess
+  server: 104.19.32.188
+  port: 2082
+  uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2-2.freessr2.xyz
+  path: github.com/Alvin9999
 - name: vmess__yh4.dtku41.xyz_2082
   type: vmess
   server: yh4.dtku41.xyz
@@ -2399,9 +2410,9 @@ proxies:
   flow: ''
   host: ip3-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__yh7.dtku41.xyz_2082
+- name: vmess__yh8.dtku41.xyz_2082
   type: vmess
-  server: yh7.dtku41.xyz
+  server: yh8.dtku41.xyz
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -2565,7 +2576,7 @@ proxy-groups:
   - vmess_23.227.38.8:2086
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
-  - ss_23.170.40.77:443
+  - tuic_TW_dongtaiwang.com_0
   - hysteria_23.170.40.77:30009
   - hysteria_0
   - hysteria_1
@@ -2575,9 +2586,10 @@ proxy-groups:
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
+  - vmess_US_104.19.32.188_2082
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess__yh8.dtku41.xyz_2082
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2734,7 +2746,7 @@ proxy-groups:
   - vmess_23.227.38.8:2086
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
-  - ss_23.170.40.77:443
+  - tuic_TW_dongtaiwang.com_0
   - hysteria_23.170.40.77:30009
   - hysteria_0
   - hysteria_1
@@ -2744,9 +2756,10 @@ proxy-groups:
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
+  - vmess_US_104.19.32.188_2082
   - vmess__yh4.dtku41.xyz_2082
   - vmess__yh14.dtku41.xyz_2082
-  - vmess__yh7.dtku41.xyz_2082
+  - vmess__yh8.dtku41.xyz_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
