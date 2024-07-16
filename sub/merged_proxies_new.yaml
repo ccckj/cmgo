@@ -2348,7 +2348,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_FR_51.159.2.179:23499
+- name: hy2_JP_51.159.2.179:23499
   type: hysteria2
   server: 51.159.2.179
   port: 23499
@@ -2582,7 +2582,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_51.159.2.179:23499
+  - hy2_JP_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
@@ -2752,7 +2752,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_51.159.2.179:23499
+  - hy2_JP_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
   - hy2_FR_51.159.2.179:23499
