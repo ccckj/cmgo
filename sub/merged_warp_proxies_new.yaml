@@ -2214,17 +2214,12 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
-- name: ss_51.159.2.179:443
+- name: ss_51.159.2.179:22335
   type: ss
   server: 51.159.2.179
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: EJhF7SAs95JSRDFE54wyjr79GvKPEm7w0qLpMh6T0aM=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: QuLaE7p3W+ZSOvK/q5G5zRV0UEBEefflZENLW6MZPFI=
-    version: 3
+  port: 22335
+  cipher: 2022-blake3-aes-256-gcm
+  password: zZpEonUDV3FRJbttewYtp9sH8hQdIFqqYIyTrVOegzs=
 - name: vmess_104.19.32.88:2086
   type: vmess
   server: 104.19.32.88
@@ -2285,18 +2280,17 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
-- name: tuic_TW_dongtaiwang.com_0
+- name: ss_www2.dtku44.xyz:443
   server: www2.dtku44.xyz
-  port: 11224
-  type: tuic
-  uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  type: ss
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 6qfEwR4QOrHq+k3csNdEZgMa+Y890g/eouGnVEtxb0c=
+  plugin: shadow-tls
+  plugin-opts:
+    host: nijigen-works.jp
+    password: LdjpJtNZK+2WhXfRY+FxR9sokcOYoddKAx8dN7q8FOI=
+    version: 3
 - name: ss_51.159.2.179:443
   type: ss
   server: 51.159.2.179
@@ -2310,43 +2304,43 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  server: 208.87.243.123
+  port: 38268
+  ports: 38268
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 208.87.243.123
+  port: 38268
+  ports: 38268
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 104.192.224.139
-  port: 42113
-  ports: 42113
+  server: 208.87.243.123
+  port: 38268
+  ports: 38268
   auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -2372,26 +2366,26 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_38.114.103.210:30647
+- name: hy2_US_208.87.243.123:33599
   type: hysteria2
-  server: 38.114.103.210
-  port: 30647
+  server: 208.87.243.123
+  port: 33599
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_51.159.2.179:23499
+- name: hy2_US_208.87.243.123:33599
   type: hysteria2
-  server: 51.159.2.179
-  port: 23499
+  server: 208.87.243.123
+  port: 33599
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_51.159.2.179:23499
+- name: hy2_US_208.87.243.123:33599
   type: hysteria2
-  server: 51.159.2.179
-  port: 23499
+  server: 208.87.243.123
+  port: 33599
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -2416,7 +2410,7 @@ proxies:
   flow: ''
   host: ip4-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.170.111_2082
+- name: vmess__172.64.170.111_2082
   type: vmess
   server: 172.64.170.111
   port: 2082
@@ -2602,24 +2596,24 @@ proxy-groups:
   - vmess_104.19.51.232:2086
   - vmess_104.19.38.62:2086
   - ss_23.170.40.77:443
-  - ss_51.159.2.179:443
+  - ss_51.159.2.179:22335
   - vmess_104.19.32.88:2086
   - vmess_23.227.38.8:2086
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
-  - tuic_TW_dongtaiwang.com_0
+  - ss_www2.dtku44.xyz:443
   - ss_51.159.2.179:443
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hy2_US_38.114.103.210:30647
-  - hy2_US_38.114.103.210:30647
-  - hy2_FR_51.159.2.179:23499
-  - hy2_FR_51.159.2.179:23499
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
   - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
-  - vmess_US_172.64.170.111_2082
+  - vmess__172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
 - name: 手动选择
   type: select
@@ -2769,24 +2763,24 @@ proxy-groups:
   - vmess_104.19.51.232:2086
   - vmess_104.19.38.62:2086
   - ss_23.170.40.77:443
-  - ss_51.159.2.179:443
+  - ss_51.159.2.179:22335
   - vmess_104.19.32.88:2086
   - vmess_23.227.38.8:2086
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
-  - tuic_TW_dongtaiwang.com_0
+  - ss_www2.dtku44.xyz:443
   - ss_51.159.2.179:443
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hy2_US_38.114.103.210:30647
-  - hy2_US_38.114.103.210:30647
-  - hy2_FR_51.159.2.179:23499
-  - hy2_FR_51.159.2.179:23499
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
   - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
-  - vmess_US_172.64.170.111_2082
+  - vmess__172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
 - name: 负载均衡
   type: load-balance
@@ -2936,24 +2930,24 @@ proxy-groups:
   - vmess_104.19.51.232:2086
   - vmess_104.19.38.62:2086
   - ss_23.170.40.77:443
-  - ss_51.159.2.179:443
+  - ss_51.159.2.179:22335
   - vmess_104.19.32.88:2086
   - vmess_23.227.38.8:2086
   - vmess_104.26.0.50:2086
   - vmess_104.19.38.88:2086
-  - tuic_TW_dongtaiwang.com_0
+  - ss_www2.dtku44.xyz:443
   - ss_51.159.2.179:443
   - hysteria_0
   - hysteria_1
   - hysteria_2
   - hysteria_3
   - hy2_US_38.114.103.210:30647
-  - hy2_US_38.114.103.210:30647
-  - hy2_FR_51.159.2.179:23499
-  - hy2_FR_51.159.2.179:23499
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
+  - hy2_US_208.87.243.123:33599
   - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
-  - vmess_US_172.64.170.111_2082
+  - vmess__172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
