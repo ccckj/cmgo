@@ -2392,7 +2392,7 @@ proxies:
   flow: ''
   host: ip4-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess__172.64.170.111_2082
+- name: vmess_US_172.64.170.111_2082
   type: vmess
   server: 172.64.170.111
   port: 2082
@@ -2580,7 +2580,7 @@ proxy-groups:
   - hy2_US_208.87.243.123:33599
   - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
-  - vmess__172.64.170.111_2082
+  - vmess_US_172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
 - name: 自动选择
   type: url-test
@@ -2750,7 +2750,7 @@ proxy-groups:
   - hy2_US_208.87.243.123:33599
   - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
-  - vmess__172.64.170.111_2082
+  - vmess_US_172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
 rules:
 - DOMAIN,clash.razord.top,DIRECT
