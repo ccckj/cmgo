@@ -2347,8 +2347,8 @@ proxies:
 - name: hysteria_3
   type: hysteria
   server: 166.1.18.52
-  port: 41363
-  ports: 41363
+  port: 10295
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -2358,10 +2358,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_38.114.103.210:30647
+- name: hy2_US_38.114.103.210:26288
   type: hysteria2
   server: 38.114.103.210
-  port: 30647
+  port: 26288
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -2390,16 +2390,6 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: vmess_US_104.19.32.188_2082
-  type: vmess
-  server: 104.19.32.188
-  port: 2082
-  uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2-2.freessr2.xyz
-  path: github.com/Alvin9999
 - name: vmess_US_162.159.140.19_2082
   type: vmess
   server: 162.159.140.19
@@ -2607,11 +2597,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_38.114.103.210:30647
+  - hy2_US_38.114.103.210:26288
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
-  - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
@@ -2774,11 +2763,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_38.114.103.210:30647
+  - hy2_US_38.114.103.210:26288
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
-  - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
@@ -2941,11 +2929,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_38.114.103.210:30647
+  - hy2_US_38.114.103.210:26288
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
   - hy2_US_208.87.243.123:33599
-  - vmess_US_104.19.32.188_2082
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_162.159.143.73_2082
