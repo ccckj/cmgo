@@ -2513,9 +2513,9 @@ proxies:
   flow: ''
   host: ip3-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess_US_162.159.143.73_2082
+- name: vmess_US_104.19.32.26_2082
   type: vmess
-  server: 162.159.143.73
+  server: 104.19.32.26
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -2712,7 +2712,7 @@ proxy-groups:
   - hy2_US_108.181.24.39:60714
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_162.159.143.73_2082
+  - vmess_US_104.19.32.26_2082
 - name: 手动选择
   type: select
   proxies:
@@ -2884,7 +2884,7 @@ proxy-groups:
   - hy2_US_108.181.24.39:60714
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_162.159.143.73_2082
+  - vmess_US_104.19.32.26_2082
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -3056,7 +3056,7 @@ proxy-groups:
   - hy2_US_108.181.24.39:60714
   - vmess_US_162.159.140.19_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_162.159.143.73_2082
+  - vmess_US_104.19.32.26_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
