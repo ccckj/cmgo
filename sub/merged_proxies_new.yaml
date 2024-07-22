@@ -2443,33 +2443,33 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_173.234.31.100:443
+- name: hy2_US_166.1.18.13:443
   type: hysteria2
-  server: 173.234.31.100
+  server: 166.1.18.13
   port: 443
   password: dongtaiwang.com
   fast-open: false
   sni: false
   skip-cert-verify: false
-- name: hy2_US_173.234.31.100:443
+- name: hy2_US_166.1.18.13:443
   type: hysteria2
-  server: 173.234.31.100
+  server: 166.1.18.13
   port: 443
   password: dongtaiwang.com
   fast-open: false
   sni: false
   skip-cert-verify: false
-- name: hy2_US_173.234.31.100:443
+- name: hy2_US_166.1.18.13:443
   type: hysteria2
-  server: 173.234.31.100
+  server: 166.1.18.13
   port: 443
   password: dongtaiwang.com
   fast-open: false
   sni: false
   skip-cert-verify: false
-- name: hy2_US_173.234.31.100:443
+- name: hy2_US_166.1.18.13:443
   type: hysteria2
-  server: 173.234.31.100
+  server: 166.1.18.13
   port: 443
   password: dongtaiwang.com
   fast-open: false
@@ -2673,10 +2673,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
@@ -2848,10 +2848,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
-  - hy2_US_173.234.31.100:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.13:443
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
