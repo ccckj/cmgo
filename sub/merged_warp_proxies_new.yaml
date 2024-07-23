@@ -2469,30 +2469,30 @@ proxies:
   fast-open: false
   sni: false
   skip-cert-verify: false
-- name: hy2_US_166.1.18.13:443
+- name: hy2_US_166.1.18.178:23456
   type: hysteria2
-  server: 166.1.18.13
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: false
-  sni: false
-  skip-cert-verify: false
-- name: hy2_US_166.1.18.13:443
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_166.1.18.178:23456
   type: hysteria2
-  server: 166.1.18.13
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: false
-  sni: false
-  skip-cert-verify: false
-- name: hy2_US_166.1.18.13:443
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_166.1.18.178:23456
   type: hysteria2
-  server: 166.1.18.13
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: false
-  sni: false
-  skip-cert-verify: false
+  sni: true
+  skip-cert-verify: true
 - name: vmess_US_104.26.3.12_2082
   type: vmess
   server: 104.26.3.12
@@ -2707,9 +2707,9 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
@@ -2879,9 +2879,9 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
@@ -3051,9 +3051,9 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.13:443
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
+  - hy2_US_166.1.18.178:23456
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
