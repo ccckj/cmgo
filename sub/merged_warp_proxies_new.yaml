@@ -2461,34 +2461,34 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_US_166.1.18.13:443
+- name: hy2_US_207.90.239.157:22334
   type: hysteria2
-  server: 166.1.18.13
-  port: 443
-  password: dongtaiwang.com
-  fast-open: false
-  sni: false
-  skip-cert-verify: false
-- name: hy2_US_166.1.18.178:23456
-  type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_166.1.18.178:23456
+- name: hy2_US_207.90.239.157:22334
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_166.1.18.178:23456
+- name: hy2_US_207.90.239.157:22334
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
+  password: dongtaiwang.com
+  fast-open: false
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_207.90.239.157:22334
+  type: hysteria2
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -2706,10 +2706,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
@@ -2878,10 +2878,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
@@ -3050,10 +3050,10 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_US_166.1.18.13:443
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
-  - hy2_US_166.1.18.178:23456
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
+  - hy2_US_207.90.239.157:22334
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
   - vmess_US_104.19.32.26_2082
