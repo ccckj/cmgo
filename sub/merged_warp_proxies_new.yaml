@@ -2493,6 +2493,16 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
+- name: vmess_US_104.19.32.26_2082
+  type: vmess
+  server: 104.19.32.26
+  port: 2082
+  uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2-2.freessr2.xyz
+  path: github.com/Alvin9999
 - name: vmess_US_104.26.3.12_2082
   type: vmess
   server: 104.26.3.12
@@ -2512,16 +2522,6 @@ proxies:
   tls: none
   flow: ''
   host: ip3-2.freessr2.xyz
-  path: github.com/Alvin9999
-- name: vmess_US_104.19.32.26_2082
-  type: vmess
-  server: 104.19.32.26
-  port: 2082
-  uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2-2.freessr2.xyz
   path: github.com/Alvin9999
 proxy-groups:
 - name: 节点选择
@@ -2710,9 +2710,9 @@ proxy-groups:
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
+  - vmess_US_104.19.32.26_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
 - name: 手动选择
   type: select
   proxies:
@@ -2882,9 +2882,9 @@ proxy-groups:
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
+  - vmess_US_104.19.32.26_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -3054,9 +3054,9 @@ proxy-groups:
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
   - hy2_US_207.90.239.157:22334
+  - vmess_US_104.19.32.26_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
