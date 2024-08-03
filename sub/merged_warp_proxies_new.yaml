@@ -2523,9 +2523,9 @@ proxies:
   flow: ''
   host: ip3-2.freessr2.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.32.26_2082
+- name: vmess_US_104.19.143.111_2082
   type: vmess
-  server: 104.19.32.26
+  server: 104.19.143.111
   port: 2082
   uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
   network: ws
@@ -2563,7 +2563,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.42.49_2052
+- name: vmess__104.19.42.49_2052
   type: vmess
   server: 104.19.42.49
   port: 2052
@@ -2933,11 +2933,11 @@ proxy-groups:
   - vmess_US_104.19.32.33_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
+  - vmess_US_104.19.143.111_2082
   - vmess_SG_174.138.22.178_34877
   - vmess_US_104.19.21.230_2086
   - vmess_US_104.26.5.103_2086
-  - vmess_US_104.19.42.49_2052
+  - vmess__104.19.42.49_2052
   - vmess__104.16.148.244_2086
   - vmess__104.19.45.19_2095
   - vmess__nmsl.rnmcnm.com_80
@@ -3127,11 +3127,11 @@ proxy-groups:
   - vmess_US_104.19.32.33_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
+  - vmess_US_104.19.143.111_2082
   - vmess_SG_174.138.22.178_34877
   - vmess_US_104.19.21.230_2086
   - vmess_US_104.26.5.103_2086
-  - vmess_US_104.19.42.49_2052
+  - vmess__104.19.42.49_2052
   - vmess__104.16.148.244_2086
   - vmess__104.19.45.19_2095
   - vmess__nmsl.rnmcnm.com_80
@@ -3321,11 +3321,11 @@ proxy-groups:
   - vmess_US_104.19.32.33_2082
   - vmess_US_104.26.3.12_2082
   - vmess_US_172.64.170.111_2082
-  - vmess_US_104.19.32.26_2082
+  - vmess_US_104.19.143.111_2082
   - vmess_SG_174.138.22.178_34877
   - vmess_US_104.19.21.230_2086
   - vmess_US_104.26.5.103_2086
-  - vmess_US_104.19.42.49_2052
+  - vmess__104.19.42.49_2052
   - vmess__104.16.148.244_2086
   - vmess__104.19.45.19_2095
   - vmess__nmsl.rnmcnm.com_80
