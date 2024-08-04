@@ -2535,7 +2535,7 @@ proxies:
   flow: ''
   host: ip11.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.19_2086
+- name: vmess_US_104.19.45.19_2086
   type: vmess
   server: 104.19.45.19
   port: 2086
@@ -2545,7 +2545,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.31_2086
+- name: vmess_US_104.19.45.31_2086
   type: vmess
   server: 104.19.45.31
   port: 2086
@@ -2903,8 +2903,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.21.73_2052
   - vmess_US_172.64.175.213_2086
-  - vmess__104.19.45.19_2086
-  - vmess__104.19.45.31_2086
+  - vmess_US_104.19.45.19_2086
+  - vmess_US_104.19.45.31_2086
   - vmess__104.17.106.151_2052
   - vmess__104.19.45.243_2095
   - vmess__172.64.166.9_2086
@@ -3100,8 +3100,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.21.73_2052
   - vmess_US_172.64.175.213_2086
-  - vmess__104.19.45.19_2086
-  - vmess__104.19.45.31_2086
+  - vmess_US_104.19.45.19_2086
+  - vmess_US_104.19.45.31_2086
   - vmess__104.17.106.151_2052
   - vmess__104.19.45.243_2095
   - vmess__172.64.166.9_2086
