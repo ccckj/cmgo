@@ -2545,7 +2545,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__172.64.233.43_2086
+- name: vmess_US_172.64.233.43_2086
   type: vmess
   server: 172.64.233.43
   port: 2086
@@ -2864,7 +2864,7 @@ proxy-groups:
   - vmess_US_172.64.167.29_2086
   - vmess__russia.com_2086
   - vmess_US_104.19.45.196_2095
-  - vmess__172.64.233.43_2086
+  - vmess_US_172.64.233.43_2086
   - vmess__104.17.106.171_2052
   - vmess__104.19.51.232_2086
   - vmess__172.64.166.22_2086
@@ -3057,7 +3057,7 @@ proxy-groups:
   - vmess_US_172.64.167.29_2086
   - vmess__russia.com_2086
   - vmess_US_104.19.45.196_2095
-  - vmess__172.64.233.43_2086
+  - vmess_US_172.64.233.43_2086
   - vmess__104.17.106.171_2052
   - vmess__104.19.51.232_2086
   - vmess__172.64.166.22_2086
