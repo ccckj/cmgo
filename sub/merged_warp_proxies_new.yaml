@@ -2553,7 +2553,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_sv6.fastfast80.ir_443
+- name: vmess__sv6.fastfast80.ir_443
   type: vmess
   server: sv6.fastfast80.ir
   port: 443
@@ -2573,7 +2573,7 @@ proxies:
   flow: ''
   host: cdn3.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.47.65_2086
+- name: vmess__104.19.47.65_2086
   type: vmess
   server: 104.19.47.65
   port: 2086
@@ -2926,9 +2926,9 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.47.80_2086
   - vmess__malaysia.com_2086
-  - vmess_US_sv6.fastfast80.ir_443
+  - vmess__sv6.fastfast80.ir_443
   - vmess_US_104.19.57.24_2052
-  - vmess_US_104.19.47.65_2086
+  - vmess__104.19.47.65_2086
   - vmess__mmhu82.micloud.buzz_46082
   - vmess__104.26.7.132_2052
   - vmess__120.232.153.37_42055
@@ -3119,9 +3119,9 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.47.80_2086
   - vmess__malaysia.com_2086
-  - vmess_US_sv6.fastfast80.ir_443
+  - vmess__sv6.fastfast80.ir_443
   - vmess_US_104.19.57.24_2052
-  - vmess_US_104.19.47.65_2086
+  - vmess__104.19.47.65_2086
   - vmess__mmhu82.micloud.buzz_46082
   - vmess__104.26.7.132_2052
   - vmess__120.232.153.37_42055
@@ -3312,9 +3312,9 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.47.80_2086
   - vmess__malaysia.com_2086
-  - vmess_US_sv6.fastfast80.ir_443
+  - vmess__sv6.fastfast80.ir_443
   - vmess_US_104.19.57.24_2052
-  - vmess_US_104.19.47.65_2086
+  - vmess__104.19.47.65_2086
   - vmess__mmhu82.micloud.buzz_46082
   - vmess__104.26.7.132_2052
   - vmess__120.232.153.37_42055
