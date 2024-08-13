@@ -8048,7 +8048,7 @@ proxies:
   flow: ''
   host: ip14.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.16.148.244_2086
+- name: vmess_US_104.16.148.244_2086
   type: vmess
   server: 104.16.148.244
   port: 2086
@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: ip006.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__151.101.2.219_443
+- name: vmess_US_151.101.2.219_443
   type: vmess
   server: 151.101.2.219
   port: 443
@@ -8068,7 +8068,7 @@ proxies:
   flow: ''
   host: Dbdjhiw72ebsu272hs519j.com
   path: ws/?ed=2048
-- name: vmess__202.78.162.5_443
+- name: vmess_TR_202.78.162.5_443
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -8783,9 +8783,9 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_HK_103.212.98.234_443
   - vmess_US_104.19.58.175_2086
-  - vmess__104.16.148.244_2086
-  - vmess__151.101.2.219_443
-  - vmess__202.78.162.5_443
+  - vmess_US_104.16.148.244_2086
+  - vmess_US_151.101.2.219_443
+  - vmess_TR_202.78.162.5_443
   - vmess__120.232.153.40_35601
   - vmess__skk.moe_2086
   - vmess__162.159.140.45_2086
@@ -9347,9 +9347,9 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_HK_103.212.98.234_443
   - vmess_US_104.19.58.175_2086
-  - vmess__104.16.148.244_2086
-  - vmess__151.101.2.219_443
-  - vmess__202.78.162.5_443
+  - vmess_US_104.16.148.244_2086
+  - vmess_US_151.101.2.219_443
+  - vmess_TR_202.78.162.5_443
   - vmess__120.232.153.40_35601
   - vmess__skk.moe_2086
   - vmess__162.159.140.45_2086
