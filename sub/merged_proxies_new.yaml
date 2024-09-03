@@ -8228,19 +8228,9 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__162.159.140.66_2086
+- name: vmess_US_162.159.140.66_2086
   type: vmess
   server: 162.159.140.66
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip1.1789034.xyz
-  path: github.com/Alvin9999
-- name: vmess__104.26.5.57_2086
-  type: vmess
-  server: 104.26.5.57
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
@@ -8258,49 +8248,19 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__185.146.173.167_80
+- name: vmess__104.19.38.62_2086
   type: vmess
-  server: 185.146.173.167
-  port: 80
-  uuid: b1fecac5-0eb0-440c-ba9b-a937b34881d6
-  network: ws
-  tls: none
-  flow: ''
-  host: 0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.0a687accaa11b7a9.fi-dargah.OfFDARsaD.iR.
-  path: /navigate?ed=1048
-- name: vmess__104.19.45.92_2095
-  type: vmess
-  server: 104.19.45.92
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  network: ws
-  tls: none
-  flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__104.26.5.123_2086
-  type: vmess
-  server: 104.26.5.123
+  server: 104.19.38.62
   port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   network: ws
   tls: none
   flow: ''
-  host: ip1.1789034.xyz
+  host: ip006.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__23.227.38.8_2086
+- name: vmess__104.19.47.36_2086
   type: vmess
-  server: 23.227.38.8
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip5-10.freegradely.xyz
-  path: github.com/Alvin9999
-- name: vmess__172.64.166.16_2086
-  type: vmess
-  server: 172.64.166.16
+  server: 104.19.47.36
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
@@ -8308,29 +8268,29 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__russia.com_8880
+- name: vmess__172.64.167.25_2086
   type: vmess
-  server: russia.com
-  port: 8880
-  uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4
+  server: 172.64.167.25
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
   tls: none
   flow: ''
-  host: sssub.v2.001.ssrsub.com
-  path: /api/v3/download.getFile
-- name: vmess__104.19.45.241_2095
+  host: ip2.1457230.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.19.46.63_2086
   type: vmess
-  server: 104.19.45.241
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  server: 104.19.46.63
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
   tls: none
   flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__162.159.140.93_2086
+  host: ip14.freegradely.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.26.5.66_2086
   type: vmess
-  server: 162.159.140.93
+  server: 104.26.5.66
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
@@ -8338,36 +8298,56 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__172.67.74.112_2086
+- name: vmess__104.26.5.56_2086
   type: vmess
-  server: 172.67.74.112
+  server: 104.26.5.56
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
   tls: none
   flow: ''
-  host: ip11.freegradely.xyz
+  host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.32.88_2086
+- name: vmess__hytron.io_8080
   type: vmess
-  server: 104.19.32.88
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  server: hytron.io
+  port: 8080
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
   network: ws
   tls: none
   flow: ''
-  host: ip5-4.freegradely.xyz
-  path: github.com/Alvin9999
-- name: vmess__gov.uk_443
+  host: hytron.io
+  path: /
+- name: vmess__172.99.190.109_443
   type: vmess
-  server: gov.uk
+  server: 172.99.190.109
   port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
   tls: tls
   flow: ''
-  host: zheshiscp.com
-  path: /77848824
+  host: ''
+  path: linkvws
+- name: vmess__172.64.175.213_2086
+  type: vmess
+  server: 172.64.175.213
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.1457230.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.198.249_2086
+  type: vmess
+  server: 172.64.198.249
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip1.1457230.xyz
+  path: github.com/Alvin9999
 - name: vmess__icook.tw_2086
   type: vmess
   server: icook.tw
@@ -8378,9 +8358,19 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__172.67.71.187_2086
+- name: vmess__23.227.38.6_2086
   type: vmess
-  server: 172.67.71.187
+  server: 23.227.38.6
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  network: ws
+  tls: none
+  flow: ''
+  host: ip006.dtku47.xyz
+  path: github.com/Alvin9999
+- name: vmess__singapore.com_2086
+  type: vmess
+  server: singapore.com
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
@@ -8388,45 +8378,55 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.21.23.231_2095
+- name: vmess__23.227.38.3_2086
   type: vmess
-  server: 104.21.23.231
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  network: ws
-  tls: none
-  flow: ''
-  host: onea.flha.ru
-  path: /
-- name: vmess__104.19.45.42_2086
-  type: vmess
-  server: 104.19.45.42
+  server: 23.227.38.3
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
   tls: none
   flow: ''
-  host: ip14.freegradely.xyz
+  host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__ip.sb_2086
+- name: vmess__172.64.166.28_2086
   type: vmess
-  server: ip.sb
+  server: 172.64.166.28
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
   tls: none
   flow: ''
-  host: ip1.1789034.xyz
+  host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.11_2086
+- name: vmess__104.19.51.232_2086
   type: vmess
-  server: 104.19.45.11
+  server: 104.19.51.232
   port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   network: ws
   tls: none
   flow: ''
-  host: ip1.1457230.xyz
+  host: ip006.freegradely.xyz
+  path: github.com/Alvin9999
+- name: vmess__23.227.38.5_2086
+  type: vmess
+  server: 23.227.38.5
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  network: ws
+  tls: none
+  flow: ''
+  host: ip006.freegradely.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.16.148.244_2086
+  type: vmess
+  server: 104.16.148.244
+  port: 2086
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  network: ws
+  tls: none
+  flow: ''
+  host: ip006.freegradely.xyz
   path: github.com/Alvin9999
 proxy-groups:
 - name: 节点选择
@@ -8991,26 +8991,26 @@ proxy-groups:
   - vmess__104.26.5.145_2086
   - vmess__104.19.45.47_2086
   - vmess__104.22.36.243_2086
-  - vmess__162.159.140.66_2086
-  - vmess__104.26.5.57_2086
+  - vmess_US_162.159.140.66_2086
   - vmess__104.26.10.11_2086
-  - vmess__185.146.173.167_80
-  - vmess__104.19.45.92_2095
-  - vmess__104.26.5.123_2086
-  - vmess__23.227.38.8_2086
-  - vmess__172.64.166.16_2086
-  - vmess__russia.com_8880
-  - vmess__104.19.45.241_2095
-  - vmess__162.159.140.93_2086
-  - vmess__172.67.74.112_2086
-  - vmess__104.19.32.88_2086
-  - vmess__gov.uk_443
+  - vmess__104.19.38.62_2086
+  - vmess__104.19.47.36_2086
+  - vmess__172.64.167.25_2086
+  - vmess__104.19.46.63_2086
+  - vmess__104.26.5.66_2086
+  - vmess__104.26.5.56_2086
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__172.64.175.213_2086
+  - vmess__172.64.198.249_2086
   - vmess__icook.tw_2086
-  - vmess__172.67.71.187_2086
-  - vmess__104.21.23.231_2095
-  - vmess__104.19.45.42_2086
-  - vmess__ip.sb_2086
-  - vmess__104.19.45.11_2086
+  - vmess__23.227.38.6_2086
+  - vmess__singapore.com_2086
+  - vmess__23.227.38.3_2086
+  - vmess__172.64.166.28_2086
+  - vmess__104.19.51.232_2086
+  - vmess__23.227.38.5_2086
+  - vmess__104.16.148.244_2086
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -9574,26 +9574,26 @@ proxy-groups:
   - vmess__104.26.5.145_2086
   - vmess__104.19.45.47_2086
   - vmess__104.22.36.243_2086
-  - vmess__162.159.140.66_2086
-  - vmess__104.26.5.57_2086
+  - vmess_US_162.159.140.66_2086
   - vmess__104.26.10.11_2086
-  - vmess__185.146.173.167_80
-  - vmess__104.19.45.92_2095
-  - vmess__104.26.5.123_2086
-  - vmess__23.227.38.8_2086
-  - vmess__172.64.166.16_2086
-  - vmess__russia.com_8880
-  - vmess__104.19.45.241_2095
-  - vmess__162.159.140.93_2086
-  - vmess__172.67.74.112_2086
-  - vmess__104.19.32.88_2086
-  - vmess__gov.uk_443
+  - vmess__104.19.38.62_2086
+  - vmess__104.19.47.36_2086
+  - vmess__172.64.167.25_2086
+  - vmess__104.19.46.63_2086
+  - vmess__104.26.5.66_2086
+  - vmess__104.26.5.56_2086
+  - vmess__hytron.io_8080
+  - vmess__172.99.190.109_443
+  - vmess__172.64.175.213_2086
+  - vmess__172.64.198.249_2086
   - vmess__icook.tw_2086
-  - vmess__172.67.71.187_2086
-  - vmess__104.21.23.231_2095
-  - vmess__104.19.45.42_2086
-  - vmess__ip.sb_2086
-  - vmess__104.19.45.11_2086
+  - vmess__23.227.38.6_2086
+  - vmess__singapore.com_2086
+  - vmess__23.227.38.3_2086
+  - vmess__172.64.166.28_2086
+  - vmess__104.19.51.232_2086
+  - vmess__23.227.38.5_2086
+  - vmess__104.16.148.244_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
