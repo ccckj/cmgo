@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__162.159.140.91_2086
+- name: vmess_US_162.159.140.91_2086
   type: vmess
   server: 162.159.140.91
   port: 2086
@@ -8068,7 +8068,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.22.36.243_2086
+- name: vmess_US_104.22.36.243_2086
   type: vmess
   server: 104.22.36.243
   port: 2086
@@ -8078,7 +8078,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__172.64.99.22_2086
+- name: vmess_US_172.64.99.22_2086
   type: vmess
   server: 172.64.99.22
   port: 2086
@@ -8088,7 +8088,7 @@ proxies:
   flow: ''
   host: ip11.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__172.64.166.2_2086
+- name: vmess_US_172.64.166.2_2086
   type: vmess
   server: 172.64.166.2
   port: 2086
@@ -8098,7 +8098,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__162.159.140.93_2086
+- name: vmess_US_162.159.140.93_2086
   type: vmess
   server: 162.159.140.93
   port: 2086
@@ -8108,7 +8108,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.26.5.57_8080
+- name: vmess_US_104.26.5.57_8080
   type: vmess
   server: 104.26.5.57
   port: 8080
@@ -8118,7 +8118,7 @@ proxies:
   flow: ''
   host: sssub.v2.001.ssrsub.com
   path: /api/v3/download.getFile
-- name: vmess__172.64.167.29_2086
+- name: vmess_US_172.64.167.29_2086
   type: vmess
   server: 172.64.167.29
   port: 2086
@@ -8128,7 +8128,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.237_2095
+- name: vmess_US_104.19.45.237_2095
   type: vmess
   server: 104.19.45.237
   port: 2095
@@ -8138,7 +8138,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__104.26.8.156_2086
+- name: vmess_US_104.26.8.156_2086
   type: vmess
   server: 104.26.8.156
   port: 2086
@@ -8148,7 +8148,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.50_2086
+- name: vmess_US_104.19.45.50_2086
   type: vmess
   server: 104.19.45.50
   port: 2086
@@ -8158,7 +8158,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.46.36_2086
+- name: vmess_US_104.19.46.36_2086
   type: vmess
   server: 104.19.46.36
   port: 2086
@@ -8168,7 +8168,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.22.37.243_2086
+- name: vmess_US_104.22.37.243_2086
   type: vmess
   server: 104.22.37.243
   port: 2086
@@ -8198,7 +8198,7 @@ proxies:
   flow: ''
   host: ip14.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.51.232_2086
+- name: vmess_US_104.19.51.232_2086
   type: vmess
   server: 104.19.51.232
   port: 2086
@@ -8208,7 +8208,7 @@ proxies:
   flow: ''
   host: ip005.dtku47.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.46.42_2086
+- name: vmess_US_104.19.46.42_2086
   type: vmess
   server: 104.19.46.42
   port: 2086
@@ -8774,22 +8774,22 @@ proxy-groups:
   - vmess_US_104.19.45.13_2086
   - vmess_US_104.26.12.31_2086
   - vmess_US_104.19.45.34_2095
-  - vmess__162.159.140.91_2086
-  - vmess__104.22.36.243_2086
-  - vmess__172.64.99.22_2086
-  - vmess__172.64.166.2_2086
-  - vmess__162.159.140.93_2086
-  - vmess__104.26.5.57_8080
-  - vmess__172.64.167.29_2086
-  - vmess__104.19.45.237_2095
-  - vmess__104.26.8.156_2086
-  - vmess__104.19.45.50_2086
-  - vmess__104.19.46.36_2086
-  - vmess__104.22.37.243_2086
+  - vmess_US_162.159.140.91_2086
+  - vmess_US_104.22.36.243_2086
+  - vmess_US_172.64.99.22_2086
+  - vmess_US_172.64.166.2_2086
+  - vmess_US_162.159.140.93_2086
+  - vmess_US_104.26.5.57_8080
+  - vmess_US_172.64.167.29_2086
+  - vmess_US_104.19.45.237_2095
+  - vmess_US_104.26.8.156_2086
+  - vmess_US_104.19.45.50_2086
+  - vmess_US_104.19.46.36_2086
+  - vmess_US_104.22.37.243_2086
   - vmess__104.19.45.35_2086
   - vmess__104.19.58.175_2086
-  - vmess__104.19.51.232_2086
-  - vmess__104.19.46.42_2086
+  - vmess_US_104.19.51.232_2086
+  - vmess_US_104.19.46.42_2086
   - vmess__104.19.46.59_2086
 - name: 自动选择
   type: url-test
@@ -9337,22 +9337,22 @@ proxy-groups:
   - vmess_US_104.19.45.13_2086
   - vmess_US_104.26.12.31_2086
   - vmess_US_104.19.45.34_2095
-  - vmess__162.159.140.91_2086
-  - vmess__104.22.36.243_2086
-  - vmess__172.64.99.22_2086
-  - vmess__172.64.166.2_2086
-  - vmess__162.159.140.93_2086
-  - vmess__104.26.5.57_8080
-  - vmess__172.64.167.29_2086
-  - vmess__104.19.45.237_2095
-  - vmess__104.26.8.156_2086
-  - vmess__104.19.45.50_2086
-  - vmess__104.19.46.36_2086
-  - vmess__104.22.37.243_2086
+  - vmess_US_162.159.140.91_2086
+  - vmess_US_104.22.36.243_2086
+  - vmess_US_172.64.99.22_2086
+  - vmess_US_172.64.166.2_2086
+  - vmess_US_162.159.140.93_2086
+  - vmess_US_104.26.5.57_8080
+  - vmess_US_172.64.167.29_2086
+  - vmess_US_104.19.45.237_2095
+  - vmess_US_104.26.8.156_2086
+  - vmess_US_104.19.45.50_2086
+  - vmess_US_104.19.46.36_2086
+  - vmess_US_104.22.37.243_2086
   - vmess__104.19.45.35_2086
   - vmess__104.19.58.175_2086
-  - vmess__104.19.51.232_2086
-  - vmess__104.19.46.42_2086
+  - vmess_US_104.19.51.232_2086
+  - vmess_US_104.19.46.42_2086
   - vmess__104.19.46.59_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
