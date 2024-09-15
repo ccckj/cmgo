@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.45.137_2095
+- name: vmess__104.19.45.137_2095
   type: vmess
   server: 104.19.45.137
   port: 2095
@@ -8068,7 +8068,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_172.64.166.33_2086
+- name: vmess__172.64.166.33_2086
   type: vmess
   server: 172.64.166.33
   port: 2086
@@ -8784,8 +8784,8 @@ proxy-groups:
   - vmess_US_104.19.46.56_2086
   - vmess_US_172.64.167.10_2086
   - vmess__www.visa.com_2086
-  - vmess_US_104.19.45.137_2095
-  - vmess_US_172.64.166.33_2086
+  - vmess__104.19.45.137_2095
+  - vmess__172.64.166.33_2086
   - vmess__singapore.com_2086
   - vmess__172.64.167.29_2086
   - vmess__104.19.55.49_2086
@@ -9348,8 +9348,8 @@ proxy-groups:
   - vmess_US_104.19.46.56_2086
   - vmess_US_172.64.167.10_2086
   - vmess__www.visa.com_2086
-  - vmess_US_104.19.45.137_2095
-  - vmess_US_172.64.166.33_2086
+  - vmess__104.19.45.137_2095
+  - vmess__172.64.166.33_2086
   - vmess__singapore.com_2086
   - vmess__172.64.167.29_2086
   - vmess__104.19.55.49_2086
