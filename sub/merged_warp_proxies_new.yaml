@@ -8066,7 +8066,7 @@ proxies:
   flow: ''
   host: ip5-4.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.32.216_2086
+- name: vmess_US_104.19.32.216_2086
   type: vmess
   server: 104.19.32.216
   port: 2086
@@ -8076,7 +8076,7 @@ proxies:
   flow: ''
   host: ip14.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.50_2086
+- name: vmess_US_104.19.45.50_2086
   type: vmess
   server: 104.19.45.50
   port: 2086
@@ -8816,8 +8816,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.123.11_2086
   - vmess_US_104.19.38.88_2086
-  - vmess__104.19.32.216_2086
-  - vmess__104.19.45.50_2086
+  - vmess_US_104.19.32.216_2086
+  - vmess_US_104.19.45.50_2086
   - vmess__130.61.226.146_54252
   - vmess__russia.com_2086
   - vmess__gov.uk_443
@@ -9377,8 +9377,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.123.11_2086
   - vmess_US_104.19.38.88_2086
-  - vmess__104.19.32.216_2086
-  - vmess__104.19.45.50_2086
+  - vmess_US_104.19.32.216_2086
+  - vmess_US_104.19.45.50_2086
   - vmess__130.61.226.146_54252
   - vmess__russia.com_2086
   - vmess__gov.uk_443
@@ -9938,8 +9938,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.123.11_2086
   - vmess_US_104.19.38.88_2086
-  - vmess__104.19.32.216_2086
-  - vmess__104.19.45.50_2086
+  - vmess_US_104.19.32.216_2086
+  - vmess_US_104.19.45.50_2086
   - vmess__130.61.226.146_54252
   - vmess__russia.com_2086
   - vmess__gov.uk_443
