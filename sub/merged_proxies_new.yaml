@@ -8048,7 +8048,7 @@ proxies:
   flow: ''
   host: server31.beheshtbaneh.com
   path: /
-- name: vmess__104.19.45.11_2086
+- name: vmess_US_104.19.45.11_2086
   type: vmess
   server: 104.19.45.11
   port: 2086
@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__162.159.25.89_80
+- name: vmess_US_162.159.25.89_80
   type: vmess
   server: 162.159.25.89
   port: 80
@@ -8773,8 +8773,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.21.230_2086
   - vmess__server31.beheshtbaneh.com_8880
-  - vmess__104.19.45.11_2086
-  - vmess__162.159.25.89_80
+  - vmess_US_104.19.45.11_2086
+  - vmess_US_162.159.25.89_80
   - vmess__104.19.46.33_2086
   - vmess__104.19.38.8_2086
   - vmess__japan.com_2086
@@ -9336,8 +9336,8 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.21.230_2086
   - vmess__server31.beheshtbaneh.com_8880
-  - vmess__104.19.45.11_2086
-  - vmess__162.159.25.89_80
+  - vmess_US_104.19.45.11_2086
+  - vmess_US_162.159.25.89_80
   - vmess__104.19.46.33_2086
   - vmess__104.19.38.8_2086
   - vmess__japan.com_2086
