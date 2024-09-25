@@ -8068,7 +8068,7 @@ proxies:
   flow: ''
   host: us82pRzxDMb.fzbqfrse.xyz
   path: /video/qYZue4zaWS
-- name: vmess__104.19.45.13_2095
+- name: vmess_US_104.19.45.13_2095
   type: vmess
   server: 104.19.45.13
   port: 2095
@@ -8078,7 +8078,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__202.78.162.5_443
+- name: vmess_TR_202.78.162.5_443
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -8088,7 +8088,7 @@ proxies:
   flow: ''
   host: irsoft.sytes.net
   path: /@forwardv2ray
-- name: vmess__172.64.166.8_2086
+- name: vmess_US_172.64.166.8_2086
   type: vmess
   server: 172.64.166.8
   port: 2086
@@ -8108,7 +8108,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -8158,7 +8158,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__172.64.166.22_2086
+- name: vmess_US_172.64.166.22_2086
   type: vmess
   server: 172.64.166.22
   port: 2086
@@ -8198,7 +8198,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.51.232_2086
+- name: vmess_US_104.19.51.232_2086
   type: vmess
   server: 104.19.51.232
   port: 2086
@@ -8218,7 +8218,7 @@ proxies:
   flow: ''
   host: ip006.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.16.148.244_2086
+- name: vmess_US_104.16.148.244_2086
   type: vmess
   server: 104.16.148.244
   port: 2086
@@ -8228,7 +8228,7 @@ proxies:
   flow: ''
   host: ip006.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.38.62_2086
+- name: vmess_US_104.19.38.62_2086
   type: vmess
   server: 104.19.38.62
   port: 2086
@@ -8785,23 +8785,23 @@ proxy-groups:
   - vmess_US_172.64.167.35_2086
   - vmess__gov.uk_443
   - vmess__cfcdn1.sanfencdn9.com_2095
-  - vmess__104.19.45.13_2095
-  - vmess__202.78.162.5_443
-  - vmess__172.64.166.8_2086
+  - vmess_US_104.19.45.13_2095
+  - vmess_TR_202.78.162.5_443
+  - vmess_US_172.64.166.8_2086
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__japan.com_2086
   - vmess__singapore.com_2086
   - vmess__172.64.175.213_2086
   - vmess__23.227.38.3_2086
-  - vmess__172.64.166.22_2086
+  - vmess_US_172.64.166.22_2086
   - vmess__172.64.198.249_2086
   - vmess__russia.com_2086
   - vmess__172.64.166.28_2086
-  - vmess__104.19.51.232_2086
+  - vmess_US_104.19.51.232_2086
   - vmess__23.227.38.5_2086
-  - vmess__104.16.148.244_2086
-  - vmess__104.19.38.62_2086
+  - vmess_US_104.16.148.244_2086
+  - vmess_US_104.19.38.62_2086
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -9349,23 +9349,23 @@ proxy-groups:
   - vmess_US_172.64.167.35_2086
   - vmess__gov.uk_443
   - vmess__cfcdn1.sanfencdn9.com_2095
-  - vmess__104.19.45.13_2095
-  - vmess__202.78.162.5_443
-  - vmess__172.64.166.8_2086
+  - vmess_US_104.19.45.13_2095
+  - vmess_TR_202.78.162.5_443
+  - vmess_US_172.64.166.8_2086
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__japan.com_2086
   - vmess__singapore.com_2086
   - vmess__172.64.175.213_2086
   - vmess__23.227.38.3_2086
-  - vmess__172.64.166.22_2086
+  - vmess_US_172.64.166.22_2086
   - vmess__172.64.198.249_2086
   - vmess__russia.com_2086
   - vmess__172.64.166.28_2086
-  - vmess__104.19.51.232_2086
+  - vmess_US_104.19.51.232_2086
   - vmess__23.227.38.5_2086
-  - vmess__104.16.148.244_2086
-  - vmess__104.19.38.62_2086
+  - vmess_US_104.16.148.244_2086
+  - vmess_US_104.19.38.62_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
