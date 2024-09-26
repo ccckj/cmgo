@@ -8066,7 +8066,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -8766,7 +8766,7 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__172.64.166.22_2086
   - vmess__malaysia.com_2086
   - vmess__172.64.175.213_2086
@@ -9322,7 +9322,7 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__172.64.166.22_2086
   - vmess__malaysia.com_2086
   - vmess__172.64.175.213_2086
@@ -9878,7 +9878,7 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__172.64.166.22_2086
   - vmess__malaysia.com_2086
   - vmess__172.64.175.213_2086
