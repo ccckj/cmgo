@@ -8050,11 +8050,11 @@ proxies:
   type: vmess
   server: 202.78.162.5
   port: 443
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   network: ws
   tls: tls
   flow: ''
-  host: pendar.onthewifi.com
+  host: irsoft.sytes.net
   path: /@forwardv2ray
 - name: vmess__hytron.io_8080
   type: vmess
@@ -8066,7 +8066,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess_GB_172.99.190.109_443
+- name: vmess__172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -8076,7 +8076,27 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess_US_172.64.175.213_2086
+- name: vmess__172.64.166.22_2086
+  type: vmess
+  server: 172.64.166.22
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.1457230.xyz
+  path: github.com/Alvin9999
+- name: vmess__malaysia.com_2086
+  type: vmess
+  server: malaysia.com
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip1.1789034.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.175.213_2086
   type: vmess
   server: 172.64.175.213
   port: 2086
@@ -8086,9 +8106,19 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.167.5_2086
+- name: vmess__172.64.166.28_2086
   type: vmess
-  server: 172.64.167.5
+  server: 172.64.166.28
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.1457230.xyz
+  path: github.com/Alvin9999
+- name: vmess__23.227.38.3_2086
+  type: vmess
+  server: 23.227.38.3
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   network: ws
@@ -8105,56 +8135,6 @@ proxies:
   tls: none
   flow: ''
   host: ip1.1457230.xyz
-  path: github.com/Alvin9999
-- name: vmess__singapore.com_2086
-  type: vmess
-  server: singapore.com
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip1.1789034.xyz
-  path: github.com/Alvin9999
-- name: vmess__23.227.38.3_2086
-  type: vmess
-  server: 23.227.38.3
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.1457230.xyz
-  path: github.com/Alvin9999
-- name: vmess__172.64.166.22_2086
-  type: vmess
-  server: 172.64.166.22
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.1457230.xyz
-  path: github.com/Alvin9999
-- name: vmess__206.238.236.36_80
-  type: vmess
-  server: 206.238.236.36
-  port: 80
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  network: ws
-  tls: none
-  flow: ''
-  host: mysan2.jaquay22.workers.dev
-  path: /gwdef.sbs/linkws
-- name: vmess__172.64.166.28_2086
-  type: vmess
-  server: 172.64.166.28
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.1457230.xyz
   path: github.com/Alvin9999
 - name: vmess__104.19.51.232_2086
   type: vmess
@@ -8786,15 +8766,13 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess_US_172.64.175.213_2086
-  - vmess_US_172.64.167.5_2086
-  - vmess__172.64.198.249_2086
-  - vmess__singapore.com_2086
-  - vmess__23.227.38.3_2086
+  - vmess__172.99.190.109_443
   - vmess__172.64.166.22_2086
-  - vmess__206.238.236.36_80
+  - vmess__malaysia.com_2086
+  - vmess__172.64.175.213_2086
   - vmess__172.64.166.28_2086
+  - vmess__23.227.38.3_2086
+  - vmess__172.64.198.249_2086
   - vmess__104.19.51.232_2086
   - vmess__23.227.38.5_2086
   - vmess__104.16.148.244_2086
@@ -9344,15 +9322,13 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess_US_172.64.175.213_2086
-  - vmess_US_172.64.167.5_2086
-  - vmess__172.64.198.249_2086
-  - vmess__singapore.com_2086
-  - vmess__23.227.38.3_2086
+  - vmess__172.99.190.109_443
   - vmess__172.64.166.22_2086
-  - vmess__206.238.236.36_80
+  - vmess__malaysia.com_2086
+  - vmess__172.64.175.213_2086
   - vmess__172.64.166.28_2086
+  - vmess__23.227.38.3_2086
+  - vmess__172.64.198.249_2086
   - vmess__104.19.51.232_2086
   - vmess__23.227.38.5_2086
   - vmess__104.16.148.244_2086
@@ -9902,15 +9878,13 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_TR_202.78.162.5_443
   - vmess__hytron.io_8080
-  - vmess_GB_172.99.190.109_443
-  - vmess_US_172.64.175.213_2086
-  - vmess_US_172.64.167.5_2086
-  - vmess__172.64.198.249_2086
-  - vmess__singapore.com_2086
-  - vmess__23.227.38.3_2086
+  - vmess__172.99.190.109_443
   - vmess__172.64.166.22_2086
-  - vmess__206.238.236.36_80
+  - vmess__malaysia.com_2086
+  - vmess__172.64.175.213_2086
   - vmess__172.64.166.28_2086
+  - vmess__23.227.38.3_2086
+  - vmess__172.64.198.249_2086
   - vmess__104.19.51.232_2086
   - vmess__23.227.38.5_2086
   - vmess__104.16.148.244_2086
