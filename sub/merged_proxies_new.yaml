@@ -8188,7 +8188,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.45.123_2095
+- name: vmess_US_104.19.45.123_2095
   type: vmess
   server: 104.19.45.123
   port: 2095
@@ -8198,7 +8198,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess__104.26.5.145_2086
+- name: vmess_US_104.26.5.145_2086
   type: vmess
   server: 104.26.5.145
   port: 2086
@@ -8218,7 +8218,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess__104.19.47.88_2086
+- name: vmess_US_104.19.47.88_2086
   type: vmess
   server: 104.19.47.88
   port: 2086
@@ -8797,10 +8797,10 @@ proxy-groups:
   - vmess_US_162.159.140.45_2086
   - vmess_US_104.19.47.36_2086
   - vmess_US_104.26.5.90_2086
-  - vmess__104.19.45.123_2095
-  - vmess__104.26.5.145_2086
+  - vmess_US_104.19.45.123_2095
+  - vmess_US_104.26.5.145_2086
   - vmess__ip.sb_2086
-  - vmess__104.19.47.88_2086
+  - vmess_US_104.19.47.88_2086
   - vmess_US_104.18.57.111_2086
 - name: 自动选择
   type: url-test
@@ -9361,10 +9361,10 @@ proxy-groups:
   - vmess_US_162.159.140.45_2086
   - vmess_US_104.19.47.36_2086
   - vmess_US_104.26.5.90_2086
-  - vmess__104.19.45.123_2095
-  - vmess__104.26.5.145_2086
+  - vmess_US_104.19.45.123_2095
+  - vmess_US_104.26.5.145_2086
   - vmess__ip.sb_2086
-  - vmess__104.19.47.88_2086
+  - vmess_US_104.19.47.88_2086
   - vmess_US_104.18.57.111_2086
 rules:
 - DOMAIN,clash.razord.top,DIRECT
