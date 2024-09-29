@@ -8048,7 +8048,7 @@ proxies:
   flow: ''
   host: server26.beheshtbaneh.com
   path: /
-- name: vmess_TR_202.78.162.5_443
+- name: vmess__202.78.162.5_443
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -8713,7 +8713,7 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess__www.darkroom.lol_8080
   - vmess_US_104.21.82.183_8880
-  - vmess_TR_202.78.162.5_443
+  - vmess__202.78.162.5_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__server31.beheshtbaneh.com_8880
@@ -9270,7 +9270,7 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess__www.darkroom.lol_8080
   - vmess_US_104.21.82.183_8880
-  - vmess_TR_202.78.162.5_443
+  - vmess__202.78.162.5_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__server31.beheshtbaneh.com_8880
