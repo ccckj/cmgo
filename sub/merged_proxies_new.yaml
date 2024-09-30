@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: pendar.onthewifi.com
   path: /@forwardv2ray
-- name: vmess__162.159.140.56_2086
+- name: vmess_US_162.159.140.56_2086
   type: vmess
   server: 162.159.140.56
   port: 2086
@@ -8754,7 +8754,7 @@ proxy-groups:
   - vmess_US_104.19.46.33_2086
   - vmess_US_142.4.108.139_38007
   - vmess_TR_202.78.162.5_443
-  - vmess__162.159.140.56_2086
+  - vmess_US_162.159.140.56_2086
   - vmess__172.64.167.19_2086
   - vmess__104.19.38.88_2086
   - vmess__172.64.167.29_2086
@@ -9315,7 +9315,7 @@ proxy-groups:
   - vmess_US_104.19.46.33_2086
   - vmess_US_142.4.108.139_38007
   - vmess_TR_202.78.162.5_443
-  - vmess__162.159.140.56_2086
+  - vmess_US_162.159.140.56_2086
   - vmess__172.64.167.19_2086
   - vmess__104.19.38.88_2086
   - vmess__172.64.167.29_2086
