@@ -8048,7 +8048,7 @@ proxies:
   flow: ''
   host: ip11.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.167.22_2086
+- name: vmess__172.64.167.22_2086
   type: vmess
   server: 172.64.167.22
   port: 2086
@@ -8058,7 +8058,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.55.49_2086
+- name: vmess__104.19.55.49_2086
   type: vmess
   server: 104.19.55.49
   port: 2086
@@ -8068,7 +8068,7 @@ proxies:
   flow: ''
   host: ip11.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.45.190_2095
+- name: vmess__104.19.45.190_2095
   type: vmess
   server: 104.19.45.190
   port: 2095
@@ -8078,7 +8078,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_104.18.57.111_2086
+- name: vmess__104.18.57.111_2086
   type: vmess
   server: 104.18.57.111
   port: 2086
@@ -8098,7 +8098,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.47.88_2086
+- name: vmess__104.19.47.88_2086
   type: vmess
   server: 104.19.47.88
   port: 2086
@@ -8118,7 +8118,7 @@ proxies:
   flow: ''
   host: ''
   path: /
-- name: vmess_US_104.26.5.67_2086
+- name: vmess__104.26.5.67_2086
   type: vmess
   server: 104.26.5.67
   port: 2086
@@ -8138,7 +8138,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.20.19.168_2086
+- name: vmess__104.20.19.168_2086
   type: vmess
   server: 104.20.19.168
   port: 2086
@@ -8148,7 +8148,7 @@ proxies:
   flow: ''
   host: ip1.1789034.xyz
   path: github.com/Alvin9999
-- name: vmess_US_162.159.140.33_2086
+- name: vmess__162.159.140.33_2086
   type: vmess
   server: 162.159.140.33
   port: 2086
@@ -8188,7 +8188,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_104.19.45.31_2086
+- name: vmess__104.19.45.31_2086
   type: vmess
   server: 104.19.45.31
   port: 2086
@@ -8198,7 +8198,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.166.20_2086
+- name: vmess__172.64.166.20_2086
   type: vmess
   server: 172.64.166.20
   port: 2086
@@ -8208,7 +8208,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.59.89_2086
+- name: vmess__104.19.59.89_2086
   type: vmess
   server: 104.19.59.89
   port: 2086
@@ -8783,23 +8783,23 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.47.27_2086
   - vmess_US_104.19.21.63_2086
-  - vmess_US_172.64.167.22_2086
-  - vmess_US_104.19.55.49_2086
-  - vmess_US_104.19.45.190_2095
-  - vmess_US_104.18.57.111_2086
+  - vmess__172.64.167.22_2086
+  - vmess__104.19.55.49_2086
+  - vmess__104.19.45.190_2095
+  - vmess__104.18.57.111_2086
   - vmess__ip.sb_2086
-  - vmess_US_104.19.47.88_2086
+  - vmess__104.19.47.88_2086
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_US_104.26.5.67_2086
+  - vmess__104.26.5.67_2086
   - vmess__172.67.75.194_2086
-  - vmess_US_104.20.19.168_2086
-  - vmess_US_162.159.140.33_2086
+  - vmess__104.20.19.168_2086
+  - vmess__162.159.140.33_2086
   - vmess__104.19.45.130_2095
   - vmess__104.16.148.244_2086
   - vmess__104.19.45.34_2095
-  - vmess_US_104.19.45.31_2086
-  - vmess_US_172.64.166.20_2086
-  - vmess_US_104.19.59.89_2086
+  - vmess__104.19.45.31_2086
+  - vmess__172.64.166.20_2086
+  - vmess__104.19.59.89_2086
   - vmess__172.67.74.112_2086
   - vmess__singapore.com_2086
 - name: 自动选择
@@ -9347,23 +9347,23 @@ proxy-groups:
   - vmess_US_104.19.143.111_2082
   - vmess_US_104.19.47.27_2086
   - vmess_US_104.19.21.63_2086
-  - vmess_US_172.64.167.22_2086
-  - vmess_US_104.19.55.49_2086
-  - vmess_US_104.19.45.190_2095
-  - vmess_US_104.18.57.111_2086
+  - vmess__172.64.167.22_2086
+  - vmess__104.19.55.49_2086
+  - vmess__104.19.45.190_2095
+  - vmess__104.18.57.111_2086
   - vmess__ip.sb_2086
-  - vmess_US_104.19.47.88_2086
+  - vmess__104.19.47.88_2086
   - vmess__s1c.v2.v001sss.xyz_2082
-  - vmess_US_104.26.5.67_2086
+  - vmess__104.26.5.67_2086
   - vmess__172.67.75.194_2086
-  - vmess_US_104.20.19.168_2086
-  - vmess_US_162.159.140.33_2086
+  - vmess__104.20.19.168_2086
+  - vmess__162.159.140.33_2086
   - vmess__104.19.45.130_2095
   - vmess__104.16.148.244_2086
   - vmess__104.19.45.34_2095
-  - vmess_US_104.19.45.31_2086
-  - vmess_US_172.64.166.20_2086
-  - vmess_US_104.19.59.89_2086
+  - vmess__104.19.45.31_2086
+  - vmess__172.64.166.20_2086
+  - vmess__104.19.59.89_2086
   - vmess__172.67.74.112_2086
   - vmess__singapore.com_2086
 rules:
