@@ -15341,7 +15341,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_151.101.66.219_443
+- name: vmess__151.101.66.219_443
   type: vmess
   server: 151.101.66.219
   port: 443
@@ -15351,7 +15351,7 @@ proxies:
   flow: ''
   host: Dbdjhiw72ebsu272hs519j.com
   path: ws/?ed=2048
-- name: vmess_US_104.18.20.153_80
+- name: vmess__104.18.20.153_80
   type: vmess
   server: 104.18.20.153
   port: 80
@@ -15361,7 +15361,7 @@ proxies:
   flow: ''
   host: 68690907783461163508239105253758.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
   path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- name: vmess_US_104.19.45.70_2095
+- name: vmess__104.19.45.70_2095
   type: vmess
   server: 104.19.45.70
   port: 2095
@@ -15371,7 +15371,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_TR_202.78.162.5_443
+- name: vmess__202.78.162.5_443
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -15381,7 +15381,7 @@ proxies:
   flow: ''
   host: pendar.onthewifi.com
   path: /@forwardv2ray
-- name: vmess_US_104.16.67.38_2086
+- name: vmess__104.16.67.38_2086
   type: vmess
   server: 104.16.67.38
   port: 2086
@@ -15391,7 +15391,7 @@ proxies:
   flow: ''
   host: hyfhhg.jadovah977.workers.dev
   path: /jahfkjha.cfd/linkws
-- name: vmess_US_172.64.167.25_2086
+- name: vmess__172.64.167.25_2086
   type: vmess
   server: 172.64.167.25
   port: 2086
@@ -15401,7 +15401,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.166.32_2086
+- name: vmess__172.64.166.32_2086
   type: vmess
   server: 172.64.166.32
   port: 2086
@@ -15411,7 +15411,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.19.45.36_2095
+- name: vmess__104.19.45.36_2095
   type: vmess
   server: 104.19.45.36
   port: 2095
@@ -15421,7 +15421,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_104.19.45.80_2095
+- name: vmess__104.19.45.80_2095
   type: vmess
   server: 104.19.45.80
   port: 2095
@@ -15431,7 +15431,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_172.64.167.15_2086
+- name: vmess__172.64.167.15_2086
   type: vmess
   server: 172.64.167.15
   port: 2086
@@ -15441,7 +15441,7 @@ proxies:
   flow: ''
   host: ip2.1457230.xyz
   path: github.com/Alvin9999
-- name: vmess_CA_23.162.200.227_443
+- name: vmess__23.162.200.227_443
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -15451,7 +15451,7 @@ proxies:
   flow: ''
   host: ''
   path: /linkvws
-- name: vmess_US_104.19.45.166_2095
+- name: vmess__104.19.45.166_2095
   type: vmess
   server: 104.19.45.166
   port: 2095
@@ -15461,7 +15461,7 @@ proxies:
   flow: ''
   host: onea.flha.ru
   path: /
-- name: vmess_US_162.159.136.106_80
+- name: vmess__162.159.136.106_80
   type: vmess
   server: 162.159.136.106
   port: 80
@@ -15471,7 +15471,7 @@ proxies:
   flow: ''
   host: rn2.hostmjj.com
   path: /
-- name: vmess_CA_23.162.200.94_443
+- name: vmess__23.162.200.94_443
   type: vmess
   server: 23.162.200.94
   port: 443
@@ -15481,7 +15481,7 @@ proxies:
   flow: ''
   host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   path: /linkvws
-- name: vmess_US_104.19.45.19_2086
+- name: vmess__104.19.45.19_2086
   type: vmess
   server: 104.19.45.19
   port: 2086
@@ -15491,7 +15491,7 @@ proxies:
   flow: ''
   host: ip13.freegradely.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.18.14.19_2086
+- name: vmess__104.18.14.19_2086
   type: vmess
   server: 104.18.14.19
   port: 2086
@@ -16576,22 +16576,22 @@ proxy-groups:
   - vmess_US_104.21.238.112_443
   - vmess_US_172.64.166.12_2086
   - vmess_US_104.19.45.14_2095
-  - vmess_US_151.101.66.219_443
-  - vmess_US_104.18.20.153_80
-  - vmess_US_104.19.45.70_2095
-  - vmess_TR_202.78.162.5_443
-  - vmess_US_104.16.67.38_2086
-  - vmess_US_172.64.167.25_2086
-  - vmess_US_172.64.166.32_2086
-  - vmess_US_104.19.45.36_2095
-  - vmess_US_104.19.45.80_2095
-  - vmess_US_172.64.167.15_2086
-  - vmess_CA_23.162.200.227_443
-  - vmess_US_104.19.45.166_2095
-  - vmess_US_162.159.136.106_80
-  - vmess_CA_23.162.200.94_443
-  - vmess_US_104.19.45.19_2086
-  - vmess_US_104.18.14.19_2086
+  - vmess__151.101.66.219_443
+  - vmess__104.18.20.153_80
+  - vmess__104.19.45.70_2095
+  - vmess__202.78.162.5_443
+  - vmess__104.16.67.38_2086
+  - vmess__172.64.167.25_2086
+  - vmess__172.64.166.32_2086
+  - vmess__104.19.45.36_2095
+  - vmess__104.19.45.80_2095
+  - vmess__172.64.167.15_2086
+  - vmess__23.162.200.227_443
+  - vmess__104.19.45.166_2095
+  - vmess__162.159.136.106_80
+  - vmess__23.162.200.94_443
+  - vmess__104.19.45.19_2086
+  - vmess__104.18.14.19_2086
   - vmess__104.19.46.22_2086
   - vmess__104.19.45.114_2095
   - vmess__183.236.51.23_45020
@@ -17622,22 +17622,22 @@ proxy-groups:
   - vmess_US_104.21.238.112_443
   - vmess_US_172.64.166.12_2086
   - vmess_US_104.19.45.14_2095
-  - vmess_US_151.101.66.219_443
-  - vmess_US_104.18.20.153_80
-  - vmess_US_104.19.45.70_2095
-  - vmess_TR_202.78.162.5_443
-  - vmess_US_104.16.67.38_2086
-  - vmess_US_172.64.167.25_2086
-  - vmess_US_172.64.166.32_2086
-  - vmess_US_104.19.45.36_2095
-  - vmess_US_104.19.45.80_2095
-  - vmess_US_172.64.167.15_2086
-  - vmess_CA_23.162.200.227_443
-  - vmess_US_104.19.45.166_2095
-  - vmess_US_162.159.136.106_80
-  - vmess_CA_23.162.200.94_443
-  - vmess_US_104.19.45.19_2086
-  - vmess_US_104.18.14.19_2086
+  - vmess__151.101.66.219_443
+  - vmess__104.18.20.153_80
+  - vmess__104.19.45.70_2095
+  - vmess__202.78.162.5_443
+  - vmess__104.16.67.38_2086
+  - vmess__172.64.167.25_2086
+  - vmess__172.64.166.32_2086
+  - vmess__104.19.45.36_2095
+  - vmess__104.19.45.80_2095
+  - vmess__172.64.167.15_2086
+  - vmess__23.162.200.227_443
+  - vmess__104.19.45.166_2095
+  - vmess__162.159.136.106_80
+  - vmess__23.162.200.94_443
+  - vmess__104.19.45.19_2086
+  - vmess__104.18.14.19_2086
   - vmess__104.19.46.22_2086
   - vmess__104.19.45.114_2095
   - vmess__183.236.51.23_45020
@@ -18668,22 +18668,22 @@ proxy-groups:
   - vmess_US_104.21.238.112_443
   - vmess_US_172.64.166.12_2086
   - vmess_US_104.19.45.14_2095
-  - vmess_US_151.101.66.219_443
-  - vmess_US_104.18.20.153_80
-  - vmess_US_104.19.45.70_2095
-  - vmess_TR_202.78.162.5_443
-  - vmess_US_104.16.67.38_2086
-  - vmess_US_172.64.167.25_2086
-  - vmess_US_172.64.166.32_2086
-  - vmess_US_104.19.45.36_2095
-  - vmess_US_104.19.45.80_2095
-  - vmess_US_172.64.167.15_2086
-  - vmess_CA_23.162.200.227_443
-  - vmess_US_104.19.45.166_2095
-  - vmess_US_162.159.136.106_80
-  - vmess_CA_23.162.200.94_443
-  - vmess_US_104.19.45.19_2086
-  - vmess_US_104.18.14.19_2086
+  - vmess__151.101.66.219_443
+  - vmess__104.18.20.153_80
+  - vmess__104.19.45.70_2095
+  - vmess__202.78.162.5_443
+  - vmess__104.16.67.38_2086
+  - vmess__172.64.167.25_2086
+  - vmess__172.64.166.32_2086
+  - vmess__104.19.45.36_2095
+  - vmess__104.19.45.80_2095
+  - vmess__172.64.167.15_2086
+  - vmess__23.162.200.227_443
+  - vmess__104.19.45.166_2095
+  - vmess__162.159.136.106_80
+  - vmess__23.162.200.94_443
+  - vmess__104.19.45.19_2086
+  - vmess__104.18.14.19_2086
   - vmess__104.19.46.22_2086
   - vmess__104.19.45.114_2095
   - vmess__183.236.51.23_45020
