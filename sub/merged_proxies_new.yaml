@@ -15177,9 +15177,9 @@ proxies:
       Host: ip3.8084726.xyz
 - name: hysteria_0
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -15239,10 +15239,10 @@ proxies:
   fast-open: false
   sni: true
   skip-cert-verify: true
-- name: hy2_US_207.90.239.157:3400
+- name: hy2_US_64.110.25.12:50942
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 64.110.25.12
+  port: 50942
   password: dongtaiwang.com
   fast-open: false
   sni: true
@@ -16534,7 +16534,7 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_207.90.239.157:3400
-  - hy2_US_207.90.239.157:3400
+  - hy2_US_64.110.25.12:50942
   - hy2_US_207.90.239.157:3400
   - hy2_US_207.90.239.157:3400
   - vmess_US_104.21.238.35_443
@@ -17583,7 +17583,7 @@ proxy-groups:
   - hysteria_2
   - hysteria_3
   - hy2_US_207.90.239.157:3400
-  - hy2_US_207.90.239.157:3400
+  - hy2_US_64.110.25.12:50942
   - hy2_US_207.90.239.157:3400
   - hy2_US_207.90.239.157:3400
   - vmess_US_104.21.238.35_443
