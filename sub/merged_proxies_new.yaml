@@ -9255,7 +9255,7 @@ proxies:
   network: ws
   tls: none
   flow: ''
-  host: ip10.9447609.xyz
+  host: ip11.9447609.xyz
   path: github.com/Alvin9999
 - name: vmess_US_104.21.238.37_2086
   type: vmess
@@ -9265,7 +9265,7 @@ proxies:
   network: ws
   tls: none
   flow: ''
-  host: ip10.9447609.xyz
+  host: ip11.9447609.xyz
   path: github.com/Alvin9999
 - name: vmess_CN_120.232.153.40_35601
   type: vmess
@@ -9307,7 +9307,7 @@ proxies:
   flow: ''
   host: ip2.8084726.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.16.67.38_443
+- name: vmess__104.16.67.38_443
   type: vmess
   server: 104.16.67.38
   port: 443
@@ -10067,7 +10067,7 @@ proxy-groups:
   - vmess_US_172.66.168.173_80
   - vmess__www.visa.com_2095
   - vmess_US_104.26.5.90_2095
-  - vmess_US_104.16.67.38_443
+  - vmess__104.16.67.38_443
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__120.232.153.71_43526
   - vmess__hytron.io_8080
@@ -10710,7 +10710,7 @@ proxy-groups:
   - vmess_US_172.66.168.173_80
   - vmess__www.visa.com_2095
   - vmess_US_104.26.5.90_2095
-  - vmess_US_104.16.67.38_443
+  - vmess__104.16.67.38_443
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__120.232.153.71_43526
   - vmess__hytron.io_8080
