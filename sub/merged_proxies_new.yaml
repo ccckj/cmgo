@@ -9159,6 +9159,18 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: shadowtls_1
+  type: ss
+  server: 91.149.239.23
+  port: 34567
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8=
+  plugin: shadow-tls
+  client-fingerprint: chrome
+  plugin-opts:
+    host: nijigen-works.jp
+    password: YEudERP9ZstwNZpOWytH3Ds4sSEgj8GVZk7OQEGDEpo=
+    version: 3
 - name: hysteria_0
   type: hysteria
   server: 46.17.43.223
@@ -9257,19 +9269,9 @@ proxies:
   flow: ''
   host: ip12.9447609.xyz
   path: github.com/Alvin9999
-- name: vmess_US_162.159.140.19_2095
+- name: vmess_US_162.159.140.93_2082
   type: vmess
-  server: 162.159.140.19
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.6016725.xyz
-  path: github.com/Alvin9999
-- name: vmess_US_162.159.140.91_2082
-  type: vmess
-  server: 162.159.140.91
+  server: 162.159.140.93
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   network: ws
@@ -9277,16 +9279,16 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess__cf.877771.xyz_80
+- name: vmess_US_104.26.5.90_2095
   type: vmess
-  server: cf.877771.xyz
-  port: 80
-  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+  server: 104.26.5.90
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
   network: ws
   tls: none
   flow: ''
-  host: 33.bycf.us.kg
-  path: /rongseven?ed=2048
+  host: ip2.8084726.xyz
+  path: github.com/Alvin9999
 - name: vmess__www.visa.com_2095
   type: vmess
   server: www.visa.com
@@ -9297,16 +9299,6 @@ proxies:
   flow: ''
   host: ip2.8084726.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
 - name: vmess__z3.fragranceninja.com_12960
   type: vmess
   server: z3.fragranceninja.com
@@ -9317,9 +9309,9 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__172.64.198.249_2082
+- name: vmess_US_162.159.140.91_2082
   type: vmess
-  server: 172.64.198.249
+  server: 162.159.140.91
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   network: ws
@@ -9327,26 +9319,16 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess__go.alipay.ovh_80
+- name: vmess__server31.beheshtbaneh.com_8880
   type: vmess
-  server: go.alipay.ovh
-  port: 80
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  server: server31.beheshtbaneh.com
+  port: 8880
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
   network: ws
   tls: none
   flow: ''
-  host: open.alipay.ovh
-  path: /aries?ed=2048
-- name: vmess__104.16.67.38_443
-  type: vmess
-  server: 104.16.67.38
-  port: 443
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  network: ws
-  tls: tls
-  flow: ''
-  host: us3e-mmnnfr9dop0.v2freevpn.com
-  path: /v118-fccxmxm35
+  host: server31.beheshtbaneh.com
+  path: /
 - name: vmess__hytron.io_8080
   type: vmess
   server: hytron.io
@@ -9367,26 +9349,6 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__202.78.162.5_443
-  type: vmess
-  server: 202.78.162.5
-  port: 443
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  network: ws
-  tls: tls
-  flow: ''
-  host: pendar.onthewifi.com
-  path: /@forwardv2ray
-- name: vmess__162.159.140.93_2082
-  type: vmess
-  server: 162.159.140.93
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  network: ws
-  tls: none
-  flow: ''
-  host: ip3.6929198.xyz
-  path: github.com/Alvin9999
 - name: vmess__120.232.153.71_43526
   type: vmess
   server: 120.232.153.71
@@ -9397,36 +9359,6 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__188.166.96.150_1010
-  type: vmess
-  server: 188.166.96.150
-  port: 1010
-  uuid: 09e3fef1-3136-41a9-9531-6ea36482dea1
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__104.19.45.17_2082
-  type: vmess
-  server: 104.19.45.17
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  network: ws
-  tls: none
-  flow: ''
-  host: ip3.6929198.xyz
-  path: github.com/Alvin9999
-- name: vmess__104.19.45.50_2095
-  type: vmess
-  server: 104.19.45.50
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.6016725.xyz
-  path: github.com/Alvin9999
 - name: vmess__www.darkroom.lol_8080
   type: vmess
   server: www.darkroom.lol
@@ -9436,6 +9368,66 @@ proxies:
   tls: none
   flow: ''
   host: www.darkroom.lol
+  path: /
+- name: vmess__120.232.153.40_43526
+  type: vmess
+  server: 120.232.153.40
+  port: 43526
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__202.78.162.5_443
+  type: vmess
+  server: 202.78.162.5
+  port: 443
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  network: ws
+  tls: tls
+  flow: ''
+  host: irsoft.sytes.net
+  path: /@forwardv2ray
+- name: vmess__data-us-v1.shwjfkw.cn_20401
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  network: ws
+  tls: none
+  flow: ''
+  host: data-us-v1.shwjfkw.cn
+  path: /debian
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__gov.uk_443
+  type: vmess
+  server: gov.uk
+  port: 443
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  network: ws
+  tls: tls
+  flow: ''
+  host: zheshiscp.com
+  path: /77848824
+- name: vmess__server32.beheshtbaneh.com_8880
+  type: vmess
+  server: server32.beheshtbaneh.com
+  port: 8880
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  network: ws
+  tls: none
+  flow: ''
+  host: server32.beheshtbaneh.com
   path: /
 proxy-groups:
 - name: 节点选择
@@ -10053,6 +10045,7 @@ proxy-groups:
   - hysteria_46.29.166.206:100
   - hysteria_46.29.166.206:100
   - hysteria_46.29.166.206:100
+  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -10062,24 +10055,22 @@ proxy-groups:
   - hy2_RU_185.22.152.93:33713
   - hy2_RU_185.22.152.93:33713
   - vmess_US_104.21.238.36_2086
-  - vmess_US_162.159.140.19_2095
-  - vmess_US_162.159.140.91_2082
-  - vmess__cf.877771.xyz_80
+  - vmess_US_162.159.140.93_2082
+  - vmess_US_104.26.5.90_2095
   - vmess__www.visa.com_2095
-  - vmess_US_104.21.82.183_8880
   - vmess__z3.fragranceninja.com_12960
-  - vmess__172.64.198.249_2082
-  - vmess__go.alipay.ovh_80
-  - vmess__104.16.67.38_443
+  - vmess_US_162.159.140.91_2082
+  - vmess__server31.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
-  - vmess__162.159.140.93_2082
   - vmess__120.232.153.71_43526
-  - vmess__188.166.96.150_1010
-  - vmess__104.19.45.17_2082
-  - vmess__104.19.45.50_2095
   - vmess__www.darkroom.lol_8080
+  - vmess__120.232.153.40_43526
+  - vmess__202.78.162.5_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.82.183_8880
+  - vmess__gov.uk_443
+  - vmess__server32.beheshtbaneh.com_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -10696,6 +10687,7 @@ proxy-groups:
   - hysteria_46.29.166.206:100
   - hysteria_46.29.166.206:100
   - hysteria_46.29.166.206:100
+  - shadowtls_1
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -10705,24 +10697,22 @@ proxy-groups:
   - hy2_RU_185.22.152.93:33713
   - hy2_RU_185.22.152.93:33713
   - vmess_US_104.21.238.36_2086
-  - vmess_US_162.159.140.19_2095
-  - vmess_US_162.159.140.91_2082
-  - vmess__cf.877771.xyz_80
+  - vmess_US_162.159.140.93_2082
+  - vmess_US_104.26.5.90_2095
   - vmess__www.visa.com_2095
-  - vmess_US_104.21.82.183_8880
   - vmess__z3.fragranceninja.com_12960
-  - vmess__172.64.198.249_2082
-  - vmess__go.alipay.ovh_80
-  - vmess__104.16.67.38_443
+  - vmess_US_162.159.140.91_2082
+  - vmess__server31.beheshtbaneh.com_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
-  - vmess__162.159.140.93_2082
   - vmess__120.232.153.71_43526
-  - vmess__188.166.96.150_1010
-  - vmess__104.19.45.17_2082
-  - vmess__104.19.45.50_2095
   - vmess__www.darkroom.lol_8080
+  - vmess__120.232.153.40_43526
+  - vmess__202.78.162.5_443
+  - vmess__data-us-v1.shwjfkw.cn_20401
+  - vmess__104.21.82.183_8880
+  - vmess__gov.uk_443
+  - vmess__server32.beheshtbaneh.com_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
