@@ -9337,7 +9337,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_104.21.82.183_8880
+- name: vmess__104.21.82.183_8880
   type: vmess
   server: 104.21.82.183
   port: 8880
@@ -10073,7 +10073,7 @@ proxy-groups:
   - vmess_TR_202.78.162.5_443
   - vmess_US_162.159.140.19_2095
   - vmess_CN_120.232.153.40_35601
-  - vmess_US_104.21.82.183_8880
+  - vmess__104.21.82.183_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__gov.uk_443
@@ -10710,7 +10710,7 @@ proxy-groups:
   - vmess_TR_202.78.162.5_443
   - vmess_US_162.159.140.19_2095
   - vmess_CN_120.232.153.40_35601
-  - vmess_US_104.21.82.183_8880
+  - vmess__104.21.82.183_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__gov.uk_443
@@ -11347,7 +11347,7 @@ proxy-groups:
   - vmess_TR_202.78.162.5_443
   - vmess_US_162.159.140.19_2095
   - vmess_CN_120.232.153.40_35601
-  - vmess_US_104.21.82.183_8880
+  - vmess__104.21.82.183_8880
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
   - vmess__gov.uk_443
