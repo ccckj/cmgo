@@ -9115,50 +9115,62 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip15.6929198.xyz
-- name: hysteria_46.29.166.206:100
-  type: hysteria
+- name: vless_46.29.166.206:400
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_46.29.166.206:100
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_46.29.166.206:400
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_46.29.166.206:100
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_46.29.166.206:400
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
-- name: hysteria_46.29.166.206:100
-  type: hysteria
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
+- name: vless_46.29.166.206:400
+  type: vless
   server: 46.29.166.206
-  port: 100
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
+  port: 400
+  uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.paypal.com
+  reality-opts:
+    public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+    short-id: ''
+  client-fingerprint: chrome
 - name: shadowtls_1
   type: ss
   server: 91.149.239.23
@@ -9173,9 +9185,9 @@ proxies:
     version: 3
 - name: hysteria_0
   type: hysteria
-  server: 46.17.43.223
-  port: 12311
-  ports: 12311
+  server: 62.210.8.63
+  port: 2345
+  ports: 2345
   auth_str: dongtaiwang.com
   up: 80
   down: 100
@@ -9459,16 +9471,46 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess__104.26.5.90_2095
+- name: vmess__104.19.45.17_2082
   type: vmess
-  server: 104.26.5.90
-  port: 2095
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  server: 104.19.45.17
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   network: ws
   tls: none
   flow: ''
-  host: ip2.8084726.xyz
+  host: ip3.6929198.xyz
   path: github.com/Alvin9999
+- name: vmess__104.21.82.183_8880
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  network: ws
+  tls: none
+  flow: ''
+  host: server26.beheshtbaneh.com
+  path: /
+- name: vmess__cf.877771.xyz_80
+  type: vmess
+  server: cf.877771.xyz
+  port: 80
+  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+  network: ws
+  tls: none
+  flow: ''
+  host: 33.bycf.us.kg
+  path: /rongseven?ed=2048
+- name: vmess__172.66.168.173_80
+  type: vmess
+  server: 172.66.168.173
+  port: 80
+  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
+  network: ws
+  tls: none
+  flow: ''
+  host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+  path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - name: vmess__188.166.96.150_1010
   type: vmess
   server: 188.166.96.150
@@ -9489,26 +9531,6 @@ proxies:
   flow: ''
   host: data-us-v1.shwjfkw.cn
   path: /debian
-- name: vmess__104.21.82.183_8880
-  type: vmess
-  server: 104.21.82.183
-  port: 8880
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  network: ws
-  tls: none
-  flow: ''
-  host: server26.beheshtbaneh.com
-  path: /
-- name: vmess__server32.beheshtbaneh.com_8880
-  type: vmess
-  server: server32.beheshtbaneh.com
-  port: 8880
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  network: ws
-  tls: none
-  flow: ''
-  host: server32.beheshtbaneh.com
-  path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -10121,10 +10143,10 @@ proxy-groups:
   - vmess_singapore.com:2082
   - vmess_skk.moe:2082
   - vmess_www.visa.com:2082
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -10154,11 +10176,12 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__104.19.58.175_2095
   - vmess__162.159.140.93_2082
-  - vmess__104.26.5.90_2095
+  - vmess__104.19.45.17_2082
+  - vmess__104.21.82.183_8880
+  - vmess__cf.877771.xyz_80
+  - vmess__172.66.168.173_80
   - vmess__188.166.96.150_1010
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.82.183_8880
-  - vmess__server32.beheshtbaneh.com_8880
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -10771,10 +10794,10 @@ proxy-groups:
   - vmess_singapore.com:2082
   - vmess_skk.moe:2082
   - vmess_www.visa.com:2082
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
-  - hysteria_46.29.166.206:100
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
+  - vless_46.29.166.206:400
   - shadowtls_1
   - hysteria_0
   - hysteria_1
@@ -10804,11 +10827,12 @@ proxy-groups:
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__104.19.58.175_2095
   - vmess__162.159.140.93_2082
-  - vmess__104.26.5.90_2095
+  - vmess__104.19.45.17_2082
+  - vmess__104.21.82.183_8880
+  - vmess__cf.877771.xyz_80
+  - vmess__172.66.168.173_80
   - vmess__188.166.96.150_1010
   - vmess__data-us-v1.shwjfkw.cn_20401
-  - vmess__104.21.82.183_8880
-  - vmess__server32.beheshtbaneh.com_8880
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
