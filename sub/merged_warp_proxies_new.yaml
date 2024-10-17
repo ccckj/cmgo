@@ -9479,16 +9479,46 @@ proxies:
   flow: ''
   host: server32.beheshtbaneh.com
   path: /
-- name: vmess__104.16.67.38_443
+- name: vmess__104.19.45.166_2095
   type: vmess
-  server: 104.16.67.38
-  port: 443
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  server: 104.19.45.166
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   network: ws
-  tls: tls
+  tls: none
   flow: ''
-  host: us3e-mmnnfr9dop0.v2freevpn.com
-  path: /v118-fccxmxm35
+  host: onea.flha.ru
+  path: /
+- name: vmess__104.20.25.146_2082
+  type: vmess
+  server: 104.20.25.146
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.99.22_2095
+  type: vmess
+  server: 172.64.99.22
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.8084726.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.167.22_2082
+  type: vmess
+  server: 172.64.167.22
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
 - name: vmess__cf.877771.xyz_80
   type: vmess
   server: cf.877771.xyz
@@ -9499,6 +9529,126 @@ proxies:
   flow: ''
   host: 33.bycf.us.kg
   path: /rongseven?ed=2048
+- name: vmess__162.159.140.33_2095
+  type: vmess
+  server: 162.159.140.33
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.21.80.180_80
+  type: vmess
+  server: 104.21.80.180
+  port: 80
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  network: ws
+  tls: none
+  flow: ''
+  host: jp02.knt6y4bjx.buzz
+  path: /
+- name: vmess__104.19.45.50_2095
+  type: vmess
+  server: 104.19.45.50
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.8084726.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.19.45.19_2082
+  type: vmess
+  server: 104.19.45.19
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.175.88_2095
+  type: vmess
+  server: 172.64.175.88
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.26.5.112_2095
+  type: vmess
+  server: 104.26.5.112
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.19.45.17_2082
+  type: vmess
+  server: 104.19.45.17
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__cold-dawn-9246.fly.dev_443
+  type: vmess
+  server: cold-dawn-9246.fly.dev
+  port: 443
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  network: ws
+  tls: tls
+  flow: ''
+  host: ''
+  path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- name: vmess__104.20.17.186_2095
+  type: vmess
+  server: 104.20.17.186
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.166.33_2082
+  type: vmess
+  server: 172.64.166.33
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.19.38.11_2082
+  type: vmess
+  server: 104.19.38.11
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip6.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.26.5.145_2095
+  type: vmess
+  server: 104.26.5.145
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.8084726.xyz
+  path: github.com/Alvin9999
 proxy-groups:
 - name: 节点选择
   type: select
@@ -10158,8 +10308,23 @@ proxy-groups:
   - vmess__104.21.82.183_8880
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.16.67.38_443
+  - vmess__104.19.45.166_2095
+  - vmess__104.20.25.146_2082
+  - vmess__172.64.99.22_2095
+  - vmess__172.64.167.22_2082
   - vmess__cf.877771.xyz_80
+  - vmess__162.159.140.33_2095
+  - vmess__104.21.80.180_80
+  - vmess__104.19.45.50_2095
+  - vmess__104.19.45.19_2082
+  - vmess__172.64.175.88_2095
+  - vmess__104.26.5.112_2095
+  - vmess__104.19.45.17_2082
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__104.20.17.186_2095
+  - vmess__172.64.166.33_2082
+  - vmess__104.19.38.11_2082
+  - vmess__104.26.5.145_2095
 - name: 手动选择
   type: select
   proxies:
@@ -10801,8 +10966,23 @@ proxy-groups:
   - vmess__104.21.82.183_8880
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.16.67.38_443
+  - vmess__104.19.45.166_2095
+  - vmess__104.20.25.146_2082
+  - vmess__172.64.99.22_2095
+  - vmess__172.64.167.22_2082
   - vmess__cf.877771.xyz_80
+  - vmess__162.159.140.33_2095
+  - vmess__104.21.80.180_80
+  - vmess__104.19.45.50_2095
+  - vmess__104.19.45.19_2082
+  - vmess__172.64.175.88_2095
+  - vmess__104.26.5.112_2095
+  - vmess__104.19.45.17_2082
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__104.20.17.186_2095
+  - vmess__172.64.166.33_2082
+  - vmess__104.19.38.11_2082
+  - vmess__104.26.5.145_2095
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -11444,8 +11624,23 @@ proxy-groups:
   - vmess__104.21.82.183_8880
   - vmess__gov.uk_443
   - vmess__server32.beheshtbaneh.com_8880
-  - vmess__104.16.67.38_443
+  - vmess__104.19.45.166_2095
+  - vmess__104.20.25.146_2082
+  - vmess__172.64.99.22_2095
+  - vmess__172.64.167.22_2082
   - vmess__cf.877771.xyz_80
+  - vmess__162.159.140.33_2095
+  - vmess__104.21.80.180_80
+  - vmess__104.19.45.50_2095
+  - vmess__104.19.45.19_2082
+  - vmess__172.64.175.88_2095
+  - vmess__104.26.5.112_2095
+  - vmess__104.19.45.17_2082
+  - vmess__cold-dawn-9246.fly.dev_443
+  - vmess__104.20.17.186_2095
+  - vmess__172.64.166.33_2082
+  - vmess__104.19.38.11_2082
+  - vmess__104.26.5.145_2095
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
