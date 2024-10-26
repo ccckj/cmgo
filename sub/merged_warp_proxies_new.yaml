@@ -3577,7 +3577,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -3587,7 +3587,7 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
-- name: vmess__202.78.162.5_443
+- name: vmess_TR_202.78.162.5_443
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -3995,8 +3995,8 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.21.82.183_8880
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
+  - vmess_GB_172.99.190.109_443
+  - vmess_TR_202.78.162.5_443
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
@@ -4251,8 +4251,8 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.21.82.183_8880
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
+  - vmess_GB_172.99.190.109_443
+  - vmess_TR_202.78.162.5_443
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
@@ -4507,8 +4507,8 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.21.82.183_8880
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
-  - vmess__202.78.162.5_443
+  - vmess_GB_172.99.190.109_443
+  - vmess_TR_202.78.162.5_443
   - vmess__www.darkroom.lol_8080
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
