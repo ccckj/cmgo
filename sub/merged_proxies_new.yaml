@@ -3749,9 +3749,9 @@ proxies:
   flow: ''
   host: ip2.6016725.xyz
   path: github.com/Alvin9999
-- name: vmess__172.64.167.25_2095
+- name: vmess__104.19.45.31_2095
   type: vmess
-  server: 172.64.167.25
+  server: 104.19.45.31
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   network: ws
@@ -3759,29 +3759,19 @@ proxies:
   flow: ''
   host: ip2.6016725.xyz
   path: github.com/Alvin9999
-- name: vmess__23.227.38.3_2095
-  type: vmess
-  server: 23.227.38.3
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  network: ws
-  tls: none
-  flow: ''
-  host: ip2.6016725.xyz
-  path: github.com/Alvin9999
-- name: vmess__www.darkroom.lol_8080
-  type: vmess
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  network: ws
-  tls: none
-  flow: ''
-  host: www.darkroom.lol
-  path: /
-- name: vmess__172.64.166.28_2082
+- name: vmess__172.64.166.28_2095
   type: vmess
   server: 172.64.166.28
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.166.22_2082
+  type: vmess
+  server: 172.64.166.22
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   network: ws
@@ -3789,71 +3779,11 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess__gov.uk_443
+- name: vmess__61.120.9.18_43720
   type: vmess
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  network: ws
-  tls: tls
-  flow: ''
-  host: zheshiscp.com
-  path: /77848824
-- name: vmess__51.77.20.132_443
-  type: vmess
-  server: 51.77.20.132
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: a.baradiha.com
-  path: /linkvws
-- name: vmess__04.kccic2pa.xyz_50004
-  type: vmess
-  server: 04.kccic2pa.xyz
-  port: 50004
-  uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__skk.moe_2082
-  type: vmess
-  server: skk.moe
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  network: ws
-  tls: none
-  flow: ''
-  host: ip3.6929198.xyz
-  path: github.com/Alvin9999
-- name: vmess__masjidd.homes_443
-  type: vmess
-  server: masjidd.homes
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  network: ws
-  tls: tls
-  flow: ''
-  host: masjidd.homes
-  path: linkvws
-- name: vmess__104.19.55.49_2082
-  type: vmess
-  server: 104.19.55.49
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  network: ws
-  tls: none
-  flow: ''
-  host: ip3.6929198.xyz
-  path: github.com/Alvin9999
-- name: vmess__15086.kuaiyin02.top_15086
-  type: vmess
-  server: 15086.kuaiyin02.top
-  port: 15086
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  server: 61.120.9.18
+  port: 43720
+  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
   network: tcp
   tls: none
   flow: ''
@@ -3869,45 +3799,35 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess__jannah.homes_443
+- name: vmess__japan.com_2095
   type: vmess
-  server: jannah.homes
+  server: japan.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__23.158.56.81_443
+  type: vmess
+  server: 23.158.56.81
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   network: ws
   tls: tls
   flow: ''
-  host: jannah.homes
+  host: 23.158.56.81
   path: linkvws
-- name: vmess__61.120.9.18_43720
+- name: vmess__104.26.5.90_2095
   type: vmess
-  server: 61.120.9.18
-  port: 43720
-  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-  network: tcp
-  tls: none
-  flow: ''
-  host: ''
-  path: ''
-- name: vmess__japan.com_2082
-  type: vmess
-  server: japan.com
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  server: 104.26.5.90
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   network: ws
   tls: none
   flow: ''
-  host: ip3.6929198.xyz
-  path: github.com/Alvin9999
-- name: vmess__172.64.175.213_2082
-  type: vmess
-  server: 172.64.175.213
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  network: ws
-  tls: none
-  flow: ''
-  host: ip3.6929198.xyz
+  host: ip2.6016725.xyz
   path: github.com/Alvin9999
 - name: vmess__23.157.88.33_443
   type: vmess
@@ -3919,6 +3839,106 @@ proxies:
   flow: ''
   host: 23.157.88.33
   path: linkvws
+- name: vmess__23.158.56.39_443
+  type: vmess
+  server: 23.158.56.39
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: 23.158.56.39
+  path: linkvws
+- name: vmess__172.64.167.5_2095
+  type: vmess
+  server: 172.64.167.5
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__www.visa.com_2082
+  type: vmess
+  server: www.visa.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip16.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__ip.sb_2082
+  type: vmess
+  server: ip.sb
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.19.45.42_2082
+  type: vmess
+  server: 104.19.45.42
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__russia.com_2082
+  type: vmess
+  server: russia.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__d.ritchier.info_443
+  type: vmess
+  server: d.ritchier.info
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  network: ws
+  tls: tls
+  flow: ''
+  host: d.ritchier.info
+  path: linkvws
+- name: vmess__172.64.198.249_2082
+  type: vmess
+  server: 172.64.198.249
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip3.6929198.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.26.5.88_2095
+  type: vmess
+  server: 104.26.5.88
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
+- name: vmess__172.64.194.76_2095
+  type: vmess
+  server: 172.64.194.76
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip2.6016725.xyz
+  path: github.com/Alvin9999
 proxy-groups:
 - name: 节点选择
   type: select
@@ -4181,23 +4201,25 @@ proxy-groups:
   - vmess__172.67.181.241_443
   - vmess__120.237.79.157_46665
   - vmess__104.19.45.47_2095
-  - vmess__172.64.167.25_2095
-  - vmess__23.227.38.3_2095
-  - vmess__www.darkroom.lol_8080
-  - vmess__172.64.166.28_2082
-  - vmess__gov.uk_443
-  - vmess__51.77.20.132_443
-  - vmess__04.kccic2pa.xyz_50004
-  - vmess__skk.moe_2082
-  - vmess__masjidd.homes_443
-  - vmess__104.19.55.49_2082
-  - vmess__15086.kuaiyin02.top_15086
-  - vmess__120.232.153.71_43526
-  - vmess__jannah.homes_443
+  - vmess__104.19.45.31_2095
+  - vmess__172.64.166.28_2095
+  - vmess__172.64.166.22_2082
   - vmess__61.120.9.18_43720
-  - vmess__japan.com_2082
-  - vmess__172.64.175.213_2082
+  - vmess__120.232.153.71_43526
+  - vmess__japan.com_2095
+  - vmess__23.158.56.81_443
+  - vmess__104.26.5.90_2095
   - vmess__23.157.88.33_443
+  - vmess__23.158.56.39_443
+  - vmess__172.64.167.5_2095
+  - vmess__www.visa.com_2082
+  - vmess__ip.sb_2082
+  - vmess__104.19.45.42_2082
+  - vmess__russia.com_2082
+  - vmess__d.ritchier.info_443
+  - vmess__172.64.198.249_2082
+  - vmess__104.26.5.88_2095
+  - vmess__172.64.194.76_2095
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4460,23 +4482,25 @@ proxy-groups:
   - vmess__172.67.181.241_443
   - vmess__120.237.79.157_46665
   - vmess__104.19.45.47_2095
-  - vmess__172.64.167.25_2095
-  - vmess__23.227.38.3_2095
-  - vmess__www.darkroom.lol_8080
-  - vmess__172.64.166.28_2082
-  - vmess__gov.uk_443
-  - vmess__51.77.20.132_443
-  - vmess__04.kccic2pa.xyz_50004
-  - vmess__skk.moe_2082
-  - vmess__masjidd.homes_443
-  - vmess__104.19.55.49_2082
-  - vmess__15086.kuaiyin02.top_15086
-  - vmess__120.232.153.71_43526
-  - vmess__jannah.homes_443
+  - vmess__104.19.45.31_2095
+  - vmess__172.64.166.28_2095
+  - vmess__172.64.166.22_2082
   - vmess__61.120.9.18_43720
-  - vmess__japan.com_2082
-  - vmess__172.64.175.213_2082
+  - vmess__120.232.153.71_43526
+  - vmess__japan.com_2095
+  - vmess__23.158.56.81_443
+  - vmess__104.26.5.90_2095
   - vmess__23.157.88.33_443
+  - vmess__23.158.56.39_443
+  - vmess__172.64.167.5_2095
+  - vmess__www.visa.com_2082
+  - vmess__ip.sb_2082
+  - vmess__104.19.45.42_2082
+  - vmess__russia.com_2082
+  - vmess__d.ritchier.info_443
+  - vmess__172.64.198.249_2082
+  - vmess__104.26.5.88_2095
+  - vmess__172.64.194.76_2095
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
