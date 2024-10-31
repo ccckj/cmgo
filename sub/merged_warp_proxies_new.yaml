@@ -3597,7 +3597,7 @@ proxies:
   flow: ''
   host: hytron.io
   path: /
-- name: vmess__172.99.190.109_443
+- name: vmess_GB_172.99.190.109_443
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -3697,6 +3697,16 @@ proxies:
   flow: ''
   host: ury-unit-c030ehei8.poget71138.workers.dev
   path: /ivideos.sbs/linkws
+- name: vmess__112.132.215.12_50002
+  type: vmess
+  server: 112.132.215.12
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -3957,7 +3967,7 @@ proxy-groups:
   - vmess_US_104.21.82.183_8880
   - vmess__www.darkroom.lol_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__gov.uk_443
@@ -3967,6 +3977,7 @@ proxy-groups:
   - vmess__47.92.152.169_50002
   - vmess__104.20.17.186_2082
   - vmess__104.16.61.8_2082
+  - vmess__112.132.215.12_50002
 - name: 手动选择
   type: select
   proxies:
@@ -4209,7 +4220,7 @@ proxy-groups:
   - vmess_US_104.21.82.183_8880
   - vmess__www.darkroom.lol_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__gov.uk_443
@@ -4219,6 +4230,7 @@ proxy-groups:
   - vmess__47.92.152.169_50002
   - vmess__104.20.17.186_2082
   - vmess__104.16.61.8_2082
+  - vmess__112.132.215.12_50002
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -4461,7 +4473,7 @@ proxy-groups:
   - vmess_US_104.21.82.183_8880
   - vmess__www.darkroom.lol_8080
   - vmess__hytron.io_8080
-  - vmess__172.99.190.109_443
+  - vmess_GB_172.99.190.109_443
   - vmess__server31.beheshtbaneh.com_8880
   - vmess__data-us-v1.shwjfkw.cn_20401
   - vmess__gov.uk_443
@@ -4471,6 +4483,7 @@ proxy-groups:
   - vmess__47.92.152.169_50002
   - vmess__104.20.17.186_2082
   - vmess__104.16.61.8_2082
+  - vmess__112.132.215.12_50002
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
