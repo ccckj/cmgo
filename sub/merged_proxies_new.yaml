@@ -3559,7 +3559,7 @@ proxies:
   flow: ''
   host: ''
   path: ''
-- name: vmess_US_162.159.140.89_2082
+- name: vmess__162.159.140.89_2082
   type: vmess
   server: 162.159.140.89
   port: 2082
@@ -3569,7 +3569,7 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.21.13.125_443
+- name: vmess__104.21.13.125_443
   type: vmess
   server: 104.21.13.125
   port: 443
@@ -3579,7 +3579,7 @@ proxies:
   flow: ''
   host: afrhms16v.bestxray.buzz
   path: /linkws
-- name: vmess_CA_23.162.200.227_443
+- name: vmess__23.162.200.227_443
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -3729,6 +3729,146 @@ proxies:
   flow: ''
   host: ''
   path: linkvws
+- name: vmess__japan.com_2082
+  type: vmess
+  server: japan.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip16.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.166.2_2082
+  type: vmess
+  server: 172.64.166.2
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip18.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.167.44_2082
+  type: vmess
+  server: 172.64.167.44
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip16.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.167.15_2082
+  type: vmess
+  server: 172.64.167.15
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip16.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.99.22_2095
+  type: vmess
+  server: 172.64.99.22
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip12.6016725.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.167.29_2095
+  type: vmess
+  server: 172.64.167.29
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  network: ws
+  tls: none
+  flow: ''
+  host: ip11.6016725.xyz
+  path: /github.com/Alvin9999
+- name: vmess__172.64.166.22_2082
+  type: vmess
+  server: 172.64.166.22
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  network: ws
+  tls: none
+  flow: ''
+  host: ip16.6929198.xyz
+  path: /github.com/Alvin9999
+- name: vmess__185.231.181.46_443
+  type: vmess
+  server: 185.231.181.46
+  port: 443
+  uuid: 95a69849-23c4-4669-91ed-cec32ad1341c
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__104.21.238.200_8443
+  type: vmess
+  server: 104.21.238.200
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  network: ws
+  tls: tls
+  flow: ''
+  host: http1.9290254.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.21.238.201_8443
+  type: vmess
+  server: 104.21.238.201
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  network: ws
+  tls: tls
+  flow: ''
+  host: http1.9290254.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.21.238.202_8443
+  type: vmess
+  server: 104.21.238.202
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  network: ws
+  tls: tls
+  flow: ''
+  host: http1.9290254.xyz
+  path: github.com/Alvin9999
+- name: vmess__104.21.238.203_8443
+  type: vmess
+  server: 104.21.238.203
+  port: 8443
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  network: ws
+  tls: tls
+  flow: ''
+  host: http1.9290254.xyz
+  path: github.com/Alvin9999
+- name: vmess__120.232.153.71_34565
+  type: vmess
+  server: 120.232.153.71
+  port: 34565
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
+- name: vmess__143.92.42.65_2902
+  type: vmess
+  server: 143.92.42.65
+  port: 2902
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  network: tcp
+  tls: none
+  flow: ''
+  host: ''
+  path: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -3972,9 +4112,9 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess__www.baldengineer.com_443
   - vmess_MO_154.83.89.160_39185
-  - vmess_US_162.159.140.89_2082
-  - vmess_US_104.21.13.125_443
-  - vmess_CA_23.162.200.227_443
+  - vmess__162.159.140.89_2082
+  - vmess__104.21.13.125_443
+  - vmess__23.162.200.227_443
   - vmess__irhms03.dongfeng.cfd_443
   - vmess__183.236.51.23_50037
   - vmess__jannah.homes_443
@@ -3989,6 +4129,20 @@ proxy-groups:
   - vmess__104.19.45.11_2082
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__japan.com_2082
+  - vmess__172.64.166.2_2082
+  - vmess__172.64.167.44_2082
+  - vmess__172.64.167.15_2082
+  - vmess__172.64.99.22_2095
+  - vmess__172.64.167.29_2095
+  - vmess__172.64.166.22_2082
+  - vmess__185.231.181.46_443
+  - vmess__104.21.238.200_8443
+  - vmess__104.21.238.201_8443
+  - vmess__104.21.238.202_8443
+  - vmess__104.21.238.203_8443
+  - vmess__120.232.153.71_34565
+  - vmess__143.92.42.65_2902
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4232,9 +4386,9 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess__www.baldengineer.com_443
   - vmess_MO_154.83.89.160_39185
-  - vmess_US_162.159.140.89_2082
-  - vmess_US_104.21.13.125_443
-  - vmess_CA_23.162.200.227_443
+  - vmess__162.159.140.89_2082
+  - vmess__104.21.13.125_443
+  - vmess__23.162.200.227_443
   - vmess__irhms03.dongfeng.cfd_443
   - vmess__183.236.51.23_50037
   - vmess__jannah.homes_443
@@ -4249,6 +4403,20 @@ proxy-groups:
   - vmess__104.19.45.11_2082
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
+  - vmess__japan.com_2082
+  - vmess__172.64.166.2_2082
+  - vmess__172.64.167.44_2082
+  - vmess__172.64.167.15_2082
+  - vmess__172.64.99.22_2095
+  - vmess__172.64.167.29_2095
+  - vmess__172.64.166.22_2082
+  - vmess__185.231.181.46_443
+  - vmess__104.21.238.200_8443
+  - vmess__104.21.238.201_8443
+  - vmess__104.21.238.202_8443
+  - vmess__104.21.238.203_8443
+  - vmess__120.232.153.71_34565
+  - vmess__143.92.42.65_2902
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
