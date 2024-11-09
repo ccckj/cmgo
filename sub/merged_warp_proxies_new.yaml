@@ -3577,7 +3577,7 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess_US_172.64.99.22_2082
+- name: vmess__172.64.99.22_2082
   type: vmess
   server: 172.64.99.22
   port: 2082
@@ -3587,7 +3587,7 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess_US_104.26.0.56_2082
+- name: vmess__104.26.0.56_2082
   type: vmess
   server: 104.26.0.56
   port: 2082
@@ -3597,7 +3597,7 @@ proxies:
   flow: ''
   host: ip3.6929198.xyz
   path: github.com/Alvin9999
-- name: vmess_US_162.159.136.106_80
+- name: vmess__162.159.136.106_80
   type: vmess
   server: 162.159.136.106
   port: 80
@@ -4015,9 +4015,9 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.18.57.111_2095
   - vmess_US_104.19.45.31_2082
-  - vmess_US_172.64.99.22_2082
-  - vmess_US_104.26.0.56_2082
-  - vmess_US_162.159.136.106_80
+  - vmess__172.64.99.22_2082
+  - vmess__104.26.0.56_2082
+  - vmess__162.159.136.106_80
   - vmess__172.64.175.88_2095
   - vmess__dkzbofzkop.com_443
   - vmess__162.159.140.91_2082
@@ -4273,9 +4273,9 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.18.57.111_2095
   - vmess_US_104.19.45.31_2082
-  - vmess_US_172.64.99.22_2082
-  - vmess_US_104.26.0.56_2082
-  - vmess_US_162.159.136.106_80
+  - vmess__172.64.99.22_2082
+  - vmess__104.26.0.56_2082
+  - vmess__162.159.136.106_80
   - vmess__172.64.175.88_2095
   - vmess__dkzbofzkop.com_443
   - vmess__162.159.140.91_2082
@@ -4531,9 +4531,9 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess_US_104.18.57.111_2095
   - vmess_US_104.19.45.31_2082
-  - vmess_US_172.64.99.22_2082
-  - vmess_US_104.26.0.56_2082
-  - vmess_US_162.159.136.106_80
+  - vmess__172.64.99.22_2082
+  - vmess__104.26.0.56_2082
+  - vmess__162.159.136.106_80
   - vmess__172.64.175.88_2095
   - vmess__dkzbofzkop.com_443
   - vmess__162.159.140.91_2082
