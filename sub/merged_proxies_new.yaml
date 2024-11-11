@@ -3559,7 +3559,7 @@ proxies:
   flow: ''
   host: zheshiscp.com
   path: /77848824
-- name: vmess__23.162.200.227_443
+- name: vmess_CA_23.162.200.227_443
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -3689,6 +3689,16 @@ proxies:
   flow: ''
   host: ''
   path: ''
+- name: vmess__speedtest.net_443
+  type: vmess
+  server: speedtest.net
+  port: 443
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  network: ws
+  tls: tls
+  flow: ''
+  host: mehrjavan.ir
+  path: /m28jcoZZUhkqg6pk11
 proxy-groups:
 - name: 节点选择
   type: select
@@ -3932,7 +3942,7 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess__www.darkroom.lol_8080
   - vmess__gov.uk_443
-  - vmess__23.162.200.227_443
+  - vmess_CA_23.162.200.227_443
   - vmess__darat.homes_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
@@ -3945,6 +3955,7 @@ proxy-groups:
   - vmess__103.224.80.100_45840
   - vmess__143.92.42.65_2902
   - vmess__183.236.48.163_40002
+  - vmess__speedtest.net_443
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4188,7 +4199,7 @@ proxy-groups:
   - vmess_US_104.21.238.38_2086
   - vmess__www.darkroom.lol_8080
   - vmess__gov.uk_443
-  - vmess__23.162.200.227_443
+  - vmess_CA_23.162.200.227_443
   - vmess__darat.homes_443
   - vmess__hytron.io_8080
   - vmess__172.99.190.109_443
@@ -4201,6 +4212,7 @@ proxy-groups:
   - vmess__103.224.80.100_45840
   - vmess__143.92.42.65_2902
   - vmess__183.236.48.163_40002
+  - vmess__speedtest.net_443
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
