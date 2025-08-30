@@ -230,7 +230,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_FR_104.168.10.176:35205
+- name: hy2_US_104.168.10.176:35205
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -238,7 +238,7 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_104.168.10.176:35205
+- name: hy2_US_104.168.10.176:35205
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -308,8 +308,8 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - vmess_FR_2001:bc8:32d7:302::10_44579
@@ -331,8 +331,8 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - vmess_FR_2001:bc8:32d7:302::10_44579
@@ -354,8 +354,8 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
   - vmess_FR_2001:bc8:32d7:302::10_44579
