@@ -67,7 +67,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: tuic_US_dongtaiwang.com_0
+- name: tuic_JP_dongtaiwang.com_0
   server: 2001:bc8:32d7:302::16
   port: 34997
   type: tuic
@@ -246,7 +246,7 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_104.168.10.176:35205
+- name: hy2_US_104.168.10.176:35205
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -262,7 +262,7 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: vmess_US_2001:bc8:32d7:302::10_44579
+- name: vmess_FR_2001:bc8:32d7:302::10_44579
   type: vmess
   server: 2001:bc8:32d7:302::10
   port: 44579
@@ -295,7 +295,7 @@ proxy-groups:
   proxies:
   - hysteria2_2001:bc8:32d7:302::11:20088
   - hysteria2_2001:bc8:32d7:302::11:20088
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
@@ -310,15 +310,15 @@ proxy-groups:
   - hysteria_3
   - hy2_US_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - vmess_US_2001:bc8:32d7:302::10_44579
+  - hy2_US_104.168.10.176:35205
+  - vmess_FR_2001:bc8:32d7:302::10_44579
 - name: 手动选择
   type: select
   proxies:
   - hysteria2_2001:bc8:32d7:302::11:20088
   - hysteria2_2001:bc8:32d7:302::11:20088
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
@@ -333,15 +333,15 @@ proxy-groups:
   - hysteria_3
   - hy2_US_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - vmess_US_2001:bc8:32d7:302::10_44579
+  - hy2_US_104.168.10.176:35205
+  - vmess_FR_2001:bc8:32d7:302::10_44579
 - name: 负载均衡
   type: load-balance
   proxies:
   - hysteria2_2001:bc8:32d7:302::11:20088
   - hysteria2_2001:bc8:32d7:302::11:20088
-  - tuic_US_dongtaiwang.com_0
+  - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
@@ -356,9 +356,9 @@ proxy-groups:
   - hysteria_3
   - hy2_US_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
   - hy2_US_104.168.10.176:35205
-  - vmess_US_2001:bc8:32d7:302::10_44579
+  - hy2_US_104.168.10.176:35205
+  - vmess_FR_2001:bc8:32d7:302::10_44579
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
