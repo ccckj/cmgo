@@ -49,7 +49,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: tuic_JP_dongtaiwang.com_0
+- name: tuic_US_dongtaiwang.com_0
   server: 2001:bc8:32d7:302::16
   port: 34997
   type: tuic
@@ -74,7 +74,7 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: tuic_JP_dongtaiwang.com_0
+- name: tuic_US_dongtaiwang.com_0
   server: 2001:bc8:32d7:302::16
   port: 34997
   type: tuic
@@ -203,7 +203,23 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: hy2_FR_104.168.10.176:35205
+- name: hy2_US_104.168.10.176:35205
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_104.168.10.176:35205
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: true
+  skip-cert-verify: true
+- name: hy2_US_104.168.10.176:35205
   type: hysteria2
   server: 104.168.10.176
   port: 35205
@@ -219,23 +235,7 @@ proxies:
   fast-open: true
   sni: true
   skip-cert-verify: true
-- name: hy2_FR_104.168.10.176:35205
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: true
-  skip-cert-verify: true
-- name: hy2_FR_104.168.10.176:35205
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: true
-  skip-cert-verify: true
-- name: vmess_FR_2001:bc8:32d7:302::10_44579
+- name: vmess_US_2001:bc8:32d7:302::10_44579
   type: vmess
   server: 2001:bc8:32d7:302::10
   port: 44579
@@ -253,9 +253,9 @@ proxy-groups:
   - DIRECT
   - hysteria2_2001:bc8:32d7:302::11:20088
   - hysteria2_2001:bc8:32d7:302::11:20088
-  - tuic_JP_dongtaiwang.com_0
+  - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
-  - tuic_JP_dongtaiwang.com_0
+  - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_62.210.127.217:50011
@@ -265,11 +265,11 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess_US_2001:bc8:32d7:302::10_44579
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -278,9 +278,9 @@ proxy-groups:
   proxies:
   - hysteria2_2001:bc8:32d7:302::11:20088
   - hysteria2_2001:bc8:32d7:302::11:20088
-  - tuic_JP_dongtaiwang.com_0
+  - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
-  - tuic_JP_dongtaiwang.com_0
+  - tuic_US_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_62.210.127.217:50011
@@ -290,11 +290,11 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
+  - hy2_US_104.168.10.176:35205
   - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - hy2_FR_104.168.10.176:35205
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess_US_2001:bc8:32d7:302::10_44579
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
