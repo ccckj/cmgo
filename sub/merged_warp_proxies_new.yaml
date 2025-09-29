@@ -221,7 +221,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: vmess_FR_2001:bc8:32d7:302::10_44579
+- name: vmess_US_2001:bc8:32d7:302::10_44579
   type: vmess
   server: 2001:bc8:32d7:302::10
   port: 44579
@@ -266,7 +266,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess_US_2001:bc8:32d7:302::10_44579
 - name: 手动选择
   type: select
   proxies:
@@ -284,7 +284,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess_US_2001:bc8:32d7:302::10_44579
 - name: 负载均衡
   type: load-balance
   proxies:
@@ -302,7 +302,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess_US_2001:bc8:32d7:302::10_44579
   url: http://www.gstatic.com/generate_204
   interval: 300
   strategy: round-robin
