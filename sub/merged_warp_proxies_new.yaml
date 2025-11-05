@@ -129,9 +129,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_62.210.127.217:50011
+- name: hysteria_62.210.10.186:50011
   type: hysteria
-  server: 62.210.127.217
+  server: 62.210.10.186
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -141,9 +141,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_62.210.127.217:50011
+- name: hysteria_2001:bc8:32d7:158::2:50011
   type: hysteria
-  server: 62.210.127.217
+  server: 2001:bc8:32d7:158::2
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -167,8 +167,8 @@ proxies:
   down: 55 Mbps
 - name: hysteria_0
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -181,8 +181,8 @@ proxies:
   - h3
 - name: hysteria_1
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -195,8 +195,8 @@ proxies:
   - h3
 - name: hysteria_2
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -209,8 +209,8 @@ proxies:
   - h3
 - name: hysteria_3
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 80
@@ -259,8 +259,8 @@ proxy-groups:
   - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - hysteria_2001:bc8:32d7:158::4:50011
-  - hysteria_62.210.127.217:50011
-  - hysteria_62.210.127.217:50011
+  - hysteria_62.210.10.186:50011
+  - hysteria_2001:bc8:32d7:158::2:50011
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_0
   - hysteria_1
@@ -277,8 +277,8 @@ proxy-groups:
   - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - hysteria_2001:bc8:32d7:158::4:50011
-  - hysteria_62.210.127.217:50011
-  - hysteria_62.210.127.217:50011
+  - hysteria_62.210.10.186:50011
+  - hysteria_2001:bc8:32d7:158::2:50011
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_0
   - hysteria_1
@@ -295,8 +295,8 @@ proxy-groups:
   - tuic_JP_dongtaiwang.com_0
   - hysteria2_2001:bc8:32d7:302::17:20088
   - hysteria_2001:bc8:32d7:158::4:50011
-  - hysteria_62.210.127.217:50011
-  - hysteria_62.210.127.217:50011
+  - hysteria_62.210.10.186:50011
+  - hysteria_2001:bc8:32d7:158::2:50011
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_0
   - hysteria_1
