@@ -203,7 +203,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: vmess_FR_2001:bc8:32d7:302::10_44579
+- name: vmess__2001:bc8:32d7:302::10_44579
   type: vmess
   server: 2001:bc8:32d7:302::10
   port: 44579
@@ -233,7 +233,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess__2001:bc8:32d7:302::10_44579
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -254,7 +254,7 @@ proxy-groups:
   - hysteria_1
   - hysteria_2
   - hysteria_3
-  - vmess_FR_2001:bc8:32d7:302::10_44579
+  - vmess__2001:bc8:32d7:302::10_44579
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
