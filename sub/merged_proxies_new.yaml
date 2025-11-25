@@ -25,11 +25,11 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: hysteria2_2001:bc8:32d7:302::11:20088
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_2001:bc8:32d7:17b::2:11000
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -37,36 +37,11 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria2_2001:bc8:32d7:302::11:20088
-  type: hysteria2
-  server: 2001:bc8:32d7:302::11
-  port: 20088
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: tuic_JP_dongtaiwang.com_0
-  server: 2001:bc8:32d7:302::16
-  port: 34997
-  type: tuic
-  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: hysteria2_2001:bc8:32d7:302::17:20088
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
-  password: dongtaiwang.com
+- name: hysteria_2001:bc8:32d7:17b::2:11000
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -87,11 +62,36 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: hysteria2_2001:bc8:32d7:302::17:20088
-  type: hysteria2
-  server: 2001:bc8:32d7:302::17
-  port: 20088
+- name: hysteria_2001:bc8:32d7:17b::2:11000
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: tuic_JP_dongtaiwang.com_0
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
   password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: hysteria_2001:bc8:32d7:17b::2:11000
+  type: hysteria
+  server: 2001:bc8:32d7:17b::2
+  port: 11000
+  auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
   alpn:
@@ -219,12 +219,12 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - hysteria2_2001:bc8:32d7:302::11:20088
-  - hysteria2_2001:bc8:32d7:302::11:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
-  - hysteria2_2001:bc8:32d7:302::17:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
-  - hysteria2_2001:bc8:32d7:302::17:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_62.210.10.186:50011
   - hysteria_2001:bc8:32d7:158::2:50011
@@ -240,12 +240,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - hysteria2_2001:bc8:32d7:302::11:20088
-  - hysteria2_2001:bc8:32d7:302::11:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
-  - hysteria2_2001:bc8:32d7:302::17:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
-  - hysteria2_2001:bc8:32d7:302::17:20088
+  - hysteria_2001:bc8:32d7:17b::2:11000
   - hysteria_2001:bc8:32d7:158::4:50011
   - hysteria_62.210.10.186:50011
   - hysteria_2001:bc8:32d7:158::2:50011
