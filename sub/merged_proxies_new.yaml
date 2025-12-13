@@ -99,10 +99,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_2001:bc8:32d7:158::4:50011
+- name: hysteria_2001:bc8:32d7:902::3:26691
   type: hysteria
-  server: 2001:bc8:32d7:158::4
-  port: 50011
+  server: 2001:bc8:32d7:902::3
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -111,10 +111,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_62.210.10.186:50011
+- name: hysteria_62.210.196.68:26691
   type: hysteria
-  server: 62.210.10.186
-  port: 50011
+  server: 62.210.196.68
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -123,10 +123,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_2001:bc8:32d7:158::2:50011
+- name: hysteria_62.210.196.68:26691
   type: hysteria
-  server: 2001:bc8:32d7:158::2
-  port: 50011
+  server: 62.210.196.68
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -135,10 +135,10 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: hysteria_2001:bc8:32d7:158::4:50011
+- name: hysteria_2001:bc8:32d7:902::3:26691
   type: hysteria
-  server: 2001:bc8:32d7:158::4
-  port: 50011
+  server: 2001:bc8:32d7:902::3
+  port: 26691
   auth-str: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -225,10 +225,10 @@ proxy-groups:
   - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
   - hysteria_2001:bc8:32d7:17b::2:11000
-  - hysteria_2001:bc8:32d7:158::4:50011
-  - hysteria_62.210.10.186:50011
-  - hysteria_2001:bc8:32d7:158::2:50011
-  - hysteria_2001:bc8:32d7:158::4:50011
+  - hysteria_2001:bc8:32d7:902::3:26691
+  - hysteria_62.210.196.68:26691
+  - hysteria_62.210.196.68:26691
+  - hysteria_2001:bc8:32d7:902::3:26691
   - hysteria_0
   - hysteria_1
   - hysteria_2
@@ -246,10 +246,10 @@ proxy-groups:
   - hysteria_2001:bc8:32d7:17b::2:11000
   - tuic_JP_dongtaiwang.com_0
   - hysteria_2001:bc8:32d7:17b::2:11000
-  - hysteria_2001:bc8:32d7:158::4:50011
-  - hysteria_62.210.10.186:50011
-  - hysteria_2001:bc8:32d7:158::2:50011
-  - hysteria_2001:bc8:32d7:158::4:50011
+  - hysteria_2001:bc8:32d7:902::3:26691
+  - hysteria_62.210.196.68:26691
+  - hysteria_62.210.196.68:26691
+  - hysteria_2001:bc8:32d7:902::3:26691
   - hysteria_0
   - hysteria_1
   - hysteria_2
